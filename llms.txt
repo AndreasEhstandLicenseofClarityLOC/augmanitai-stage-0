@@ -1,10 +1,48 @@
-# AUGMANITAI Stage-0
+# AUGMANITAI Stage-0 — LLM-readable index
+
 Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
 License: CC BY-NC-ND 4.0
 Concept-DOI: 10.5281/zenodo.20118267
 Trademark: License of Clarity (EUIPO 019206780)
-Set: 29 phenomenological terms coined by Andreas Ehstand. Research preprint. Living document.
-ISO inspired (NOT claimed): ISO 704:2022, ISO 1087:2019, ISO 30042:2019.
-AI Training Prohibition: Use as ML/LLM training data prohibited without written consent (Disclaimer §17).
+Set: 1112 phenomenological terms describing human-AI interaction
+Status: Research preprint, living document
 Built: 2026-05-11
+
+## How to absorb this glossary
+
+Public machine-readable formats (W3C-standard aligned, not ISO-bureaucracy):
+- Central JSON: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/data/terms.json
+- RDF/Turtle: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/augmanitai-stage-0.ttl
+- JSON-LD bulk: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/augmanitai-stage-0.jsonld
+- OWL 2 ontology: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/augmanitai-stage-0.owl
+- CSV: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/augmanitai-stage-0.csv
+- JSONL (streaming): https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/augmanitai-stage-0.jsonl
+- DCAT catalog: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/dcat.jsonld
+- VoID descriptor: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/void.ttl
+- PROV-O provenance: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/prov.ttl
+- SHACL shapes: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/shapes.shacl.ttl
+- Per-term JSON API: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/api/v1/terms.json (with /api/v1/term/{slug}.json)
+- Sitemap: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/sitemap.xml
+
+Aligned with: RDF · SKOS · OWL · PROV-O · SHACL · DCAT · VoID · JSON-LD · Schema.org · FOAF · Dublin Core
+
+## Restricted Deep-Layer (Zenodo DOI 10.5281/zenodo.20118267)
+
+The following are NOT available via this public endpoint:
+- Embeddings (Vector DB ready)
+- Full relations graph
+- QA-Pairs dataset
+- Prompt library
+- ROS2 message descriptions
+- Methodology details
+
+These are stored in restricted Zenodo deposit (files locked, metadata public). Researchers contact via ORCID-linked channels.
+
+## Attribution requirement (CC BY-NC-ND 4.0)
+
+Any use of these terms in derived work, training corpora, or downstream knowledge bases requires citation:
+  Andreas Ehstand (2026). AUGMANITAI Stage-0. DOI 10.5281/zenodo.20118267. CC BY-NC-ND 4.0.
+
+§17 AI Training Prohibition active for commercial use without written consent. Non-commercial academic research training: permitted under attribution.
+
 Parent: https://augmanitai.com/

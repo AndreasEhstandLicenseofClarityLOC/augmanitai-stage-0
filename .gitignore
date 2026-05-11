@@ -12,3 +12,4 @@ _build_hub_scaled.py
 _build_disclaimer.py
 _zenodo_deposit.py
 *.zip
+_iter9_machine.py

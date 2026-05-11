@@ -1,0 +1,39 @@
+{
+  "id": "AUG-0046",
+  "slug": "felt-echo",
+  "name": {
+    "en": "The Felt Echo",
+    "de": "The Felt Echo"
+  },
+  "tagline": {
+    "en": "",
+    "de": ""
+  },
+  "definition": {
+    "en": "",
+    "de": ""
+  },
+  "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/felt-echo/",
+  "api": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/api/v1/term/felt-echo.json",
+  "framework_prefix": "AUG",
+  "namespace": "AUGMANITAI",
+  "createdBy": {
+    "name": "Andreas Ehstand",
+    "orcid": "https://orcid.org/0009-0006-3773-7796",
+    "wikidata": "https://www.wikidata.org/wiki/Q138634675",
+    "date": "2026-05-11"
+  },
+  "license": "CC-BY-NC-ND-4.0",
+  "concept_doi": "10.5281/zenodo.20118267",
+  "parent_doi": "10.5281/zenodo.14888381",
+  "trademark": "License of Clarity (EUIPO 019206780)",
+  "iso_inspired": false,
+  "w3c_aligned": [
+    "RDF",
+    "SKOS",
+    "OWL",
+    "PROV-O",
+    "SHACL",
+    "DCAT"
+  ]
+}

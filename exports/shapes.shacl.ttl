@@ -1,0 +1,22 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:NodeShape ;
+    sh:targetClass schema:DefinedTerm ;
+    sh:property [
+        sh:path skos:prefLabel ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+    ] ;
+    sh:property [
+        sh:path skos:definition ;
+        sh:minCount 1 ;
+        sh:nodeKind sh:Literal ;
+    ] ;
+    sh:property [
+        sh:path schema:termCode ;
+        sh:minCount 1 ;
+        sh:pattern "^(AUG|PER|EDU|ROB|JOB|NEO|LEO|SYN|FLUX|BOT|PFT)-[A-Z0-9-]+$" ;
+    ] .
