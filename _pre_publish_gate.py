@@ -89,7 +89,6 @@ I) Slug Sanity
 """
 from __future__ import annotations
 import re, json
-from dataclasses import dataclass, field
 from typing import Optional
 from pathlib import Path
 
@@ -108,11 +107,11 @@ DSGVO_AUTHORITY = _CANON["compliance"]["dsgvo_authority"]
 GH_BASE = _CANON["framework"]["augmanitai"]["github_pages_url"]
 
 
-@dataclass
 class GateResult:
-    passed: bool
-    failures: list = field(default_factory=list)
-    warnings: list = field(default_factory=list)
+    def __init__(self, passed, failures=None, warnings=None):
+        self.passed = passed
+        self.failures = failures or []
+        self.warnings = warnings or []
 
 
 def _check_canonical_ids(html: str) -> list:
