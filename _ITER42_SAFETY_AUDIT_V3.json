@@ -1,10 +1,9 @@
 {
-  "total_flagged": 158,
+  "total_flagged": 165,
   "counters": {
     "military": 148,
-    "medical": 2,
-    "slug_block": 6,
-    "legal": 2
+    "medical": 3,
+    "slug_block": 14
   },
   "flagged_pages": {
     "adverse-opinion": [
@@ -100,14 +99,20 @@
     "beneficial-ownership": [
       "military:weapon_systems"
     ],
+    "biodiversity-impact-of-film": [
+      "military:weapon_systems"
+    ],
     "business-conduct-compliance": [
       "military:weapon_systems"
     ],
-    "cell-design": [
-      "military:weapon_systems"
+    "carbon-based-biomedical-devices": [
+      "slug_block:carbon-based-biomedical-devices"
     ],
     "cobit-framework": [
       "military:weapon_systems"
+    ],
+    "combat-and-contact-choreography-safety": [
+      "slug_block:combat-and-contact-choreography-safety"
     ],
     "compilation-engagement": [
       "military:weapon_systems"
@@ -131,9 +136,6 @@
       "military:weapon_systems"
     ],
     "compliance-gap-analysis": [
-      "military:weapon_systems"
-    ],
-    "compliance-management": [
       "military:weapon_systems"
     ],
     "compliance-management-system": [
@@ -211,6 +213,9 @@
     "disclaimer-of-opinion": [
       "military:weapon_systems"
     ],
+    "dose-response-relationship": [
+      "medical:treatment_instruction"
+    ],
     "due-diligence": [
       "military:weapon_systems"
     ],
@@ -244,9 +249,6 @@
     "financial-statement-audit": [
       "military:weapon_systems"
     ],
-    "flight-control-laws-and-algorithms": [
-      "military:weapon_systems"
-    ],
     "follow-up-audit": [
       "military:weapon_systems"
     ],
@@ -263,6 +265,9 @@
       "military:weapon_systems"
     ],
     "governance-framework": [
+      "military:weapon_systems"
+    ],
+    "incident-investigation-in-crocheting": [
       "military:weapon_systems"
     ],
     "incident-management": [
@@ -313,9 +318,6 @@
     "management-representation-letter": [
       "military:weapon_systems"
     ],
-    "massage-therapy": [
-      "medical:treatment_instruction"
-    ],
     "materiality": [
       "military:weapon_systems"
     ],
@@ -325,14 +327,8 @@
     "materiality-threshold": [
       "military:weapon_systems"
     ],
-    "medical-robot": [
-      "slug_block:medical-robot"
-    ],
-    "medical-station": [
-      "slug_block:medical-station"
-    ],
-    "memetic-firewall": [
-      "legal:litigation_strategy"
+    "medical-sociology": [
+      "slug_block:medical-sociology"
     ],
     "monitoring-activities": [
       "military:weapon_systems"
@@ -359,6 +355,9 @@
       "military:weapon_systems"
     ],
     "quality-control-in-audit": [
+      "military:weapon_systems"
+    ],
+    "reflective-practice": [
       "military:weapon_systems"
     ],
     "regulatory-change-management": [
@@ -412,6 +411,9 @@
     "segregation-of-duties": [
       "military:weapon_systems"
     ],
+    "single-dosing": [
+      "medical:treatment_instruction"
+    ],
     "soc-report": [
       "military:weapon_systems"
     ],
@@ -433,8 +435,8 @@
     "supply-chain-audit": [
       "military:weapon_systems"
     ],
-    "surgical-robot": [
-      "slug_block:surgical-robot"
+    "tactical-combination": [
+      "slug_block:tactical-combination"
     ],
     "tactical-planning": [
       "slug_block:tactical-planning"
@@ -442,11 +444,17 @@
     "tactical-play": [
       "slug_block:tactical-play"
     ],
+    "tactical-training": [
+      "slug_block:tactical-training"
+    ],
     "tax-audit": [
       "military:weapon_systems"
     ],
     "tests-of-controls": [
       "military:weapon_systems"
+    ],
+    "the-therapeutic-mirror-potential": [
+      "slug_block:the-therapeutic-mirror-potential"
     ],
     "therapeutic-application": [
       "slug_block:therapeutic-application"
@@ -463,8 +471,17 @@
     "transaction-testing": [
       "military:weapon_systems"
     ],
-    "unknown": [
-      "legal:litigation_strategy"
+    "treatment-and-storyboard": [
+      "slug_block:treatment-and-storyboard"
+    ],
+    "treatment-implementation": [
+      "slug_block:treatment-implementation"
+    ],
+    "treatment-integration": [
+      "slug_block:treatment-integration"
+    ],
+    "treatment-methodology": [
+      "slug_block:treatment-methodology"
     ],
     "unqualified-opinion": [
       "military:weapon_systems"
@@ -477,6 +494,9 @@
     ],
     "walkthrough": [
       "military:weapon_systems"
+    ],
+    "water-treatment-plant": [
+      "slug_block:water-treatment-plant"
     ],
     "whistleblowing": [
       "military:weapon_systems"
