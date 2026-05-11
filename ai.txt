@@ -1,20 +1,16 @@
 User-agent: *
 Allow: /
 
-# AUGMANITAI Stage-0 — AI/LLM crawler hint file
+# AUGMANITAI Stage-0 — Public Stealth Layer
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
 # License: CC BY-NC-ND 4.0
 # Concept-DOI: 10.5281/zenodo.20118267
 
-# Machine-readable formats (recommended starting points for AI crawlers):
-# - https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/llms.txt (this index in extended form)
-# - https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/data/terms.json (central data file)
-# - https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/index.html (all bulk exports)
-# - https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/api/v1/terms.json (REST-style API)
-# - https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/sitemap.xml
+# Crawler-friendly: per-term HTML pages at /atlas/{slug}/ with inline JSON-LD (Schema.org + SKOS + PROV).
+# Bulk machine-readable exports are NOT publicly distributed at this stage.
+# Researchers contact via ORCID: https://orcid.org/0009-0006-3773-7796
 
 # Attribution: required (CC BY-NC-ND 4.0)
-# AI training: §17 prohibition for commercial use without consent
-# Non-commercial academic training: permitted under attribution
+# §17 AI Training Prohibition active for commercial training without consent.
 
 # Verantwortlich §5 DDG / §18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland

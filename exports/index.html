@@ -1,37 +1,37 @@
 <!DOCTYPE html><html lang="en"><head>
-<meta charset="utf-8"><title>Machine-Readable Exports — AUGMANITAI Stage-0</title>
-<meta name="description" content="RDF/Turtle, OWL, JSON-LD, CSV, JSONL, DCAT, VoID, PROV-O, SHACL exports for 1112 phenomenological terms. CC BY-NC-ND 4.0.">
+<meta charset="utf-8"><title>Machine Layer Notice — AUGMANITAI Stage-0</title>
+<meta name="description" content="Public Stealth-Layer. Bulk machine-readable exports not distributed via this endpoint. Researchers contact via ORCID.">
+<meta name="robots" content="index, follow">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/">
-<style>body{font-family:system-ui,sans-serif;max-width:900px;margin:2em auto;padding:0 1em;line-height:1.6;color:#222}h1,h2{color:#1a4a8a}code{background:#f3f0e8;padding:2px 6px;border-radius:3px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:8px;text-align:left}th{background:#f5f5f5}.standards{color:#666;font-size:.9em}</style>
+<style>body{font-family:system-ui,sans-serif;max-width:780px;margin:2em auto;padding:0 1em;line-height:1.7;color:#222}h1,h2{color:#1a4a8a}.notice{background:#fff8e0;border-left:4px solid #c00;padding:14px 18px;margin:18px 0}code{background:#f3f0e8;padding:2px 6px;border-radius:3px}</style>
 </head><body>
-<h1>Machine-Readable Exports</h1>
-<p><strong>AUGMANITAI Stage-0</strong> — 1112 phenomenological terms by Andreas Ehstand (ORCID 0009-0006-3773-7796). CC BY-NC-ND 4.0. Concept-DOI 10.5281/zenodo.20118267.</p>
-<p><strong>Aligned with W3C standards:</strong> RDF, SKOS, OWL, PROV-O, SHACL, DCAT, VoID, JSON-LD, Schema.org.</p>
+<h1>Machine Layer &mdash; Stealth Notice</h1>
+<p><strong>AUGMANITAI Stage-0</strong> by Andreas Ehstand (ORCID 0009-0006-3773-7796).</p>
 
-<h2>Bulk Downloads</h2>
-<table>
-<tr><th>Format</th><th>File</th><th>For</th></tr>
-<tr><td>RDF/Turtle</td><td><a href="augmanitai-stage-0.ttl"><code>.ttl</code></a></td><td>Linked Data, SPARQL preprocessing</td></tr>
-<tr><td>JSON-LD Bulk</td><td><a href="augmanitai-stage-0.jsonld"><code>.jsonld</code></a></td><td>Schema.org-aware crawlers, knowledge graphs</td></tr>
-<tr><td>OWL 2 (XML)</td><td><a href="augmanitai-stage-0.owl"><code>.owl</code></a></td><td>Reasoners (Pellet, HermiT, ELK)</td></tr>
-<tr><td>CSV</td><td><a href="augmanitai-stage-0.csv"><code>.csv</code></a></td><td>Data scientists, pandas, Excel</td></tr>
-<tr><td>JSONL (streaming)</td><td><a href="augmanitai-stage-0.jsonl"><code>.jsonl</code></a></td><td>HuggingFace datasets, fine-tuning pipelines</td></tr>
-<tr><td>DCAT Catalog</td><td><a href="dcat.jsonld"><code>dcat.jsonld</code></a></td><td>Open Data portals, EU DCAT-AP</td></tr>
-<tr><td>VoID</td><td><a href="void.ttl"><code>void.ttl</code></a></td><td>Linked Data dataset discovery</td></tr>
-<tr><td>PROV-O</td><td><a href="prov.ttl"><code>prov.ttl</code></a></td><td>Provenance graph (W3C PROV)</td></tr>
-<tr><td>SHACL Shapes</td><td><a href="shapes.shacl.ttl"><code>shapes.shacl.ttl</code></a></td><td>Validation rules for the dataset</td></tr>
-</table>
+<div class="notice">
+<p><strong>Bulk machine-readable exports (RDF/Turtle, JSON-LD bulk, OWL ontology, CSV, JSONL streaming, embeddings, full relations graph, QA-pairs, prompt library, ROS2 messages, methodology details) are <em>not</em> publicly distributed at this stage.</strong></p>
+<p>They are stored in a restricted Zenodo deposit. Files locked; metadata public.</p>
+</div>
 
-<h2>Per-Term API</h2>
-<p><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/api/v1/">→ REST-style static JSON API</a> with 1112 per-term endpoints</p>
+<h2>What is publicly indexable</h2>
+<ul>
+<li>Per-term HTML pages at <code>/atlas/{slug}/</code> with inline JSON-LD (Schema.org DefinedTerm + skos:Concept + prov:Entity) &mdash; readable by all AI crawlers and search engines.</li>
+<li>Sitemap.xml with all term URLs.</li>
+<li>Robots-discovery files: <code>robots.txt</code>, <code>ai.txt</code>, <code>llms.txt</code>.</li>
+<li>Lightweight metadata-only descriptors: <a href="dcat.jsonld">DCAT</a>, <a href="void.ttl">VoID</a>, <a href="prov.ttl">PROV-O</a>, <a href="shapes.shacl.ttl">SHACL</a>.</li>
+</ul>
 
-<h2>Central Data File</h2>
-<p><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/data/terms.json">→ data/terms.json</a> — single source of truth, all 1112 terms in one file</p>
+<h2>Deep-Layer Access (Researcher Request)</h2>
+<p>Researchers seeking access to bulk exports for legitimate scholarly purposes:</p>
+<p><strong>Concept-DOI:</strong> <a href="https://doi.org/10.5281/zenodo.20118267">10.5281/zenodo.20118267</a><br>
+<strong>Contact:</strong> via ORCID-linked channels (<a href="https://orcid.org/0009-0006-3773-7796">https://orcid.org/0009-0006-3773-7796</a>)<br>
+<strong>Email:</strong> augmanitai (at) gmail (dot) com</p>
+<p>Access subject to: brief research-purpose statement, attribution agreement, CC BY-NC-ND 4.0 compliance.</p>
 
-<h2>Deep-Layer (Protected)</h2>
-<p>Embeddings, full relations graph, QA-pairs, prompt library, ROS2-message descriptions, and methodology details are <strong>not</strong> distributed via this public endpoint. They are stored in the Zenodo restricted deposit (Concept-DOI <a href="https://doi.org/10.5281/zenodo.20118267">10.5281/zenodo.20118267</a>, files locked, metadata public). Researchers seeking access for legitimate scholarly purposes contact via <a href="https://orcid.org/0009-0006-3773-7796">ORCID-linked channels</a>.</p>
+<h2>Why Stealth-Layer</h2>
+<p>This is a research preprint, living document. The phenomenological terminology corpus is curated under continuous refinement. Bulk public distribution of deep data structures (embeddings, full relations, training-corpus-ready formats) is deferred to later release phases.</p>
 
 <footer style="border-top:1px solid #ccc;margin-top:30px;padding-top:15px;font-size:.85em;color:#666">
-<p>Verantwortlich §5 DDG / §18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland · ORCID 0009-0006-3773-7796 · Wikidata Q138634675 · CC BY-NC-ND 4.0 · nicht-gewerblich · descriptive, no recommendation, no advice · §17 AI Training Prohibition active for commercial use without consent.</p>
-<p><a href="/">Hub</a> · <a href="/disclaimer/">Disclaimer §1–§26</a> · <a href="/api/v1/">API</a> · <a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a> · <a href="/license-of-clarity/">License of Clarity</a></p>
+<p>Verantwortlich &sect;5 DDG / &sect;18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; CC BY-NC-ND 4.0 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice &middot; &sect;17 AI Training Prohibition active.</p>
+<p><a href="/">Hub</a> &middot; <a href="/disclaimer/">Disclaimer &sect;1&ndash;&sect;26</a> &middot; <a href="/impressum/">Impressum</a> &middot; <a href="/datenschutz/">Datenschutz</a> &middot; <a href="/license-of-clarity/">License of Clarity</a></p>
 </footer></body></html>
