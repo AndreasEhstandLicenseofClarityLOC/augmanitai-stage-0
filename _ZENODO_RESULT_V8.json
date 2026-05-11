@@ -1,0 +1,17 @@
+{
+  "version": "V8",
+  "record_id": 20126020,
+  "doi": "10.5281/zenodo.20126020",
+  "concept_doi": "10.5281/zenodo.20118267",
+  "zenodo_url": "https://zenodo.org/record/20126020",
+  "access_right": "restricted",
+  "predecessor": "10.5281/zenodo.20125877",
+  "hashes": {
+    "sha256": "36bbdc8ed932e498609026a2fafbec9b752a4851085c8505411678771ca6feb5",
+    "sha512": "331f1025383b439540e9fcb54ca4a6436880cd204fb2f900ec0a976fa3c1e7352ca2e22bd6a704602c3111d0ab734b1641e1c2d6773c19e509afec1ee9e3f707",
+    "sha3_256": "10e492bb69a841d9cada716b8d1cc0332f26993235a3126d1ae24703c98daa5e",
+    "sha3_512": "b7922b16bf01c1927563d73ede8b6eb1483c89d87d1fdbb92c9db35cfe1f22f9ba294d1fa54b46e00603b193775d815482b75f54d65bdeff5a914e4ac7121a8e",
+    "blake3": "29cbf3d1f2bb3e626c2500a35a8ea15ef1e6f781b172aaf5a59749540b53a500"
+  },
+  "date": "2026-05-11"
+}
