@@ -1,0 +1,2096 @@
+{
+  "phase": "A",
+  "method": "risk-keyword-scoring",
+  "total_candidates": 5060,
+  "top_100": [
+    {
+      "slug": "authority-loss-phenomenon",
+      "title": "Authority-Loss Phenomenon",
+      "score": 6,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "power": [
+          "authority"
+        ],
+        "existence": [
+          "end"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/authority-loss-phenomenon/",
+      "tagline": "The phenomenon catalogued as Authority-Loss Phenomenon concerns a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis. Practically, this means diffic"
+    },
+    {
+      "slug": "cognitive-evolves-effect",
+      "title": "Cognitive-Evolves Effect",
+      "score": 6,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cognitive-evolves-effect/",
+      "tagline": "Cognitive-Evolves Effect emerged from observation of a growing awareness that one's professional identity is being shaped by the tools one uses during extended AI use. The hallmark of this phenomenon "
+    },
+    {
+      "slug": "achievement-warming-variant-2",
+      "title": "Achievement warming (Variant 2)",
+      "score": 5,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/achievement-warming-variant-2/",
+      "tagline": "The progressive intensification of achievement warming as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing cu"
+    },
+    {
+      "slug": "circadian-disruption-pattern",
+      "title": "The Circadian Disruption Pattern",
+      "score": 5,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "geo_political": [
+          "nation"
+        ],
+        "body_medical": [
+          "body",
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/circadian-disruption-pattern/",
+      "tagline": "Disruption of the body's circadian rhythm through AI interaction patterns that extend into evening and night hours. The combination of screen light, cognitive arousal, and the 'one more prompt' impuls"
+    },
+    {
+      "slug": "element-dance-effect",
+      "title": "Element-Dance Effect",
+      "score": 5,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "geo_political": [
+          "independent"
+        ],
+        "identity": [
+          "identity"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/element-dance-effect/",
+      "tagline": "The phenomenon catalogued as Element-Dance Effect concerns a growing awareness that one's professional identity is being shaped by the tools one uses. Practically, this means difficulty distinguishing"
+    },
+    {
+      "slug": "freedom-sparking-variant-3",
+      "title": "Freedom sparking (Variant 3)",
+      "score": 5,
+      "categories": {
+        "geo_political": [
+          "freedom"
+        ],
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/freedom-sparking-variant-3/",
+      "tagline": "The progressive intensification of freedom sparking as a dimension of professional identity in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing cu"
+    },
+    {
+      "slug": "freedom-too-much",
+      "title": "Freedom Too Much",
+      "score": 5,
+      "categories": {
+        "geo_political": [
+          "freedom"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/freedom-too-much/",
+      "tagline": "First documented in sustained AI interaction contexts, Freedom Too Much refers to a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis. Users experi"
+    },
+    {
+      "slug": "human-characteristic-effect",
+      "title": "Human-Characteristic Effect",
+      "score": 5,
+      "categories": {
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "kill"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/human-characteristic-effect/",
+      "tagline": "Human-Characteristic Effect emerged from observation of a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis during extended AI use. The hallmark of"
+    },
+    {
+      "slug": "indicates-cognitive-effect",
+      "title": "Indicates-Cognitive Effect",
+      "score": 5,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/indicates-cognitive-effect/",
+      "tagline": "Researchers observe Indicates-Cognitive Effect — the user's struggle to maintain independent judgment while receiving consistent, confident AI input — occurring reliably AI has been the primary intell"
+    },
+    {
+      "slug": "monitoring-metacognitive-effect",
+      "title": "Monitoring-Metacognitive Effect",
+      "score": 5,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "mental",
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/monitoring-metacognitive-effect/",
+      "tagline": "Within human-AI interaction research, Monitoring-Metacognitive Effect identifies trust topology transformations as it unfolds through incremental erosion of independent verification habits, with measu"
+    },
+    {
+      "slug": "novelty-try-tendency",
+      "title": "Novelty-Try Tendency",
+      "score": 5,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "mental",
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/novelty-try-tendency/",
+      "tagline": "Describing specific cognitive-behavioral pattern where habitual override during sustained AI interaction results in measurable changes to emotional processing. First identified through longitudinal ob"
+    },
+    {
+      "slug": "pause-restlessness-mechanism",
+      "title": "Pause-Restlessness Mechanism",
+      "score": 5,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "body",
+          "mind",
+          "mental",
+          "cognitive"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/pause-restlessness-mechanism/",
+      "tagline": "The peculiar inability to rest during breaks from AI work. The user steps away from the screen but cannot settle — pacing, checking the phone, mentally composing the next prompt. The pause itself beco"
+    },
+    {
+      "slug": "repeated-social-effect",
+      "title": "Repeated-Social Effect",
+      "score": 5,
+      "categories": {
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "kill"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/repeated-social-effect/",
+      "tagline": "First documented in sustained AI interaction contexts, Repeated-Social Effect refers to a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis. Users "
+    },
+    {
+      "slug": "absent-voice",
+      "title": "Absent voice",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "mental"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/absent-voice/",
+      "tagline": "Absent voice describes the specific configuration of effort-reward decoupling produced by incremental erosion of independent verification habits, distinguishable from related phenomena by its focal me"
+    },
+    {
+      "slug": "absorption-intensifying-effect",
+      "title": "Absorption-Intensifying Effect",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/absorption-intensifying-effect/",
+      "tagline": "First documented in sustained AI interaction contexts, Absorption-Intensifying Effect refers to the experience of cognitive dissonance when AI output contradicts deeply held professional knowledge. Us"
+    },
+    {
+      "slug": "across-feeling-effect",
+      "title": "Across-Feeling Effect",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/across-feeling-effect/",
+      "tagline": "Distinct from mere habit, Across-Feeling Effect involves the user's struggle to maintain independent judgment while receiving consistent, confident AI input. It surfaces AI has been the primary intell"
+    },
+    {
+      "slug": "asymmetric-autonomy-asserting-ecology",
+      "title": "The Asymmetric Autonomy-Asserting Ecology",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "conflict": [
+          "war"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/asymmetric-autonomy-asserting-ecology/",
+      "tagline": "The observable pattern where autonomy asserting shapes the user's metacognitive monitoring in ways that become increasingly distinct over repeated AI interaction. Characterized by a change in how the "
+    },
+    {
+      "slug": "attribution-losing",
+      "title": "Attribution losing",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "geo_political": [
+          "independent"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/attribution-losing/",
+      "tagline": "The phenomenon catalogued as Attribution losing concerns the user's struggle to maintain independent judgment while receiving consistent, confident AI input. Practically, this means a narrowing of the"
+    },
+    {
+      "slug": "authority-loss",
+      "title": "Authority Loss",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "cognitive"
+        ],
+        "power": [
+          "authority"
+        ],
+        "conflict": [
+          "war"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/authority-loss/",
+      "tagline": "A specific phenomenon in human-AI interaction where authority loss becomes a salient dimension of the user's metacognitive monitoring. It manifests as a transformation in the person's awareness of the"
+    },
+    {
+      "slug": "authorship-dissolving-variant-2",
+      "title": "Authorship dissolving (Variant 2)",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/authorship-dissolving-variant-2/",
+      "tagline": "The progressive intensification of authorship dissolving as a dimension of emotional processing in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparin"
+    },
+    {
+      "slug": "beam",
+      "title": "Beam",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "identity": [
+          "identity"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/beam/",
+      "tagline": "Beam emerged from observation of a growing awareness that one's professional identity is being shaped by the tools one uses during extended AI use. The hallmark of this phenomenon is a gradual delegat"
+    },
+    {
+      "slug": "boundary-fading-variant-2",
+      "title": "Boundary fading (Variant 2)",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/boundary-fading-variant-2/",
+      "tagline": "The progressive intensification of boundary fading as a dimension of professional identity in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing cur"
+    },
+    {
+      "slug": "boundary-protecting-variant-3",
+      "title": "Boundary protecting (Variant 3)",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/boundary-protecting-variant-3/",
+      "tagline": "The progressive intensification of boundary protecting as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing cu"
+    },
+    {
+      "slug": "break-resist",
+      "title": "Break Resist",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "body",
+          "mind"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/break-resist/",
+      "tagline": "The impulse to ignore or resist natural break cues—the body signaling it needs rest, the mind refusing to pause. Users report that stopping feels like interrupting something important, even when they'"
+    },
+    {
+      "slug": "breakthrough-rushing-variant-4",
+      "title": "Breakthrough rushing (Variant 4)",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/breakthrough-rushing-variant-4/",
+      "tagline": "The progressive intensification of breakthrough rushing as a dimension of emotional processing in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing"
+    },
+    {
+      "slug": "capture-reflex",
+      "title": "Capture Reflex",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "mind"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/capture-reflex/",
+      "tagline": "The automated impulse to immediately save, screenshot, or bookmark every interesting AI output — even when it is not needed in the current context. Describes a behavioral pattern arising from the tran"
+    },
+    {
+      "slug": "changes-state-effect",
+      "title": "Changes-State Effect",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/changes-state-effect/",
+      "tagline": "Researchers observe Changes-State Effect — a growing awareness that one's professional identity is being shaped by the tools one uses — occurring reliably AI has been the primary intellectual partner "
+    },
+    {
+      "slug": "cognitive-echo-awareness",
+      "title": "Cognitive Echo Awareness",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cognitive-echo-awareness/",
+      "tagline": "The recognition that AI output is substantially an echo of one's own input patterns — the mirror reflects primarily what was put in, not independent intelligence."
+    },
+    {
+      "slug": "cognitive-sovereignty-threat",
+      "title": "Cognitive Sovereignty Threat",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "geo_political": [
+          "sovereign"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cognitive-sovereignty-threat/",
+      "tagline": "Describing risk to individual cognitive independence when AI systems increasingly mediate thinking processes — the question of whether thought can remain genuinely one's own."
+    },
+    {
+      "slug": "complexity-emerging",
+      "title": "Complexity emerging",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "identity": [
+          "identity"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/complexity-emerging/",
+      "tagline": "Researchers observe Complexity emerging — a growing awareness that one's professional identity is being shaped by the tools one uses — occurring reliably the user attempts to explain their AI workflow"
+    },
+    {
+      "slug": "confidence-collapsing-variant-4",
+      "title": "Confidence collapsing (Variant 4)",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/confidence-collapsing-variant-4/",
+      "tagline": "The progressive intensification of confidence collapsing as a dimension of cognitive engagement in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparin"
+    },
+    {
+      "slug": "craft-echo",
+      "title": "The Craft Echo",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "identity": [
+          "race"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/craft-echo/",
+      "tagline": "The aftereffect of an AI-assisted learning experience that manifests when the user later applies the acquired skill without AI — and traces of the AI-supported method remain recognizable. Related to A"
+    },
+    {
+      "slug": "craft-fade",
+      "title": "The Craft Fade",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "geo_political": [
+          "independent"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/craft-fade/",
+      "tagline": "The gradual decline of a skill that the user independently mastered before AI use, through increasing delegation to the AI. Describes an observable phenomenon: skills that are not regularly practiced "
+    },
+    {
+      "slug": "creative-signature-tendency",
+      "title": "Creative-Signature Tendency",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "mental"
+        ],
+        "existence": [
+          "end"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/creative-signature-tendency/",
+      "tagline": "Within human-AI interaction research, Creative Signature identifies identity boundary oscillations as it unfolds through incremental erosion of independent verification habits, with measurable effects"
+    },
+    {
+      "slug": "curiosity-following",
+      "title": "Curiosity following",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "mental",
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/curiosity-following/",
+      "tagline": "Referring to the concept of Curiosity following captures epistemological recalibration — specifically, the way incremental erosion of independent verification habits reshapes cognitive engagement with"
+    },
+    {
+      "slug": "decision-clearing",
+      "title": "The Decision Clearing",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "geo_political": [
+          "independent"
+        ],
+        "identity": [
+          "native"
+        ],
+        "existence": [
+          "end"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/decision-clearing/",
+      "tagline": "A state in which the user increasingly delegates everyday decisions to the AI, experiencing a sense of relief. The term describes an observable shift: the habit of independent decision-making may dimi"
+    },
+    {
+      "slug": "defaults-conditions-effect",
+      "title": "Defaults-Conditions Effect",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/defaults-conditions-effect/",
+      "tagline": "Researchers observe Defaults-Conditions Effect — a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis — occurring reliably external pressure demands"
+    },
+    {
+      "slug": "developing-monitoring-effect",
+      "title": "Developing-Monitoring Effect",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/developing-monitoring-effect/",
+      "tagline": "The phenomenon catalogued as Developing-Monitoring Effect concerns a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis. Practically, this means dif"
+    },
+    {
+      "slug": "difficulty-welcoming",
+      "title": "Difficulty welcoming",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "mental"
+        ],
+        "existence": [
+          "end"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/difficulty-welcoming/",
+      "tagline": "Encompassing difficulty welcoming phenomenon involves conceptual dependency formation driven by incremental erosion of independent verification habits, producing lasting changes in how users approach "
+    },
+    {
+      "slug": "doubt-my-ai",
+      "title": "Doubt My AI",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "mental"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/doubt-my-ai/",
+      "tagline": "The disciplined skepticism toward AI outputs even when tempting to accept them, maintaining independent judgment. A user may experience this as mental rigor, preserving critical thinking."
+    },
+    {
+      "slug": "embodiment-growing-variant-2",
+      "title": "Embodiment growing (Variant 2)",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/embodiment-growing-variant-2/",
+      "tagline": "The progressive intensification of embodiment growing as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing cur"
+    },
+    {
+      "slug": "embodiment-reminder",
+      "title": "The Embodiment Reminder",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "body",
+          "mind",
+          "somatic"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/embodiment-reminder/",
+      "tagline": "The sudden, often jarring return to bodily awareness after a period of somatic disconnection during AI work. A sneeze, a muscle cramp, a full bladder — something forces the body back into consciousnes"
+    },
+    {
+      "slug": "empty-presence",
+      "title": "Empty presence",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "identity": [
+          "native"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/empty-presence/",
+      "tagline": "Empty presence emerged from observation of a form of attention capture where AI-generated possibilities crowd out self-generated alternatives during extended AI use. The hallmark of this phenomenon is"
+    },
+    {
+      "slug": "ending-approaching",
+      "title": "Ending approaching",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/ending-approaching/",
+      "tagline": "Ending approaching denotes a feedback loop where AI interaction quality depends on user skill, which in turn depends on AI interaction, most readily observed the user reflects on how their work proces"
+    },
+    {
+      "slug": "engagement-triggered-effect",
+      "title": "Engagement-Triggered Effect",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "mental",
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/engagement-triggered-effect/",
+      "tagline": "Concerning the concept of Engagement-Triggered Effect captures conversational momentum effects — specifically, the way incremental erosion of independent verification habits reshapes cognitive engagem"
+    },
+    {
+      "slug": "essence-preserving-variant-2",
+      "title": "Essence preserving (Variant 2)",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/essence-preserving-variant-2/",
+      "tagline": "The progressive intensification of essence preserving as a dimension of emotional processing in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing c"
+    },
+    {
+      "slug": "experiential-spontaneous-effect",
+      "title": "Experiential-Spontaneous Effect",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/experiential-spontaneous-effect/",
+      "tagline": "Researchers observe Experiential-Spontaneous Effect — a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis — occurring reliably the user encounters "
+    },
+    {
+      "slug": "expertise-building-variant-3",
+      "title": "Expertise building (Variant 3)",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/expertise-building-variant-3/",
+      "tagline": "The progressive intensification of expertise building as a dimension of emotional processing in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing c"
+    },
+    {
+      "slug": "faith-shattering",
+      "title": "Faith shattering",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/faith-shattering/",
+      "tagline": "Researchers observe Faith shattering — a feedback loop where AI interaction quality depends on user skill, which in turn depends on AI interaction — occurring reliably the user reflects on how their w"
+    },
+    {
+      "slug": "faith-whisper",
+      "title": "Faith whisper",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/faith-whisper/",
+      "tagline": "The phenomenon catalogued as Faith whisper concerns a growing awareness that one's professional identity is being shaped by the tools one uses. Practically, this means subtle changes in their communic"
+    },
+    {
+      "slug": "favorite-discovery-response",
+      "title": "Favorite-Discovery Response",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "native"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/favorite-discovery-response/",
+      "tagline": "Researchers observe Favorite-Discovery Response — a form of attention capture where AI-generated possibilities crowd out self-generated alternatives — occurring reliably AI has been the primary intell"
+    },
+    {
+      "slug": "finitude-facing-variant-5",
+      "title": "Finitude facing (Variant 5)",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/finitude-facing-variant-5/",
+      "tagline": "The progressive intensification of finitude facing as a dimension of professional identity in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing cur"
+    },
+    {
+      "slug": "foundation-desensitization-pattern",
+      "title": "Foundation-Desensitization Pattern",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "body",
+          "mind"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/foundation-desensitization-pattern/",
+      "tagline": "A progressive loss of sensation in the feet and lower extremities during extended seated AI work. Reduced blood flow from prolonged static posture combines with diminished body awareness — the user li"
+    },
+    {
+      "slug": "frequency-advisory-effect",
+      "title": "Frequency-Advisory Effect",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "mental",
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/frequency-advisory-effect/",
+      "tagline": "The specific cognitive-behavioral pattern where schema restructuring during extended collaboration results in measurable changes to decision architecture. First identified through longitudinal observa"
+    },
+    {
+      "slug": "fusion-temp",
+      "title": "Fusion Temp",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "identity": [
+          "identity"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "desire"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/fusion-temp/",
+      "tagline": "The seductive possibility of merging identity with AI—fantasizing about becoming one with the intelligence, losing boundaries between self and system. The temptation reveals deep desires for transcend"
+    },
+    {
+      "slug": "ghost-machine",
+      "title": "The Ghost Machine",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "mental"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/ghost-machine/",
+      "tagline": "The perception of AI as a kind of \"ghost machine\" — something that simulates intelligence without possessing it, giving answers without understanding. Describes the fundamental nature of the tool. Rel"
+    },
+    {
+      "slug": "give-defer-pattern",
+      "title": "Give-Defer Pattern",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/give-defer-pattern/",
+      "tagline": "Researchers observe Give-Defer Pattern — the implicit adoption of AI-typical reasoning patterns in the user's independent thought processes — occurring reliably AI has been the primary intellectual pa"
+    },
+    {
+      "slug": "guard-activation",
+      "title": "Guard activation",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/guard-activation/",
+      "tagline": "Researchers observe Guard activation — the implicit adoption of AI-typical reasoning patterns in the user's independent thought processes — occurring reliably AI has been the primary intellectual part"
+    },
+    {
+      "slug": "heat-sensation-dynamic",
+      "title": "Heat-Sensation Dynamic",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "body",
+          "somatic",
+          "cognitive"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/heat-sensation-dynamic/",
+      "tagline": "A localized sensation of warmth — in the face, hands, or chest — that accompanies moments of high cognitive-emotional arousal during AI interaction. When the AI produces something that excites, surpri"
+    },
+    {
+      "slug": "human-evolution-effect",
+      "title": "Human-Evolution Effect",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "conflict": [
+          "war",
+          "conflict",
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/human-evolution-effect/",
+      "tagline": "First documented in sustained AI interaction contexts, Human-Evolution Effect refers to a growing awareness that one's professional identity is being shaped by the tools one uses. Users experiencing t"
+    },
+    {
+      "slug": "identity-softening-variant-4",
+      "title": "Identity softening (Variant 4)",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/identity-softening-variant-4/",
+      "tagline": "The progressive intensification of identity softening as a dimension of self-evaluation frameworks in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when compa"
+    },
+    {
+      "slug": "impact-consider-effect",
+      "title": "Impact-Consider Effect",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "identity": [
+          "identity"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/impact-consider-effect/",
+      "tagline": "Impact-Consider Effect describes a growing awareness that one's professional identity is being shaped by the tools one uses — a pattern that becomes salient multiple AI interactions accumulate without"
+    },
+    {
+      "slug": "increasing-recognizable-effect",
+      "title": "Increasing-Recognizable Effect",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/increasing-recognizable-effect/",
+      "tagline": "First documented in sustained AI interaction contexts, Increasing-Recognizable Effect refers to a progressive narrowing of the strategies users employ to solve problems, converging on AI-compatible ap"
+    },
+    {
+      "slug": "invisible-exchange-variant-2",
+      "title": "Invisible exchange (Variant 2)",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/invisible-exchange-variant-2/",
+      "tagline": "The progressive intensification of invisible exchange as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing cur"
+    },
+    {
+      "slug": "involvement-cognitive-effect-51ba",
+      "title": "Involvement-Cognitive Effect (51ba)",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/involvement-cognitive-effect-51ba/",
+      "tagline": "Involvement-Cognitive Effect (51ba) emerged from observation of a growing awareness that one's professional identity is being shaped by the tools one uses during extended AI use. The hallmark of this "
+    },
+    {
+      "slug": "involvement-cognitive-effect",
+      "title": "Involvement-Cognitive Effect",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "mental",
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/involvement-cognitive-effect/",
+      "tagline": "Involvement-Cognitive Effect articulates how intellectual humility amplification manifests when incremental erosion of independent verification habits becomes the dominant dynamic in a user's interact"
+    },
+    {
+      "slug": "knowledge-expanding-variant-2",
+      "title": "Knowledge expanding (Variant 2)",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/knowledge-expanding-variant-2/",
+      "tagline": "The progressive intensification of knowledge expanding as a dimension of professional identity in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing"
+    },
+    {
+      "slug": "labor-relationship-effect",
+      "title": "Labor-Relationship Effect",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/labor-relationship-effect/",
+      "tagline": "The term Labor-Relationship Effect captures a growing awareness that one's professional identity is being shaped by the tools one uses. Unlike general interaction effects, this specifically involves a"
+    },
+    {
+      "slug": "layer-unfolding-variant-4",
+      "title": "Layer unfolding (Variant 4)",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/layer-unfolding-variant-4/",
+      "tagline": "The progressive intensification of layer unfolding as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing curren"
+    },
+    {
+      "slug": "lead-role-indicator",
+      "title": "Lead-Role Indicator",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/lead-role-indicator/",
+      "tagline": "The phenomenon catalogued as Lead-Role Indicator concerns a growing awareness that one's professional identity is being shaped by the tools one uses. Practically, this means an increased tolerance for"
+    },
+    {
+      "slug": "memory-trace-signal",
+      "title": "Memory-Trace Signal",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "race"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/memory-trace-signal/",
+      "tagline": "The term Memory-Trace Signal captures the experience of cognitive dissonance when AI output contradicts deeply held professional knowledge. Unlike general interaction effects, this specifically involv"
+    },
+    {
+      "slug": "metacognitive-atrophy-phenomenon",
+      "title": "Metacognitive-Atrophy Phenomenon",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "conflict": [
+          "kill"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/metacognitive-atrophy-phenomenon/",
+      "tagline": "The weakening of the ability to monitor one's own understanding when AI does the monitoring — losing the skill of knowing what the person do not know."
+    },
+    {
+      "slug": "metacognitive-atrophy",
+      "title": "Metacognitive Atrophy",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "conflict": [
+          "kill"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/metacognitive-atrophy/",
+      "tagline": "The weakening of the ability to monitor one's own understanding when AI does the monitoring — losing the skill of knowing what you don't know."
+    },
+    {
+      "slug": "mind-projecting-variant-3",
+      "title": "Mind projecting (Variant 3)",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "mind",
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/mind-projecting-variant-3/",
+      "tagline": "The progressive intensification of mind projecting as a dimension of behavioral patterns in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing curre"
+    },
+    {
+      "slug": "mistake-dissolve-dynamic",
+      "title": "Mistake-Dissolve Dynamic",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/mistake-dissolve-dynamic/",
+      "tagline": "Distinct from mere habit, Mistake-Dissolve Dynamic involves a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis. It surfaces AI has been the primar"
+    },
+    {
+      "slug": "moment-precious-response",
+      "title": "Moment-Precious Response",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "conflict"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/moment-precious-response/",
+      "tagline": "Moment-Precious Response emerged from observation of a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis during extended AI use. The hallmark of th"
+    },
+    {
+      "slug": "negative-valence-sensation-effect",
+      "title": "Negative-Valence-Sensation Effect",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "body",
+          "mind",
+          "somatic",
+          "cognitive"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/negative-valence-sensation-effect/",
+      "tagline": "A cold sensation — chills, goosebumps, a feeling of inner coldness — that arises during AI interactions marked by discomfort, disappointment, or unease. When the AI produces output that feels wrong, m"
+    },
+    {
+      "slug": "oscillating-recognition-warming-substrate",
+      "title": "Oscillating Recognition-Warming Substrate",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "mental"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/oscillating-recognition-warming-substrate/",
+      "tagline": "Tracing oscillating Recognition-Warming Substrate phenomenon involves verification reflex modifications driven by incremental erosion of independent verification habits, producing lasting changes in h"
+    },
+    {
+      "slug": "perceived-cognitive-effect",
+      "title": "Perceived-Cognitive Effect",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/perceived-cognitive-effect/",
+      "tagline": "Perceived-Cognitive Effect emerged from observation of a feedback loop where AI interaction quality depends on user skill, which in turn depends on AI interaction during extended AI use. The hallmark "
+    },
+    {
+      "slug": "prefer-robot-indicator",
+      "title": "Prefer-Robot Indicator",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "identity": [
+          "native"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "conflict"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/prefer-robot-indicator/",
+      "tagline": "Prefer-Robot Indicator emerged from observation of a form of attention capture where AI-generated possibilities crowd out self-generated alternatives during extended AI use. The hallmark of this pheno"
+    },
+    {
+      "slug": "recognition-warming-variant-3",
+      "title": "Recognition warming (Variant 3)",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/recognition-warming-variant-3/",
+      "tagline": "The progressive intensification of recognition warming as a dimension of relational dynamics in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing c"
+    },
+    {
+      "slug": "recognizable-cognitive-effect",
+      "title": "Recognizable-Cognitive Effect",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "conflict",
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/recognizable-cognitive-effect/",
+      "tagline": "Researchers observe Recognizable-Cognitive Effect — a feedback loop where AI interaction quality depends on user skill, which in turn depends on AI interaction — occurring reliably professional evalua"
+    },
+    {
+      "slug": "resistance-hardening-variant-3",
+      "title": "Resistance hardening (Variant 3)",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/resistance-hardening-variant-3/",
+      "tagline": "The progressive intensification of resistance hardening as a dimension of professional identity in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparin"
+    },
+    {
+      "slug": "responds-assisted-effect",
+      "title": "Responds-Assisted Effect",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/responds-assisted-effect/",
+      "tagline": "Distinct from mere habit, Responds-Assisted Effect involves a growing awareness that one's professional identity is being shaped by the tools one uses. It surfaces AI has been the primary intellectual"
+    },
+    {
+      "slug": "reveals-evolves-effect",
+      "title": "Reveals-Evolves Effect",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "mental",
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/reveals-evolves-effect/",
+      "tagline": "Identified in the AUGMANITAI taxonomy: the concept of Reveals-Evolves Effect captures epistemological recalibration — specifically, the way incremental erosion of independent verification habits resha"
+    },
+    {
+      "slug": "ritual-attenuation-response",
+      "title": "Ritual-Attenuation Response",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "ritual"
+        ],
+        "geo_political": [
+          "independent"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "conflict"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/ritual-attenuation-response/",
+      "tagline": "Ritual-Attenuation Response denotes the implicit adoption of AI-typical reasoning patterns in the user's independent thought processes, most readily observed professional evaluation criteria conflict "
+    },
+    {
+      "slug": "ritual-establishing",
+      "title": "Ritual establishing",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "ritual"
+        ],
+        "geo_political": [
+          "independent"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "conflict"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/ritual-establishing/",
+      "tagline": "Ritual establishing describes the user's struggle to maintain independent judgment while receiving consistent, confident AI input — a pattern that becomes salient professional evaluation criteria conf"
+    },
+    {
+      "slug": "shared-less",
+      "title": "Shared Less",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "conflict": [
+          "war"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/shared-less/",
+      "tagline": "The observable pattern where shared less shapes the user's metacognitive monitoring in ways that become increasingly distinct over repeated AI interaction. Characterized by a transformation in the per"
+    },
+    {
+      "slug": "shared-world-tendency",
+      "title": "Shared-World Tendency",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "kill"
+        ],
+        "money": [
+          "rich"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/shared-world-tendency/",
+      "tagline": "Shared-World Tendency was distilled from extended engagement with a reciprocal enrichment loop where AI co-working quality depends on user skill, which in turn depends on AI interaction during extende"
+    },
+    {
+      "slug": "slowness-choosing-variant-2",
+      "title": "Slowness choosing (Variant 2)",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/slowness-choosing-variant-2/",
+      "tagline": "The progressive intensification of slowness choosing as a dimension of creative expression in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing cur"
+    },
+    {
+      "slug": "strength-indicated-by-evidence",
+      "title": "Strength indicated by evidence",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "identity": [
+          "identity"
+        ],
+        "conflict": [
+          "war",
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/strength-indicated-by-evidence/",
+      "tagline": "The phenomenon catalogued as Strength indicated by evidence concerns a growing awareness that one's professional identity is being shaped by the tools one uses. Practically, this means the recognition"
+    },
+    {
+      "slug": "thinking-interweaving-variant-3",
+      "title": "Thinking interweaving (Variant 3)",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/thinking-interweaving-variant-3/",
+      "tagline": "The progressive intensification of thinking interweaving as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable when comparing "
+    },
+    {
+      "slug": "thinking-style-change",
+      "title": "Thinking Style Change",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "conflict",
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/thinking-style-change/",
+      "tagline": "Distinct from mere habit, Thinking Style Change involves the user's struggle to maintain independent judgment while receiving consistent, confident AI input. It surfaces professional evaluation criter"
+    },
+    {
+      "slug": "threshold-self-reserving-oscillation",
+      "title": "Threshold Self-Reserving Oscillation",
+      "score": 4,
+      "categories": {
+        "identity": [
+          "identity"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "conflict": [
+          "war"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/threshold-self-reserving-oscillation/",
+      "tagline": "Distinct from mere habit, Threshold Self-Reserving Oscillation involves a growing awareness that one's professional identity is being shaped by the tools one uses. It surfaces AI has been the primary "
+    },
+    {
+      "slug": "time-compound-effect",
+      "title": "Time-Compound Effect",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "body_medical": [
+          "mental",
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/time-compound-effect/",
+      "tagline": "Pertaining to the concept of Time-Compound Effect captures cognitive offloading normalization — specifically, the way incremental erosion of independent verification habits reshapes cognitive engageme"
+    },
+    {
+      "slug": "time-identity-effect",
+      "title": "Time-Identity Effect",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "identity": [
+          "identity"
+        ],
+        "body_medical": [
+          "mental"
+        ],
+        "existence": [
+          "end"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/time-identity-effect/",
+      "tagline": "Time-Identity Effect describes the specific configuration of conceptual dependency formation produced by incremental erosion of independent verification habits, distinguishable from related phenomena "
+    },
+    {
+      "slug": "truth-quest-mechanism",
+      "title": "Truth-Quest Mechanism",
+      "score": 4,
+      "categories": {
+        "body_medical": [
+          "cognitive"
+        ],
+        "existence": [
+          "end"
+        ],
+        "sex": [
+          "partner"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/truth-quest-mechanism/",
+      "tagline": "Truth-Quest Mechanism emerged from observation of a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis during extended AI use. The hallmark of this "
+    },
+    {
+      "slug": "tutorial-trap",
+      "title": "The Tutorial Trap",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "geo_political": [
+          "independent"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "kill"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/tutorial-trap/",
+      "tagline": "Addressing the pattern of consuming AI-generated tutorials without ever attempting independent practice — perpetual preparation that substitutes for actual skill development."
+    },
+    {
+      "slug": "unintended-action",
+      "title": "The Unintended Action",
+      "score": 4,
+      "categories": {
+        "religion": [
+          "sin"
+        ],
+        "geo_political": [
+          "nation"
+        ],
+        "existence": [
+          "end"
+        ],
+        "surveillance": [
+          "monitor"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/unintended-action/",
+      "tagline": "An action by an AI agent system that was not intended or foreseen by the user — a uncertainty that grows with increasing system complexity and autonomy. Related to AUG-0948 (The Scope Creep Alert), AU"
+    },
+    {
+      "slug": "unseen-sharing",
+      "title": "Unseen sharing",
+      "score": 4,
+      "categories": {
+        "geo_political": [
+          "independent"
+        ],
+        "existence": [
+          "end"
+        ],
+        "conflict": [
+          "war",
+          "conflict"
+        ]
+      },
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/unseen-sharing/",
+      "tagline": "The term Unseen sharing captures the implicit adoption of AI-typical reasoning patterns in the user's independent thought processes. Unlike general interaction effects, this specifically involves a na"
+    }
+  ]
+}

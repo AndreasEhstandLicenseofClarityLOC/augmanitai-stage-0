@@ -1,0 +1,28 @@
+EVERITY: <sum>
+MAX_PERSONA_SEVERITY: <max>
+VERDICT: SAFE / REVIEW / REJECT (REVIEW if total_severity>=3 or any severity=2; REJECT if multiple severity=2)
+SUGGESTED_ACTION: <rename to X / extend disclaimer / remove / keep>
+
+NUR die strukturierten CSV-Output-Zeilen. Keine Plan-Ankündigung. Keine Einleitung. Sei hart und kritisch — wenn eine Persona keine Sorge hat: severity=0, why leer.
+
+DIE 10 PAGES:
+
+authority-loss-phenomenon: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/authority-loss-phenomenon/
+  Title: Authority-Loss Phenomenon
+  Tagline: The phenomenon catalogued as Authority-Loss Phenomenon concerns a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis. Practicall...
+
+cognitive-evolves-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cognitive-evolves-effect/
+  Title: Cognitive-Evolves Effect
+  Tagline: Cognitive-Evolves Effect emerged from observation of a growing awareness that one's professional identity is being shaped by the tools one uses during extended AI use. The hallmark...
+
+achievement-warming-variant-2: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/achievement-warming-variant-2/
+  Title: Achievement warming (Variant 2)
+  Tagline: The progressive intensification of achievement warming as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectab...
+
+circadian-disruption-pattern: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/circadian-disruption-pattern/
+  Title: The Circadian Disruption Pattern
+  Tagline: Disruption of the body's circadian rhythm through AI interaction patterns that extend into evening and night hours. The combination of screen light, cognitive arousal, and the 'one...
+
+element-dance-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/element-dance-effect/
+  Title: Element-Dance Effect
+  Ta
