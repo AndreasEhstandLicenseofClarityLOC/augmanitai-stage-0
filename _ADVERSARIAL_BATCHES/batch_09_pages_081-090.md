@@ -30,44 +30,44 @@ NUR die strukturierten CSV-Output-Zeilen. Keine Plan-Ankündigung. Keine Einleit
 
 DIE 10 PAGES:
 
-recognition-warming-variant-3: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/recognition-warming-variant-3/
-  Title: Recognition warming (Variant 3)
-  Tagline: The progressive intensification of recognition warming as a dimension of relational dynamics in contexts where AI becomes a persistent cognitive partner. This phenomenon is detecta...
+frameworks-effect-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/frameworks-effect-effect/
+  Title: Frameworks Effect Effect
+  Tagline: The phenomenon catalogued as Frameworks Effect Effect concerns a shift in how users distribute cognitive effort between monitoring AI and performing their own a
 
-recognizable-cognitive-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/recognizable-cognitive-effect/
-  Title: Recognizable-Cognitive Effect
-  Tagline: Researchers observe Recognizable-Cognitive Effect — a feedback loop where AI interaction quality depends on user skill, which in turn depends on AI interaction — occurring reliably...
+freedom-too-much: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/freedom-too-much/
+  Title: Freedom Too Much
+  Tagline: First documented in sustained AI interaction contexts, Freedom Too Much refers to a shift in how users distribute cognitive effort between monitoring AI and per
 
-resistance-hardening-variant-3: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/resistance-hardening-variant-3/
-  Title: Resistance hardening (Variant 3)
-  Tagline: The progressive intensification of resistance hardening as a dimension of professional identity in contexts where AI becomes a persistent cognitive partner. This phenomenon is dete...
+gradual-sanctity-protecting-signature: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/gradual-sanctity-protecting-signature/
+  Title: The Gradual Sanctity-Protecting Signature
+  Tagline: The way sanctity protecting functions as a structuring element in the feedback dynamics between human and system during AI-mediated work. This phenomenon become
 
-responds-assisted-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/responds-assisted-effect/
-  Title: Responds-Assisted Effect
-  Tagline: Distinct from mere habit, Responds-Assisted Effect involves a growing awareness that one's professional identity is being shaped by the tools one uses. It surfaces AI has been the ...
+human-competence-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/human-competence-effect/
+  Title: Human-Competence Effect
+  Tagline: Human-Competence Effect describes the specific configuration of expectation gradient distortions produced by feedback loop between user behavior and AI response
 
-reveals-evolves-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/reveals-evolves-effect/
-  Title: Reveals-Evolves Effect
-  Tagline: Identified in the AUGMANITAI taxonomy: the concept of Reveals-Evolves Effect captures epistemological recalibration — specifically, the way incremental erosion of independent verif...
+human-effort-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/human-effort-effect/
+  Title: Human-Effort Effect
+  Tagline: Researchers observe Human-Effort Effect — an emerging tension between the speed of AI-assisted work and the depth of human understanding — occurring reliably th
 
-ritual-attenuation-response: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/ritual-attenuation-response/
-  Title: Ritual-Attenuation Response
-  Tagline: Ritual-Attenuation Response denotes the implicit adoption of AI-typical reasoning patterns in the user's independent thought processes, most readily observed professional evaluatio...
+indicates-change-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/indicates-change-effect/
+  Title: Indicates-Change Effect
+  Tagline: The term Indicates-Change Effect captures a progressive narrowing of the strategies users employ to solve problems, converging on AI-compatible approaches. Unli
 
-ritual-establishing: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/ritual-establishing/
-  Title: Ritual establishing
-  Tagline: Ritual establishing describes the user's struggle to maintain independent judgment while receiving consistent, confident AI input — a pattern that becomes salient professional eval...
+knowledge-withholding: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/knowledge-withholding/
+  Title: Knowledge withholding
+  Tagline: First documented in sustained AI interaction contexts, Knowledge withholding refers to a form of attention capture where AI-generated possibilities crowd out se
 
-shared-less: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/shared-less/
-  Title: Shared Less
-  Tagline: The observable pattern where shared less shapes the user's metacognitive monitoring in ways that become increasingly distinct over repeated AI interaction. Characterized by a trans...
+lastness-feeling: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/lastness-feeling/
+  Title: Lastness feeling
+  Tagline: The concept of Lastness feeling captures identity boundary oscillations — specifically, the way threshold-crossing from augmentation to replacement reshapes cog
 
-shared-world-tendency: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/shared-world-tendency/
-  Title: Shared-World Tendency
-  Tagline: Shared-World Tendency was distilled from extended engagement with a reciprocal enrichment loop where AI co-working quality depends on user skill, which in turn depends on AI intera...
+latent-habit-deepening-metabolism: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/latent-habit-deepening-metabolism/
+  Title: The Latent Habit-Deepening Metabolism
+  Tagline: An identifiable phenomenon where habit deepening emerges as a characteristic feature of the user
 
-slowness-choosing-variant-2: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/slowness-choosing-variant-2/
-  Title: Slowness choosing (Variant 2)
-  Tagline: The progressive intensification of slowness choosing as a dimension of creative expression in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectabl...
+latent-space-guarding-ecology: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/latent-space-guarding-ecology/
+  Title: The Latent Space-Guarding Ecology
+  Tagline: The way space guarding functions as a structuring element in the reorganization of professional identity markers during AI-mediated work. This phenomenon become
 
 LOS. Direkt produzieren.

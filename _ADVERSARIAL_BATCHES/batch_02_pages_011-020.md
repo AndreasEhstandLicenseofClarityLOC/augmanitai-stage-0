@@ -30,44 +30,44 @@ NUR die strukturierten CSV-Output-Zeilen. Keine Plan-Ankündigung. Keine Einleit
 
 DIE 10 PAGES:
 
-novelty-try-tendency: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/novelty-try-tendency/
-  Title: Novelty-Try Tendency
-  Tagline: Describing specific cognitive-behavioral pattern where habitual override during sustained AI interaction results in measurable changes to emotional processing. First identified thr...
+control-illusion: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/control-illusion/
+  Title: Control Illusion
+  Tagline: First documented in sustained AI interaction contexts, Control Illusion refers to the user
 
-pause-restlessness-mechanism: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/pause-restlessness-mechanism/
-  Title: Pause-Restlessness Mechanism
-  Tagline: The peculiar inability to rest during breaks from AI work. The user steps away from the screen but cannot settle — pacing, checking the phone, mentally composing the next prompt. T...
+defaults-contexts-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/defaults-contexts-effect/
+  Title: Defaults-Contexts Effect
+  Tagline: Identifying defaults-Contexts Effect phenomenon involves effort-reward decoupling driven by attentional reallocation from process to outcome monitoring, produci
 
-repeated-social-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/repeated-social-effect/
-  Title: Repeated-Social Effect
-  Tagline: First documented in sustained AI interaction contexts, Repeated-Social Effect refers to a shift in how users distribute cognitive effort between monitoring AI and performing their ...
+element-thinking-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/element-thinking-effect/
+  Title: Element-Thinking Effect
+  Tagline: In the taxonomy, Element-Thinking Effect identifies a progressive narrowing of the strategies users employ to solve problems, converging on AI-compatible approa
 
-absent-voice: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/absent-voice/
-  Title: Absent voice
-  Tagline: Absent voice describes the specific configuration of effort-reward decoupling produced by incremental erosion of independent verification habits, distinguishable from related pheno...
+essence-preserving: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/essence-preserving/
+  Title: Essence preserving
+  Tagline: First documented in sustained AI interaction contexts, Essence preserving refers to a shift in how users distribute cognitive effort between monitoring AI and p
 
-absorption-intensifying-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/absorption-intensifying-effect/
-  Title: Absorption-Intensifying Effect
-  Tagline: First documented in sustained AI interaction contexts, Absorption-Intensifying Effect refers to the experience of cognitive dissonance when AI output contradicts deeply held profes...
+finitude-facing: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/finitude-facing/
+  Title: Finitude facing
+  Tagline: The concept of Finitude facing captures knowledge authority fragmentation — specifically, the way gradual normalization of delegated cognitive functions reshape
 
-across-feeling-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/across-feeling-effect/
-  Title: Across-Feeling Effect
-  Tagline: Distinct from mere habit, Across-Feeling Effect involves the user's struggle to maintain independent judgment while receiving consistent, confident AI input. It surfaces AI has bee...
+forever-asymmetry: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/forever-asymmetry/
+  Title: Forever asymmetry
+  Tagline: Researchers observe Forever asymmetry — a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis — occurring rel
 
-asymmetric-autonomy-asserting-ecology: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/asymmetric-autonomy-asserting-ecology/
-  Title: The Asymmetric Autonomy-Asserting Ecology
-  Tagline: The observable pattern where autonomy asserting shapes the user's metacognitive monitoring in ways that become increasingly distinct over repeated AI interaction. Characterized by ...
+involvement-cognitive-effect-51ba: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/involvement-cognitive-effect-51ba/
+  Title: Involvement-Cognitive Effect (51ba)
+  Tagline: Involvement-Cognitive Effect (51ba) emerged from observation of a growing awareness that one
 
-attribution-losing: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/attribution-losing/
-  Title: Attribution losing
-  Tagline: The phenomenon catalogued as Attribution losing concerns the user's struggle to maintain independent judgment while receiving consistent, confident AI input. Practically, this mean...
+latent-privacy-honoring-pattern: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/latent-privacy-honoring-pattern/
+  Title: The Latent Privacy-Honoring Pattern
+  Tagline: An identifiable phenomenon where privacy honoring emerges as a characteristic feature of the user
 
-authority-loss: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/authority-loss/
-  Title: Authority Loss
-  Tagline: A specific phenomenon in human-AI interaction where authority loss becomes a salient dimension of the user's metacognitive monitoring. It manifests as a transformation in the perso...
+mediated-structuring-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/mediated-structuring-effect/
+  Title: Mediated-Structuring Effect
+  Tagline: As catalogued in the taxonomy, Mediated-Structuring Effect represents creative ownership diffusion emerging when implicit learning of AI interaction heuristics 
 
-authorship-dissolving-variant-2: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/authorship-dissolving-variant-2/
-  Title: Authorship dissolving (Variant 2)
-  Tagline: The progressive intensification of authorship dissolving as a dimension of emotional processing in contexts where AI becomes a persistent cognitive partner. This phenomenon is dete...
+poignant-finitude-awareness: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/poignant-finitude-awareness/
+  Title: Poignant Finitude Awareness
+  Tagline: A user may experience poignant finitude awareness facing AI persistence with an LLM. This subtle emotional texture shapes their ongoing relationship with AI-med
 
 LOS. Direkt produzieren.

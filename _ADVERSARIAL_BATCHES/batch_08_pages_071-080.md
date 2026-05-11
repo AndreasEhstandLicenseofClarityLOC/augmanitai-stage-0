@@ -30,44 +30,44 @@ NUR die strukturierten CSV-Output-Zeilen. Keine Plan-Ankündigung. Keine Einleit
 
 DIE 10 PAGES:
 
-memory-trace-signal: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/memory-trace-signal/
-  Title: Memory-Trace Signal
-  Tagline: The term Memory-Trace Signal captures the experience of cognitive dissonance when AI output contradicts deeply held professional knowledge. Unlike general interaction effects, this...
+ending-approaching: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/ending-approaching/
+  Title: Ending approaching
+  Tagline: Ending approaching denotes a feedback loop where AI interaction quality depends on user skill, which in turn depends on AI interaction, most readily observed th
 
-metacognitive-atrophy-phenomenon: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/metacognitive-atrophy-phenomenon/
-  Title: Metacognitive-Atrophy Phenomenon
-  Tagline: The weakening of the ability to monitor one's own understanding when AI does the monitoring — losing the skill of knowing what the person do not know....
+engagement-triggered-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/engagement-triggered-effect/
+  Title: Engagement-Triggered Effect
+  Tagline: Concerning the concept of Engagement-Triggered Effect captures conversational momentum effects — specifically, the way incremental erosion of independent verifi
 
-metacognitive-atrophy: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/metacognitive-atrophy/
-  Title: Metacognitive Atrophy
-  Tagline: The weakening of the ability to monitor one's own understanding when AI does the monitoring — losing the skill of knowing what you don't know....
+evolves-recognizable-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/evolves-recognizable-effect/
+  Title: Evolves-Recognizable Effect
+  Tagline: As catalogued in the taxonomy, Evolves-Recognizable Effect represents intellectual scaffolding reliance emerging when phase transition in collaborative intellig
 
-mind-projecting-variant-3: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/mind-projecting-variant-3/
-  Title: Mind projecting (Variant 3)
-  Tagline: The progressive intensification of mind projecting as a dimension of behavioral patterns in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable ...
+expectations-observation-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/expectations-observation-effect/
+  Title: Expectations-Observation Effect
+  Tagline: Researchers observe Expectations-Observation Effect — a progressive narrowing of the strategies users employ to solve problems, converging on AI-compatible appr
 
-mistake-dissolve-dynamic: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/mistake-dissolve-dynamic/
-  Title: Mistake-Dissolve Dynamic
-  Tagline: Distinct from mere habit, Mistake-Dissolve Dynamic involves a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis. It surfaces AI...
+experiences-dimension-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/experiences-dimension-effect/
+  Title: Experiences-Dimension Effect
+  Tagline: Distinct from mere habit, Experiences-Dimension Effect involves a growing awareness that one
 
-moment-precious-response: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/moment-precious-response/
-  Title: Moment-Precious Response
-  Tagline: Moment-Precious Response emerged from observation of a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis during extended AI use...
+experiential-spontaneous-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/experiential-spontaneous-effect/
+  Title: Experiential-Spontaneous Effect
+  Tagline: Researchers observe Experiential-Spontaneous Effect — a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis —
 
-negative-valence-sensation-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/negative-valence-sensation-effect/
-  Title: Negative-Valence-Sensation Effect
-  Tagline: A cold sensation — chills, goosebumps, a feeling of inner coldness — that arises during AI interactions marked by discomfort, disappointment, or unease. When the AI produces output...
+experimentation-daring: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/experimentation-daring/
+  Title: Experimentation daring
+  Tagline: Encompassing experimentation daring phenomenon involves attention allocation disruptions driven by progressive habituation to AI-mediated reasoning, producing l
 
-oscillating-recognition-warming-substrate: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/oscillating-recognition-warming-substrate/
-  Title: Oscillating Recognition-Warming Substrate
-  Tagline: Tracing oscillating Recognition-Warming Substrate phenomenon involves verification reflex modifications driven by incremental erosion of independent verification habits, producing ...
+feeling-human-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/feeling-human-effect/
+  Title: Feeling-Human Effect
+  Tagline: Within human-AI interaction research, Feeling-Human Effect identifies autonomy-dependency equilibria as it unfolds through phase transition in collaborative int
 
-perceived-cognitive-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/perceived-cognitive-effect/
-  Title: Perceived-Cognitive Effect
-  Tagline: Perceived-Cognitive Effect emerged from observation of a feedback loop where AI interaction quality depends on user skill, which in turn depends on AI interaction during extended A...
+focal-inviolability-maintaining-trajectory: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/focal-inviolability-maintaining-trajectory/
+  Title: The Focal Inviolability-Maintaining Trajectory
+  Tagline: A specific phenomenon in human-AI interaction where inviolability maintaining becomes a salient dimension of the implicit learning that occurs through repeated 
 
-prefer-robot-indicator: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/prefer-robot-indicator/
-  Title: Prefer-Robot Indicator
-  Tagline: Prefer-Robot Indicator emerged from observation of a form of attention capture where AI-generated possibilities crowd out self-generated alternatives during extended AI use. The ha...
+framework-proliferation-phenomenon: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/framework-proliferation-phenomenon/
+  Title: Framework-Proliferation Phenomenon
+  Tagline: The term Framework-Proliferation Phenomenon captures the experience of cognitive dissonance when AI output contradicts deeply held professional knowledge. Unlik
 
 LOS. Direkt produzieren.

@@ -30,44 +30,44 @@ NUR die strukturierten CSV-Output-Zeilen. Keine Plan-Ankündigung. Keine Einleit
 
 DIE 10 PAGES:
 
-embodiment-growing-variant-2: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/embodiment-growing-variant-2/
-  Title: Embodiment growing (Variant 2)
-  Tagline: The progressive intensification of embodiment growing as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectabl...
+asymmetric-boundary-protecting-valence: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/asymmetric-boundary-protecting-valence/
+  Title: The Asymmetric Boundary-Protecting Valence
+  Tagline: The observable pattern where boundary protecting shapes the implicit learning that occurs through repeated exposure in ways that become increasingly distinct ov
 
-embodiment-reminder: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/embodiment-reminder/
-  Title: The Embodiment Reminder
-  Tagline: The sudden, often jarring return to bodily awareness after a period of somatic disconnection during AI work. A sneeze, a muscle cramp, a full bladder — something forces the body ba...
+authority-loss: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/authority-loss/
+  Title: Authority Loss
+  Tagline: A specific phenomenon in human-AI interaction where authority loss becomes a salient dimension of the user
 
-empty-presence: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/empty-presence/
-  Title: Empty presence
-  Tagline: Empty presence emerged from observation of a form of attention capture where AI-generated possibilities crowd out self-generated alternatives during extended AI use. The hallmark o...
+authority-loss-phenomenon: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/authority-loss-phenomenon/
+  Title: Authority-Loss Phenomenon
+  Tagline: The phenomenon catalogued as Authority-Loss Phenomenon concerns a shift in how users distribute cognitive effort between monitoring AI and performing their own 
 
-ending-approaching: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/ending-approaching/
-  Title: Ending approaching
-  Tagline: Ending approaching denotes a feedback loop where AI interaction quality depends on user skill, which in turn depends on AI interaction, most readily observed the user reflects on h...
+baseline-contexts-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/baseline-contexts-effect/
+  Title: Baseline-Contexts Effect
+  Tagline: The concept of Baseline-Contexts Effect captures conversational momentum effects — specifically, the way progressive refinement of mental models of AI behavior 
 
-engagement-triggered-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/engagement-triggered-effect/
-  Title: Engagement-Triggered Effect
-  Tagline: Concerning the concept of Engagement-Triggered Effect captures conversational momentum effects — specifically, the way incremental erosion of independent verification habits reshap...
+behavioral-risk-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/behavioral-risk-effect/
+  Title: Behavioral-Risk Effect
+  Tagline: Behavioral-Risk Effect describes the specific configuration of expertise valuation recalibration produced by boundary dissolution between assisted and autonomou
 
-essence-preserving-variant-2: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/essence-preserving-variant-2/
-  Title: Essence preserving (Variant 2)
-  Tagline: The progressive intensification of essence preserving as a dimension of emotional processing in contexts where AI becomes a persistent cognitive partner. This phenomenon is detecta...
+bidirectional-space-guarding-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/bidirectional-space-guarding-effect/
+  Title: The Bidirectional Space-Guarding Effect
+  Tagline: The way space guarding functions as a structuring element in the emotional coloring of the interaction sequence during AI-mediated work. This phenomenon becomes
 
-experiential-spontaneous-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/experiential-spontaneous-effect/
-  Title: Experiential-Spontaneous Effect
-  Tagline: Researchers observe Experiential-Spontaneous Effect — a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis — occurring reliably ...
+boundary-protecting: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/boundary-protecting/
+  Title: Boundary protecting
+  Tagline: The phenomenon catalogued as Boundary protecting concerns the subtle restructuring of memory processes when AI serves as an external knowledge store. Practicall
 
-expertise-building-variant-3: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/expertise-building-variant-3/
-  Title: Expertise building (Variant 3)
-  Tagline: The progressive intensification of expertise building as a dimension of emotional processing in contexts where AI becomes a persistent cognitive partner. This phenomenon is detecta...
+cascading-embodiment-growing-mechanism: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cascading-embodiment-growing-mechanism/
+  Title: The Cascading Embodiment-Growing Mechanism
+  Tagline: The observable pattern where embodiment growing shapes the user
 
-faith-shattering: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/faith-shattering/
-  Title: Faith shattering
-  Tagline: Researchers observe Faith shattering — a feedback loop where AI interaction quality depends on user skill, which in turn depends on AI interaction — occurring reliably the user ref...
+cascading-knowledge-withholding-contour: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cascading-knowledge-withholding-contour/
+  Title: The Cascading Knowledge-Withholding Contour
+  Tagline: A describable aspect of human-AI interaction in which knowledge withholding produces a recognizable experiential signature. The phenomenon is particularly visib
 
-faith-whisper: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/faith-whisper/
-  Title: Faith whisper
-  Tagline: The phenomenon catalogued as Faith whisper concerns a growing awareness that one's professional identity is being shaped by the tools one uses. Practically, this means subtle chang...
+cascading-knowledge-withholding-modality: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cascading-knowledge-withholding-modality/
+  Title: The Cascading Knowledge-Withholding Modality
+  Tagline: A describable aspect of human-AI interaction in which knowledge withholding produces a recognizable experiential signature. The phenomenon is particularly visib
 
 LOS. Direkt produzieren.

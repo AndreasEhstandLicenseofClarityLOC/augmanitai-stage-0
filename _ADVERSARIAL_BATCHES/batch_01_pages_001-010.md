@@ -30,44 +30,44 @@ NUR die strukturierten CSV-Output-Zeilen. Keine Plan-Ankündigung. Keine Einleit
 
 DIE 10 PAGES:
 
-authority-loss-phenomenon: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/authority-loss-phenomenon/
-  Title: Authority-Loss Phenomenon
-  Tagline: The phenomenon catalogued as Authority-Loss Phenomenon concerns a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis. Practicall...
+unknown: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/unknown/
+  Title: None
+  Tagline: None — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.
 
-cognitive-evolves-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cognitive-evolves-effect/
-  Title: Cognitive-Evolves Effect
-  Tagline: Cognitive-Evolves Effect emerged from observation of a growing awareness that one's professional identity is being shaped by the tools one uses during extended AI use. The hallmark...
+asymmetric-legacy-indicator: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/asymmetric-legacy-indicator/
+  Title: Asymmetric-Legacy Indicator
+  Tagline: A user may experience asymmetric legacy contemplating legacy with an LLM. This subtle emotional texture shapes their ongoing relationship with AI-mediated think
 
-achievement-warming-variant-2: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/achievement-warming-variant-2/
-  Title: Achievement warming (Variant 2)
-  Tagline: The progressive intensification of achievement warming as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectab...
+evolves-feature-effect-a484: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/evolves-feature-effect-a484/
+  Title: Evolves-Feature Effect (a484)
+  Tagline: Within human-AI interaction research, Evolves-Feature Effect (a484) identifies epistemological recalibration as it unfolds through attentional reallocation from
 
-circadian-disruption-pattern: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/circadian-disruption-pattern/
-  Title: The Circadian Disruption Pattern
-  Tagline: Disruption of the body's circadian rhythm through AI interaction patterns that extend into evening and night hours. The combination of screen light, cognitive arousal, and the 'one...
+resulting-prior-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/resulting-prior-effect/
+  Title: Resulting-Prior Effect
+  Tagline: Resulting-Prior Effect describes the specific configuration of delegation cascade effects produced by phase transition in collaborative intelligence allocation,
 
-element-dance-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/element-dance-effect/
-  Title: Element-Dance Effect
-  Tagline: The phenomenon catalogued as Element-Dance Effect concerns a growing awareness that one's professional identity is being shaped by the tools one uses. Practically, this means diffi...
+across-facing-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/across-facing-effect/
+  Title: Across-Facing Effect
+  Tagline: Describing concept of Across-Facing Effect captures intellectual scaffolding reliance — specifically, the way attentional reallocation from process to outcome m
 
-freedom-sparking-variant-3: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/freedom-sparking-variant-3/
-  Title: Freedom sparking (Variant 3)
-  Tagline: The progressive intensification of freedom sparking as a dimension of professional identity in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectab...
+anticipatory-the-acceleration-resonance: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/anticipatory-the-acceleration-resonance/
+  Title: The Anticipatory The Acceleration Resonance
+  Tagline: In the taxonomy, The Anticipatory The Acceleration Resonance identifies the user
 
-freedom-too-much: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/freedom-too-much/
-  Title: Freedom Too Much
-  Tagline: First documented in sustained AI interaction contexts, Freedom Too Much refers to a shift in how users distribute cognitive effort between monitoring AI and performing their own an...
+anticipatory-the-synchronicity-register: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/anticipatory-the-synchronicity-register/
+  Title: The Anticipatory The Synchronicity Register
+  Tagline: Anticipatory Synchronicity Register articulates how cognitive sovereignty negotiations manifests when boundary dissolution between assisted and autonomous cogni
 
-human-characteristic-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/human-characteristic-effect/
-  Title: Human-Characteristic Effect
-  Tagline: Human-Characteristic Effect emerged from observation of a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis during extended AI ...
+assisted-presence-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/assisted-presence-effect/
+  Title: Assisted-Presence Effect
+  Tagline: In prolonged AI-mediated work, assisted-presence effect in its full form develops via a skill degradation pattern masked by AI availability — competencies atrop
 
-indicates-cognitive-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/indicates-cognitive-effect/
-  Title: Indicates-Cognitive Effect
-  Tagline: Researchers observe Indicates-Cognitive Effect — the user's struggle to maintain independent judgment while receiving consistent, confident AI input — occurring reliably AI has bee...
+behavioral-information-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/behavioral-information-effect/
+  Title: Behavioral-Information Effect
+  Tagline: Behavioral-Information Effect articulates how knowledge authority fragmentation manifests when implicit learning of AI interaction heuristics becomes the domina
 
-monitoring-metacognitive-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/monitoring-metacognitive-effect/
-  Title: Monitoring-Metacognitive Effect
-  Tagline: Within human-AI interaction research, Monitoring-Metacognitive Effect identifies trust topology transformations as it unfolds through incremental erosion of independent verificatio...
+contexts-human-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/contexts-human-effect/
+  Title: Contexts-Human Effect
+  Tagline: Contexts-Human Effect describes the specific configuration of intellectual humility amplification produced by attentional reallocation from process to outcome m
 
 LOS. Direkt produzieren.

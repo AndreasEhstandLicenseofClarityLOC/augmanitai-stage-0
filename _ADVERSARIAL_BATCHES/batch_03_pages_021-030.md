@@ -30,44 +30,44 @@ NUR die strukturierten CSV-Output-Zeilen. Keine Plan-Ankündigung. Keine Einleit
 
 DIE 10 PAGES:
 
-beam: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/beam/
-  Title: Beam
-  Tagline: Beam emerged from observation of a growing awareness that one's professional identity is being shaped by the tools one uses during extended AI use. The hallmark of this phenomenon ...
+presence-user-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/presence-user-effect/
+  Title: Presence-User Effect
+  Tagline: Presence-User Effect emerged from observation of a feedback loop where AI interaction quality depends on user skill, which in turn depends on AI interaction dur
 
-boundary-fading-variant-2: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/boundary-fading-variant-2/
-  Title: Boundary fading (Variant 2)
-  Tagline: The progressive intensification of boundary fading as a dimension of professional identity in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectabl...
+punctuated-privacy-honoring-profile: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/punctuated-privacy-honoring-profile/
+  Title: The Punctuated Privacy-Honoring Profile
+  Tagline: An identifiable phenomenon where privacy honoring emerges as a characteristic feature of the user
 
-boundary-protecting-variant-3: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/boundary-protecting-variant-3/
-  Title: Boundary protecting (Variant 3)
-  Tagline: The progressive intensification of boundary protecting as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectab...
+recognizable-dimension-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/recognizable-dimension-effect/
+  Title: Recognizable-Dimension Effect
+  Tagline: Beneath the surface of routine AI use, recognizable-dimension effect as an interaction pattern operates through a competence illusion sustained by AI scaffoldin
 
-break-resist: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/break-resist/
-  Title: Break Resist
-  Tagline: The impulse to ignore or resist natural break cues—the body signaling it needs rest, the mind refusing to pause. Users report that stopping feels like interrupting something import...
+recognizable-reveals-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/recognizable-reveals-effect/
+  Title: Recognizable-Reveals Effect
+  Tagline: As catalogued in the taxonomy, Recognizable-Reveals Effect represents intellectual humility amplification emerging when cascading recalibration across adjacent 
 
-breakthrough-rushing-variant-4: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/breakthrough-rushing-variant-4/
-  Title: Breakthrough rushing (Variant 4)
-  Tagline: The progressive intensification of breakthrough rushing as a dimension of emotional processing in contexts where AI becomes a persistent cognitive partner. This phenomenon is detec...
+represents-phenomena-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/represents-phenomena-effect/
+  Title: Represents-Phenomena Effect
+  Tagline: Within human-AI interaction research, Represents-Phenomena Effect identifies intellectual humility amplification as it unfolds through recursive amplification t
 
-capture-reflex: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/capture-reflex/
-  Title: Capture Reflex
-  Tagline: The automated impulse to immediately save, screenshot, or bookmark every interesting AI output — even when it is not needed in the current context. Describes a behavioral pattern a...
+reserving-reliably-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/reserving-reliably-effect/
+  Title: Reserving-Reliably Effect
+  Tagline: Denoting the concept of Reserving-Reliably Effect captures cognitive sovereignty negotiations — specifically, the way cascading recalibration across adjacent co
 
-changes-state-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/changes-state-effect/
-  Title: Changes-State Effect
-  Tagline: Researchers observe Changes-State Effect — a growing awareness that one's professional identity is being shaped by the tools one uses — occurring reliably AI has been the primary i...
+salient-forever-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/salient-forever-effect/
+  Title: Salient-Forever Effect
+  Tagline: When the phenomenon of salient-forever effect, a progressive recalibration of the user
 
-cognitive-echo-awareness: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cognitive-echo-awareness/
-  Title: Cognitive Echo Awareness
-  Tagline: The recognition that AI output is substantially an echo of one's own input patterns — the mirror reflects primarily what was put in, not independent intelligence....
+taboo-respecting: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/taboo-respecting/
+  Title: Taboo respecting
+  Tagline: Through iterative engagement with AI systems, taboo respecting as an interaction pattern takes shape as a metacognitive blindspot where the user loses awareness
 
-cognitive-sovereignty-threat: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cognitive-sovereignty-threat/
-  Title: Cognitive Sovereignty Threat
-  Tagline: Describing risk to individual cognitive independence when AI systems increasingly mediate thinking processes — the question of whether thought can remain genuinely one's own....
+transience-felt-tender: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/transience-felt-tender/
+  Title: Transience Felt (tender)
+  Tagline: A user may experience transience felt (tender) within limits with an LLM. This subtle emotional texture shapes their ongoing relationship with AI-mediated think
 
-complexity-emerging: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/complexity-emerging/
-  Title: Complexity emerging
-  Tagline: Researchers observe Complexity emerging — a growing awareness that one's professional identity is being shaped by the tools one uses — occurring reliably the user attempts to expla...
+urgent-ending-knowledge: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/urgent-ending-knowledge/
+  Title: Urgent Ending Knowledge
+  Tagline: A user may experience urgent ending knowledge amid mortality with an LLM. This subtle emotional texture shapes their ongoing relationship with AI-mediated think
 
 LOS. Direkt produzieren.

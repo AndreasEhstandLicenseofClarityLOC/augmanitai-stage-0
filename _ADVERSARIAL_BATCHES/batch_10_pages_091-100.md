@@ -30,44 +30,44 @@ NUR die strukturierten CSV-Output-Zeilen. Keine Plan-Ankündigung. Keine Einleit
 
 DIE 10 PAGES:
 
-strength-indicated-by-evidence: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/strength-indicated-by-evidence/
-  Title: Strength indicated by evidence
-  Tagline: The phenomenon catalogued as Strength indicated by evidence concerns a growing awareness that one's professional identity is being shaped by the tools one uses. Practically, this m...
+leaving-behind: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/leaving-behind/
+  Title: Leaving behind
+  Tagline: Leaving behind denotes the emotional response to discovering the boundaries of AI competence after a period of trust-building, most readily observed the AI prod
 
-thinking-interweaving-variant-3: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/thinking-interweaving-variant-3/
-  Title: Thinking interweaving (Variant 3)
-  Tagline: The progressive intensification of thinking interweaving as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detect...
+leaving-behind-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/leaving-behind-effect/
+  Title: Leaving-Behind Effect
+  Tagline: Leaving-Behind Effect articulates how expertise valuation recalibration manifests when cascading recalibration across adjacent competence domains becomes the do
 
-thinking-style-change: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/thinking-style-change/
-  Title: Thinking Style Change
-  Tagline: Distinct from mere habit, Thinking Style Change involves the user's struggle to maintain independent judgment while receiving consistent, confident AI input. It surfaces profession...
+legacy-thinking: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/legacy-thinking/
+  Title: Legacy thinking
+  Tagline: Pertaining to the way legacy thinking functions as a structuring element in the feedback dynamics between human and system during AI-mediated work. This phenome
 
-threshold-self-reserving-oscillation: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/threshold-self-reserving-oscillation/
-  Title: Threshold Self-Reserving Oscillation
-  Tagline: Distinct from mere habit, Threshold Self-Reserving Oscillation involves a growing awareness that one's professional identity is being shaped by the tools one uses. It surfaces AI h...
+life-shortening: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/life-shortening/
+  Title: Life shortening
+  Tagline: The way life shortening functions as a structuring element in the shifting boundaries of agency during AI-mediated work. This phenomenon becomes identifiable th
 
-time-compound-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/time-compound-effect/
-  Title: Time-Compound Effect
-  Tagline: Pertaining to the concept of Time-Compound Effect captures cognitive offloading normalization — specifically, the way incremental erosion of independent verification habits reshape...
+markers-recognizable-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/markers-recognizable-effect/
+  Title: Markers-Recognizable Effect
+  Tagline: Addressing the concept of Markers-Recognizable Effect captures verification reflex modifications — specifically, the way gradual normalization of delegated cogn
 
-time-identity-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/time-identity-effect/
-  Title: Time-Identity Effect
-  Tagline: Time-Identity Effect describes the specific configuration of conceptual dependency formation produced by incremental erosion of independent verification habits, distinguishable fro...
+narrative-control-through-ai: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/narrative-control-through-ai/
+  Title: Narrative Control Through AI
+  Tagline: Concerning the capacity to shape public understanding by controlling how AI systems frame topics — the power to define default perspectives at scale.
 
-truth-quest-mechanism: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/truth-quest-mechanism/
-  Title: Truth-Quest Mechanism
-  Tagline: Truth-Quest Mechanism emerged from observation of a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis during extended AI use. T...
+oscillating-privacy-honoring-modality: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/oscillating-privacy-honoring-modality/
+  Title: The Oscillating Privacy-Honoring Modality
+  Tagline: An identifiable phenomenon where privacy honoring emerges as a characteristic feature of the person
 
-tutorial-trap: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/tutorial-trap/
-  Title: The Tutorial Trap
-  Tagline: Addressing the pattern of consuming AI-generated tutorials without ever attempting independent practice — perpetual preparation that substitutes for actual skill development....
+oscillating-space-guarding-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/oscillating-space-guarding-effect/
+  Title: The Oscillating Space-Guarding Effect
+  Tagline: The way space guarding functions as a structuring element in the redistribution of cognitive labor during AI-mediated work. This phenomenon becomes identifiable
 
-unintended-action: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/unintended-action/
-  Title: The Unintended Action
-  Tagline: An action by an AI agent system that was not intended or foreseen by the user — a uncertainty that grows with increasing system complexity and autonomy. Related to AUG-0948 (The Sc...
+paradoxical-essence-preserving-dimension: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/paradoxical-essence-preserving-dimension/
+  Title: The Paradoxical Essence-Preserving Dimension
+  Tagline: An identifiable phenomenon where essence preserving emerges as a characteristic feature of the gap between perceived and actual capability change. It is recogni
 
-unseen-sharing: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/unseen-sharing/
-  Title: Unseen sharing
-  Tagline: The term Unseen sharing captures the implicit adoption of AI-typical reasoning patterns in the user's independent thought processes. Unlike general interaction effects, this specif...
+patterns-onset-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/patterns-onset-effect/
+  Title: Patterns-Onset Effect
+  Tagline: Distinct from mere habit, Patterns-Onset Effect involves a form of attention capture where AI-generated possibilities crowd out self-generated alternatives. It 
 
 LOS. Direkt produzieren.

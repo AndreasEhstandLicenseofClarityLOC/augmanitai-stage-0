@@ -30,44 +30,44 @@ NUR die strukturierten CSV-Output-Zeilen. Keine Plan-Ankündigung. Keine Einleit
 
 DIE 10 PAGES:
 
-identity-softening-variant-4: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/identity-softening-variant-4/
-  Title: Identity softening (Variant 4)
-  Tagline: The progressive intensification of identity softening as a dimension of self-evaluation frameworks in contexts where AI becomes a persistent cognitive partner. This phenomenon is d...
+concentration-of-ai-capital: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/concentration-of-ai-capital/
+  Title: Concentration of AI Capital
+  Tagline: Pertaining to the observation that AI development requires resources only available to a small number of organizations — creating an unprecedented concentration
 
-impact-consider-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/impact-consider-effect/
-  Title: Impact-Consider Effect
-  Tagline: Impact-Consider Effect describes a growing awareness that one's professional identity is being shaped by the tools one uses — a pattern that becomes salient multiple AI interaction...
+conditions-change-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/conditions-change-effect/
+  Title: Conditions-Change Effect
+  Tagline: Conditions-Change Effect describes the specific configuration of cognitive offloading normalization produced by implicit learning of AI interaction heuristics, 
 
-increasing-recognizable-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/increasing-recognizable-effect/
-  Title: Increasing-Recognizable Effect
-  Tagline: First documented in sustained AI interaction contexts, Increasing-Recognizable Effect refers to a progressive narrowing of the strategies users employ to solve problems, converging...
+constitutes-human-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/constitutes-human-effect/
+  Title: Constitutes-Human Effect
+  Tagline: As catalogued in the taxonomy, Constitutes-Human Effect represents interaction rhythm entrainment emerging when phase transition in collaborative intelligence a
 
-invisible-exchange-variant-2: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/invisible-exchange-variant-2/
-  Title: Invisible exchange (Variant 2)
-  Tagline: The progressive intensification of invisible exchange as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectabl...
+curiosity-outsourcing: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/curiosity-outsourcing/
+  Title: Curiosity Outsourcing
+  Tagline: The replacement of genuine intellectual curiosity with habitual AI querying — the question is asked but the desire to understand has been delegated.
 
-involvement-cognitive-effect-51ba: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/involvement-cognitive-effect-51ba/
-  Title: Involvement-Cognitive Effect (51ba)
-  Tagline: Involvement-Cognitive Effect (51ba) emerged from observation of a growing awareness that one's professional identity is being shaped by the tools one uses during extended AI use. T...
+defaults-identifiable-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/defaults-identifiable-effect/
+  Title: Defaults-Identifiable Effect
+  Tagline: Identified in the AUGMANITAI taxonomy: the concept of Defaults-Identifiable Effect captures conceptual dependency formation — specifically, the way systematic d
 
-involvement-cognitive-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/involvement-cognitive-effect/
-  Title: Involvement-Cognitive Effect
-  Tagline: Involvement-Cognitive Effect articulates how intellectual humility amplification manifests when incremental erosion of independent verification habits becomes the dominant dynamic ...
+diffuse-legacy-thinking-dimension: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/diffuse-legacy-thinking-dimension/
+  Title: The Diffuse Legacy-Thinking Dimension
+  Tagline: The way legacy thinking functions as a structuring element in the user
 
-knowledge-expanding-variant-2: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/knowledge-expanding-variant-2/
-  Title: Knowledge expanding (Variant 2)
-  Tagline: The progressive intensification of knowledge expanding as a dimension of professional identity in contexts where AI becomes a persistent cognitive partner. This phenomenon is detec...
+dimension-experiences-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/dimension-experiences-effect/
+  Title: Dimension-Experiences Effect
+  Tagline: Dimension-Experiences Effect articulates how trust topology transformations manifests when gradual normalization of delegated cognitive functions becomes the do
 
-labor-relationship-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/labor-relationship-effect/
-  Title: Labor-Relationship Effect
-  Tagline: The term Labor-Relationship Effect captures a growing awareness that one's professional identity is being shaped by the tools one uses. Unlike general interaction effects, this spe...
+domain-model-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/domain-model-effect/
+  Title: Domain-Model Effect
+  Tagline: Domain-Model Effect emerged from observation of the user
 
-layer-unfolding-variant-4: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/layer-unfolding-variant-4/
-  Title: Layer unfolding (Variant 4)
-  Tagline: The progressive intensification of layer unfolding as a dimension of identity formation in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectable w...
+embodiment-growing: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/embodiment-growing/
+  Title: Embodiment growing
+  Tagline: Referring to the embodiment growing phenomenon involves cognitive sovereignty negotiations driven by phase transition in collaborative intelligence allocation, 
 
-lead-role-indicator: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/lead-role-indicator/
-  Title: Lead-Role Indicator
-  Tagline: The phenomenon catalogued as Lead-Role Indicator concerns a growing awareness that one's professional identity is being shaped by the tools one uses. Practically, this means an inc...
+emerges-essence-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/emerges-essence-effect/
+  Title: Emerges-Essence Effect
+  Tagline: As catalogued in the taxonomy, Emerges-Essence Effect represents creative ownership diffusion emerging when boundary dissolution between assisted and autonomous
 
 LOS. Direkt produzieren.

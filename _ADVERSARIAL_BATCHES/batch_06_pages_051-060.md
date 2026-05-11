@@ -30,44 +30,44 @@ NUR die strukturierten CSV-Output-Zeilen. Keine Plan-Ankündigung. Keine Einleit
 
 DIE 10 PAGES:
 
-favorite-discovery-response: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/favorite-discovery-response/
-  Title: Favorite-Discovery Response
-  Tagline: Researchers observe Favorite-Discovery Response — a form of attention capture where AI-generated possibilities crowd out self-generated alternatives — occurring reliably AI has bee...
+cascading-space-guarding-morphology: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cascading-space-guarding-morphology/
+  Title: The Cascading Space-Guarding Morphology
+  Tagline: The way space guarding functions as a structuring element in the shifting boundaries of agency during AI-mediated work. This phenomenon becomes identifiable thr
 
-finitude-facing-variant-5: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/finitude-facing-variant-5/
-  Title: Finitude facing (Variant 5)
-  Tagline: The progressive intensification of finitude facing as a dimension of professional identity in contexts where AI becomes a persistent cognitive partner. This phenomenon is detectabl...
+central-essence-preserving-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/central-essence-preserving-effect/
+  Title: The Central Essence-Preserving Effect
+  Tagline: An identifiable phenomenon where essence preserving emerges as a characteristic feature of the social context surrounding AI use. It is recognizable through a t
 
-foundation-desensitization-pattern: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/foundation-desensitization-pattern/
-  Title: Foundation-Desensitization Pattern
-  Tagline: A progressive loss of sensation in the feet and lower extremities during extended seated AI work. Reduced blood flow from prolonged static posture combines with diminished body awa...
+central-warm-contour: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/central-warm-contour/
+  Title: The Central Warm Contour
+  Tagline: Distinct from mere habit, The Central Warm Contour involves a shift in how users distribute cognitive effort between monitoring AI and performing their own anal
 
-frequency-advisory-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/frequency-advisory-effect/
-  Title: Frequency-Advisory Effect
-  Tagline: The specific cognitive-behavioral pattern where schema restructuring during extended collaboration results in measurable changes to decision architecture. First identified through ...
+characteristic-relationship-effect-cb72: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/characteristic-relationship-effect-cb72/
+  Title: Characteristic-Relationship Effect (cb72)
+  Tagline: As catalogued in the taxonomy, Characteristic-Relationship Effect (cb72) represents intellectual humility amplification emerging when boundary dissolution betwe
 
-fusion-temp: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/fusion-temp/
-  Title: Fusion Temp
-  Tagline: The seductive possibility of merging identity with AI—fantasizing about becoming one with the intelligence, losing boundaries between self and system. The temptation reveals deep d...
+chronic-boundary-protecting-configuration: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/chronic-boundary-protecting-configuration/
+  Title: The Chronic Boundary-Protecting Configuration
+  Tagline: The observable pattern where boundary protecting shapes the architecture of attention during collaboration in ways that become increasingly distinct over repeat
 
-ghost-machine: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/ghost-machine/
-  Title: The Ghost Machine
-  Tagline: The perception of AI as a kind of "ghost machine" — something that simulates intelligence without possessing it, giving answers without understanding. Describes the fundamental nat...
+chronic-forever-asymmetry-phenomenon: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/chronic-forever-asymmetry-phenomenon/
+  Title: The Chronic Forever-Asymmetry Phenomenon
+  Tagline: A specific phenomenon in human-AI interaction where forever asymmetry becomes a salient dimension of the user
 
-give-defer-pattern: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/give-defer-pattern/
-  Title: Give-Defer Pattern
-  Tagline: Researchers observe Give-Defer Pattern — the implicit adoption of AI-typical reasoning patterns in the user's independent thought processes — occurring reliably AI has been the pri...
+chronic-glow-dynamic: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/chronic-glow-dynamic/
+  Title: The Chronic Glow Dynamic
+  Tagline: As catalogued in the taxonomy, Chronic Glow Dynamic represents intellectual scaffolding reliance emerging when attentional reallocation from process to outcome 
 
-guard-activation: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/guard-activation/
-  Title: Guard activation
-  Tagline: Researchers observe Guard activation — the implicit adoption of AI-typical reasoning patterns in the user's independent thought processes — occurring reliably AI has been the prima...
+chronic-knowledge-withholding-dynamic: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/chronic-knowledge-withholding-dynamic/
+  Title: The Chronic Knowledge-Withholding Dynamic
+  Tagline: A describable aspect of human-AI interaction in which knowledge withholding produces a recognizable experiential signature. The phenomenon is particularly visib
 
-heat-sensation-dynamic: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/heat-sensation-dynamic/
-  Title: Heat-Sensation Dynamic
-  Tagline: A localized sensation of warmth — in the face, hands, or chest — that accompanies moments of high cognitive-emotional arousal during AI interaction. When the AI produces something ...
+cognitive-preserving-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cognitive-preserving-effect/
+  Title: Cognitive-Preserving Effect
+  Tagline: Cognitive-Preserving Effect denotes the emotional response to discovering the boundaries of AI competence after a period of trust-building, most readily observe
 
-human-evolution-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/human-evolution-effect/
-  Title: Human-Evolution Effect
-  Tagline: First documented in sustained AI interaction contexts, Human-Evolution Effect refers to a growing awareness that one's professional identity is being shaped by the tools one uses. ...
+cognitive-reveals-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/cognitive-reveals-effect/
+  Title: Cognitive-Reveals Effect
+  Tagline: In prolonged AI-mediated work, cognitive-reveals effect as an interaction pattern develops via a skill degradation pattern masked by AI availability — competenc
 
 LOS. Direkt produzieren.

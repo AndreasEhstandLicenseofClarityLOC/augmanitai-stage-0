@@ -30,44 +30,44 @@ NUR die strukturierten CSV-Output-Zeilen. Keine Plan-Ankündigung. Keine Einleit
 
 DIE 10 PAGES:
 
-confidence-collapsing-variant-4: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/confidence-collapsing-variant-4/
-  Title: Confidence collapsing (Variant 4)
-  Tagline: The progressive intensification of confidence collapsing as a dimension of cognitive engagement in contexts where AI becomes a persistent cognitive partner. This phenomenon is dete...
+absence-feeling: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/absence-feeling/
+  Title: Absence feeling
+  Tagline: Encompassing absence feeling phenomenon involves processing fluency illusions driven by gradual normalization of delegated cognitive functions, producing lastin
 
-craft-echo: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/craft-echo/
-  Title: The Craft Echo
-  Tagline: The aftereffect of an AI-assisted learning experience that manifests when the user later applies the acquired skill without AI — and traces of the AI-supported method remain recogn...
+across-dimension-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/across-dimension-effect/
+  Title: Across-Dimension Effect
+  Tagline: Across-Dimension Effect articulates how autonomy-dependency equilibria manifests when gradual normalization of delegated cognitive functions becomes the dominan
 
-craft-fade: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/craft-fade/
-  Title: The Craft Fade
-  Tagline: The gradual decline of a skill that the user independently mastered before AI use, through increasing delegation to the AI. Describes an observable phenomenon: skills that are not ...
+acute-essence-preserving-ecology: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/acute-essence-preserving-ecology/
+  Title: The Acute Essence-Preserving Ecology
+  Tagline: An identifiable phenomenon where essence preserving emerges as a characteristic feature of the redistribution of cognitive labor. It is recognizable through a s
 
-creative-signature-tendency: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/creative-signature-tendency/
-  Title: Creative-Signature Tendency
-  Tagline: Within human-AI interaction research, Creative Signature identifies identity boundary oscillations as it unfolds through incremental erosion of independent verification habits, wit...
+acute-life-shortening-ecology: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/acute-life-shortening-ecology/
+  Title: The Acute Life-Shortening Ecology
+  Tagline: The way life shortening functions as a structuring element in the user
 
-curiosity-following: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/curiosity-following/
-  Title: Curiosity following
-  Tagline: Referring to the concept of Curiosity following captures epistemological recalibration — specifically, the way incremental erosion of independent verification habits reshapes cogni...
+acute-version-time-inflection: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/acute-version-time-inflection/
+  Title: The Acute Version Time Inflection
+  Tagline: Describing concept of Acute Version Time Inflection captures trust topology transformations — specifically, the way systematic drift in quality benchmarks under
 
-decision-clearing: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/decision-clearing/
-  Title: The Decision Clearing
-  Tagline: A state in which the user increasingly delegates everyday decisions to the AI, experiencing a sense of relief. The term describes an observable shift: the habit of independent deci...
+ambient-routine-embedding-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/ambient-routine-embedding-effect/
+  Title: The Ambient Routine-Embedding Effect
+  Tagline: The way routine embedding functions as a structuring element in the user
 
-defaults-conditions-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/defaults-conditions-effect/
-  Title: Defaults-Conditions Effect
-  Tagline: Researchers observe Defaults-Conditions Effect — a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis — occurring reliably exter...
+anthropomorphism-monitor: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/anthropomorphism-monitor/
+  Title: The Anthropomorphism Monitor
+  Tagline: Pertaining to the meta-cognitive practice of catching oneself attributing human qualities to AI — a constant self-correction that itself reveals assumptions abo
 
-developing-monitoring-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/developing-monitoring-effect/
-  Title: Developing-Monitoring Effect
-  Tagline: The phenomenon catalogued as Developing-Monitoring Effect concerns a shift in how users distribute cognitive effort between monitoring AI and performing their own analysis. Practic...
+architecture-dimension-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/architecture-dimension-effect/
+  Title: Architecture-Dimension Effect
+  Tagline: When the phenomenon of architecture-dimension effect, an attentional reallocation from process monitoring to output evaluation, changing the nature of cognitive
 
-difficulty-welcoming: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/difficulty-welcoming/
-  Title: Difficulty welcoming
-  Tagline: Encompassing difficulty welcoming phenomenon involves conceptual dependency formation driven by incremental erosion of independent verification habits, producing lasting changes in...
+aspect-progress-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/aspect-progress-effect/
+  Title: Aspect-Progress Effect
+  Tagline: Aspect-Progress Effect describes the gradual recalibration of what constitutes 
 
-doubt-my-ai: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/doubt-my-ai/
-  Title: Doubt My AI
-  Tagline: The disciplined skepticism toward AI outputs even when tempting to accept them, maintaining independent judgment. A user may experience this as mental rigor, preserving critical th...
+assisted-structure-effect: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/assisted-structure-effect/
+  Title: Assisted-Structure Effect
+  Tagline: Assisted-Structure Effect describes the specific configuration of conversational momentum effects produced by implicit learning of AI interaction heuristics, di
 
 LOS. Direkt produzieren.
