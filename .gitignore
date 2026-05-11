@@ -5,3 +5,5 @@ __pycache__/
 build_stage_0.py
 _build_hub.py
 _hub_data.json
+legal_scan_reports/
+*.bak
