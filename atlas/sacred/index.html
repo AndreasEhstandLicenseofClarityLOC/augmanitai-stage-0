@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>SACRED · AUGMANITAI Compendium</title>
+  <meta name='description' content='SACRED — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.'>
+  <link rel='canonical' href='https://augmanitai.com/sacred.html'>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg: #050508;
+  --surface: #0c0c14;
+  --surface2: #12121f;
+  --surface3: #1a1a2e;
+  --border: #1e1e3a;
+  --border-glow: #2a2a5a;
+  --text: #e8e8f0;
+  --text-dim: #7a7a9a;
+  --text-muted: #4a4a6a;
+  --cyan: #00e5ff;
+  --cyan-dim: rgba(0,229,255,0.08);
+  --cyan-glow: rgba(0,229,255,0.15);
+  --green: #39ff14;
+  --green-dim: rgba(57,255,20,0.08);
+  --magenta: #ff00ff;
+  --magenta-dim: rgba(255,0,255,0.06);
+  --gold: #FFD700;
+  --orange: #ff8800;
+  --red: #ff4444;
+  --blue: #6688ff;
+  --purple: #aa66ff;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(0,229,255,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(255,0,255,0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(57,255,20,0.02) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 32px;
+  backdrop-filter: blur(8px);
+}
+nav a {
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: .82em;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 6px;
+  transition: all .2s;
+}
+nav a:hover { color: var(--cyan); background: var(--cyan-dim); }
+nav .nav-sep { color: var(--text-muted); font-size: .7em; }
+
+.hero {
+  text-align: center;
+  padding: 48px 0 40px;
+  position: relative;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-glow), transparent);
+}
+.term-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--magenta-dim);
+  border: 1px solid rgba(255,0,255,0.2);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: .75em;
+  font-weight: 600;
+  color: var(--magenta);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.term-badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--magenta); animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.3; } }
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+.ipa {
+  color: var(--text-dim);
+  font-size: 1em;
+  font-style: italic;
+  font-family: 'JetBrains Mono', monospace;
+}
+.domain-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: .78em;
+  font-weight: 600;
+  background: rgba(255,215,0,0.1);
+  border: 1px solid rgba(255,215,0,0.3);
+  color: var(--gold);
+}
+
+h2 {
+  font-size: .78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin: 36px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--border), transparent);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 8px 0;
+  transition: all .3s cubic-bezier(.4,0,.2,1);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px;
+  height: 100%;
+  border-radius: 3px 0 0 3px;
+  transition: all .3s;
+}
+.card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 0 1px rgba(0,229,255,0.05);
+}
+.card:hover::before { width: 4px; }
+
+.card.def::before { background: var(--cyan); }
+.card.example::before { background: var(--orange); }
+.card.not::before { background: var(--red); }
+.card.signs::before { background: var(--green); }
+.card.internal::before { background: var(--magenta); }
+.card.coaching::before { background: var(--cyan); }
+.card.cross::before { background: var(--blue); }
+.card.gap::before { background: var(--purple); }
+.card.pitch::before { background: var(--gold); }
+.card.competitor::before { background: #ff44aa; }
+.card.mechanism::before { background: #44ffaa; }
+.card.neutral::before { background: var(--text-dim); }
+
+.card:hover.def { background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.03)); }
+.card:hover.example { background: linear-gradient(135deg, var(--surface), rgba(255,136,0,0.03)); }
+.card:hover.not { background: linear-gradient(135deg, var(--surface), rgba(255,68,68,0.03)); }
+.card:hover.signs { background: linear-gradient(135deg, var(--surface), rgba(57,255,20,0.03)); }
+.card:hover.internal { background: linear-gradient(135deg, var(--surface), rgba(255,0,255,0.03)); }
+.card:hover.pitch { background: linear-gradient(135deg, var(--surface), rgba(255,215,0,0.05)); }
+
+.card p { font-size: .92em; color: var(--text); }
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.meta-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  transition: all .2s;
+}
+.meta-card:hover { border-color: var(--border-glow); transform: translateY(-1px); }
+.meta-label {
+  font-size: .68em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.meta-value { font-size: .88em; color: var(--text); }
+
+.citation-box {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin: 12px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .82em;
+  color: var(--text-dim);
+  position: relative;
+}
+.citation-box a { color: var(--cyan); }
+.copy-btn {
+  position: absolute;
+  top: 10px; right: 10px;
+  background: var(--surface3);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: .75em;
+  cursor: pointer;
+  transition: all .2s;
+}
+.copy-btn:hover { color: var(--cyan); border-color: var(--cyan); }
+
+.disclaimer-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 28px 0;
+  font-size: .8em;
+}
+.disclaimer-toggle summary {
+  padding: 12px 18px;
+  cursor: pointer;
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: .9em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all .2s;
+}
+.disclaimer-toggle summary:hover { color: var(--text); background: rgba(255,255,255,0.02); }
+.disclaimer-toggle summary::before { content: '▸ '; font-size: .75em; transition: transform .2s; }
+.disclaimer-toggle[open] summary::before { transform: rotate(90deg); }
+.disc-content { padding: 0 18px 18px; }
+.disc-tab-row { display: flex; gap: 0; margin-bottom: 14px; border-bottom: 1px solid var(--border); }
+.disc-tab {
+  background: none; border: none;
+  color: var(--text-muted);
+  padding: 8px 18px;
+  cursor: pointer;
+  font-size: .9em;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: .06em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+.disc-tab.active { color: var(--cyan); border-bottom-color: var(--cyan); }
+.disc-tab:hover { color: var(--text-dim); }
+.disc-lang { display: none; }
+.disc-lang.active { display: block; }
+.disc-lang p { margin: 6px 0; line-height: 1.6; color: var(--text-dim); }
+.disc-lang p strong { color: var(--text); font-weight: 600; }
+.disc-footer {
+  margin-top: 14px; padding-top: 10px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .85em;
+}
+
+.status {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 28px;
+}
+.status-title {
+  font-size: .72em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+.status-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .82em;
+}
+.status-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.status-dot.ok { background: var(--green); box-shadow: 0 0 6px rgba(57,255,20,0.4); }
+.status-dot.warn { background: var(--orange); box-shadow: 0 0 6px rgba(255,136,0,0.4); }
+.status-dot.fail { background: var(--red); box-shadow: 0 0 6px rgba(255,68,68,0.4); }
+
+footer {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .75em;
+}
+footer a { color: var(--cyan); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+h2 .icon {
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+.domain-pill .star {
+  display: inline-block;
+  font-size: .9em;
+}
+
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 8px 0;
+  padding: 0;
+  transition: all .2s;
+}
+.faq-item:hover {
+  border-color: var(--border-glow);
+}
+.faq-item summary {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: var(--cyan);
+  font-weight: 500;
+  font-size: .92em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: all .2s;
+}
+.faq-item summary:hover {
+  background: rgba(0,229,255,0.03);
+}
+.faq-item summary::before {
+  content: '▸ ';
+  font-size: .8em;
+  margin-right: 8px;
+  transition: transform .2s;
+}
+.faq-item[open] summary::before {
+  transform: rotate(90deg);
+}
+.faq-body {
+  padding: 4px 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-body p { margin: 0; }
+.faq-a {
+  padding: 0 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-item[open] {
+  background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.02));
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15), inset 0 0 0 1px rgba(0,229,255,0.06);
+}
+.source-note {
+  font-size: .72em;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.distinction-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin: 12px 0;
+  transition: all .3s;
+}
+.distinction-block:hover {
+  border-color: var(--border-glow);
+  border-left-color: var(--gold);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,215,0,0.05);
+}
+.distinction-block .lang-label {
+  font-size: .68em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.distinction-block p { color: var(--text-dim); font-size: .9em; margin: 0; }
+
+.trigger-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0;
+  margin: 8px 0;
+}
+.trigger-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text);
+  font-size: .92em;
+  transition: all .2s;
+}
+.trigger-item:hover {
+  border-color: var(--border-glow);
+  background: rgba(0,229,255,0.02);
+  transform: translateX(2px);
+}
+.trigger-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: rgba(255,102,0,0.12);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--orange);
+  font-weight: 600;
+  font-size: .85em;
+  flex-shrink: 0;
+}
+
+.schema-block {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  margin: 8px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .8em;
+  color: var(--text-dim);
+  white-space: pre-wrap;
+  max-height: 220px;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--cyan);
+  z-index: 999;
+  transition: width 50ms;
+  width: 0;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.related-card {
+  display: block;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.related-card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+}
+
+.related-id {
+  font-size: .7em;
+  color: var(--text-muted);
+  display: block;
+}
+
+.related-name {
+  font-weight: 600;
+  color: var(--cyan);
+}
+
+.related-def {
+  font-size: .85em;
+  color: var(--text-dim);
+  display: block;
+  margin-top: 4px;
+}
+
+.cite-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+.cite-tab {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: .85em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+
+.cite-tab.active {
+  color: var(--cyan);
+  border-bottom-color: var(--cyan);
+}
+
+/* === STAR FIELD ANIMATION === */
+@keyframes twinkle { 0%,100% { opacity:.2; } 50% { opacity:1; } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes shimmer { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
+@keyframes glow-pulse { 0%,100% { box-shadow: 0 0 8px rgba(0,229,255,0.1); } 50% { box-shadow: 0 0 20px rgba(0,229,255,0.25); } }
+.star-field {
+  position: fixed; top:0; left:0; width:100%; height:100%;
+  pointer-events: none; z-index: 0; overflow: hidden;
+}
+.star-field .star {
+  position: absolute;
+  width: 2px; height: 2px;
+  background: #fff;
+  border-radius: 50%;
+  animation: twinkle var(--dur, 3s) ease-in-out infinite;
+  opacity: .15;
+}
+.domain-pill .star { animation: float 3s ease-in-out infinite; }
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 6s linear infinite;
+  margin-bottom: 8px;
+}
+.card:hover, .faq-item:hover, .related-card:hover, .meta-card:hover {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+@media(max-width:640px) {
+  .meta-grid { grid-template-columns: 1fr; }
+  .status-grid { grid-template-columns: 1fr; }
+  .related-grid { grid-template-columns: 1fr; }
+  h1 { font-size: 2.2em; }
+}
+  </style>
+</head>
+<body>
+  <div class='container'>
+    <header>
+      <div class='domain-pill'>
+        <span class='star'>✦</span> SACRED <span class='star'>✦</span>
+      </div>
+      <h1>SACRED</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Terms in this cluster</h2>
+        <div class='related-grid'>
+          <a href='precious-protected-space.html' class='related-card'><span class='related-id'>RPH-1801</span><span class='related-name'>Precious Protected Space</span><span class='related-def'>A user may experience precious protected space from AI reach...</span></a><a href='inviolable-boundary-inviolate.html' class='related-card'><span class='related-id'>RPH-1802</span><span class='related-name'>Inviolable Boundary (inviolate)</span><span class='related-def'>A user may experience inviolable boundary (inviolate) in pri...</span></a><a href='guarded-withheld-signal.html' class='related-card'><span class='related-id'>RPH-1803</span><span class='related-name'>Guarded-Withheld Signal</span><span class='related-def'>A user may experience guarded withheld within secrets with a...</span></a><a href='intimate-sacred-separation.html' class='related-card'><span class='related-id'>RPH-1804</span><span class='related-name'>Intimate Sacred Separation</span><span class='related-def'>A user may experience intimate sacred separation amid bounda...</span></a><a href='guarded-essence-forbidden.html' class='related-card'><span class='related-id'>RPH-1805</span><span class='related-name'>Guarded Essence (forbidden)</span><span class='related-def'>A user may experience guarded essence (forbidden) in inner l...</span></a><a href='boundary-protecting.html' class='related-card'><span class='related-id'>RPH-1806</span><span class='related-name'>Boundary protecting</span><span class='related-def'>The phenomenon catalogued as Boundary protecting concerns th...</span></a><a href='knowledge-withholding.html' class='related-card'><span class='related-id'>RPH-1807</span><span class='related-name'>Knowledge withholding</span><span class='related-def'>First documented in sustained AI interaction contexts, Knowl...</span></a><a href='space-guarding.html' class='related-card'><span class='related-id'>RPH-1808</span><span class='related-name'>Space guarding</span><span class='related-def'>Capturing the way space guarding functions as a structuring ...</span></a><a href='essence-preserving.html' class='related-card'><span class='related-id'>RPH-1809</span><span class='related-name'>Essence preserving</span><span class='related-def'>First documented in sustained AI interaction contexts, Essen...</span></a><a href='inviolability-maintaining.html' class='related-card'><span class='related-id'>RPH-1810</span><span class='related-name'>Inviolability maintaining</span><span class='related-def'>As catalogued in the taxonomy, Inviolability maintaining rep...</span></a><a href='holy-keeping.html' class='related-card'><span class='related-id'>RPH-1811</span><span class='related-name'>Holy keeping</span><span class='related-def'>Pinpointing holy keeping phenomenon involves attention alloc...</span></a><a href='taboo-respecting.html' class='related-card'><span class='related-id'>RPH-1812</span><span class='related-name'>Taboo respecting</span><span class='related-def'>Through iterative engagement with AI systems, taboo respecti...</span></a><a href='sanctity-protecting.html' class='related-card'><span class='related-id'>RPH-1813</span><span class='related-name'>Sanctity protecting</span><span class='related-def'>The way sanctity protecting functions as a structuring eleme...</span></a><a href='privacy-honoring.html' class='related-card'><span class='related-id'>RPH-1814</span><span class='related-name'>Privacy honoring</span><span class='related-def'>The phenomenon catalogued as Privacy honoring concerns the e...</span></a><a href='self-reserving.html' class='related-card'><span class='related-id'>RPH-1815</span><span class='related-name'>Self reserving</span><span class='related-def'>As catalogued in the taxonomy, Self reserving represents ide...</span></a><a href='attention-productivity-effect.html' class='related-card'><span class='related-id'>RPH-1816</span><span class='related-name'>Attention-Productivity Effect</span><span class='related-def'>Researchers observe Attention-Productivity Effect — an emerg...</span></a><a href='presents-human-effect.html' class='related-card'><span class='related-id'>RPH-1817</span><span class='related-name'>Presents-Human Effect</span><span class='related-def'>Referring to the presents-Human Effect phenomenon involves p...</span></a><a href='sequence-work-effect.html' class='related-card'><span class='related-id'>RPH-1818</span><span class='related-name'>Sequence-Work Effect</span><span class='related-def'>Sequence-Work Effect describes a form of attention capture w...</span></a><a href='redistribution-underlying-effect.html' class='related-card'><span class='related-id'>RPH-1819</span><span class='related-name'>Redistribution-Underlying Effect</span><span class='related-def'>Redistribution-Underlying Effect denotes the implicit adopti...</span></a><a href='conditions-change-effect.html' class='related-card'><span class='related-id'>RPH-1820</span><span class='related-name'>Conditions-Change Effect</span><span class='related-def'>Conditions-Change Effect describes the specific configuratio...</span></a><a href='represents-phenomena-effect.html' class='related-card'><span class='related-id'>RPH-1821</span><span class='related-name'>Represents-Phenomena Effect</span><span class='related-def'>Within human-AI interaction research, Represents-Phenomena E...</span></a><a href='across-dimension-effect.html' class='related-card'><span class='related-id'>RPH-1822</span><span class='related-name'>Across-Dimension Effect</span><span class='related-def'>Across-Dimension Effect articulates how autonomy-dependency ...</span></a><a href='initiates-work-effect.html' class='related-card'><span class='related-id'>RPH-1823</span><span class='related-name'>Initiates-Work Effect</span><span class='related-def'>Initiates-Work Effect describes the specific configuration o...</span></a><a href='evolves-feature-effect-8749.html' class='related-card'><span class='related-id'>RPH-1824</span><span class='related-name'>Evolves-Feature Effect (8749)</span><span class='related-def'>Distinct from mere habit, Evolves-Feature Effect (8749) invo...</span></a><a href='reserving-reliably-effect.html' class='related-card'><span class='related-id'>RPH-1825</span><span class='related-name'>Reserving-Reliably Effect</span><span class='related-def'>Denoting the concept of Reserving-Reliably Effect captures c...</span></a><a href='adjacent-settings-effect.html' class='related-card'><span class='related-id'>RPH-1826</span><span class='related-name'>Adjacent-Settings Effect</span><span class='related-def'>Adjacent-Settings Effect emerged from observation of the use...</span></a><a href='defaults-contexts-effect.html' class='related-card'><span class='related-id'>RPH-1827</span><span class='related-name'>Defaults-Contexts Effect</span><span class='related-def'>Identifying defaults-Contexts Effect phenomenon involves eff...</span></a><a href='element-stage-effect.html' class='related-card'><span class='related-id'>RPH-1828</span><span class='related-name'>Element-Stage Effect</span><span class='related-def'>Researchers observe Element-Stage Effect — the user's implic...</span></a><a href='cognitive-preserving-effect.html' class='related-card'><span class='related-id'>RPH-1829</span><span class='related-name'>Cognitive-Preserving Effect</span><span class='related-def'>Cognitive-Preserving Effect denotes the emotional response t...</span></a><a href='experiences-dimension-effect.html' class='related-card'><span class='related-id'>RPH-1830</span><span class='related-name'>Experiences-Dimension Effect</span><span class='related-def'>Distinct from mere habit, Experiences-Dimension Effect invol...</span></a><a href='resulting-prior-effect.html' class='related-card'><span class='related-id'>RPH-1831</span><span class='related-name'>Resulting-Prior Effect</span><span class='related-def'>Resulting-Prior Effect describes the specific configuration ...</span></a><a href='human-competence-effect.html' class='related-card'><span class='related-id'>RPH-1832</span><span class='related-name'>Human-Competence Effect</span><span class='related-def'>Human-Competence Effect describes the specific configuration...</span></a><a href='protecting-human-effect.html' class='related-card'><span class='related-id'>RPH-1833</span><span class='related-name'>Protecting-Human Effect</span><span class='related-def'>The phenomenon catalogued as Protecting-Human Effect concern...</span></a><a href='evolves-feature-effect-a484.html' class='related-card'><span class='related-id'>RPH-1834</span><span class='related-name'>Evolves-Feature Effect (a484)</span><span class='related-def'>Within human-AI interaction research, Evolves-Feature Effect...</span></a><a href='threshold-self-reserving-oscillation.html' class='related-card'><span class='related-id'>RPH-1835</span><span class='related-name'>Threshold Self-Reserving Oscillation</span><span class='related-def'>Distinct from mere habit, Threshold Self-Reserving Oscillati...</span></a><a href='state-experiential-effect.html' class='related-card'><span class='related-id'>RPH-1836</span><span class='related-name'>State-Experiential Effect</span><span class='related-def'>State-Experiential Effect articulates how expectation gradie...</span></a><a href='self-domain-effect.html' class='related-card'><span class='related-id'>RPH-1837</span><span class='related-name'>Self-Domain Effect</span><span class='related-def'>Self-Domain Effect describes the specific configuration of v...</span></a><a href='indicates-change-effect.html' class='related-card'><span class='related-id'>RPH-1838</span><span class='related-name'>Indicates-Change Effect</span><span class='related-def'>The term Indicates-Change Effect captures a progressive narr...</span></a><a href='time-awareness-effect.html' class='related-card'><span class='related-id'>RPH-1839</span><span class='related-name'>Time-Awareness Effect</span><span class='related-def'>Time-Awareness Effect describes the specific configuration o...</span></a><a href='domain-quality-effect.html' class='related-card'><span class='related-id'>RPH-1840</span><span class='related-name'>Domain-Quality Effect</span><span class='related-def'>Pinpointing domain-Quality Effect phenomenon involves autono...</span></a><a href='involvement-cognitive-effect-51ba.html' class='related-card'><span class='related-id'>RPH-1841</span><span class='related-name'>Involvement-Cognitive Effect (51ba)</span><span class='related-def'>Involvement-Cognitive Effect (51ba) emerged from observation...</span></a><a href='signature-persists-effect.html' class='related-card'><span class='related-id'>RPH-1842</span><span class='related-name'>Signature-Persists Effect</span><span class='related-def'>Within human-AI interaction research, Signature-Persists Eff...</span></a><a href='defaults-identifiable-effect.html' class='related-card'><span class='related-id'>RPH-1843</span><span class='related-name'>Defaults-Identifiable Effect</span><span class='related-def'>Identified in the AUGMANITAI taxonomy: the concept of Defaul...</span></a><a href='recognizable-reveals-effect.html' class='related-card'><span class='related-id'>RPH-1844</span><span class='related-name'>Recognizable-Reveals Effect</span><span class='related-def'>As catalogued in the taxonomy, Recognizable-Reveals Effect r...</span></a><a href='capability-perceived-effect.html' class='related-card'><span class='related-id'>RPH-1845</span><span class='related-name'>Capability-Perceived Effect</span><span class='related-def'>When capability-perceived effect in its full form, a progres...</span></a><a href='work-dominant-effect.html' class='related-card'><span class='related-id'>RPH-1846</span><span class='related-name'>Work-Dominant Effect</span><span class='related-def'>Distinct from mere habit, Work-Dominant Effect involves the ...</span></a><a href='baseline-contexts-effect.html' class='related-card'><span class='related-id'>RPH-1847</span><span class='related-name'>Baseline-Contexts Effect</span><span class='related-def'>The concept of Baseline-Contexts Effect captures conversatio...</span></a><a href='element-structures-effect.html' class='related-card'><span class='related-id'>RPH-1848</span><span class='related-name'>Element-Structures Effect</span><span class='related-def'>Within human-AI interaction research, Element-Structures Eff...</span></a><a href='emerges-essence-effect.html' class='related-card'><span class='related-id'>RPH-1849</span><span class='related-name'>Emerges-Essence Effect</span><span class='related-def'>As catalogued in the taxonomy, Emerges-Essence Effect repres...</span></a><a href='dimension-experiences-effect.html' class='related-card'><span class='related-id'>RPH-1850</span><span class='related-name'>Dimension-Experiences Effect</span><span class='related-def'>Dimension-Experiences Effect articulates how trust topology ...</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+<p>NEOMANITAI · Foundation · <a href='https://orcid.org/0009-0006-3773-7796'>Andreas Ehstand</a> · CC BY-ND 4.0</p>
+<p style='margin-top:4px;color:var(--text-muted)'>New words 4 new worlds · From court 2 code 2 compendium · Stay human</p>
+          <p style='margin-top:10px;text-align:center;font-size:.95em'><a href='/disclaimer/' style='color:var(--cyan);font-weight:600;text-decoration:underline'>&rarr; Full Disclaimer &sect;1&ndash;&sect;26 (DE + EN, bilingual)</a></p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.85em;line-height:1.5'>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice.</p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.78em;text-align:center;line-height:1.7'><a href='/impressum/'>Impressum</a> &middot; <a href='/datenschutz/'>Datenschutz</a> &middot; <a href='/disclaimer/'>Disclaimer &sect;1&ndash;&sect;26</a> &middot; <a href='/license-of-clarity/'>License of Clarity</a> &middot; <a href='/ai-transparency/'>AI-Transparency</a> &middot; <a href='/iso-conformance/'>ISO-Conformance</a> &middot; <a href='/audit/'>Audit</a> &middot; <a href='/accessibility/'>Accessibility</a> &middot; <a href='/about/'>About</a> &middot; <a href='/citation/'>Citation</a></p>
+    </footer>
+  </div>
+</body>
+</html>

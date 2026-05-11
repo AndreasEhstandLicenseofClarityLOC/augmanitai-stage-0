@@ -1,16 +1,16 @@
-# AUGMANITAI Stage-0 (1112 Phenomenological Terms)
+# AUGMANITAI Stage-0 (8842 Phenomenological Terms)
 
 **Author:** Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
 **License:** CC BY-NC-ND 4.0
 **Concept-DOI:** 10.5281/zenodo.20118267
 **Trademark:** License of Clarity (EUIPO 019206780)
 **Status:** Research preprint, living document
-**Terms:** 1112
+**Terms:** 8842
 **Date:** 2026-05-11
 
 ## Purpose
 
-Research preprint of **1112 phenomenological terms** coined by Andreas Ehstand describing
+Research preprint of **8842 phenomenological terms** coined by Andreas Ehstand describing
 contemporary human-AI and human-technology phenomena. Each term:
 
 - Has bilingual EN/DE definitions plus 10 additional language translations (FR/ES/PT/IT/NL/RU/ZH/AR/HI/TR)

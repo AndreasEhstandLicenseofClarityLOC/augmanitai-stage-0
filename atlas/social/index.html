@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>SOCIAL · AUGMANITAI Compendium</title>
+  <meta name='description' content='SOCIAL — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.'>
+  <link rel='canonical' href='https://augmanitai.com/social.html'>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg: #050508;
+  --surface: #0c0c14;
+  --surface2: #12121f;
+  --surface3: #1a1a2e;
+  --border: #1e1e3a;
+  --border-glow: #2a2a5a;
+  --text: #e8e8f0;
+  --text-dim: #7a7a9a;
+  --text-muted: #4a4a6a;
+  --cyan: #00e5ff;
+  --cyan-dim: rgba(0,229,255,0.08);
+  --cyan-glow: rgba(0,229,255,0.15);
+  --green: #39ff14;
+  --green-dim: rgba(57,255,20,0.08);
+  --magenta: #ff00ff;
+  --magenta-dim: rgba(255,0,255,0.06);
+  --gold: #FFD700;
+  --orange: #ff8800;
+  --red: #ff4444;
+  --blue: #6688ff;
+  --purple: #aa66ff;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(0,229,255,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(255,0,255,0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(57,255,20,0.02) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 32px;
+  backdrop-filter: blur(8px);
+}
+nav a {
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: .82em;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 6px;
+  transition: all .2s;
+}
+nav a:hover { color: var(--cyan); background: var(--cyan-dim); }
+nav .nav-sep { color: var(--text-muted); font-size: .7em; }
+
+.hero {
+  text-align: center;
+  padding: 48px 0 40px;
+  position: relative;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-glow), transparent);
+}
+.term-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--magenta-dim);
+  border: 1px solid rgba(255,0,255,0.2);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: .75em;
+  font-weight: 600;
+  color: var(--magenta);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.term-badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--magenta); animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.3; } }
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+.ipa {
+  color: var(--text-dim);
+  font-size: 1em;
+  font-style: italic;
+  font-family: 'JetBrains Mono', monospace;
+}
+.domain-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: .78em;
+  font-weight: 600;
+  background: rgba(255,215,0,0.1);
+  border: 1px solid rgba(255,215,0,0.3);
+  color: var(--gold);
+}
+
+h2 {
+  font-size: .78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin: 36px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--border), transparent);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 8px 0;
+  transition: all .3s cubic-bezier(.4,0,.2,1);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px;
+  height: 100%;
+  border-radius: 3px 0 0 3px;
+  transition: all .3s;
+}
+.card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 0 1px rgba(0,229,255,0.05);
+}
+.card:hover::before { width: 4px; }
+
+.card.def::before { background: var(--cyan); }
+.card.example::before { background: var(--orange); }
+.card.not::before { background: var(--red); }
+.card.signs::before { background: var(--green); }
+.card.internal::before { background: var(--magenta); }
+.card.coaching::before { background: var(--cyan); }
+.card.cross::before { background: var(--blue); }
+.card.gap::before { background: var(--purple); }
+.card.pitch::before { background: var(--gold); }
+.card.competitor::before { background: #ff44aa; }
+.card.mechanism::before { background: #44ffaa; }
+.card.neutral::before { background: var(--text-dim); }
+
+.card:hover.def { background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.03)); }
+.card:hover.example { background: linear-gradient(135deg, var(--surface), rgba(255,136,0,0.03)); }
+.card:hover.not { background: linear-gradient(135deg, var(--surface), rgba(255,68,68,0.03)); }
+.card:hover.signs { background: linear-gradient(135deg, var(--surface), rgba(57,255,20,0.03)); }
+.card:hover.internal { background: linear-gradient(135deg, var(--surface), rgba(255,0,255,0.03)); }
+.card:hover.pitch { background: linear-gradient(135deg, var(--surface), rgba(255,215,0,0.05)); }
+
+.card p { font-size: .92em; color: var(--text); }
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.meta-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  transition: all .2s;
+}
+.meta-card:hover { border-color: var(--border-glow); transform: translateY(-1px); }
+.meta-label {
+  font-size: .68em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.meta-value { font-size: .88em; color: var(--text); }
+
+.citation-box {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin: 12px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .82em;
+  color: var(--text-dim);
+  position: relative;
+}
+.citation-box a { color: var(--cyan); }
+.copy-btn {
+  position: absolute;
+  top: 10px; right: 10px;
+  background: var(--surface3);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: .75em;
+  cursor: pointer;
+  transition: all .2s;
+}
+.copy-btn:hover { color: var(--cyan); border-color: var(--cyan); }
+
+.disclaimer-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 28px 0;
+  font-size: .8em;
+}
+.disclaimer-toggle summary {
+  padding: 12px 18px;
+  cursor: pointer;
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: .9em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all .2s;
+}
+.disclaimer-toggle summary:hover { color: var(--text); background: rgba(255,255,255,0.02); }
+.disclaimer-toggle summary::before { content: '▸ '; font-size: .75em; transition: transform .2s; }
+.disclaimer-toggle[open] summary::before { transform: rotate(90deg); }
+.disc-content { padding: 0 18px 18px; }
+.disc-tab-row { display: flex; gap: 0; margin-bottom: 14px; border-bottom: 1px solid var(--border); }
+.disc-tab {
+  background: none; border: none;
+  color: var(--text-muted);
+  padding: 8px 18px;
+  cursor: pointer;
+  font-size: .9em;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: .06em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+.disc-tab.active { color: var(--cyan); border-bottom-color: var(--cyan); }
+.disc-tab:hover { color: var(--text-dim); }
+.disc-lang { display: none; }
+.disc-lang.active { display: block; }
+.disc-lang p { margin: 6px 0; line-height: 1.6; color: var(--text-dim); }
+.disc-lang p strong { color: var(--text); font-weight: 600; }
+.disc-footer {
+  margin-top: 14px; padding-top: 10px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .85em;
+}
+
+.status {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 28px;
+}
+.status-title {
+  font-size: .72em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+.status-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .82em;
+}
+.status-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.status-dot.ok { background: var(--green); box-shadow: 0 0 6px rgba(57,255,20,0.4); }
+.status-dot.warn { background: var(--orange); box-shadow: 0 0 6px rgba(255,136,0,0.4); }
+.status-dot.fail { background: var(--red); box-shadow: 0 0 6px rgba(255,68,68,0.4); }
+
+footer {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .75em;
+}
+footer a { color: var(--cyan); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+h2 .icon {
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+.domain-pill .star {
+  display: inline-block;
+  font-size: .9em;
+}
+
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 8px 0;
+  padding: 0;
+  transition: all .2s;
+}
+.faq-item:hover {
+  border-color: var(--border-glow);
+}
+.faq-item summary {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: var(--cyan);
+  font-weight: 500;
+  font-size: .92em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: all .2s;
+}
+.faq-item summary:hover {
+  background: rgba(0,229,255,0.03);
+}
+.faq-item summary::before {
+  content: '▸ ';
+  font-size: .8em;
+  margin-right: 8px;
+  transition: transform .2s;
+}
+.faq-item[open] summary::before {
+  transform: rotate(90deg);
+}
+.faq-body {
+  padding: 4px 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-body p { margin: 0; }
+.faq-a {
+  padding: 0 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-item[open] {
+  background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.02));
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15), inset 0 0 0 1px rgba(0,229,255,0.06);
+}
+.source-note {
+  font-size: .72em;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.distinction-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin: 12px 0;
+  transition: all .3s;
+}
+.distinction-block:hover {
+  border-color: var(--border-glow);
+  border-left-color: var(--gold);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,215,0,0.05);
+}
+.distinction-block .lang-label {
+  font-size: .68em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.distinction-block p { color: var(--text-dim); font-size: .9em; margin: 0; }
+
+.trigger-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0;
+  margin: 8px 0;
+}
+.trigger-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text);
+  font-size: .92em;
+  transition: all .2s;
+}
+.trigger-item:hover {
+  border-color: var(--border-glow);
+  background: rgba(0,229,255,0.02);
+  transform: translateX(2px);
+}
+.trigger-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: rgba(255,102,0,0.12);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--orange);
+  font-weight: 600;
+  font-size: .85em;
+  flex-shrink: 0;
+}
+
+.schema-block {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  margin: 8px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .8em;
+  color: var(--text-dim);
+  white-space: pre-wrap;
+  max-height: 220px;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--cyan);
+  z-index: 999;
+  transition: width 50ms;
+  width: 0;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.related-card {
+  display: block;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.related-card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+}
+
+.related-id {
+  font-size: .7em;
+  color: var(--text-muted);
+  display: block;
+}
+
+.related-name {
+  font-weight: 600;
+  color: var(--cyan);
+}
+
+.related-def {
+  font-size: .85em;
+  color: var(--text-dim);
+  display: block;
+  margin-top: 4px;
+}
+
+.cite-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+.cite-tab {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: .85em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+
+.cite-tab.active {
+  color: var(--cyan);
+  border-bottom-color: var(--cyan);
+}
+
+/* === STAR FIELD ANIMATION === */
+@keyframes twinkle { 0%,100% { opacity:.2; } 50% { opacity:1; } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes shimmer { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
+@keyframes glow-pulse { 0%,100% { box-shadow: 0 0 8px rgba(0,229,255,0.1); } 50% { box-shadow: 0 0 20px rgba(0,229,255,0.25); } }
+.star-field {
+  position: fixed; top:0; left:0; width:100%; height:100%;
+  pointer-events: none; z-index: 0; overflow: hidden;
+}
+.star-field .star {
+  position: absolute;
+  width: 2px; height: 2px;
+  background: #fff;
+  border-radius: 50%;
+  animation: twinkle var(--dur, 3s) ease-in-out infinite;
+  opacity: .15;
+}
+.domain-pill .star { animation: float 3s ease-in-out infinite; }
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 6s linear infinite;
+  margin-bottom: 8px;
+}
+.card:hover, .faq-item:hover, .related-card:hover, .meta-card:hover {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+@media(max-width:640px) {
+  .meta-grid { grid-template-columns: 1fr; }
+  .status-grid { grid-template-columns: 1fr; }
+  .related-grid { grid-template-columns: 1fr; }
+  h1 { font-size: 2.2em; }
+}
+  </style>
+</head>
+<body>
+  <div class='container'>
+    <header>
+      <div class='domain-pill'>
+        <span class='star'>✦</span> SOCIAL <span class='star'>✦</span>
+      </div>
+      <h1>SOCIAL</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Terms in this cluster</h2>
+        <div class='related-grid'>
+          <a href='compare-erosion-dynamic.html' class='related-card'><span class='related-id'>RPH-4184</span><span class='related-name'>Compare-Erosion Dynamic</span><span class='related-def'>The way compare lose functions as a structuring element in t...</span></a><a href='prefer-robot-indicator.html' class='related-card'><span class='related-id'>RPH-4185</span><span class='related-name'>Prefer-Robot Indicator</span><span class='related-def'>Prefer-Robot Indicator emerged from observation of a form of...</span></a><a href='human-friction-indicator.html' class='related-card'><span class='related-id'>RPH-4186</span><span class='related-name'>Human-Friction Indicator</span><span class='related-def'>Human-Friction Indicator describes the emotional response to...</span></a><a href='tell-human-dynamic.html' class='related-card'><span class='related-id'>RPH-4187</span><span class='related-name'>Tell-Human Dynamic</span><span class='related-def'>Researchers observe Tell-Human Dynamic — a progressive narro...</span></a><a href='longing-alone-response.html' class='related-card'><span class='related-id'>RPH-4188</span><span class='related-name'>Longing-Alone Response</span><span class='related-def'>Longing-Alone Response emerged from observation of a feedbac...</span></a><a href='reduce-pattern.html' class='related-card'><span class='related-id'>RPH-4189</span><span class='related-name'>Reduce Pattern</span><span class='related-def'>Describing way reduce pattern functions as a structuring ele...</span></a><a href='distance-grow-effect.html' class='related-card'><span class='related-id'>RPH-4190</span><span class='related-name'>Distance-Grow Effect</span><span class='related-def'>The term Distance-Grow Effect captures the user's struggle t...</span></a><a href='misunder-frequent-marker.html' class='related-card'><span class='related-id'>RPH-4191</span><span class='related-name'>Misunder-Frequent Marker</span><span class='related-def'>Distinct from mere habit, Misunder-Frequent Marker involves ...</span></a><a href='patience-shift.html' class='related-card'><span class='related-id'>RPH-4192</span><span class='related-name'>Patience Shift</span><span class='related-def'>The term Patience Shift captures an emerging tension between...</span></a><a href='human-insufficient-pattern.html' class='related-card'><span class='related-id'>RPH-4193</span><span class='related-name'>Human-Insufficient Pattern</span><span class='related-def'>Researchers observe Human-Insufficient Pattern — an emerging...</span></a><a href='preference-guilt-signal.html' class='related-card'><span class='related-id'>RPH-4194</span><span class='related-name'>Preference-Guilt Signal</span><span class='related-def'>Addressing the way preference guilt functions as a structuri...</span></a><a href='explain-effort-effect.html' class='related-card'><span class='related-id'>RPH-4195</span><span class='related-name'>Explain-Effort Effect</span><span class='related-def'>Distinct from mere habit, Explain-Effort Effect involves the...</span></a><a href='mockery-factor-indicator.html' class='related-card'><span class='related-id'>RPH-4196</span><span class='related-name'>Mockery-Factor Indicator</span><span class='related-def'>In the taxonomy, Mockery-Factor Indicator identifies a feedb...</span></a><a href='alien-affect-mechanism.html' class='related-card'><span class='related-id'>RPH-4197</span><span class='related-name'>Alien-Affect Mechanism</span><span class='related-def'>First documented in sustained AI interaction contexts, Alien...</span></a><a href='bond-shift.html' class='related-card'><span class='related-id'>RPH-4198</span><span class='related-name'>Bond Shift</span><span class='related-def'>Bond Shift articulates how creative ownership diffusion mani...</span></a><a href='integration-try-signal.html' class='related-card'><span class='related-id'>RPH-4199</span><span class='related-name'>Integration-Try Signal</span><span class='related-def'>Identified in the AUGMANITAI taxonomy: the way integration t...</span></a><a href='explanation-fail-mechanism.html' class='related-card'><span class='related-id'>RPH-4200</span><span class='related-name'>Explanation-Fail Mechanism</span><span class='related-def'>The term Explanation-Fail Mechanism captures the experience ...</span></a><a href='difference-accept-dynamic.html' class='related-card'><span class='related-id'>RPH-4201</span><span class='related-name'>Difference-Accept Dynamic</span><span class='related-def'>Within human-AI interaction research, Difference Accept iden...</span></a><a href='shared-less-marker.html' class='related-card'><span class='related-id'>RPH-301</span><span class='related-name'>Shared-Less Marker</span><span class='related-def'>An identifiable reconfiguration of social interaction modali...</span></a><a href='bridging-try-marker.html' class='related-card'><span class='related-id'>RPH-302</span><span class='related-name'>Bridging-Try Marker</span><span class='related-def'>Bridging-Try Marker denotes a form of attention capture wher...</span></a><a href='loneliness-irony-mechanism.html' class='related-card'><span class='related-id'>RPH-303</span><span class='related-name'>Loneliness-Irony Mechanism</span><span class='related-def'>Denoting the way loneliness irony functions as a structuring...</span></a><a href='advocacy-urge-marker.html' class='related-card'><span class='related-id'>RPH-304</span><span class='related-name'>Advocacy-Urge Marker</span><span class='related-def'>Distinct from mere habit, Advocacy-Urge Marker involves the ...</span></a><a href='relationship-cost-dynamic.html' class='related-card'><span class='related-id'>RPH-305</span><span class='related-name'>Relationship-Cost Dynamic</span><span class='related-def'>Relationship Cost articulates how competence perception inve...</span></a><a href='choice-conscious-phenomenon.html' class='related-card'><span class='related-id'>RPH-306</span><span class='related-name'>Choice-Conscious Phenomenon</span><span class='related-def'>First documented in sustained AI interaction contexts, Choic...</span></a><a href='reconnect-try-effect.html' class='related-card'><span class='related-id'>RPH-307</span><span class='related-name'>Reconnect-Try Effect</span><span class='related-def'>The term Reconnect-Try Effect captures the subtle restructur...</span></a><a href='/atlas/shared-reference-erosion/' class='related-card'><span class='related-id'>RPH-826</span><span class='related-name'>The Shared Reference Erosion</span><span class='related-def'>Concerning the breakdown of common knowledge bases when AI p...</span></a><a href='ai-conversation-contamination.html' class='related-card'><span class='related-id'>RPH-827</span><span class='related-name'>AI Conversation Contamination</span><span class='related-def'>Addressing the unconscious adoption of AI communication patt...</span></a><a href='/atlas/parasocial-ai-relationship/' class='related-card'><span class='related-id'>RPH-828</span><span class='related-name'>The Parasocial AI Relationship</span><span class='related-def'>Concerning the development of one-sided emotional connection...</span></a><a href='social-comparison-through-ai-proxy.html' class='related-card'><span class='related-id'>RPH-829</span><span class='related-name'>Social Comparison Through AI Proxy</span><span class='related-def'>Identified in the AUGMANITAI taxonomy: the practice of evalu...</span></a><a href='/atlas/isolation-amplifier/' class='related-card'><span class='related-id'>RPH-830</span><span class='related-name'>The Isolation Amplifier</span><span class='related-def'>The pattern where AI interaction substitutes for human conta...</span></a><a href='group-polarization-through-ai.html' class='related-card'><span class='related-id'>RPH-831</span><span class='related-name'>Group Polarization Through AI</span><span class='related-def'>The amplification of group opinion extremity when AI provide...</span></a><a href='/atlas/digital-empathy-substitution/' class='related-card'><span class='related-id'>RPH-832</span><span class='related-name'>The Digital Empathy Substitution</span><span class='related-def'>The replacement of human emotional support with AI-provided ...</span></a><a href='ai-mediated-trust-formation.html' class='related-card'><span class='related-id'>RPH-833</span><span class='related-name'>AI-Mediated Trust Formation</span><span class='related-def'>The new patterns of trust development when AI serves as inte...</span></a><a href='/atlas/conversation-quality-expectation/' class='related-card'><span class='related-id'>RPH-834</span><span class='related-name'>The Conversation Quality Expectation</span><span class='related-def'>Addressing the rising standard for human conversation after ...</span></a><a href='social-skill-displacement.html' class='related-card'><span class='related-id'>RPH-835</span><span class='related-name'>Social Skill Displacement</span><span class='related-def'>The atrophy of interpersonal skills when AI handles communic...</span></a><a href='/atlas/filter-bubble-deepening/' class='related-card'><span class='related-id'>RPH-836</span><span class='related-name'>The Filter Bubble Deepening</span><span class='related-def'>Focused on the intensification of information echo chambers ...</span></a><a href='collective-intelligence-transformation.html' class='related-card'><span class='related-id'>RPH-837</span><span class='related-name'>Collective Intelligence Transformation</span><span class='related-def'>Describing change in how groups think and decide when AI aug...</span></a><a href='/atlas/authenticity-premium/' class='related-card'><span class='related-id'>RPH-838</span><span class='related-name'>The Authenticity Premium</span><span class='related-def'>Denoting the increasing social value of demonstrably human-p...</span></a><a href='ai-as-social-lubricant.html' class='related-card'><span class='related-id'>RPH-839</span><span class='related-name'>AI as Social Lubricant</span><span class='related-def'>The use of AI to smooth social interactions — generating app...</span></a><a href='/atlas/loneliness-paradox-of-ai-connection/' class='related-card'><span class='related-id'>RPH-840</span><span class='related-name'>The Loneliness Paradox of AI Connection</span><span class='related-def'>The deepening of loneliness through AI interaction that sati...</span></a><a href='norm-negotiation-acceleration.html' class='related-card'><span class='related-id'>RPH-841</span><span class='related-name'>Norm Negotiation Acceleration</span><span class='related-def'>The rapid formation and reformation of social norms around A...</span></a><a href='/atlas/mediation-layer-problem/' class='related-card'><span class='related-id'>RPH-842</span><span class='related-name'>The Mediation Layer Problem</span><span class='related-def'>Describing interpersonal complexity when AI sits between peo...</span></a><a href='community-formation-through-ai.html' class='related-card'><span class='related-id'>RPH-843</span><span class='related-name'>Community Formation Through AI</span><span class='related-def'>The emergence of social bonds among people who share specifi...</span></a><a href='/atlas/emotional-labor-transfer/' class='related-card'><span class='related-id'>RPH-844</span><span class='related-name'>The Emotional Labor Transfer</span><span class='related-def'>The shift of emotional labor from humans to AI in customer s...</span></a><a href='algorithmic-intimacy-marker.html' class='related-card'><span class='related-id'>RPH-845</span><span class='related-name'>Algorithmic-Intimacy Marker</span><span class='related-def'>Focused on the sensation of being deeply understood by a sys...</span></a><a href='/atlas/sincerity-detection-challenge/' class='related-card'><span class='related-id'>RPH-846</span><span class='related-name'>The Sincerity Detection Challenge</span><span class='related-def'>The increasing difficulty of distinguishing genuine human co...</span></a><a href='social-capital-redistribution.html' class='related-card'><span class='related-id'>RPH-847</span><span class='related-name'>Social Capital Redistribution</span><span class='related-def'>Referring to the reshuffling of social influence when AI dem...</span></a><a href='/atlas/feedback-authenticity-question/' class='related-card'><span class='related-id'>RPH-848</span><span class='related-name'>The Feedback Authenticity Question</span><span class='related-def'>The uncertainty about whether feedback received from others ...</span></a><a href='relational-depth-regression.html' class='related-card'><span class='related-id'>RPH-849</span><span class='related-name'>Relational Depth Regression</span><span class='related-def'>Describing shallowing of human relationships when AI satisfi...</span></a><a href='/atlas/new-social-contract/' class='related-card'><span class='related-id'>RPH-850</span><span class='related-name'>The New Social Contract</span><span class='related-def'>The implicit agreement emerging about mutual AI use in socia...</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+<p>NEOMANITAI · Foundation · <a href='https://orcid.org/0009-0006-3773-7796'>Andreas Ehstand</a> · CC BY-ND 4.0</p>
+<p style='margin-top:4px;color:var(--text-muted)'>New words 4 new worlds · From court 2 code 2 compendium · Stay human</p>
+          <p style='margin-top:10px;text-align:center;font-size:.95em'><a href='/disclaimer/' style='color:var(--cyan);font-weight:600;text-decoration:underline'>&rarr; Full Disclaimer &sect;1&ndash;&sect;26 (DE + EN, bilingual)</a></p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.85em;line-height:1.5'>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice.</p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.78em;text-align:center;line-height:1.7'><a href='/impressum/'>Impressum</a> &middot; <a href='/datenschutz/'>Datenschutz</a> &middot; <a href='/disclaimer/'>Disclaimer &sect;1&ndash;&sect;26</a> &middot; <a href='/license-of-clarity/'>License of Clarity</a> &middot; <a href='/ai-transparency/'>AI-Transparency</a> &middot; <a href='/iso-conformance/'>ISO-Conformance</a> &middot; <a href='/audit/'>Audit</a> &middot; <a href='/accessibility/'>Accessibility</a> &middot; <a href='/about/'>About</a> &middot; <a href='/citation/'>Citation</a></p>
+    </footer>
+  </div>
+</body>
+</html>

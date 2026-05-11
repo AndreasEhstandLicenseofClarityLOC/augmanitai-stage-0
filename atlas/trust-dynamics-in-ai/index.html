@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Trust Dynamics in AI · AUGMANITAI Compendium</title>
+  <meta name='description' content='Trust Dynamics in AI — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.'>
+  <link rel='canonical' href='https://augmanitai.com/trust-dynamics-in-ai.html'>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg: #050508;
+  --surface: #0c0c14;
+  --surface2: #12121f;
+  --surface3: #1a1a2e;
+  --border: #1e1e3a;
+  --border-glow: #2a2a5a;
+  --text: #e8e8f0;
+  --text-dim: #7a7a9a;
+  --text-muted: #4a4a6a;
+  --cyan: #00e5ff;
+  --cyan-dim: rgba(0,229,255,0.08);
+  --cyan-glow: rgba(0,229,255,0.15);
+  --green: #39ff14;
+  --green-dim: rgba(57,255,20,0.08);
+  --magenta: #ff00ff;
+  --magenta-dim: rgba(255,0,255,0.06);
+  --gold: #FFD700;
+  --orange: #ff8800;
+  --red: #ff4444;
+  --blue: #6688ff;
+  --purple: #aa66ff;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(0,229,255,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(255,0,255,0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(57,255,20,0.02) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 32px;
+  backdrop-filter: blur(8px);
+}
+nav a {
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: .82em;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 6px;
+  transition: all .2s;
+}
+nav a:hover { color: var(--cyan); background: var(--cyan-dim); }
+nav .nav-sep { color: var(--text-muted); font-size: .7em; }
+
+.hero {
+  text-align: center;
+  padding: 48px 0 40px;
+  position: relative;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-glow), transparent);
+}
+.term-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--magenta-dim);
+  border: 1px solid rgba(255,0,255,0.2);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: .75em;
+  font-weight: 600;
+  color: var(--magenta);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.term-badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--magenta); animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.3; } }
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+.ipa {
+  color: var(--text-dim);
+  font-size: 1em;
+  font-style: italic;
+  font-family: 'JetBrains Mono', monospace;
+}
+.domain-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: .78em;
+  font-weight: 600;
+  background: rgba(255,215,0,0.1);
+  border: 1px solid rgba(255,215,0,0.3);
+  color: var(--gold);
+}
+
+h2 {
+  font-size: .78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin: 36px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--border), transparent);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 8px 0;
+  transition: all .3s cubic-bezier(.4,0,.2,1);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px;
+  height: 100%;
+  border-radius: 3px 0 0 3px;
+  transition: all .3s;
+}
+.card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 0 1px rgba(0,229,255,0.05);
+}
+.card:hover::before { width: 4px; }
+
+.card.def::before { background: var(--cyan); }
+.card.example::before { background: var(--orange); }
+.card.not::before { background: var(--red); }
+.card.signs::before { background: var(--green); }
+.card.internal::before { background: var(--magenta); }
+.card.coaching::before { background: var(--cyan); }
+.card.cross::before { background: var(--blue); }
+.card.gap::before { background: var(--purple); }
+.card.pitch::before { background: var(--gold); }
+.card.competitor::before { background: #ff44aa; }
+.card.mechanism::before { background: #44ffaa; }
+.card.neutral::before { background: var(--text-dim); }
+
+.card:hover.def { background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.03)); }
+.card:hover.example { background: linear-gradient(135deg, var(--surface), rgba(255,136,0,0.03)); }
+.card:hover.not { background: linear-gradient(135deg, var(--surface), rgba(255,68,68,0.03)); }
+.card:hover.signs { background: linear-gradient(135deg, var(--surface), rgba(57,255,20,0.03)); }
+.card:hover.internal { background: linear-gradient(135deg, var(--surface), rgba(255,0,255,0.03)); }
+.card:hover.pitch { background: linear-gradient(135deg, var(--surface), rgba(255,215,0,0.05)); }
+
+.card p { font-size: .92em; color: var(--text); }
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.meta-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  transition: all .2s;
+}
+.meta-card:hover { border-color: var(--border-glow); transform: translateY(-1px); }
+.meta-label {
+  font-size: .68em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.meta-value { font-size: .88em; color: var(--text); }
+
+.citation-box {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin: 12px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .82em;
+  color: var(--text-dim);
+  position: relative;
+}
+.citation-box a { color: var(--cyan); }
+.copy-btn {
+  position: absolute;
+  top: 10px; right: 10px;
+  background: var(--surface3);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: .75em;
+  cursor: pointer;
+  transition: all .2s;
+}
+.copy-btn:hover { color: var(--cyan); border-color: var(--cyan); }
+
+.disclaimer-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 28px 0;
+  font-size: .8em;
+}
+.disclaimer-toggle summary {
+  padding: 12px 18px;
+  cursor: pointer;
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: .9em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all .2s;
+}
+.disclaimer-toggle summary:hover { color: var(--text); background: rgba(255,255,255,0.02); }
+.disclaimer-toggle summary::before { content: '▸ '; font-size: .75em; transition: transform .2s; }
+.disclaimer-toggle[open] summary::before { transform: rotate(90deg); }
+.disc-content { padding: 0 18px 18px; }
+.disc-tab-row { display: flex; gap: 0; margin-bottom: 14px; border-bottom: 1px solid var(--border); }
+.disc-tab {
+  background: none; border: none;
+  color: var(--text-muted);
+  padding: 8px 18px;
+  cursor: pointer;
+  font-size: .9em;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: .06em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+.disc-tab.active { color: var(--cyan); border-bottom-color: var(--cyan); }
+.disc-tab:hover { color: var(--text-dim); }
+.disc-lang { display: none; }
+.disc-lang.active { display: block; }
+.disc-lang p { margin: 6px 0; line-height: 1.6; color: var(--text-dim); }
+.disc-lang p strong { color: var(--text); font-weight: 600; }
+.disc-footer {
+  margin-top: 14px; padding-top: 10px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .85em;
+}
+
+.status {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 28px;
+}
+.status-title {
+  font-size: .72em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+.status-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .82em;
+}
+.status-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.status-dot.ok { background: var(--green); box-shadow: 0 0 6px rgba(57,255,20,0.4); }
+.status-dot.warn { background: var(--orange); box-shadow: 0 0 6px rgba(255,136,0,0.4); }
+.status-dot.fail { background: var(--red); box-shadow: 0 0 6px rgba(255,68,68,0.4); }
+
+footer {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .75em;
+}
+footer a { color: var(--cyan); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+h2 .icon {
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+.domain-pill .star {
+  display: inline-block;
+  font-size: .9em;
+}
+
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 8px 0;
+  padding: 0;
+  transition: all .2s;
+}
+.faq-item:hover {
+  border-color: var(--border-glow);
+}
+.faq-item summary {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: var(--cyan);
+  font-weight: 500;
+  font-size: .92em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: all .2s;
+}
+.faq-item summary:hover {
+  background: rgba(0,229,255,0.03);
+}
+.faq-item summary::before {
+  content: '▸ ';
+  font-size: .8em;
+  margin-right: 8px;
+  transition: transform .2s;
+}
+.faq-item[open] summary::before {
+  transform: rotate(90deg);
+}
+.faq-body {
+  padding: 4px 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-body p { margin: 0; }
+.faq-a {
+  padding: 0 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-item[open] {
+  background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.02));
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15), inset 0 0 0 1px rgba(0,229,255,0.06);
+}
+.source-note {
+  font-size: .72em;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.distinction-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin: 12px 0;
+  transition: all .3s;
+}
+.distinction-block:hover {
+  border-color: var(--border-glow);
+  border-left-color: var(--gold);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,215,0,0.05);
+}
+.distinction-block .lang-label {
+  font-size: .68em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.distinction-block p { color: var(--text-dim); font-size: .9em; margin: 0; }
+
+.trigger-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0;
+  margin: 8px 0;
+}
+.trigger-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text);
+  font-size: .92em;
+  transition: all .2s;
+}
+.trigger-item:hover {
+  border-color: var(--border-glow);
+  background: rgba(0,229,255,0.02);
+  transform: translateX(2px);
+}
+.trigger-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: rgba(255,102,0,0.12);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--orange);
+  font-weight: 600;
+  font-size: .85em;
+  flex-shrink: 0;
+}
+
+.schema-block {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  margin: 8px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .8em;
+  color: var(--text-dim);
+  white-space: pre-wrap;
+  max-height: 220px;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--cyan);
+  z-index: 999;
+  transition: width 50ms;
+  width: 0;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.related-card {
+  display: block;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.related-card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+}
+
+.related-id {
+  font-size: .7em;
+  color: var(--text-muted);
+  display: block;
+}
+
+.related-name {
+  font-weight: 600;
+  color: var(--cyan);
+}
+
+.related-def {
+  font-size: .85em;
+  color: var(--text-dim);
+  display: block;
+  margin-top: 4px;
+}
+
+.cite-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+.cite-tab {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: .85em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+
+.cite-tab.active {
+  color: var(--cyan);
+  border-bottom-color: var(--cyan);
+}
+
+/* === STAR FIELD ANIMATION === */
+@keyframes twinkle { 0%,100% { opacity:.2; } 50% { opacity:1; } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes shimmer { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
+@keyframes glow-pulse { 0%,100% { box-shadow: 0 0 8px rgba(0,229,255,0.1); } 50% { box-shadow: 0 0 20px rgba(0,229,255,0.25); } }
+.star-field {
+  position: fixed; top:0; left:0; width:100%; height:100%;
+  pointer-events: none; z-index: 0; overflow: hidden;
+}
+.star-field .star {
+  position: absolute;
+  width: 2px; height: 2px;
+  background: #fff;
+  border-radius: 50%;
+  animation: twinkle var(--dur, 3s) ease-in-out infinite;
+  opacity: .15;
+}
+.domain-pill .star { animation: float 3s ease-in-out infinite; }
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 6s linear infinite;
+  margin-bottom: 8px;
+}
+.card:hover, .faq-item:hover, .related-card:hover, .meta-card:hover {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+@media(max-width:640px) {
+  .meta-grid { grid-template-columns: 1fr; }
+  .status-grid { grid-template-columns: 1fr; }
+  .related-grid { grid-template-columns: 1fr; }
+  h1 { font-size: 2.2em; }
+}
+  </style>
+</head>
+<body>
+  <div class='container'>
+    <header>
+      <div class='domain-pill'>
+        <span class='star'>✦</span> Trust Dynamics in AI <span class='star'>✦</span>
+      </div>
+      <h1>Trust Dynamics in AI</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Terms in this cluster</h2>
+        <div class='related-grid'>
+          <a href='over-trust-dynamic.html' class='related-card'><span class='related-id'>RPH-4202</span><span class='related-name'>Over-Trust Dynamic</span><span class='related-def'>Describing way over trust functions as a structuring element...</span></a><a href='trust-interruption-mechanism.html' class='related-card'><span class='related-id'>RPH-4203</span><span class='related-name'>Trust-Interruption Mechanism</span><span class='related-def'>In the taxonomy, Trust-Interruption Mechanism identifies the...</span></a><a href='safe-bet-signal.html' class='related-card'><span class='related-id'>RPH-4204</span><span class='related-name'>Safe-Bet Signal</span><span class='related-def'>Researchers observe Safe-Bet Signal — the user's struggle to...</span></a><a href='verify-loop.html' class='related-card'><span class='related-id'>RPH-4205</span><span class='related-name'>Verify Loop</span><span class='related-def'>Over successive interaction cycles, verify loop as an intera...</span></a><a href='faith-formation-phenomenon.html' class='related-card'><span class='related-id'>RPH-4206</span><span class='related-name'>Faith-Formation Phenomenon</span><span class='related-def'>Faith-Formation Phenomenon describes a shift in how users di...</span></a><a href='doubt-spiral-mechanism.html' class='related-card'><span class='related-id'>RPH-4207</span><span class='related-name'>Doubt-Spiral Mechanism</span><span class='related-def'>Denoting the way doubt spiral functions as a structuring ele...</span></a><a href='blind-trust-phenomenon.html' class='related-card'><span class='related-id'>RPH-4208</span><span class='related-name'>Blind-Trust Phenomenon</span><span class='related-def'>The term Blind-Trust Phenomenon captures the user's struggle...</span></a><a href='trust-anchor-mechanism.html' class='related-card'><span class='related-id'>RPH-4209</span><span class='related-name'>Trust-Anchor Mechanism</span><span class='related-def'>The phenomenon catalogued as Trust-Anchor Mechanism concerns...</span></a><a href='calibrate-trust-effect.html' class='related-card'><span class='related-id'>RPH-101</span><span class='related-name'>Calibrate-Trust Effect</span><span class='related-def'>Calibrate-Trust Effect denotes an evolving relationship betw...</span></a><a href='trust-velocity-marker.html' class='related-card'><span class='related-id'>RPH-102</span><span class='related-name'>Trust-Velocity Marker</span><span class='related-def'>Trust Speed articulates how expectation gradient distortions...</span></a><a href='betrayal-trace-indicator.html' class='related-card'><span class='related-id'>RPH-103</span><span class='related-name'>Betrayal-Trace Indicator</span><span class='related-def'>Referring to the way betrayal trace functions as a structuri...</span></a><a href='whisper-doubt-marker.html' class='related-card'><span class='related-id'>RPH-104</span><span class='related-name'>Whisper-Doubt Marker</span><span class='related-def'>Whisper-Doubt Marker describes the gradual recalibration of ...</span></a><a href='verify-tax-signal.html' class='related-card'><span class='related-id'>RPH-105</span><span class='related-name'>Verify-Tax Signal</span><span class='related-def'>As catalogued in the taxonomy, Verify Tax represents social ...</span></a><a href='system-trust-phenomenon.html' class='related-card'><span class='related-id'>RPH-106</span><span class='related-name'>System-Trust Phenomenon</span><span class='related-def'>Referring to the concept of System Trust captures delegation...</span></a><a href='retrospective-anticipation-phenomenon.html' class='related-card'><span class='related-id'>RPH-107</span><span class='related-name'>Retrospective-Anticipation Phenomenon</span><span class='related-def'>Distinct from mere habit, Retrospective-Anticipation Phenome...</span></a><a href='trap-aware-pattern.html' class='related-card'><span class='related-id'>RPH-108</span><span class='related-name'>Trap-Aware Pattern</span><span class='related-def'>The way trap aware functions as a structuring element in the...</span></a><a href='context-trust-tendency.html' class='related-card'><span class='related-id'>RPH-109</span><span class='related-name'>Context-Trust Tendency</span><span class='related-def'>Context-Trust Tendency denotes a progressive narrowing of th...</span></a><a href='limit-know-effect.html' class='related-card'><span class='related-id'>RPH-110</span><span class='related-name'>Limit-Know Effect</span><span class='related-def'>Limit-Know Effect describes the user's developing intuition ...</span></a><a href='consistency-prize-response.html' class='related-card'><span class='related-id'>RPH-111</span><span class='related-name'>Consistency-Prize Response</span><span class='related-def'>Researchers observe Consistency-Prize Response — the user's ...</span></a><a href='mystery-remain-tendency.html' class='related-card'><span class='related-id'>RPH-112</span><span class='related-name'>Mystery-Remain Tendency</span><span class='related-def'>The term Mystery-Remain Tendency captures a progressive narr...</span></a><a href='faith-leap-mechanism.html' class='related-card'><span class='related-id'>RPH-558</span><span class='related-name'>Faith-Leap Mechanism</span><span class='related-def'>Identified in the AUGMANITAI taxonomy: the way faith leap fu...</span></a><a href='factor-assessment-signal.html' class='related-card'><span class='related-id'>RPH-559</span><span class='related-name'>Factor-Assessment Signal</span><span class='related-def'>In the taxonomy, Factor-Assessment Signal identifies the sub...</span></a><a href='safety-net-indicator.html' class='related-card'><span class='related-id'>RPH-560</span><span class='related-name'>Safety-Net Indicator</span><span class='related-def'>The phenomenon catalogued as Safety-Net Indicator concerns t...</span></a><a href='protection-seek-effect.html' class='related-card'><span class='related-id'>RPH-561</span><span class='related-name'>Protection-Seek Effect</span><span class='related-def'>Protection-Seek Effect describes the subtle restructuring of...</span></a><a href='confidence-restore-pattern.html' class='related-card'><span class='related-id'>RPH-562</span><span class='related-name'>Confidence-Restore Pattern</span><span class='related-def'>First documented in sustained AI interaction contexts, Confi...</span></a><a href='/atlas/initial-trust-calibration/' class='related-card'><span class='related-id'>RPH-563</span><span class='related-name'>The Initial Trust Calibration</span><span class='related-def'>Concerning the process of establishing an appropriate trust ...</span></a><a href='trust-erosion-after-failure.html' class='related-card'><span class='related-id'>RPH-564</span><span class='related-name'>Trust Erosion After Failure</span><span class='related-def'>The disproportionate loss of trust following a single AI fai...</span></a><a href='/atlas/anthropomorphic-trust-transfer/' class='related-card'><span class='related-id'>RPH-565</span><span class='related-name'>The Anthropomorphic Trust Transfer</span><span class='related-def'>The unconscious application of human trust heuristics to AI ...</span></a><a href='selective-trust-patterns.html' class='related-card'><span class='related-id'>RPH-566</span><span class='related-name'>Selective Trust Patterns</span><span class='related-def'>Concerning the domain-specific variation in AI trust — trust...</span></a><a href='/atlas/verification-dilemma/' class='related-card'><span class='related-id'>RPH-567</span><span class='related-name'>The Verification Dilemma</span><span class='related-def'>The paradox that verifying AI output requires the expertise ...</span></a><a href='automation-complacency-pattern.html' class='related-card'><span class='related-id'>RPH-568</span><span class='related-name'>Automation-Complacency Pattern</span><span class='related-def'>The gradual relaxation of oversight as AI consistently perfo...</span></a><a href='trust-dependency-continuum.html' class='related-card'><span class='related-id'>RPH-569</span><span class='related-name'>Trust-Dependency Continuum</span><span class='related-def'>Addressing the gradual transition from healthy trust to prob...</span></a><a href='cross-system-trust-variation.html' class='related-card'><span class='related-id'>RPH-570</span><span class='related-name'>Cross-System Trust Variation</span><span class='related-def'>The different trust levels developed for different AI system...</span></a><a href='error-tone-effect.html' class='related-card'><span class='related-id'>RPH-571</span><span class='related-name'>Error-Tone Effect</span><span class='related-def'>The error of treating AI's confident tone as evidence of acc...</span></a><a href='betrayal-aversion-in-ai.html' class='related-card'><span class='related-id'>RPH-572</span><span class='related-name'>Betrayal Aversion in AI</span><span class='related-def'>The heightened sensitivity to AI failures that feel like bet...</span></a><a href='inadequacy-observation-effect.html' class='related-card'><span class='related-id'>RPH-573</span><span class='related-name'>Inadequacy-Observation Effect</span><span class='related-def'>Identified in the AUGMANITAI taxonomy: the observation that ...</span></a><a href='institutional-trust-transfer.html' class='related-card'><span class='related-id'>RPH-574</span><span class='related-name'>Institutional Trust Transfer</span><span class='related-def'>Referring to the transfer of trust from the developing organ...</span></a><a href='/atlas/reliability-illusion/' class='related-card'><span class='related-id'>RPH-575</span><span class='related-name'>The Reliability Illusion</span><span class='related-def'>The false sense of AI dependability created by consistent pe...</span></a><a href='trust-calibration-through-stress-testing.html' class='related-card'><span class='related-id'>RPH-4210</span><span class='related-name'>Trust Calibration Through Stress Testing</span><span class='related-def'>Denoting the practice of deliberately challenging AI with di...</span></a><a href='/atlas/update-trust-reset/' class='related-card'><span class='related-id'>RPH-4211</span><span class='related-name'>The Update Trust Reset</span><span class='related-def'>Referring to the disruption of established trust when AI sys...</span></a><a href='delegated-trust-chains.html' class='related-card'><span class='related-id'>RPH-4212</span><span class='related-name'>Delegated Trust Chains</span><span class='related-def'>Addressing the extension of trust when AI recommendations le...</span></a><a href='/atlas/trust-asymmetry/' class='related-card'><span class='related-id'>RPH-4213</span><span class='related-name'>The Trust Asymmetry</span><span class='related-def'>The fundamental imbalance that AI cannot trust or distrust u...</span></a><a href='experiential-trust-accumulation.html' class='related-card'><span class='related-id'>RPH-4214</span><span class='related-name'>Experiential Trust Accumulation</span><span class='related-def'>Capturing the slow building of trust through repeated positi...</span></a><a href='/atlas/trust-transfer-to-human-proxies/' class='related-card'><span class='related-id'>RPH-4215</span><span class='related-name'>The Trust Transfer to Human Proxies</span><span class='related-def'>The pattern of trusting humans who endorse specific AI syste...</span></a><a href='contextual-trust-boundaries.html' class='related-card'><span class='related-id'>RPH-4216</span><span class='related-name'>Contextual Trust Boundaries</span><span class='related-def'>Focused on the practice of maintaining different trust level...</span></a><a href='/atlas/sycophancy-detection-skill/' class='related-card'><span class='related-id'>RPH-4217</span><span class='related-name'>The Sycophancy Detection Skill</span><span class='related-def'>The learned ability to distinguish genuine AI agreement from...</span></a><a href='trust-regression-under-stress.html' class='related-card'><span class='related-id'>RPH-4218</span><span class='related-name'>Trust Regression Under Stress</span><span class='related-def'>The rapid collapse of AI trust during high-stakes situations...</span></a><a href='/atlas/earned-trust-threshold/' class='related-card'><span class='related-id'>RPH-4219</span><span class='related-name'>The Earned Trust Threshold</span><span class='related-def'>Addressing the minimum number of positive interactions requi...</span></a><a href='philosophical-trust-resistance.html' class='related-card'><span class='related-id'>RPH-4220</span><span class='related-name'>Philosophical Trust Resistance</span><span class='related-def'>Identified in the AUGMANITAI taxonomy: the principled refusa...</span></a><a href='second-excessive-effect.html' class='related-card'><span class='related-id'>RPH-4221</span><span class='related-name'>Second-Excessive Effect</span><span class='related-def'>The overcorrection that follows a trust violation — moving f...</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+<p>NEOMANITAI · Foundation · <a href='https://orcid.org/0009-0006-3773-7796'>Andreas Ehstand</a> · CC BY-ND 4.0</p>
+<p style='margin-top:4px;color:var(--text-muted)'>New words 4 new worlds · From court 2 code 2 compendium · Stay human</p>
+          <p style='margin-top:10px;text-align:center;font-size:.95em'><a href='/disclaimer/' style='color:var(--cyan);font-weight:600;text-decoration:underline'>&rarr; Full Disclaimer &sect;1&ndash;&sect;26 (DE + EN, bilingual)</a></p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.85em;line-height:1.5'>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice.</p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.78em;text-align:center;line-height:1.7'><a href='/impressum/'>Impressum</a> &middot; <a href='/datenschutz/'>Datenschutz</a> &middot; <a href='/disclaimer/'>Disclaimer &sect;1&ndash;&sect;26</a> &middot; <a href='/license-of-clarity/'>License of Clarity</a> &middot; <a href='/ai-transparency/'>AI-Transparency</a> &middot; <a href='/iso-conformance/'>ISO-Conformance</a> &middot; <a href='/audit/'>Audit</a> &middot; <a href='/accessibility/'>Accessibility</a> &middot; <a href='/about/'>About</a> &middot; <a href='/citation/'>Citation</a></p>
+    </footer>
+  </div>
+</body>
+</html>

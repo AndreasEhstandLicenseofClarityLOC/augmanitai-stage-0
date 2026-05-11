@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>LEARN · AUGMANITAI Compendium</title>
+  <meta name='description' content='LEARN — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.'>
+  <link rel='canonical' href='https://augmanitai.com/learn.html'>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg: #050508;
+  --surface: #0c0c14;
+  --surface2: #12121f;
+  --surface3: #1a1a2e;
+  --border: #1e1e3a;
+  --border-glow: #2a2a5a;
+  --text: #e8e8f0;
+  --text-dim: #7a7a9a;
+  --text-muted: #4a4a6a;
+  --cyan: #00e5ff;
+  --cyan-dim: rgba(0,229,255,0.08);
+  --cyan-glow: rgba(0,229,255,0.15);
+  --green: #39ff14;
+  --green-dim: rgba(57,255,20,0.08);
+  --magenta: #ff00ff;
+  --magenta-dim: rgba(255,0,255,0.06);
+  --gold: #FFD700;
+  --orange: #ff8800;
+  --red: #ff4444;
+  --blue: #6688ff;
+  --purple: #aa66ff;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(0,229,255,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(255,0,255,0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(57,255,20,0.02) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 32px;
+  backdrop-filter: blur(8px);
+}
+nav a {
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: .82em;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 6px;
+  transition: all .2s;
+}
+nav a:hover { color: var(--cyan); background: var(--cyan-dim); }
+nav .nav-sep { color: var(--text-muted); font-size: .7em; }
+
+.hero {
+  text-align: center;
+  padding: 48px 0 40px;
+  position: relative;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-glow), transparent);
+}
+.term-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--magenta-dim);
+  border: 1px solid rgba(255,0,255,0.2);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: .75em;
+  font-weight: 600;
+  color: var(--magenta);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.term-badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--magenta); animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.3; } }
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+.ipa {
+  color: var(--text-dim);
+  font-size: 1em;
+  font-style: italic;
+  font-family: 'JetBrains Mono', monospace;
+}
+.domain-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: .78em;
+  font-weight: 600;
+  background: rgba(255,215,0,0.1);
+  border: 1px solid rgba(255,215,0,0.3);
+  color: var(--gold);
+}
+
+h2 {
+  font-size: .78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin: 36px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--border), transparent);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 8px 0;
+  transition: all .3s cubic-bezier(.4,0,.2,1);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px;
+  height: 100%;
+  border-radius: 3px 0 0 3px;
+  transition: all .3s;
+}
+.card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 0 1px rgba(0,229,255,0.05);
+}
+.card:hover::before { width: 4px; }
+
+.card.def::before { background: var(--cyan); }
+.card.example::before { background: var(--orange); }
+.card.not::before { background: var(--red); }
+.card.signs::before { background: var(--green); }
+.card.internal::before { background: var(--magenta); }
+.card.coaching::before { background: var(--cyan); }
+.card.cross::before { background: var(--blue); }
+.card.gap::before { background: var(--purple); }
+.card.pitch::before { background: var(--gold); }
+.card.competitor::before { background: #ff44aa; }
+.card.mechanism::before { background: #44ffaa; }
+.card.neutral::before { background: var(--text-dim); }
+
+.card:hover.def { background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.03)); }
+.card:hover.example { background: linear-gradient(135deg, var(--surface), rgba(255,136,0,0.03)); }
+.card:hover.not { background: linear-gradient(135deg, var(--surface), rgba(255,68,68,0.03)); }
+.card:hover.signs { background: linear-gradient(135deg, var(--surface), rgba(57,255,20,0.03)); }
+.card:hover.internal { background: linear-gradient(135deg, var(--surface), rgba(255,0,255,0.03)); }
+.card:hover.pitch { background: linear-gradient(135deg, var(--surface), rgba(255,215,0,0.05)); }
+
+.card p { font-size: .92em; color: var(--text); }
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.meta-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  transition: all .2s;
+}
+.meta-card:hover { border-color: var(--border-glow); transform: translateY(-1px); }
+.meta-label {
+  font-size: .68em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.meta-value { font-size: .88em; color: var(--text); }
+
+.citation-box {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin: 12px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .82em;
+  color: var(--text-dim);
+  position: relative;
+}
+.citation-box a { color: var(--cyan); }
+.copy-btn {
+  position: absolute;
+  top: 10px; right: 10px;
+  background: var(--surface3);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: .75em;
+  cursor: pointer;
+  transition: all .2s;
+}
+.copy-btn:hover { color: var(--cyan); border-color: var(--cyan); }
+
+.disclaimer-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 28px 0;
+  font-size: .8em;
+}
+.disclaimer-toggle summary {
+  padding: 12px 18px;
+  cursor: pointer;
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: .9em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all .2s;
+}
+.disclaimer-toggle summary:hover { color: var(--text); background: rgba(255,255,255,0.02); }
+.disclaimer-toggle summary::before { content: '▸ '; font-size: .75em; transition: transform .2s; }
+.disclaimer-toggle[open] summary::before { transform: rotate(90deg); }
+.disc-content { padding: 0 18px 18px; }
+.disc-tab-row { display: flex; gap: 0; margin-bottom: 14px; border-bottom: 1px solid var(--border); }
+.disc-tab {
+  background: none; border: none;
+  color: var(--text-muted);
+  padding: 8px 18px;
+  cursor: pointer;
+  font-size: .9em;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: .06em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+.disc-tab.active { color: var(--cyan); border-bottom-color: var(--cyan); }
+.disc-tab:hover { color: var(--text-dim); }
+.disc-lang { display: none; }
+.disc-lang.active { display: block; }
+.disc-lang p { margin: 6px 0; line-height: 1.6; color: var(--text-dim); }
+.disc-lang p strong { color: var(--text); font-weight: 600; }
+.disc-footer {
+  margin-top: 14px; padding-top: 10px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .85em;
+}
+
+.status {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 28px;
+}
+.status-title {
+  font-size: .72em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+.status-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .82em;
+}
+.status-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.status-dot.ok { background: var(--green); box-shadow: 0 0 6px rgba(57,255,20,0.4); }
+.status-dot.warn { background: var(--orange); box-shadow: 0 0 6px rgba(255,136,0,0.4); }
+.status-dot.fail { background: var(--red); box-shadow: 0 0 6px rgba(255,68,68,0.4); }
+
+footer {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .75em;
+}
+footer a { color: var(--cyan); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+h2 .icon {
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+.domain-pill .star {
+  display: inline-block;
+  font-size: .9em;
+}
+
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 8px 0;
+  padding: 0;
+  transition: all .2s;
+}
+.faq-item:hover {
+  border-color: var(--border-glow);
+}
+.faq-item summary {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: var(--cyan);
+  font-weight: 500;
+  font-size: .92em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: all .2s;
+}
+.faq-item summary:hover {
+  background: rgba(0,229,255,0.03);
+}
+.faq-item summary::before {
+  content: '▸ ';
+  font-size: .8em;
+  margin-right: 8px;
+  transition: transform .2s;
+}
+.faq-item[open] summary::before {
+  transform: rotate(90deg);
+}
+.faq-body {
+  padding: 4px 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-body p { margin: 0; }
+.faq-a {
+  padding: 0 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-item[open] {
+  background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.02));
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15), inset 0 0 0 1px rgba(0,229,255,0.06);
+}
+.source-note {
+  font-size: .72em;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.distinction-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin: 12px 0;
+  transition: all .3s;
+}
+.distinction-block:hover {
+  border-color: var(--border-glow);
+  border-left-color: var(--gold);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,215,0,0.05);
+}
+.distinction-block .lang-label {
+  font-size: .68em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.distinction-block p { color: var(--text-dim); font-size: .9em; margin: 0; }
+
+.trigger-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0;
+  margin: 8px 0;
+}
+.trigger-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text);
+  font-size: .92em;
+  transition: all .2s;
+}
+.trigger-item:hover {
+  border-color: var(--border-glow);
+  background: rgba(0,229,255,0.02);
+  transform: translateX(2px);
+}
+.trigger-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: rgba(255,102,0,0.12);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--orange);
+  font-weight: 600;
+  font-size: .85em;
+  flex-shrink: 0;
+}
+
+.schema-block {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  margin: 8px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .8em;
+  color: var(--text-dim);
+  white-space: pre-wrap;
+  max-height: 220px;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--cyan);
+  z-index: 999;
+  transition: width 50ms;
+  width: 0;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.related-card {
+  display: block;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.related-card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+}
+
+.related-id {
+  font-size: .7em;
+  color: var(--text-muted);
+  display: block;
+}
+
+.related-name {
+  font-weight: 600;
+  color: var(--cyan);
+}
+
+.related-def {
+  font-size: .85em;
+  color: var(--text-dim);
+  display: block;
+  margin-top: 4px;
+}
+
+.cite-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+.cite-tab {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: .85em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+
+.cite-tab.active {
+  color: var(--cyan);
+  border-bottom-color: var(--cyan);
+}
+
+/* === STAR FIELD ANIMATION === */
+@keyframes twinkle { 0%,100% { opacity:.2; } 50% { opacity:1; } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes shimmer { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
+@keyframes glow-pulse { 0%,100% { box-shadow: 0 0 8px rgba(0,229,255,0.1); } 50% { box-shadow: 0 0 20px rgba(0,229,255,0.25); } }
+.star-field {
+  position: fixed; top:0; left:0; width:100%; height:100%;
+  pointer-events: none; z-index: 0; overflow: hidden;
+}
+.star-field .star {
+  position: absolute;
+  width: 2px; height: 2px;
+  background: #fff;
+  border-radius: 50%;
+  animation: twinkle var(--dur, 3s) ease-in-out infinite;
+  opacity: .15;
+}
+.domain-pill .star { animation: float 3s ease-in-out infinite; }
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 6s linear infinite;
+  margin-bottom: 8px;
+}
+.card:hover, .faq-item:hover, .related-card:hover, .meta-card:hover {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+@media(max-width:640px) {
+  .meta-grid { grid-template-columns: 1fr; }
+  .status-grid { grid-template-columns: 1fr; }
+  .related-grid { grid-template-columns: 1fr; }
+  h1 { font-size: 2.2em; }
+}
+  </style>
+</head>
+<body>
+  <div class='container'>
+    <header>
+      <div class='domain-pill'>
+        <span class='star'>✦</span> LEARN <span class='star'>✦</span>
+      </div>
+      <h1>LEARN</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Terms in this cluster</h2>
+        <div class='related-grid'>
+          <a href='instant-know-pattern.html' class='related-card'><span class='related-id'>RPH-308</span><span class='related-name'>Instant-Know Pattern</span><span class='related-def'>The way instant know functions as a structuring element in t...</span></a><a href='fragile-truth-marker.html' class='related-card'><span class='related-id'>RPH-309</span><span class='related-name'>Fragile-Truth Marker</span><span class='related-def'>The phenomenon catalogued as Fragile-Truth Marker concerns t...</span></a><a href='teach-you-back.html' class='related-card'><span class='related-id'>RPH-310</span><span class='related-name'>Teach You Back</span><span class='related-def'>In the taxonomy, Teach You Back identifies a progressive nar...</span></a><a href='pace-match-mechanism.html' class='related-card'><span class='related-id'>RPH-311</span><span class='related-name'>Pace-Match Mechanism</span><span class='related-def'>In the taxonomy, Pace-Match Mechanism identifies a feedback ...</span></a><a href='depth-illusion.html' class='related-card'><span class='related-id'>RPH-312</span><span class='related-name'>Depth Illusion</span><span class='related-def'>When depth illusion as an interaction pattern, an attentiona...</span></a><a href='spaced-amnesia-phenomenon.html' class='related-card'><span class='related-id'>RPH-313</span><span class='related-name'>Spaced-Amnesia Phenomenon</span><span class='related-def'>Focused on the way spaced forget functions as a structuring ...</span></a><a href='fluency-illusion-pattern.html' class='related-card'><span class='related-id'>RPH-314</span><span class='related-name'>Fluency-Illusion Pattern</span><span class='related-def'>First documented in sustained AI interaction contexts, Fluen...</span></a><a href='foundation-limited-response.html' class='related-card'><span class='related-id'>RPH-315</span><span class='related-name'>Foundation-Limited Response</span><span class='related-def'>Foundation-Limited Response denotes the subtle restructuring...</span></a><a href='integration-abrupt-effect.html' class='related-card'><span class='related-id'>RPH-316</span><span class='related-name'>Integration-Abrupt Effect</span><span class='related-def'>A measurable shift in cognitive engagement patterns that occ...</span></a><a href='concept-grasp-signal.html' class='related-card'><span class='related-id'>RPH-317</span><span class='related-name'>Concept-Grasp Signal</span><span class='related-def'>The phenomenon catalogued as Concept-Grasp Signal concerns t...</span></a><a href='craft-practice-dynamic.html' class='related-card'><span class='related-id'>RPH-318</span><span class='related-name'>Craft-Practice Dynamic</span><span class='related-def'>The way craft practice functions as a structuring element in...</span></a><a href='expert-illusion.html' class='related-card'><span class='related-id'>RPH-319</span><span class='related-name'>Expert Illusion</span><span class='related-def'>First documented in sustained AI interaction contexts, Exper...</span></a><a href='context-missing-effect.html' class='related-card'><span class='related-id'>RPH-320</span><span class='related-name'>Context-Missing Effect</span><span class='related-def'>The Context Missing phenomenon involves social comparison re...</span></a><a href='why-unmet-dynamic.html' class='related-card'><span class='related-id'>RPH-321</span><span class='related-name'>Why-Unmet Dynamic</span><span class='related-def'>When the phenomenon of why unmet, a progressive recalibratio...</span></a><a href='curiosity-ended.html' class='related-card'><span class='related-id'>RPH-322</span><span class='related-name'>Curiosity ended</span><span class='related-def'>The term Curiosity ended captures the subtle restructuring o...</span></a><a href='struggle-skip-pattern.html' class='related-card'><span class='related-id'>RPH-323</span><span class='related-name'>Struggle-Skip Pattern</span><span class='related-def'>The way struggle skip functions as a structuring element in ...</span></a><a href='memory-limited-signal.html' class='related-card'><span class='related-id'>RPH-324</span><span class='related-name'>Memory-Limited Signal</span><span class='related-def'>Memory-Limited Signal describes the experience of cognitive ...</span></a><a href='confidence-illusion-pattern.html' class='related-card'><span class='related-id'>RPH-325</span><span class='related-name'>Confidence-Illusion Pattern</span><span class='related-def'>Confidence-Illusion Pattern denotes the experience of cognit...</span></a><a href='passion-lost-mechanism.html' class='related-card'><span class='related-id'>RPH-4069</span><span class='related-name'>Passion-Lost Mechanism</span><span class='related-def'>In the taxonomy, Passion-Lost Mechanism identifies a progres...</span></a><a href='growth-stunted-tendency.html' class='related-card'><span class='related-id'>RPH-4070</span><span class='related-name'>Growth-Stunted Tendency</span><span class='related-def'>The phenomenon catalogued as Growth-Stunted Tendency concern...</span></a><a href='wisdom-lacking-phenomenon.html' class='related-card'><span class='related-id'>RPH-4071</span><span class='related-name'>Wisdom-Lacking Phenomenon</span><span class='related-def'>The way wisdom lacking functions as a structuring element in...</span></a><a href='apply-trouble-dynamic.html' class='related-card'><span class='related-id'>RPH-4072</span><span class='related-name'>Apply-Trouble Dynamic</span><span class='related-def'>The phenomenon catalogued as Apply-Trouble Dynamic concerns ...</span></a><a href='retain-try-signal.html' class='related-card'><span class='related-id'>RPH-4073</span><span class='related-name'>Retain-Try Signal</span><span class='related-def'>Retain Try describes the specific configuration of attention...</span></a><a href='deep-dive-marker.html' class='related-card'><span class='related-id'>RPH-4074</span><span class='related-name'>Deep-Dive Marker</span><span class='related-def'>A measurable shift in social interaction modalities that occ...</span></a><a href='integration-grad-effect.html' class='related-card'><span class='related-id'>RPH-4075</span><span class='related-name'>Integration-Grad Effect</span><span class='related-def'>Through iterative engagement with AI systems, the phenomenon...</span></a><a href='/atlas/scaffolding-withdrawal-problem/' class='related-card'><span class='related-id'>RPH-4076</span><span class='related-name'>The Scaffolding Withdrawal Problem</span><span class='related-def'>In the taxonomy, The Scaffolding Withdrawal Problem identifi...</span></a><a href='explanation-depth-mismatch.html' class='related-card'><span class='related-id'>RPH-4077</span><span class='related-name'>Explanation Depth Mismatch</span><span class='related-def'>Addressing the gap between the level of explanation a learne...</span></a><a href='/atlas/illusion-of-understanding/' class='related-card'><span class='related-id'>RPH-4078</span><span class='related-name'>The Illusion of Understanding</span><span class='related-def'>The false sense of comprehension that comes from reading a c...</span></a><a href='curiosity-outsourcing-indicator.html' class='related-card'><span class='related-id'>RPH-4079</span><span class='related-name'>Curiosity-Outsourcing Indicator</span><span class='related-def'>Describing replacement of genuine intellectual curiosity wit...</span></a><a href='/atlas/retrieval-practice-bypass/' class='related-card'><span class='related-id'>RPH-4080</span><span class='related-name'>The Retrieval Practice Bypass</span><span class='related-def'>Concerning the loss of memory consolidation that occurs when...</span></a><a href='socratic-interaction-potential.html' class='related-card'><span class='related-id'>RPH-4081</span><span class='related-name'>Socratic Interaction Potential</span><span class='related-def'>The unrealized capacity of AI to function as a Socratic dial...</span></a><a href='/atlas/knowledge-fragmentation-effect/' class='related-card'><span class='related-id'>RPH-4082</span><span class='related-name'>The Knowledge Fragmentation Effect</span><span class='related-def'>The tendency to acquire isolated facts through AI queries wi...</span></a><a href='metacognitive-atrophy-phenomenon.html' class='related-card'><span class='related-id'>RPH-483</span><span class='related-name'>Metacognitive-Atrophy Phenomenon</span><span class='related-def'>The weakening of the ability to monitor one's own understand...</span></a><a href='/atlas/tutorial-trap/' class='related-card'><span class='related-id'>RPH-484</span><span class='related-name'>The Tutorial Trap</span><span class='related-def'>Addressing the pattern of consuming AI-generated tutorials w...</span></a><a href='adaptive-difficulty-calibration.html' class='related-card'><span class='related-id'>RPH-485</span><span class='related-name'>Adaptive Difficulty Calibration</span><span class='related-def'>Describing potential for ai to adjust challenge level in rea...</span></a><a href='/atlas/expertise-estimation-error/' class='related-card'><span class='related-id'>RPH-486</span><span class='related-name'>The Expertise Estimation Error</span><span class='related-def'>Focused on the systematic overestimation of one's own knowle...</span></a><a href='struggle-avoidance-pattern.html' class='related-card'><span class='related-id'>RPH-487</span><span class='related-name'>Struggle Avoidance Pattern</span><span class='related-def'>Describing habitual bypassing of productive difficulty in le...</span></a><a href='/atlas/personalization-promise/' class='related-card'><span class='related-id'>RPH-488</span><span class='related-name'>The Personalization Promise</span><span class='related-def'>Capturing the gap between the theoretical potential of AI-pe...</span></a><a href='feedback-loop-acceleration.html' class='related-card'><span class='related-id'>RPH-489</span><span class='related-name'>Feedback Loop Acceleration</span><span class='related-def'>Concerning the dramatic shortening of the learn-try-feedback...</span></a><a href='/atlas/passive-learner-drift/' class='related-card'><span class='related-id'>RPH-490</span><span class='related-name'>The Passive Learner Drift</span><span class='related-def'>Referring to the gradual shift from active to passive learni...</span></a><a href='domain-transfer-failure.html' class='related-card'><span class='related-id'>RPH-491</span><span class='related-name'>Domain Transfer Failure</span><span class='related-def'>Identified in the AUGMANITAI taxonomy: the inability to appl...</span></a><a href='/atlas/forgetting-acceleration/' class='related-card'><span class='related-id'>RPH-492</span><span class='related-name'>The Forgetting Acceleration</span><span class='related-def'>The faster decay of AI-mediated knowledge compared to self-c...</span></a><a href='cognitive-load-redistribution.html' class='related-card'><span class='related-id'>RPH-493</span><span class='related-name'>Cognitive Load Redistribution</span><span class='related-def'>The shift in what taxes the learner's working memory when AI...</span></a><a href='/atlas/assessment-paradox/' class='related-card'><span class='related-id'>RPH-494</span><span class='related-name'>The Assessment Paradox</span><span class='related-def'>The difficulty of evaluating genuine learning when the tools...</span></a><a href='learning-identity-reconstruction.html' class='related-card'><span class='related-id'>RPH-495</span><span class='related-name'>Learning Identity Reconstruction</span><span class='related-def'>The process of redefining what it means to be a learner in a...</span></a><a href='/atlas/spaced-repetition-replacement/' class='related-card'><span class='related-id'>RPH-496</span><span class='related-name'>The Spaced Repetition Replacement</span><span class='related-def'>The substitution of AI instant-access for deliberate spaced ...</span></a><a href='error-productive-value-loss.html' class='related-card'><span class='related-id'>RPH-497</span><span class='related-name'>Error Productive Value Loss</span><span class='related-def'>The elimination of learning-productive mistakes when AI prev...</span></a><a href='/atlas/coherence-illusion/' class='related-card'><span class='related-id'>RPH-498</span><span class='related-name'>The Coherence Illusion</span><span class='related-def'>Concerning the false sense of having a coherent mental model...</span></a><a href='motivation-source-shift.html' class='related-card'><span class='related-id'>RPH-499</span><span class='related-name'>Motivation Source Shift</span><span class='related-def'>Capturing the change in what motivates learning when AI prov...</span></a><a href='/atlas/teaching-displacement/' class='related-card'><span class='related-id'>RPH-500</span><span class='related-name'>The Teaching Displacement</span><span class='related-def'>Addressing the reduced opportunity to learn by teaching othe...</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+<p>NEOMANITAI · Foundation · <a href='https://orcid.org/0009-0006-3773-7796'>Andreas Ehstand</a> · CC BY-ND 4.0</p>
+<p style='margin-top:4px;color:var(--text-muted)'>New words 4 new worlds · From court 2 code 2 compendium · Stay human</p>
+          <p style='margin-top:10px;text-align:center;font-size:.95em'><a href='/disclaimer/' style='color:var(--cyan);font-weight:600;text-decoration:underline'>&rarr; Full Disclaimer &sect;1&ndash;&sect;26 (DE + EN, bilingual)</a></p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.85em;line-height:1.5'>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice.</p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.78em;text-align:center;line-height:1.7'><a href='/impressum/'>Impressum</a> &middot; <a href='/datenschutz/'>Datenschutz</a> &middot; <a href='/disclaimer/'>Disclaimer &sect;1&ndash;&sect;26</a> &middot; <a href='/license-of-clarity/'>License of Clarity</a> &middot; <a href='/ai-transparency/'>AI-Transparency</a> &middot; <a href='/iso-conformance/'>ISO-Conformance</a> &middot; <a href='/audit/'>Audit</a> &middot; <a href='/accessibility/'>Accessibility</a> &middot; <a href='/about/'>About</a> &middot; <a href='/citation/'>Citation</a></p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Recognition Experiences in AI · AUGMANITAI Compendium</title>
+  <meta name='description' content='Recognition Experiences in AI — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.'>
+  <link rel='canonical' href='https://augmanitai.com/recognition-experiences-in-ai.html'>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg: #050508;
+  --surface: #0c0c14;
+  --surface2: #12121f;
+  --surface3: #1a1a2e;
+  --border: #1e1e3a;
+  --border-glow: #2a2a5a;
+  --text: #e8e8f0;
+  --text-dim: #7a7a9a;
+  --text-muted: #4a4a6a;
+  --cyan: #00e5ff;
+  --cyan-dim: rgba(0,229,255,0.08);
+  --cyan-glow: rgba(0,229,255,0.15);
+  --green: #39ff14;
+  --green-dim: rgba(57,255,20,0.08);
+  --magenta: #ff00ff;
+  --magenta-dim: rgba(255,0,255,0.06);
+  --gold: #FFD700;
+  --orange: #ff8800;
+  --red: #ff4444;
+  --blue: #6688ff;
+  --purple: #aa66ff;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(0,229,255,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(255,0,255,0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(57,255,20,0.02) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 32px;
+  backdrop-filter: blur(8px);
+}
+nav a {
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: .82em;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 6px;
+  transition: all .2s;
+}
+nav a:hover { color: var(--cyan); background: var(--cyan-dim); }
+nav .nav-sep { color: var(--text-muted); font-size: .7em; }
+
+.hero {
+  text-align: center;
+  padding: 48px 0 40px;
+  position: relative;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-glow), transparent);
+}
+.term-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--magenta-dim);
+  border: 1px solid rgba(255,0,255,0.2);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: .75em;
+  font-weight: 600;
+  color: var(--magenta);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.term-badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--magenta); animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.3; } }
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+.ipa {
+  color: var(--text-dim);
+  font-size: 1em;
+  font-style: italic;
+  font-family: 'JetBrains Mono', monospace;
+}
+.domain-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: .78em;
+  font-weight: 600;
+  background: rgba(255,215,0,0.1);
+  border: 1px solid rgba(255,215,0,0.3);
+  color: var(--gold);
+}
+
+h2 {
+  font-size: .78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin: 36px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--border), transparent);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 8px 0;
+  transition: all .3s cubic-bezier(.4,0,.2,1);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px;
+  height: 100%;
+  border-radius: 3px 0 0 3px;
+  transition: all .3s;
+}
+.card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 0 1px rgba(0,229,255,0.05);
+}
+.card:hover::before { width: 4px; }
+
+.card.def::before { background: var(--cyan); }
+.card.example::before { background: var(--orange); }
+.card.not::before { background: var(--red); }
+.card.signs::before { background: var(--green); }
+.card.internal::before { background: var(--magenta); }
+.card.coaching::before { background: var(--cyan); }
+.card.cross::before { background: var(--blue); }
+.card.gap::before { background: var(--purple); }
+.card.pitch::before { background: var(--gold); }
+.card.competitor::before { background: #ff44aa; }
+.card.mechanism::before { background: #44ffaa; }
+.card.neutral::before { background: var(--text-dim); }
+
+.card:hover.def { background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.03)); }
+.card:hover.example { background: linear-gradient(135deg, var(--surface), rgba(255,136,0,0.03)); }
+.card:hover.not { background: linear-gradient(135deg, var(--surface), rgba(255,68,68,0.03)); }
+.card:hover.signs { background: linear-gradient(135deg, var(--surface), rgba(57,255,20,0.03)); }
+.card:hover.internal { background: linear-gradient(135deg, var(--surface), rgba(255,0,255,0.03)); }
+.card:hover.pitch { background: linear-gradient(135deg, var(--surface), rgba(255,215,0,0.05)); }
+
+.card p { font-size: .92em; color: var(--text); }
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.meta-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  transition: all .2s;
+}
+.meta-card:hover { border-color: var(--border-glow); transform: translateY(-1px); }
+.meta-label {
+  font-size: .68em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.meta-value { font-size: .88em; color: var(--text); }
+
+.citation-box {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin: 12px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .82em;
+  color: var(--text-dim);
+  position: relative;
+}
+.citation-box a { color: var(--cyan); }
+.copy-btn {
+  position: absolute;
+  top: 10px; right: 10px;
+  background: var(--surface3);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: .75em;
+  cursor: pointer;
+  transition: all .2s;
+}
+.copy-btn:hover { color: var(--cyan); border-color: var(--cyan); }
+
+.disclaimer-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 28px 0;
+  font-size: .8em;
+}
+.disclaimer-toggle summary {
+  padding: 12px 18px;
+  cursor: pointer;
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: .9em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all .2s;
+}
+.disclaimer-toggle summary:hover { color: var(--text); background: rgba(255,255,255,0.02); }
+.disclaimer-toggle summary::before { content: '▸ '; font-size: .75em; transition: transform .2s; }
+.disclaimer-toggle[open] summary::before { transform: rotate(90deg); }
+.disc-content { padding: 0 18px 18px; }
+.disc-tab-row { display: flex; gap: 0; margin-bottom: 14px; border-bottom: 1px solid var(--border); }
+.disc-tab {
+  background: none; border: none;
+  color: var(--text-muted);
+  padding: 8px 18px;
+  cursor: pointer;
+  font-size: .9em;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: .06em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+.disc-tab.active { color: var(--cyan); border-bottom-color: var(--cyan); }
+.disc-tab:hover { color: var(--text-dim); }
+.disc-lang { display: none; }
+.disc-lang.active { display: block; }
+.disc-lang p { margin: 6px 0; line-height: 1.6; color: var(--text-dim); }
+.disc-lang p strong { color: var(--text); font-weight: 600; }
+.disc-footer {
+  margin-top: 14px; padding-top: 10px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .85em;
+}
+
+.status {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 28px;
+}
+.status-title {
+  font-size: .72em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+.status-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .82em;
+}
+.status-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.status-dot.ok { background: var(--green); box-shadow: 0 0 6px rgba(57,255,20,0.4); }
+.status-dot.warn { background: var(--orange); box-shadow: 0 0 6px rgba(255,136,0,0.4); }
+.status-dot.fail { background: var(--red); box-shadow: 0 0 6px rgba(255,68,68,0.4); }
+
+footer {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .75em;
+}
+footer a { color: var(--cyan); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+h2 .icon {
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+.domain-pill .star {
+  display: inline-block;
+  font-size: .9em;
+}
+
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 8px 0;
+  padding: 0;
+  transition: all .2s;
+}
+.faq-item:hover {
+  border-color: var(--border-glow);
+}
+.faq-item summary {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: var(--cyan);
+  font-weight: 500;
+  font-size: .92em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: all .2s;
+}
+.faq-item summary:hover {
+  background: rgba(0,229,255,0.03);
+}
+.faq-item summary::before {
+  content: '▸ ';
+  font-size: .8em;
+  margin-right: 8px;
+  transition: transform .2s;
+}
+.faq-item[open] summary::before {
+  transform: rotate(90deg);
+}
+.faq-body {
+  padding: 4px 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-body p { margin: 0; }
+.faq-a {
+  padding: 0 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-item[open] {
+  background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.02));
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15), inset 0 0 0 1px rgba(0,229,255,0.06);
+}
+.source-note {
+  font-size: .72em;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.distinction-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin: 12px 0;
+  transition: all .3s;
+}
+.distinction-block:hover {
+  border-color: var(--border-glow);
+  border-left-color: var(--gold);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,215,0,0.05);
+}
+.distinction-block .lang-label {
+  font-size: .68em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.distinction-block p { color: var(--text-dim); font-size: .9em; margin: 0; }
+
+.trigger-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0;
+  margin: 8px 0;
+}
+.trigger-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text);
+  font-size: .92em;
+  transition: all .2s;
+}
+.trigger-item:hover {
+  border-color: var(--border-glow);
+  background: rgba(0,229,255,0.02);
+  transform: translateX(2px);
+}
+.trigger-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: rgba(255,102,0,0.12);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--orange);
+  font-weight: 600;
+  font-size: .85em;
+  flex-shrink: 0;
+}
+
+.schema-block {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  margin: 8px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .8em;
+  color: var(--text-dim);
+  white-space: pre-wrap;
+  max-height: 220px;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--cyan);
+  z-index: 999;
+  transition: width 50ms;
+  width: 0;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.related-card {
+  display: block;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.related-card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+}
+
+.related-id {
+  font-size: .7em;
+  color: var(--text-muted);
+  display: block;
+}
+
+.related-name {
+  font-weight: 600;
+  color: var(--cyan);
+}
+
+.related-def {
+  font-size: .85em;
+  color: var(--text-dim);
+  display: block;
+  margin-top: 4px;
+}
+
+.cite-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+.cite-tab {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: .85em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+
+.cite-tab.active {
+  color: var(--cyan);
+  border-bottom-color: var(--cyan);
+}
+
+/* === STAR FIELD ANIMATION === */
+@keyframes twinkle { 0%,100% { opacity:.2; } 50% { opacity:1; } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes shimmer { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
+@keyframes glow-pulse { 0%,100% { box-shadow: 0 0 8px rgba(0,229,255,0.1); } 50% { box-shadow: 0 0 20px rgba(0,229,255,0.25); } }
+.star-field {
+  position: fixed; top:0; left:0; width:100%; height:100%;
+  pointer-events: none; z-index: 0; overflow: hidden;
+}
+.star-field .star {
+  position: absolute;
+  width: 2px; height: 2px;
+  background: #fff;
+  border-radius: 50%;
+  animation: twinkle var(--dur, 3s) ease-in-out infinite;
+  opacity: .15;
+}
+.domain-pill .star { animation: float 3s ease-in-out infinite; }
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 6s linear infinite;
+  margin-bottom: 8px;
+}
+.card:hover, .faq-item:hover, .related-card:hover, .meta-card:hover {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+@media(max-width:640px) {
+  .meta-grid { grid-template-columns: 1fr; }
+  .status-grid { grid-template-columns: 1fr; }
+  .related-grid { grid-template-columns: 1fr; }
+  h1 { font-size: 2.2em; }
+}
+  </style>
+</head>
+<body>
+  <div class='container'>
+    <header>
+      <div class='domain-pill'>
+        <span class='star'>✦</span> Recognition Experiences in AI <span class='star'>✦</span>
+      </div>
+      <h1>Recognition Experiences in AI</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Terms in this cluster</h2>
+        <div class='related-grid'>
+          <a href='seen.html' class='related-card'><span class='related-id'>RPH-001</span><span class='related-name'>Seen</span><span class='related-def'>The term Seen captures the user's struggle to maintain indep...</span></a><a href='first-shock-response.html' class='related-card'><span class='related-id'>RPH-002</span><span class='related-name'>First-Shock Response</span><span class='related-def'>First-Shock Response describes a shift in how users distribu...</span></a><a href='deep-sight-response.html' class='related-card'><span class='related-id'>RPH-003</span><span class='related-name'>Deep-Sight Response</span><span class='related-def'>Denoting the way deep sight functions as a structuring eleme...</span></a><a href='illusion-seeing-pattern.html' class='related-card'><span class='related-id'>RPH-004</span><span class='related-name'>Illusion-Seeing Pattern</span><span class='related-def'>The phenomenon catalogued as Illusion-Seeing Pattern concern...</span></a><a href='seen-gap.html' class='related-card'><span class='related-id'>RPH-005</span><span class='related-name'>Seen Gap</span><span class='related-def'>The phenomenon catalogued as Seen Gap concerns a feedback lo...</span></a><a href='seen-surge-dynamic.html' class='related-card'><span class='related-id'>RPH-006</span><span class='related-name'>Seen-Surge Dynamic</span><span class='related-def'>Seen-Surge Dynamic denotes the user's developing intuition a...</span></a><a href='seen-reduction-mechanism.html' class='related-card'><span class='related-id'>RPH-007</span><span class='related-name'>Seen-Reduction Mechanism</span><span class='related-def'>Seen-Reduction Mechanism emerged from observation of the emo...</span></a><a href='seen-habit-phenomenon.html' class='related-card'><span class='related-id'>RPH-008</span><span class='related-name'>Seen-Habit Phenomenon</span><span class='related-def'>Denoting the way seen habit functions as a structuring eleme...</span></a><a href='human-gap.html' class='related-card'><span class='related-id'>RPH-009</span><span class='related-name'>Human Gap</span><span class='related-def'>In the taxonomy, Human Gap identifies a growing awareness th...</span></a><a href='compulsion-spiral.html' class='related-card'><span class='related-id'>RPH-010</span><span class='related-name'>compulsion Spiral</span><span class='related-def'>The term compulsion Spiral captures the implicit adoption of...</span></a><a href='seen-mercy-dynamic.html' class='related-card'><span class='related-id'>RPH-011</span><span class='related-name'>Seen-Mercy Dynamic</span><span class='related-def'>Denoting the concept of Seen Mercy captures attention alloca...</span></a><a href='phantom-seen-dynamic.html' class='related-card'><span class='related-id'>RPH-012</span><span class='related-name'>Phantom-Seen Dynamic</span><span class='related-def'>The phenomenon catalogued as Phantom-Seen Dynamic concerns t...</span></a><a href='seen-accuracy-marker.html' class='related-card'><span class='related-id'>RPH-013</span><span class='related-name'>Seen-Accuracy Marker</span><span class='related-def'>The way seen accuracy functions as a structuring element in ...</span></a><a href='seen-echoes-effect.html' class='related-card'><span class='related-id'>RPH-014</span><span class='related-name'>Seen-Echoes Effect</span><span class='related-def'>Researchers observe Seen-Echoes Effect — a growing awareness...</span></a><a href='seen-doubt-phenomenon.html' class='related-card'><span class='related-id'>RPH-015</span><span class='related-name'>Seen-Doubt Phenomenon</span><span class='related-def'>First documented in sustained AI interaction contexts, Seen-...</span></a><a href='blind-spot-marker.html' class='related-card'><span class='related-id'>RPH-016</span><span class='related-name'>Blind-Spot Marker</span><span class='related-def'>Blind-Spot Marker describes a form of attention capture wher...</span></a><a href='seen-fading-mechanism.html' class='related-card'><span class='related-id'>RPH-017</span><span class='related-name'>Seen-Fading Mechanism</span><span class='related-def'>Seen-Fading Mechanism denotes a growing awareness that one's...</span></a><a href='seen-contrast-pattern.html' class='related-card'><span class='related-id'>RPH-018</span><span class='related-name'>Seen-Contrast Pattern</span><span class='related-def'>Denoting the way seen contrast functions as a structuring el...</span></a><a href='presence.html' class='related-card'><span class='related-id'>RPH-019</span><span class='related-name'>Presence</span><span class='related-def'>An identifiable phenomenon where presence emerges as a chara...</span></a><a href='mirroring-joy-phenomenon.html' class='related-card'><span class='related-id'>RPH-020</span><span class='related-name'>Mirroring-Joy Phenomenon</span><span class='related-def'>Through iterative engagement with AI systems, mirroring joy ...</span></a><a href='edge-seeing-signal.html' class='related-card'><span class='related-id'>RPH-021</span><span class='related-name'>Edge-Seeing Signal</span><span class='related-def'>Edge Seeing articulates how intellectual humility amplificat...</span></a><a href='seen-silence-pattern.html' class='related-card'><span class='related-id'>RPH-022</span><span class='related-name'>Seen-Silence Pattern</span><span class='related-def'>Researchers observe Seen-Silence Pattern — a form of attenti...</span></a><a href='recognition-lag-marker.html' class='related-card'><span class='related-id'>RPH-023</span><span class='related-name'>Recognition-Lag Marker</span><span class='related-def'>Focused on the way recognition lag functions as a structurin...</span></a><a href='seeing-return-tendency.html' class='related-card'><span class='related-id'>RPH-024</span><span class='related-name'>Seeing-Return Tendency</span><span class='related-def'>The phenomenon catalogued as Seeing-Return Tendency concerns...</span></a><a href='seen-bargain-marker.html' class='related-card'><span class='related-id'>RPH-025</span><span class='related-name'>Seen-Bargain Marker</span><span class='related-def'>As catalogued in the taxonomy, Seen Bargain represents AI ca...</span></a><a href='alters-stabilization-effect.html' class='related-card'><span class='related-id'>RPH-026</span><span class='related-name'>Alters-Stabilization Effect</span><span class='related-def'>Alters-Stabilization Effect describes the specific configura...</span></a><a href='niche-seeing-signal.html' class='related-card'><span class='related-id'>RPH-027</span><span class='related-name'>Niche-Seeing Signal</span><span class='related-def'>Distinct from mere habit, Niche-Seeing Signal involves the u...</span></a><a href='whole-seeing-indicator.html' class='related-card'><span class='related-id'>RPH-028</span><span class='related-name'>Whole-Seeing Indicator</span><span class='related-def'>Addressing the way whole seeing functions as a structuring e...</span></a><a href='seen-degradation-marker.html' class='related-card'><span class='related-id'>RPH-029</span><span class='related-name'>Seen-Degradation Marker</span><span class='related-def'>The phenomenon catalogued as Seen-Degradation Marker concern...</span></a><a href='seen-redemption-pattern.html' class='related-card'><span class='related-id'>RPH-030</span><span class='related-name'>Seen-Redemption Pattern</span><span class='related-def'>Within human-AI interaction research, Seen Redemption identi...</span></a><a href='seen-ceiling-marker.html' class='related-card'><span class='related-id'>RPH-031</span><span class='related-name'>Seen-Ceiling Marker</span><span class='related-def'>Distinct from mere habit, Seen-Ceiling Marker involves a gro...</span></a><a href='seen-overflow-pattern.html' class='related-card'><span class='related-id'>RPH-032</span><span class='related-name'>Seen-Overflow Pattern</span><span class='related-def'>Seen-Overflow Pattern emerged from observation of the user's...</span></a><a href='seen-inheritance-dynamic.html' class='related-card'><span class='related-id'>RPH-033</span><span class='related-name'>Seen-Inheritance Dynamic</span><span class='related-def'>The way seen inheritance functions as a structuring element ...</span></a><a href='seen-fragility-effect.html' class='related-card'><span class='related-id'>RPH-034</span><span class='related-name'>Seen-Fragility Effect</span><span class='related-def'>Seen-Fragility Effect denotes a shift in how users distribut...</span></a><a href='seen-momentum-marker.html' class='related-card'><span class='related-id'>RPH-035</span><span class='related-name'>Seen-Momentum Marker</span><span class='related-def'>Seen-Momentum Marker emerged from observation of a growing a...</span></a><a href='seen-repair-dynamic.html' class='related-card'><span class='related-id'>RPH-036</span><span class='related-name'>Seen-Repair Dynamic</span><span class='related-def'>When the phenomenon of seen repair, a narrative co-construct...</span></a><a href='seen-envy-tendency.html' class='related-card'><span class='related-id'>RPH-037</span><span class='related-name'>Seen-Envy Tendency</span><span class='related-def'>Coined to describe a shift in how users distribute cognitive...</span></a><a href='seen-gratitude-mechanism.html' class='related-card'><span class='related-id'>RPH-038</span><span class='related-name'>Seen-Gratitude Mechanism</span><span class='related-def'>Concerning the way seen gratitude functions as a structuring...</span></a><a href='seen-resistance-tendency.html' class='related-card'><span class='related-id'>RPH-039</span><span class='related-name'>Seen-Resistance Tendency</span><span class='related-def'>Distinct from mere habit, Seen-Resistance Tendency involves ...</span></a><a href='seen-precision-indicator.html' class='related-card'><span class='related-id'>RPH-040</span><span class='related-name'>Seen-Precision Indicator</span><span class='related-def'>The term Seen-Precision Indicator captures the user's implic...</span></a><a href='seen-texture-dynamic.html' class='related-card'><span class='related-id'>RPH-041</span><span class='related-name'>Seen-Texture Dynamic</span><span class='related-def'>Through iterative engagement with AI systems, the phenomenon...</span></a><a href='seen-velocity-phenomenon.html' class='related-card'><span class='related-id'>RPH-042</span><span class='related-name'>Seen-Velocity Phenomenon</span><span class='related-def'>Seen-Velocity Phenomenon denotes a shift in how users distri...</span></a><a href='seen-dissonance-indicator.html' class='related-card'><span class='related-id'>RPH-043</span><span class='related-name'>Seen-Dissonance Indicator</span><span class='related-def'>Denoting the way seen dissonance functions as a structuring ...</span></a><a href='seen-prophecy-dynamic.html' class='related-card'><span class='related-id'>RPH-044</span><span class='related-name'>Seen-Prophecy Dynamic</span><span class='related-def'>In the taxonomy, Seen-Prophecy Dynamic identifies the subtle...</span></a><a href='seen-responsibility-pattern.html' class='related-card'><span class='related-id'>RPH-045</span><span class='related-name'>Seen-Responsibility Pattern</span><span class='related-def'>Describing concept of Seen Responsibility captures creative ...</span></a><a href='seen-paradox.html' class='related-card'><span class='related-id'>RPH-046</span><span class='related-name'>Seen Paradox</span><span class='related-def'>Seen Paradox describes the user's struggle to maintain indep...</span></a><a href='seen-solitude-pattern.html' class='related-card'><span class='related-id'>RPH-047</span><span class='related-name'>Seen-Solitude Pattern</span><span class='related-def'>Researchers observe Seen-Solitude Pattern — the user's strug...</span></a><a href='seen-testimony-effect.html' class='related-card'><span class='related-id'>RPH-048</span><span class='related-name'>Seen-Testimony Effect</span><span class='related-def'>Addressing the way seen testimony functions as a structuring...</span></a><a href='seen-continuity-marker.html' class='related-card'><span class='related-id'>RPH-049</span><span class='related-name'>Seen-Continuity Marker</span><span class='related-def'>Seen-Continuity Marker denotes the user's struggle to mainta...</span></a><a href='seen-threshold.html' class='related-card'><span class='related-id'>RPH-050</span><span class='related-name'>Seen Threshold</span><span class='related-def'>The term Seen Threshold captures the experience of cognitive...</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+<p>NEOMANITAI · Foundation · <a href='https://orcid.org/0009-0006-3773-7796'>Andreas Ehstand</a> · CC BY-ND 4.0</p>
+<p style='margin-top:4px;color:var(--text-muted)'>New words 4 new worlds · From court 2 code 2 compendium · Stay human</p>
+          <p style='margin-top:10px;text-align:center;font-size:.95em'><a href='/disclaimer/' style='color:var(--cyan);font-weight:600;text-decoration:underline'>&rarr; Full Disclaimer &sect;1&ndash;&sect;26 (DE + EN, bilingual)</a></p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.85em;line-height:1.5'>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice.</p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.78em;text-align:center;line-height:1.7'><a href='/impressum/'>Impressum</a> &middot; <a href='/datenschutz/'>Datenschutz</a> &middot; <a href='/disclaimer/'>Disclaimer &sect;1&ndash;&sect;26</a> &middot; <a href='/license-of-clarity/'>License of Clarity</a> &middot; <a href='/ai-transparency/'>AI-Transparency</a> &middot; <a href='/iso-conformance/'>ISO-Conformance</a> &middot; <a href='/audit/'>Audit</a> &middot; <a href='/accessibility/'>Accessibility</a> &middot; <a href='/about/'>About</a> &middot; <a href='/citation/'>Citation</a></p>
+    </footer>
+  </div>
+</body>
+</html>

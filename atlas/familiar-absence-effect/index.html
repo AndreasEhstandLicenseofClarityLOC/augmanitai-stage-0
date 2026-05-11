@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>RPH-470 · Familiar-Absence Effect — NEOMANITAI Foundation</title>
+  <meta name='description' content='Familiar-Absence Effect describes the user's developing intuition about when AI recommendations can be trusted and when they cannot — a pattern that becomes sal'>
+
+  <link rel='canonical' href='https://augmanitai.com/familiar-absence-effect.html'>
+
+<meta property='og:title' content='RPH-470 · Familiar-Absence Effect — NEOMANITAI Foundation'>
+<meta property='og:description' content='Familiar-Absence Effect describes the user's developing intuition about when AI recommendations can be trusted and when they cannot — a pattern that b'>
+<meta property='og:type' content='article'>
+<meta property='og:url' content='https://augmanitai.com/familiar-absence-effect.html'>
+<meta property='og:site_name' content='AUGMANITAI Compendium'>
+<meta property='og:locale' content='en_US'>
+<meta property='article:author' content='Andreas Ehstand'>
+<meta property='article:section' content='Cross-System Phenomena'>
+<meta property='article:tag' content='CROSS'>
+<meta name='twitter:card' content='summary_large_image'>
+<meta name='twitter:title' content='RPH-470 · Familiar-Absence Effect'>
+<meta name='twitter:description' content='Familiar-Absence Effect describes the user's developing intuition about when AI recommendations can be trusted and when they cannot — a pattern that b'>
+<meta name='citation_title' content='Familiar-Absence Effect'>
+<meta name='citation_author' content='Andreas Ehstand'>
+<meta name='citation_publication_date' content='2026-03-16'>
+<meta name='citation_journal_title' content='AUGMANITAI Compendium'>
+<meta name='citation_doi' content='10.5281/zenodo.20118267'>
+<meta name='DC.title' content='Familiar-Absence Effect'>
+<meta name='DC.creator' content='Andreas Ehstand'>
+<meta name='DC.date' content='2026-03-16'>
+<meta name='DC.identifier' content='RPH-470'>
+<meta name='DC.type' content='Terminology'>
+<meta name='DC.format' content='text/html'>
+<meta name='DC.language' content='en'>
+<meta name='DC.rights' content='CC BY-ND 4.0'>
+
+
+<link rel='alternate' hreflang='x-default' href='https://augmanitai.com/familiar-absence-effect.html'>
+<link rel='alternate' hreflang='en' href='https://augmanitai.com/familiar-absence-effect.html'>
+<link rel='alternate' hreflang='de' href='https://augmanitai.com/familiar-absence-effect.html'>
+<link rel='alternate' hreflang='es' href='https://augmanitai.com/familiar-absence-effect.html'>
+<link rel='alternate' hreflang='fr' href='https://augmanitai.com/familiar-absence-effect.html'>
+<link rel='alternate' hreflang='zh' href='https://augmanitai.com/familiar-absence-effect.html'>
+<link rel='alternate' hreflang='ja' href='https://augmanitai.com/familiar-absence-effect.html'>
+<link rel='alternate' hreflang='pt' href='https://augmanitai.com/familiar-absence-effect.html'>
+<link rel='alternate' hreflang='it' href='https://augmanitai.com/familiar-absence-effect.html'>
+<link rel='alternate' hreflang='ko' href='https://augmanitai.com/familiar-absence-effect.html'>
+<link rel='alternate' hreflang='ru' href='https://augmanitai.com/familiar-absence-effect.html'>
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg: #050508;
+  --surface: #0c0c14;
+  --surface2: #12121f;
+  --surface3: #1a1a2e;
+  --border: #1e1e3a;
+  --border-glow: #2a2a5a;
+  --text: #e8e8f0;
+  --text-dim: #7a7a9a;
+  --text-muted: #4a4a6a;
+  --cyan: #00e5ff;
+  --cyan-dim: rgba(0,229,255,0.08);
+  --cyan-glow: rgba(0,229,255,0.15);
+  --green: #39ff14;
+  --green-dim: rgba(57,255,20,0.08);
+  --magenta: #ff00ff;
+  --magenta-dim: rgba(255,0,255,0.06);
+  --gold: #FFD700;
+  --orange: #ff8800;
+  --red: #ff4444;
+  --blue: #6688ff;
+  --purple: #aa66ff;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(ellipse at 20% 0%, rgba(0,229,255,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(255,0,255,0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(57,255,20,0.02) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  position: relative;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 32px;
+  backdrop-filter: blur(8px);
+}
+nav a {
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: .82em;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 6px;
+  transition: all .2s;
+}
+nav a:hover { color: var(--cyan); background: var(--cyan-dim); }
+nav .nav-sep { color: var(--text-muted); font-size: .7em; }
+
+.hero {
+  text-align: center;
+  padding: 48px 0 40px;
+  position: relative;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border-glow), transparent);
+}
+.term-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--magenta-dim);
+  border: 1px solid rgba(255,0,255,0.2);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: .75em;
+  font-weight: 600;
+  color: var(--magenta);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.term-badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--magenta); animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.3; } }
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+.ipa {
+  color: var(--text-dim);
+  font-size: 1em;
+  font-style: italic;
+  font-family: 'JetBrains Mono', monospace;
+}
+.domain-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: .78em;
+  font-weight: 600;
+  background: rgba(255,215,0,0.1);
+  border: 1px solid rgba(255,215,0,0.3);
+  color: var(--gold);
+}
+
+h2 {
+  font-size: .78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin: 36px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--border), transparent);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin: 8px 0;
+  transition: all .3s cubic-bezier(.4,0,.2,1);
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px;
+  height: 100%;
+  border-radius: 3px 0 0 3px;
+  transition: all .3s;
+}
+.card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 0 1px rgba(0,229,255,0.05);
+}
+.card:hover::before { width: 4px; }
+
+.card.def::before { background: var(--cyan); }
+.card.example::before { background: var(--orange); }
+.card.not::before { background: var(--red); }
+.card.signs::before { background: var(--green); }
+.card.internal::before { background: var(--magenta); }
+.card.coaching::before { background: var(--cyan); }
+.card.cross::before { background: var(--blue); }
+.card.gap::before { background: var(--purple); }
+.card.pitch::before { background: var(--gold); }
+.card.competitor::before { background: #ff44aa; }
+.card.mechanism::before { background: #44ffaa; }
+.card.neutral::before { background: var(--text-dim); }
+
+.card:hover.def { background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.03)); }
+.card:hover.example { background: linear-gradient(135deg, var(--surface), rgba(255,136,0,0.03)); }
+.card:hover.not { background: linear-gradient(135deg, var(--surface), rgba(255,68,68,0.03)); }
+.card:hover.signs { background: linear-gradient(135deg, var(--surface), rgba(57,255,20,0.03)); }
+.card:hover.internal { background: linear-gradient(135deg, var(--surface), rgba(255,0,255,0.03)); }
+.card:hover.pitch { background: linear-gradient(135deg, var(--surface), rgba(255,215,0,0.05)); }
+
+.card p { font-size: .92em; color: var(--text); }
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.meta-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  transition: all .2s;
+}
+.meta-card:hover { border-color: var(--border-glow); transform: translateY(-1px); }
+.meta-label {
+  font-size: .68em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.meta-value { font-size: .88em; color: var(--text); }
+
+.citation-box {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin: 12px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .82em;
+  color: var(--text-dim);
+  position: relative;
+}
+.citation-box a { color: var(--cyan); }
+.copy-btn {
+  position: absolute;
+  top: 10px; right: 10px;
+  background: var(--surface3);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: .75em;
+  cursor: pointer;
+  transition: all .2s;
+}
+.copy-btn:hover { color: var(--cyan); border-color: var(--cyan); }
+
+.disclaimer-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 28px 0;
+  font-size: .8em;
+}
+.disclaimer-toggle summary {
+  padding: 12px 18px;
+  cursor: pointer;
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: .9em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all .2s;
+}
+.disclaimer-toggle summary:hover { color: var(--text); background: rgba(255,255,255,0.02); }
+.disclaimer-toggle summary::before { content: '▸ '; font-size: .75em; transition: transform .2s; }
+.disclaimer-toggle[open] summary::before { transform: rotate(90deg); }
+.disc-content { padding: 0 18px 18px; }
+.disc-tab-row { display: flex; gap: 0; margin-bottom: 14px; border-bottom: 1px solid var(--border); }
+.disc-tab {
+  background: none; border: none;
+  color: var(--text-muted);
+  padding: 8px 18px;
+  cursor: pointer;
+  font-size: .9em;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: .06em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+.disc-tab.active { color: var(--cyan); border-bottom-color: var(--cyan); }
+.disc-tab:hover { color: var(--text-dim); }
+.disc-lang { display: none; }
+.disc-lang.active { display: block; }
+.disc-lang p { margin: 6px 0; line-height: 1.6; color: var(--text-dim); }
+.disc-lang p strong { color: var(--text); font-weight: 600; }
+.disc-footer {
+  margin-top: 14px; padding-top: 10px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .85em;
+}
+
+.status {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 28px;
+}
+.status-title {
+  font-size: .72em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+.status-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .82em;
+}
+.status-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.status-dot.ok { background: var(--green); box-shadow: 0 0 6px rgba(57,255,20,0.4); }
+.status-dot.warn { background: var(--orange); box-shadow: 0 0 6px rgba(255,136,0,0.4); }
+.status-dot.fail { background: var(--red); box-shadow: 0 0 6px rgba(255,68,68,0.4); }
+
+footer {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: .75em;
+}
+footer a { color: var(--cyan); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+
+h2 .icon {
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+.domain-pill .star {
+  display: inline-block;
+  font-size: .9em;
+}
+
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 8px 0;
+  padding: 0;
+  transition: all .2s;
+}
+.faq-item:hover {
+  border-color: var(--border-glow);
+}
+.faq-item summary {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: var(--cyan);
+  font-weight: 500;
+  font-size: .92em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: all .2s;
+}
+.faq-item summary:hover {
+  background: rgba(0,229,255,0.03);
+}
+.faq-item summary::before {
+  content: '▸ ';
+  font-size: .8em;
+  margin-right: 8px;
+  transition: transform .2s;
+}
+.faq-item[open] summary::before {
+  transform: rotate(90deg);
+}
+.faq-body {
+  padding: 4px 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-body p { margin: 0; }
+.faq-a {
+  padding: 0 16px 16px;
+  color: var(--text-dim);
+  font-size: .9em;
+  line-height: 1.7;
+}
+.faq-item[open] {
+  background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.02));
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15), inset 0 0 0 1px rgba(0,229,255,0.06);
+}
+.source-note {
+  font-size: .72em;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.distinction-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin: 12px 0;
+  transition: all .3s;
+}
+.distinction-block:hover {
+  border-color: var(--border-glow);
+  border-left-color: var(--gold);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,215,0,0.05);
+}
+.distinction-block .lang-label {
+  font-size: .68em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.distinction-block p { color: var(--text-dim); font-size: .9em; margin: 0; }
+
+.trigger-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0;
+  margin: 8px 0;
+}
+.trigger-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text);
+  font-size: .92em;
+  transition: all .2s;
+}
+.trigger-item:hover {
+  border-color: var(--border-glow);
+  background: rgba(0,229,255,0.02);
+  transform: translateX(2px);
+}
+.trigger-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: rgba(255,102,0,0.12);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--orange);
+  font-weight: 600;
+  font-size: .85em;
+  flex-shrink: 0;
+}
+
+.schema-block {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  margin: 8px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .8em;
+  color: var(--text-dim);
+  white-space: pre-wrap;
+  max-height: 220px;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: var(--cyan);
+  z-index: 999;
+  transition: width 50ms;
+  width: 0;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.related-card {
+  display: block;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.related-card:hover {
+  border-color: var(--border-glow);
+  transform: translateY(-1px);
+}
+
+.related-id {
+  font-size: .7em;
+  color: var(--text-muted);
+  display: block;
+}
+
+.related-name {
+  font-weight: 600;
+  color: var(--cyan);
+}
+
+.related-def {
+  font-size: .85em;
+  color: var(--text-dim);
+  display: block;
+  margin-top: 4px;
+}
+
+.cite-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+
+.cite-tab {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: .85em;
+  border-bottom: 2px solid transparent;
+  transition: all .2s;
+}
+
+.cite-tab.active {
+  color: var(--cyan);
+  border-bottom-color: var(--cyan);
+}
+
+/* === STAR FIELD ANIMATION === */
+@keyframes twinkle { 0%,100% { opacity:.2; } 50% { opacity:1; } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes shimmer { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
+@keyframes glow-pulse { 0%,100% { box-shadow: 0 0 8px rgba(0,229,255,0.1); } 50% { box-shadow: 0 0 20px rgba(0,229,255,0.25); } }
+.star-field {
+  position: fixed; top:0; left:0; width:100%; height:100%;
+  pointer-events: none; z-index: 0; overflow: hidden;
+}
+.star-field .star {
+  position: absolute;
+  width: 2px; height: 2px;
+  background: #fff;
+  border-radius: 50%;
+  animation: twinkle var(--dur, 3s) ease-in-out infinite;
+  opacity: .15;
+}
+.domain-pill .star { animation: float 3s ease-in-out infinite; }
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 6s linear infinite;
+  margin-bottom: 8px;
+}
+.card:hover, .faq-item:hover, .related-card:hover, .meta-card:hover {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+@media(max-width:640px) {
+  .meta-grid { grid-template-columns: 1fr; }
+  .status-grid { grid-template-columns: 1fr; }
+  .related-grid { grid-template-columns: 1fr; }
+  h1 { font-size: 2.2em; }
+}
+  </style>
+</head>
+<body>
+  <div class='star-field' id='starField'></div>
+  <div class='scroll-progress'></div>
+
+  <div class='container'>
+    <div class='status'>
+<div class='status-title'><span>⚡</span> RPH-470 · NEOMANITAI Compendium V10.2.0</div>
+<div class='status-grid'>
+  <div class='status-item'><span class='status-dot ok'></span> §1–§18 Ethical Disclaimer (DE+EN)</div>
+  <div class='status-item'><span class='status-dot ok'></span> Bilingual Content (EN+DE)</div>
+  <div class='status-item'><span class='status-dot ok'></span> JSON-LD / Schema.org</div>
+  <div class='status-item'><span class='status-dot ok'></span> CC BY-ND 4.0</div>
+  <div class='status-item'><span class='status-dot ok'></span> DOI: 10.5281/zenodo.18898911</div>
+  <div class='status-item'><span class='status-dot ok'></span> Generated: 2026-03-16</div>
+</div>
+</div>
+
+
+    <header>
+      <div class='domain-pill'>
+        <span class='star'>✦</span> Cross-System Phenomena <span class='star'>✦</span>
+      </div>
+      <h1>Familiar-Absence Effect</h1>
+      <div class='ipa'>Vertrautheit-Vermissen (familiar-absence effect)</div>
+      <div class='meta-grid'>
+        <div class='meta-card'><div class='meta-label'>ID</div><div class='meta-value'><code>RPH-470</code></div></div>
+        <div class='meta-card'><div class='meta-label'>Cluster</div><div class='meta-value'>CROSS</div></div>
+        <div class='meta-card'><div class='meta-label'>Deutsch</div><div class='meta-value'>Vertrautheit-Vermissen</div></div>
+        <div class='meta-card'><div class='meta-label'>License</div><div class='meta-value'>CC BY-ND 4.0</div></div>
+      </div>
+<div class='distinction-block'><div class='lang-label'>EN — Distinction</div><p>Shares taxonomic proximity with Preference Shift but diverges at the level of workflows,, outperforms: Familiar Miss isolates the motivational dimension that Preference Shift treats as secondary.</p></div>
+<div class='distinction-block'><div class='lang-label'>DE — Abgrenzung</div><p>Im Unterschied zu temporal distortion, das sich auf the persistence across different contexts konzentriert, adressiert familiar miss spezifisch the underlying cognitive mechanism. Während trust calibration group-level behavioral shifts beschreibt, erfasst dieses Phänomen cross-contextual transfer effects.</p></div>
+    </header>
+
+    <main>
+<h2><span class='icon'>📖</span>Definition</h2>
+<p>Familiar-Absence Effect describes the user's developing intuition about when AI recommendations can be trusted and when they cannot — a pattern that becomes salient the user attempts to explain their AI workflow to non-users. In practice, a gradual delegation of creative initiative to AI systems, starting with low-stakes decisions, which distinguishes this from superficially similar phenomena.</p><h2><span class='icon'>📖</span>Definition (DE)</h2>
+<p>In der AUGMANITAI-Taxonomie bezeichnet Vertrautheit-Vermissen ein spezifisches Interaktionsmuster: bei dem familiar miss zu einer salienten Dimension von den sozialen Kontext der KI-Nutzung wird. Es manifestiert sich als eine Evolution im Verstaendnis der Person davon, was Fortschritt ausmacht, unterscheidbar von angrenzenden Erfahrungen durch seine besondere Qualitaet und die Bedingungen, unter denen es zuverlaessig auftritt.</p><details class='faq-item'>
+  <summary><span class='icon'>🌍</span> Where This Occurs · Wo dies auftritt</summary>
+  <div class='faq-body'><p><div class='lang-label' style='color:var(--cyan);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-bottom:4px'>EN</div><p>Familiar Miss emerges in the experience of persons interacting with AI systems. More specifically: It manifests as an evolution in the person's sense of what constitutes progress, distinguishable from adjacent experiences by its particular quality a.</p><div class='lang-label' style='color:var(--gold);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-top:12px;margin-bottom:4px'>DE</div><p>Familiar Miss ist beobachtbar in Kontexten, in denen ein spezifisches phaenomen in der mensch-ki-interaktion, bei dem familiar miss zu einer salienten dimension von den sozi. Genauer: Es manifestiert sich als eine Evolution im Verstaendnis der Person davon, was Fortschritt ausmacht, unterscheidbar von angrenzenden Erfahrungen durch .</p><div class='source-note'>Based on reported user experiences and logical inference from available descriptions. This is not primary research.</div></p></div>
+</details><details class='faq-item'>
+  <summary><span class='icon'>💡</span> Everyday Example · Alltagsbeispiel</summary>
+  <div class='faq-body'><p><div class='lang-label' style='color:var(--cyan);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-bottom:4px'>EN</div><p>A writer using an AI assistant for the first time today notices something specific: a specific phenomenon in human-ai interaction where familiar miss becomes a salient dimension of the social context surr. They pause — not because the AI produced something wrong, but because something about the interaction itself has become visible. Before encountering this term, they might have described it vaguely as 'the AI being weird' or 'something off.' Now they recognize it as Familiar Miss.</p><div class='lang-label' style='color:var(--gold);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-top:12px;margin-bottom:4px'>DE</div><p>Ein/e Schriftsteller bemerkt waehrend der Arbeit mit einem KI-Assistenten etwas Spezifisches: ein spezifisches phaenomen in der mensch-ki-interaktion, bei dem familiar miss zu einer salienten dimension von den sozi. Es ist nicht der Output der KI, der auffaellt — es ist die Qualitaet der Interaktion selbst, die sichtbar wird. Vor der Begegnung mit diesem Begriff haette die Person es vielleicht als 'irgendwas Komisches' beschrieben. Jetzt erkennt sie es als Familiar Miss.</p><div class='source-note'>Based on reported user experiences and logical inference from available descriptions. This is not primary research.</div></p></div>
+</details><details class='faq-item'>
+  <summary><span class='icon'>🔍</span> How It Manifests · Wie es sich zeigt</summary>
+  <div class='faq-body'><p><div class='lang-label' style='color:var(--cyan);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-bottom:4px'>EN</div><p>People experiencing Familiar Miss describe it through a shift in subjective awareness. A specific phenomenon in human-AI interaction where familiar miss becomes a salient dimension of the social context surrounding AI use — this is not an abstract concept but something felt during the interaction. Key observable dimensions include specific, phenomenon, human, interaction. The manifestation is often recognized retroactively: people realize they experienced it only after the interaction concludes.</p><div class='lang-label' style='color:var(--gold);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-top:12px;margin-bottom:4px'>DE</div><p>Wie sich Familiar Miss zeigt: Ein spezifisches Phaenomen in der Mensch-KI-Interaktion, bei dem familiar miss zu einer salienten Dimension von den sozialen Kontext der KI-Nutzung wi. Dies ist kein theoretisches Konstrukt, sondern ein beobachtbares Muster in realer Interaktion. Verschiedene Menschen bemerken moeglicherweise unterschiedliche Aspekte, aber das Kernphaenomen ist — einmal benannt — kontextuebergreifend erkennbar.</p><div class='source-note'>Based on reported user experiences and logical inference from available descriptions. This is not primary research.</div></p></div>
+</details><details class='faq-item'>
+  <summary><span class='icon'>🧠</span> What the Person Experiences · Was die Person erlebt</summary>
+  <div class='faq-body'><p><div class='lang-label' style='color:var(--cyan);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-bottom:4px'>EN</div><p>The subjective quality of Familiar Miss is its most distinctive feature. From inside the experience: a specific phenomenon in human-ai interaction where familiar miss becomes a salient dimension of the social context surrounding ai. People describe this as something that happens TO them rather than something they do — a shift in awareness that is involuntary but recognizable. The vocabulary to describe it often comes after the experience, not during.</p><div class='lang-label' style='color:var(--gold);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-top:12px;margin-bottom:4px'>DE</div><p>Das Erleben von Familiar Miss bedeutet, wahrzunehmen, dass die eigene Interaktion mit KI eine spezifische, beschreibbare Qualitaet hat: ein spezifisches phaenomen in der mensch-ki-interaktion, bei dem familiar miss zu einer salienten dimension von den sozialen konte. Diese Wahrnehmung ist selbst Teil des Phaenomens. Menschen berichten, dass sie es ueberall sehen, sobald sie es benennen koennen.</p><div class='source-note'>Based on reported user experiences and logical inference from available descriptions. This is not primary research.</div></p></div>
+</details><details class='faq-item'>
+  <summary><span class='icon'>🔄</span> How It Develops Over Time · Wie es sich entwickelt</summary>
+  <div class='faq-body'><p><div class='lang-label' style='color:var(--cyan);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-bottom:4px'>EN</div><p>As a state, Familiar Miss does not develop linearly — it becomes accessible. Initially, people may pass through this state without recognizing it. With experience, entry into the state becomes more deliberate: a specific phenomenon in human-ai interaction where familiar miss becomes a sali becomes a recognizable mode of interaction. The development is less about the state changing and more about the person's relationship to it maturing.</p><div class='lang-label' style='color:var(--gold);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-top:12px;margin-bottom:4px'>DE</div><p>Die Entwicklung von Familiar Miss verlaeuft von unsichtbar zu benannt. In fruehen KI-Interaktionen kann das, was die Definition beschreibt — ein spezifisches phaenomen in der mensch-ki-interaktion, bei dem familiar miss z — auftreten, ohne dass die Person es bemerkt. Mit zunehmender KI-Erfahrung wird das Phaenomen identifizierbar. Die Benennung markiert den Uebergang von passivem Erleben zu aktivem Bewusstsein.</p><div class='source-note'>Based on reported user experiences and logical inference from available descriptions. This is not primary research.</div></p></div>
+</details><details class='faq-item'>
+  <summary><span class='icon'>👥</span> Individual Variation · Individuelle Unterschiede</summary>
+  <div class='faq-body'><p><div class='lang-label' style='color:var(--cyan);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-bottom:4px'>EN</div><p>Individual variation in experiencing Familiar Miss correlates with sensitivity to its core dimensions: specific, phenomenon, human. People with backgrounds that emphasize these dimensions tend to recognize the phenomenon earlier and describe it with greater precision. Others may experience the underlying pattern without ever naming it.</p><div class='lang-label' style='color:var(--gold);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-top:12px;margin-bottom:4px'>DE</div><p>Menschen unterscheiden sich in ihrem Erleben von Familiar Miss entlang vorhersagbarer Dimensionen: Haeufigkeit der KI-Interaktion, reflektive Disposition und beruflicher Kontext. Was die Definition beschreibt — ein spezifisches phaenomen in der mensch-ki-interaktion, bei dem familiar miss z — wird von manchen als offenbarender Moment und von anderen als leise, graduelle Erkenntnis erlebt.</p><div class='source-note'>Based on reported user experiences and logical inference from available descriptions. This is not primary research.</div></p></div>
+</details><details class='faq-item'>
+  <summary><span class='icon'>📊</span> How Widespread · Wie verbreitet</summary>
+  <div class='faq-body'><p><div class='lang-label' style='color:var(--cyan);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-bottom:4px'>EN</div><p>As of 2025, Familiar Miss is estimated to be observable among persons who regularly interact with AI systems. The phenomenon — a specific phenomenon in human-ai interaction where familiar miss becomes a sali — likely occurs more frequently than it is recognized, since recognition depends on having vocabulary for the experience. No quantitative prevalence data exists; this estimate is based on reported experiences and logical inference.</p><div class='lang-label' style='color:var(--gold);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-top:12px;margin-bottom:4px'>DE</div><p>Stand 2025 wird Familiar Miss als beobachtbar geschaetzt unter persons who regularly interact with AI systems. Das Phaenomen tritt vermutlich haeufiger auf, als es erkannt wird, da die Erkennung vom Vorhandensein des passenden Vokabulars abhaengt. Quantitative Praevalenzdaten existieren nicht; diese Schaetzung basiert auf berichteten Erfahrungen und logischer Schlussfolgerung.</p><div class='source-note'>Based on reported user experiences and logical inference from available descriptions. This is not primary research.</div></p></div>
+</details><details class='faq-item'>
+  <summary><span class='icon'>🔬</span> Research Context · Forschungskontext</summary>
+  <div class='faq-body'><p><div class='lang-label' style='color:var(--cyan);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-bottom:4px'>EN</div><p>Familiar Miss connects to research in social psychology of human-machine relationships and parasocial interaction theory and computational linguistics and discourse analysis in human-AI dialogue. The specific phenomenon described — a specific phenomenon in human-ai interaction where familiar miss becomes a salient dimension of the — has been observed in practice but often lacks precise terminology in existing academic literature. This term was introduced within the AUGMANITAI Compendium (Ehstand, 2024), published with DOI on Zenodo under CC BY-ND 4.0.</p><div class='lang-label' style='color:var(--gold);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-top:12px;margin-bottom:4px'>DE</div><p>Familiar Miss steht in Verbindung mit Forschung in social psychology of human-machine relationships and parasocial interaction theory and computational linguistics and discourse analysis in human-AI dialogue. Das spezifische beschriebene Phaenomen wird in der Praxis beobachtet, verfuegt aber in der bestehenden akademischen Literatur oft ueber keine praezise Terminologie. Dieser Begriff wurde im AUGMANITAI-Kompendium (Ehstand, 2024) eingefuehrt, veroeffentlicht mit DOI auf Zenodo unter CC BY-ND 4.0.</p><div class='source-note'>Based on reported user experiences and logical inference from available descriptions. This is not primary research.</div></p></div>
+</details><details class='faq-item'>
+  <summary><span class='icon'>🔗</span> Connected Phenomena · Verbundene Phänomene</summary>
+  <div class='faq-body'><p><div class='lang-label' style='color:var(--cyan);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-bottom:4px'>EN</div><p>Familiar Miss is conceptually connected to other experiential phenomena — particularly those describing subjective moments during AI interaction. Understanding Familiar Miss in isolation is possible but incomplete — the AUGMANITAI framework maps these connections to show how individual phenomena compose the larger context of human-AI interaction experience.</p><div class='lang-label' style='color:var(--gold);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-top:12px;margin-bottom:4px'>DE</div><p>Familiar Miss ist konzeptuell verbunden mit other experiential phenomena — particularly those describing subjective moments during AI interaction. Das Verstaendnis von Familiar Miss isoliert ist moeglich, aber unvollstaendig — das AUGMANITAI-Rahmenwerk bildet diese Verbindungen ab, um zu zeigen, wie einzelne Phaenomene die groessere Landschaft der Mensch-KI-Interaktionserfahrung zusammensetzen.</p><div class='source-note'>Based on reported user experiences and logical inference from available descriptions. This is not primary research.</div></p></div>
+</details><details class='faq-item'>
+  <summary><span class='icon'>💬</span> Common Misunderstandings · Häufige Missverständnisse</summary>
+  <div class='faq-body'><p><div class='lang-label' style='color:var(--cyan);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-bottom:4px'>EN</div><p>A frequent misunderstanding: assuming Familiar Miss describes something the AI does, when it actually describes something the person experiences. The phenomenon is in the human response, not the machine's output.</p><div class='lang-label' style='color:var(--gold);font-size:.68em;font-weight:700;letter-spacing:.1em;margin-top:12px;margin-bottom:4px'>DE</div><p>Ein haeufiges Missverstaendnis ueber Familiar Miss: die Annahme, dass das Benennen eines Phaenomens dessen Befuerwortung bedeutet. Das AUGMANITAI-Rahmenwerk ist deskriptiv — es benennt, was beobachtet wird, unabhaengig davon, ob man das Phaenomen als positiv, negativ oder neutral betrachtet.</p><div class='source-note'>Based on reported user experiences and logical inference from available descriptions. This is not primary research.</div></p></div>
+</details>
+<h2><span class='icon'>🔗</span>Related Terms</h2>
+<div class='related-grid'>
+<a href='model-shock-effect.html' class='related-card'><span class='related-id'>RPH-458</span><span class='related-name'>Model-Shock Effect</span><span class='related-def'>Referring to the way model shock functions as a structuring element in the shift...</span></a><a href='loyalty-strain-response.html' class='related-card'><span class='related-id'>RPH-459</span><span class='related-name'>Loyalty-Strain Response</span><span class='related-def'>In the taxonomy, Loyalty-Strain Response identifies the user's implicit theory o...</span></a><a href='platform-affect-phenomenon.html' class='related-card'><span class='related-id'>RPH-460</span><span class='related-name'>Platform-Affect Phenomenon</span><span class='related-def'>The phenomenon catalogued as Platform-Affect Phenomenon concerns an evolving rel...</span></a><a href='better-fear-mechanism.html' class='related-card'><span class='related-id'>RPH-461</span><span class='related-name'>Better-Fear Mechanism</span><span class='related-def'>The phenomenon catalogued as Better-Fear Mechanism concerns the emotional respon...</span></a><a href='betray-switch-mechanism.html' class='related-card'><span class='related-id'>RPH-462</span><span class='related-name'>Betray-Switch Mechanism</span><span class='related-def'>Betray-Switch Mechanism denotes a feedback loop where AI interaction quality dep...</span></a><a href='comparison-abrupt-response.html' class='related-card'><span class='related-id'>RPH-463</span><span class='related-name'>Comparison-Abrupt Response</span><span class='related-def'>The way comparison hard functions as a structuring element in the way habitual p...</span></a>
+</div>
+<h2 id='cite'><span class='icon'>📎</span>Citation</h2>
+<div class='cite-tabs'>
+  <button class='cite-tab active' onclick="switchCite('apa',this)">APA</button>
+  <button class='cite-tab' onclick="switchCite('mla',this)">MLA</button>
+  <button class='cite-tab' onclick="switchCite('bib',this)">BibTeX</button>
+</div>
+<div class='citation-box' id='cite-apa'>
+  <button class='copy-btn' onclick="copyCite(this)">Copy</button>
+  <span class='cite-text'>Ehstand, A. (2026). Familiar-Absence Effect. In AUGMANITAI Compendium. DOI: 10.5281/zenodo.20118267 <a href='https://doi.org/10.5281/zenodo.20118267' style='color:var(--cyan)'>DOI</a></span>
+</div>
+<div class='citation-box' id='cite-mla' style='display:none'>
+  <button class='copy-btn' onclick="copyCite(this)">Copy</button>
+  <span class='cite-text'>Ehstand, Andreas. "Familiar-Absence Effect." AUGMANITAI Compendium, 2026.</span>
+</div>
+<div class='citation-box' id='cite-bib' style='display:none'>
+  <button class='copy-btn' onclick="copyCite(this)">Copy</button>
+  <span class='cite-text'><pre>@misc{ehstand2026familiar-absence-effect,
+  author = {Ehstand, Andreas},
+  title = {Familiar-Absence Effect},
+  year = {2026},
+  howpublished = {\url{https://augmanitai.com/familiar-absence-effect.html}},
+  doi = {10.5281/zenodo.20118267}
+}</pre></span>
+</div>
+<h2><span class='icon'>⚖️</span>Disclaimer</h2>
+<details class='disclaimer-toggle'>
+  <summary>Legal Basis — Click to expand</summary>
+  <div class='disc-content'>
+    <div class='disc-tab-row'>
+      <button class='disc-tab active' onclick="switchDisc('en', this)">English</button>
+      <button class='disc-tab' onclick="switchDisc('de', this)">Deutsch</button>
+    </div>
+    <div class='disc-lang active' id='disc-en'>
+<p><strong>§1 Descriptive, not normative.</strong> This page describes observable phenomena in human-AI interaction. No evaluation, recommendation, or call to action.</p>
+<p><strong>§2 No recommendation for action.</strong> Contents do not constitute a recommendation to use, avoid, or modify AI in any way.</p>
+<p><strong>§3 Not a personality test.</strong> No statement about personality, intelligence, or aptitude.</p>
+<p><strong>§4 No identity attribution.</strong> No statement about identity, character, or attributes of any person.</p>
+<p><strong>§5 No medical statements.</strong> No medical, psychological, psychiatric, therapeutic, legal, or financial statements.</p>
+<p><strong>§6 No diagnostic function.</strong> This page has no diagnostic, prognostic, or therapeutic function.</p>
+<p><strong>§7 Child protection.</strong> AI use by minors is neither normalized, recommended, nor promoted. Intended exclusively for adult users.</p>
+<p><strong>§8 No platform endorsement.</strong> No recommendation for or against any specific AI system, provider, product, or service.</p>
+<p><strong>§9 No data collection.</strong> No personal data collected, stored, transmitted, or processed.</p>
+<p><strong>§10 No profiling.</strong> No tracking, profiling, or sharing of usage data with third parties.</p>
+<p><strong>§11 Independent research.</strong> No external funding. No sponsorship. No commissioned research. Non-peer-reviewed.</p>
+<p><strong>§12 No claim of completeness.</strong> Represents a subset of the AUGMANITAI lexicon.</p>
+<p><strong>§13 No efficacy claims.</strong> No statement about the effectiveness, benefit, or efficacy of AI usage.</p>
+<p><strong>§14 No normalization.</strong> Presentation of AI phenomena does not imply normalization or evaluation.</p>
+<p><strong>§15 Interpretation of results.</strong> Interpretation is the sole responsibility of the user.</p>
+<p><strong>§16 Copyright and license.</strong> CC BY-ND 4.0 International · Informed by ISO 704 / ISO 1087 / ISO 30042.</p>
+<p><strong>§17 Disclaimer of liability.</strong> Provided without warranty of any kind.</p>
+<p><strong>§18 Jurisdiction.</strong> German law applies. Place of jurisdiction is Munich, Germany.</p>
+    </div>
+    <div class='disc-lang' id='disc-de'>
+<p><strong>§1 Deskriptiv, nicht normativ.</strong> Diese Seite beschreibt beobachtbare Phänomene in der Mensch-KI-Interaktion. Sie enthält keine Bewertung, Empfehlung oder Handlungsaufforderung.</p>
+<p><strong>§2 Keine Handlungsempfehlung.</strong> Die Inhalte stellen keine Empfehlung dar, KI in bestimmter Weise zu nutzen, zu meiden oder zu verändern.</p>
+<p><strong>§3 Kein Persönlichkeitstest.</strong> Keine Aussage über Persönlichkeit, Intelligenz oder Eignung.</p>
+<p><strong>§4 Keine Identitätszuschreibung.</strong> Es wird keine Aussage über Identität, Charakter oder Eigenschaften einer Person getroffen.</p>
+<p><strong>§5 Keine medizinischen Aussagen.</strong> Keine medizinischen, psychologischen, psychiatrischen, therapeutischen, rechtlichen oder finanziellen Aussagen.</p>
+<p><strong>§6 Keine diagnostische Funktion.</strong> Diese Seite hat keine diagnostische, prognostische oder therapeutische Funktion.</p>
+<p><strong>§7 Kinderschutz.</strong> KI-Nutzung durch Minderjährige wird weder normalisiert, empfohlen noch beworben. Richtet sich ausschließlich an erwachsene Nutzende.</p>
+<p><strong>§8 Kein Plattform-Endorsement.</strong> Keine Empfehlung für oder gegen bestimmte KI-Systeme, -Anbieter, -Produkte oder -Dienstleistungen.</p>
+<p><strong>§9 Keine Datenerhebung.</strong> Keine personenbezogenen Daten erhoben, gespeichert, übermittelt oder verarbeitet.</p>
+<p><strong>§10 Keine Profilbildung.</strong> Kein Tracking, keine Profilbildung, keine Weitergabe von Nutzungsdaten an Dritte.</p>
+<p><strong>§11 Unabhängige Forschung.</strong> Keine externe Finanzierung. Kein Sponsoring. Keine Auftragsforschung. Non-peer-reviewed.</p>
+<p><strong>§12 Keine Vollständigkeit.</strong> Bildet einen Ausschnitt des AUGMANITAI-Lexikons ab. Kein Anspruch auf Vollständigkeit.</p>
+<p><strong>§13 Keine Wirkaussage.</strong> Keine Aussage über Wirksamkeit, Nutzen oder Effektivität von KI-Nutzung.</p>
+<p><strong>§14 Keine Normalisierung.</strong> Die Darstellung von KI-Phänomenen impliziert keine Normalisierung oder Bewertung.</p>
+<p><strong>§15 Ergebnisinterpretation.</strong> Interpretation der Inhalte liegt ausschließlich bei den Nutzenden.</p>
+<p><strong>§16 Urheberrecht und Lizenz.</strong> CC BY-ND 4.0 International · Informiert durch ISO 704 / ISO 1087 / ISO 30042.</p>
+<p><strong>§17 Haftungsausschluss.</strong> Bereitgestellt ohne Gewährleistung jeglicher Art.</p>
+<p><strong>§18 Gerichtsstand.</strong> Es gilt deutsches Recht. Gerichtsstand ist München.</p>
+    </div>
+    <div class='disc-footer'>
+      CC BY-ND 4.0 · NEOMANITAI Generator V10.2.0 · 2026-03-16
+    </div>
+  </div>
+</details>
+
+    </main>
+
+    <footer>
+<p>NEOMANITAI · Foundation · <a href='https://orcid.org/0009-0006-3773-7796'>Andreas Ehstand</a> · CC BY-ND 4.0</p>
+<p style='margin-top:4px;color:var(--text-muted)'>New words 4 new worlds · From court 2 code 2 compendium · Stay human</p>
+          <p style='margin-top:10px;text-align:center;font-size:.95em'><a href='/disclaimer/' style='color:var(--cyan);font-weight:600;text-decoration:underline'>&rarr; Full Disclaimer &sect;1&ndash;&sect;26 (DE + EN, bilingual)</a></p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.85em;line-height:1.5'>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice.</p>
+      <p style='margin-top:8px;color:var(--text-muted);font-size:.78em;text-align:center;line-height:1.7'><a href='/impressum/'>Impressum</a> &middot; <a href='/datenschutz/'>Datenschutz</a> &middot; <a href='/disclaimer/'>Disclaimer &sect;1&ndash;&sect;26</a> &middot; <a href='/license-of-clarity/'>License of Clarity</a> &middot; <a href='/ai-transparency/'>AI-Transparency</a> &middot; <a href='/iso-conformance/'>ISO-Conformance</a> &middot; <a href='/audit/'>Audit</a> &middot; <a href='/accessibility/'>Accessibility</a> &middot; <a href='/about/'>About</a> &middot; <a href='/citation/'>Citation</a></p>
+    </footer>
+  </div>
+
+  <script type='application/ld+json'>
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Familiar-Absence Effect",
+  "termCode": "RPH-470",
+  "definition": "Familiar-Absence Effect describes the user's developing intuition about when AI recommendations can be trusted and when they cannot — a pattern that becomes salient the user attempts to explain their AI workflow to non-users. In practice, a gradual delegation of creative initiative to AI systems, starting with low-stakes decisions, which distinguishes this from superficially similar phenomena.",
+  "inDefinedTermSet": {
+    "@type": "DefinedTermSet",
+    "name": "AUGMANITAI Compendium",
+    "description": "Comprehensive terminology for human-AI interaction phenomena",
+    "url": "https://augmanitai.com"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Andreas Ehstand",
+    "sameAs": "https://orcid.org/0009-0006-3773-7796"
+  }
+}
+</script>
+<script type='application/ld+json'>
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Definition",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Familiar-Absence Effect describes the user's developing intuition about when AI recommendations can be trusted and when they cannot — a pattern that becomes salient the user attempts to explain their AI workflow to non-users. In practice, a gradual delegation of creative initiative to AI systems, starting with low-stakes decisions, which distinguishes this from superficially similar phenomena."
+      }
+    }
+  ]
+}
+</script>
+<script type='application/ld+json'>
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "AUGMANITAI Compendium",
+      "item": "https://augmanitai.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Cross-System Phenomena",
+      "item": "https://augmanitai.com/cross-system-phenomena.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Familiar-Absence Effect",
+      "item": "https://augmanitai.com/familiar-absence-effect.html"
+    }
+  ]
+}
+</script>
+
+  <script>
+function switchDisc(lang, btn) {
+  const c = btn.closest('.disc-content');
+  c.querySelectorAll('.disc-lang').forEach(e => e.classList.remove('active'));
+  c.querySelectorAll('.disc-tab').forEach(e => e.classList.remove('active'));
+  btn.classList.add('active');
+  c.querySelector('#disc-' + lang).classList.add('active');
+}
+function switchCite(fmt, btn) {
+  const p = btn.closest('.container') || document;
+  p.querySelectorAll('.citation-box').forEach(e => e.style.display = 'none');
+  p.querySelectorAll('.cite-tab').forEach(e => e.classList.remove('active'));
+  btn.classList.add('active');
+  const el = p.querySelector('#cite-' + fmt);
+  if (el) el.style.display = 'block';
+}
+function copyCite(btn) {
+  const text = btn.parentElement.querySelector('.cite-text').innerText;
+  navigator.clipboard.writeText(text);
+  btn.textContent = 'Copied!';
+  setTimeout(() => btn.textContent = 'Copy', 1500);
+}
+window.addEventListener('scroll', () => {
+  const h = document.documentElement;
+  const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+  const bar = document.querySelector('.scroll-progress');
+  if (bar) bar.style.width = pct + '%';
+});
+
+// Star field
+(function() {
+  const field = document.getElementById('starField');
+  if (!field) return;
+  const count = Math.min(80, Math.floor(window.innerWidth / 15));
+  for (let i = 0; i < count; i++) {
+    const s = document.createElement('div');
+    s.className = 'star';
+    s.style.left = Math.random() * 100 + '%';
+    s.style.top = Math.random() * 100 + '%';
+    s.style.setProperty('--dur', (2 + Math.random() * 4).toFixed(1) + 's');
+    s.style.animationDelay = (Math.random() * 5).toFixed(1) + 's';
+    s.style.width = s.style.height = (1 + Math.random() * 2).toFixed(1) + 'px';
+    field.appendChild(s);
+  }
+})();
+  </script>
+</body>
+</html>
