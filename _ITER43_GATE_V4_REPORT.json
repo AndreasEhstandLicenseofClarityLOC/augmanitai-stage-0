@@ -1,0 +1,3186 @@
+{
+  "n_total": 17056,
+  "n_flagged": 1057,
+  "counters": {
+    "instruction": 878,
+    "du_ansprache": 140,
+    "children_mention": 39,
+    "violence": 3
+  },
+  "flagged": {
+    "absence-onset-pattern": [
+      "instruction:first do"
+    ],
+    "absorption-intensifying": [
+      "instruction:First do"
+    ],
+    "absorption-intensifying-effect": [
+      "instruction:First do"
+    ],
+    "acceleration-onset-marker": [
+      "instruction:first do"
+    ],
+    "accent-awareness": [
+      "instruction:how to "
+    ],
+    "accent-multiplication": [
+      "instruction:how to "
+    ],
+    "accuracy-checker": [
+      "instruction:step one"
+    ],
+    "action-item": [
+      "instruction:step-by-step"
+    ],
+    "acute-attachment-forming-resonance": [
+      "du_ansprache:you could"
+    ],
+    "acute-consciousness-merging-pattern": [
+      "du_ansprache:your mind"
+    ],
+    "acute-depth-modality": [
+      "instruction:First do"
+    ],
+    "acute-mind-protecting-morphology": [
+      "du_ansprache:you could"
+    ],
+    "acute-slowness-choosing-phenomenon": [
+      "du_ansprache:you could"
+    ],
+    "acute-thinking-interweaving-configuration": [
+      "du_ansprache:your mind"
+    ],
+    "adaptive-expertise": [
+      "instruction:how to "
+    ],
+    "adaptive-instruction": [
+      "instruction:how to "
+    ],
+    "adaptive-pathways": [
+      "instruction:how to "
+    ],
+    "adjacent-appears-effect": [
+      "instruction:First do"
+    ],
+    "administrative-assistant": [
+      "instruction:step-by-step"
+    ],
+    "administrative-audit": [
+      "instruction:step-by-step"
+    ],
+    "administrative-budget": [
+      "instruction:step-by-step"
+    ],
+    "administrative-burden": [
+      "instruction:step-by-step"
+    ],
+    "administrative-efficiency": [
+      "instruction:step-by-step"
+    ],
+    "administrative-ethics": [
+      "instruction:step-by-step"
+    ],
+    "administrative-law": [
+      "instruction:step-by-step"
+    ],
+    "administrative-management": [
+      "instruction:step-by-step"
+    ],
+    "administrative-overhead": [
+      "instruction:step-by-step"
+    ],
+    "administrative-simplification": [
+      "instruction:step-by-step"
+    ],
+    "adoption-window": [
+      "instruction:how to "
+    ],
+    "aesthetic-algorithm-fairness-assessment": [
+      "instruction:how to "
+    ],
+    "aesthetic-algorithm-fairness-evaluation": [
+      "instruction:how to "
+    ],
+    "aesthetic-algorithm-fairness-requirements": [
+      "instruction:how to "
+    ],
+    "aesthetic-algorithm-imbalance-display": [
+      "instruction:how to "
+    ],
+    "aesthetic-algorithm-transparency-need": [
+      "instruction:how to "
+    ],
+    "aesthetic-confidence-paradox": [
+      "instruction:how to "
+    ],
+    "aesthetic-judgment-algorithm-legibility": [
+      "instruction:how to "
+    ],
+    "aesthetic-preference-algorithm-optimization": [
+      "instruction:how to "
+    ],
+    "aesthetic-preference-algorithm-transparency": [
+      "instruction:how to "
+    ],
+    "aesthetic-preferences-in-ai-training": [
+      "instruction:how to "
+    ],
+    "aesthetic-training-data-contamination": [
+      "instruction:how to "
+    ],
+    "aesthetic-training-data-curation-impact": [
+      "instruction:how to "
+    ],
+    "aesthetic-training-data-fairness": [
+      "instruction:how to "
+    ],
+    "aesthetic-training-data-skew-pattern": [
+      "instruction:how to "
+    ],
+    "age-appropriate-use": [
+      "children_mention:Minor"
+    ],
+    "agency-and-ai-dynamics": [
+      "instruction:First do"
+    ],
+    "agency-assertion": [
+      "du_ansprache:you could"
+    ],
+    "agenda": [
+      "instruction:step-by-step"
+    ],
+    "agile-management": [
+      "instruction:step-by-step"
+    ],
+    "agility-cultivation": [
+      "instruction:how to "
+    ],
+    "ai-art-community-legitimacy-building": [
+      "instruction:how to "
+    ],
+    "ai-art-copyright-enforcement-challenge": [
+      "instruction:how to "
+    ],
+    "ai-art-gallery-integration-strategy": [
+      "instruction:how to "
+    ],
+    "ai-art-legitimacy-criteria-development": [
+      "instruction:how to "
+    ],
+    "ai-art-market-speculation-effect": [
+      "instruction:how to "
+    ],
+    "ai-art-medium-definition-debate": [
+      "instruction:how to "
+    ],
+    "ai-art-ownership-legal-ambiguity": [
+      "instruction:how to "
+    ],
+    "ai-art-style-clustering-effect": [
+      "instruction:how to "
+    ],
+    "ai-art-valuation-metric-development": [
+      "instruction:how to "
+    ],
+    "ai-artistic-authenticity-marker": [
+      "instruction:how to "
+    ],
+    "ai-artistic-authorship-rights": [
+      "instruction:how to "
+    ],
+    "ai-artistic-output-diversity-challenge": [
+      "instruction:how to "
+    ],
+    "ai-artistic-output-reproducibility": [
+      "instruction:how to "
+    ],
+    "ai-artistic-training-data-opacity": [
+      "instruction:how to "
+    ],
+    "ai-artistic-voice-formation": [
+      "instruction:how to "
+    ],
+    "ai-artwork-attribution-challenge": [
+      "instruction:how to "
+    ],
+    "ai-artwork-conceptual-legitimacy": [
+      "instruction:how to "
+    ],
+    "ai-artwork-conceptual-originality": [
+      "instruction:how to "
+    ],
+    "ai-artwork-legitimacy-in-fine-art": [
+      "instruction:how to "
+    ],
+    "ai-artwork-valuation-uncertainty": [
+      "instruction:how to "
+    ],
+    "ai-assisted-administration": [
+      "instruction:step-by-step"
+    ],
+    "ai-generated-art-authenticity-framework": [
+      "instruction:how to "
+    ],
+    "alert": [
+      "instruction:First do"
+    ],
+    "algorithm-aesthetic-exploration-space": [
+      "instruction:how to "
+    ],
+    "algorithm-aesthetic-fairness-adjustment": [
+      "instruction:how to "
+    ],
+    "algorithm-aesthetic-preference-concentration": [
+      "instruction:how to "
+    ],
+    "algorithm-aesthetic-preference-influence": [
+      "instruction:how to "
+    ],
+    "algorithm-based-aesthetic-judgment": [
+      "instruction:how to "
+    ],
+    "algorithm-based-artistic-copyright": [
+      "instruction:how to "
+    ],
+    "algorithm-based-artistic-judgment": [
+      "instruction:how to "
+    ],
+    "algorithm-human-artistic-collaboration": [
+      "instruction:how to "
+    ],
+    "algorithmic-aesthetic-diversity-promotion": [
+      "instruction:how to "
+    ],
+    "algorithmic-art-curation-effect": [
+      "instruction:how to "
+    ],
+    "algorithmic-curation-aesthetic-effect": [
+      "instruction:how to "
+    ],
+    "algorithmic-imbalance-in-art-creation": [
+      "instruction:how to "
+    ],
+    "algorithmic-imbalance-in-generated-aesthetics": [
+      "instruction:how to "
+    ],
+    "algorithmic-management-awareness": [
+      "instruction:First do"
+    ],
+    "algorithmic-taste-formation": [
+      "instruction:step-by-step"
+    ],
+    "alien-affect-mechanism": [
+      "instruction:First do"
+    ],
+    "always-available": [
+      "du_ansprache:you could"
+    ],
+    "ambient-boundary-fading-profile": [
+      "du_ansprache:your mind"
+    ],
+    "ambient-boundary-holding-profile": [
+      "du_ansprache:you could"
+    ],
+    "ambient-delegation-easing-substrate": [
+      "du_ansprache:you could"
+    ],
+    "ambient-hold-signature": [
+      "instruction:First do"
+    ],
+    "ambient-offloading-comforting-topology": [
+      "du_ansprache:you could"
+    ],
+    "ambivalent-ai-experiences": [
+      "instruction:First do"
+    ],
+    "amnesia-loss-phenomenon": [
+      "instruction:First do"
+    ],
+    "analog-choice": [
+      "du_ansprache:you could"
+    ],
+    "andragogy": [
+      "children_mention:children"
+    ],
+    "anthro-tired-marker": [
+      "instruction:First do"
+    ],
+    "anticipatory-difficulty-welcoming-modality": [
+      "du_ansprache:you could"
+    ],
+    "anticipatory-habit-deepening-gradient": [
+      "du_ansprache:you could"
+    ],
+    "anticipatory-mind-protecting-metabolism": [
+      "du_ansprache:you could"
+    ],
+    "apply-onset-marker": [
+      "instruction:first do"
+    ],
+    "archetype-gravity": [
+      "instruction:how to "
+    ],
+    "archiving": [
+      "instruction:step-by-step"
+    ],
+    "argument-construction": [
+      "instruction:how to "
+    ],
+    "art-style-homogenization-through-ai": [
+      "instruction:how to "
+    ],
+    "artistic-authorship-redistribution": [
+      "instruction:how to "
+    ],
+    "artistic-community-ai-acceptance": [
+      "instruction:how to "
+    ],
+    "artistic-community-ai-integration-mismatch": [
+      "instruction:how to "
+    ],
+    "artistic-community-response-to-ai": [
+      "instruction:how to "
+    ],
+    "artistic-copyright-ai-training-data": [
+      "instruction:how to "
+    ],
+    "artistic-copyright-in-ai-generated-works": [
+      "instruction:how to "
+    ],
+    "artistic-expression-algorithm-interaction": [
+      "instruction:how to "
+    ],
+    "artistic-expression-algorithmic-constraints": [
+      "instruction:how to "
+    ],
+    "artistic-expression-through-algorithmic-guidance": [
+      "instruction:how to "
+    ],
+    "artistic-innovation-through-ai-collaboration": [
+      "instruction:how to "
+    ],
+    "artistic-intent-disambiguation-in-ai": [
+      "instruction:how to "
+    ],
+    "artistic-intent-in-generated-work": [
+      "instruction:how to "
+    ],
+    "artistic-uniqueness-algorithmic-measure": [
+      "instruction:how to "
+    ],
+    "artistic-uniqueness-in-ai-generation": [
+      "instruction:how to "
+    ],
+    "artwork-attribution-to-ai-system": [
+      "instruction:how to "
+    ],
+    "asset-management": [
+      "instruction:step-by-step"
+    ],
+    "asymmetric-autonomy-asserting-ecology": [
+      "du_ansprache:you could"
+    ],
+    "asymmetric-autonomy-fading-effect": [
+      "du_ansprache:you could"
+    ],
+    "asymmetric-boundary-holding-architecture": [
+      "du_ansprache:you could"
+    ],
+    "asymmetric-origin-confusing-morphology": [
+      "du_ansprache:your mind"
+    ],
+    "asymmetric-slowness-choosing-metabolism": [
+      "du_ansprache:you could"
+    ],
+    "asynchronous-navigation": [
+      "instruction:how to "
+    ],
+    "attenuated-craft-signature": [
+      "instruction:First do"
+    ],
+    "attenuated-crutch-leaning-dimension": [
+      "du_ansprache:you could"
+    ],
+    "attenuated-identity-softening-dynamic": [
+      "du_ansprache:your mind"
+    ],
+    "attenuated-refusal-practicing-substrate": [
+      "du_ansprache:you could"
+    ],
+    "attenuation-onset-effect": [
+      "instruction:first do"
+    ],
+    "attribution-ambiguity": [
+      "instruction:how to "
+    ],
+    "attribution-loss": [
+      "du_ansprache:your mind"
+    ],
+    "augmentation-identity-marker": [
+      "instruction:First do"
+    ],
+    "augmented-encounters-effect": [
+      "instruction:First do"
+    ],
+    "authentic-integration": [
+      "instruction:how to "
+    ],
+    "authorial-presence": [
+      "instruction:how to "
+    ],
+    "authorization-matrix": [
+      "instruction:step-by-step"
+    ],
+    "authorship-suspicion": [
+      "instruction:how to "
+    ],
+    "automatic-delegation": [
+      "du_ansprache:you could"
+    ],
+    "automation-ceiling-recognition": [
+      "instruction:First do"
+    ],
+    "autonomous-navigation": [
+      "instruction:how to "
+    ],
+    "autonomy-delegation": [
+      "instruction:how to "
+    ],
+    "autonomy-ecosystem": [
+      "instruction:how to "
+    ],
+    "autonomy-honoring": [
+      "instruction:how to "
+    ],
+    "balance-arbitration": [
+      "instruction:how to "
+    ],
+    "batch-evaluation-hesitation": [
+      "instruction:how to "
+    ],
+    "beauty-consensus-bias": [
+      "instruction:how to "
+    ],
+    "belief-dissolving": [
+      "instruction:First do"
+    ],
+    "belief-influence": [
+      "du_ansprache:you can"
+    ],
+    "benchmarking": [
+      "instruction:step-by-step"
+    ],
+    "bidirectional-autonomy-asserting-ecology": [
+      "du_ansprache:you could"
+    ],
+    "bidirectional-default-shifting-modality": [
+      "du_ansprache:you could"
+    ],
+    "bidirectional-habit-deepening-resonance": [
+      "du_ansprache:you could"
+    ],
+    "bidirectional-independence-eroding-architecture": [
+      "du_ansprache:you could"
+    ],
+    "bilingual-integration": [
+      "instruction:how to "
+    ],
+    "blank-cursor": [
+      "instruction:how to "
+    ],
+    "blend-onset-signal": [
+      "instruction:first do"
+    ],
+    "blind-spot": [
+      "du_ansprache:your experience"
+    ],
+    "blind-spot-meta": [
+      "violence:torment",
+      "du_ansprache:you have"
+    ],
+    "blue-collar-bypass": [
+      "violence:torture"
+    ],
+    "blur": [
+      "instruction:First do"
+    ],
+    "board-meeting": [
+      "instruction:step-by-step"
+    ],
+    "both-onset-tendency": [
+      "instruction:first do"
+    ],
+    "boundary-cross-pattern": [
+      "instruction:First do"
+    ],
+    "boundary-dissolve": [
+      "du_ansprache:your mind"
+    ],
+    "boundary-systems-effect": [
+      "children_mention:children"
+    ],
+    "brand-drift": [
+      "instruction:how to "
+    ],
+    "brand-persona-drift": [
+      "instruction:how to "
+    ],
+    "bright-push-4": [
+      "children_mention:minor"
+    ],
+    "bright-root-4": [
+      "instruction:how to "
+    ],
+    "burnout-factor-signal": [
+      "instruction:First do"
+    ],
+    "burnout-vector-shift": [
+      "instruction:First do"
+    ],
+    "business-continuity-management": [
+      "instruction:step-by-step"
+    ],
+    "business-integration": [
+      "instruction:how to "
+    ],
+    "business-intelligence": [
+      "instruction:step-by-step"
+    ],
+    "business-plan": [
+      "instruction:step-by-step"
+    ],
+    "business-process-management": [
+      "instruction:step-by-step"
+    ],
+    "business-process-reengineering": [
+      "instruction:step-by-step"
+    ],
+    "calibrate-effort-phenomenon": [
+      "instruction:First do"
+    ],
+    "capability-element-effect": [
+      "instruction:First do"
+    ],
+    "capability-layering": [
+      "instruction:first, then"
+    ],
+    "capability-range-effect": [
+      "instruction:First do"
+    ],
+    "capability-scaling": [
+      "instruction:how to "
+    ],
+    "capacity-planning": [
+      "instruction:step-by-step"
+    ],
+    "careful-tester": [
+      "instruction:step by step"
+    ],
+    "cascading-autonomy-asserting-configuration": [
+      "du_ansprache:you could"
+    ],
+    "cascading-autonomy-fading-gradient": [
+      "du_ansprache:you could"
+    ],
+    "cascading-crutch-leaning-resonance": [
+      "du_ansprache:you could"
+    ],
+    "cascading-reliance-growing-topology": [
+      "du_ansprache:you could"
+    ],
+    "cascading-self-guarding-mechanism": [
+      "du_ansprache:you could"
+    ],
+    "case-assumption": [
+      "instruction:how to "
+    ],
+    "center-magnetism": [
+      "instruction:how to "
+    ],
+    "central-craft-preserving-mechanism": [
+      "du_ansprache:you could"
+    ],
+    "central-default-shifting-pattern": [
+      "du_ansprache:you could"
+    ],
+    "central-one-thinking-metabolism": [
+      "du_ansprache:your mind"
+    ],
+    "central-slowness-choosing-register": [
+      "du_ansprache:you could"
+    ],
+    "central-thought-merging-effect": [
+      "du_ansprache:your mind"
+    ],
+    "centralization": [
+      "instruction:step-by-step"
+    ],
+    "challenge-change-effect": [
+      "instruction:First do"
+    ],
+    "change-management": [
+      "instruction:step-by-step"
+    ],
+    "change-request": [
+      "instruction:step-by-step"
+    ],
+    "characteristic-relationship-effect": [
+      "instruction:First do"
+    ],
+    "characterized-decision-effect": [
+      "instruction:First do"
+    ],
+    "children-dance": [
+      "children_mention:Children"
+    ],
+    "childs-first-prompt": [
+      "children_mention:Childs"
+    ],
+    "choice-conscious-phenomenon": [
+      "instruction:First do"
+    ],
+    "clarifying-confidence-phenomenon": [
+      "instruction:First do"
+    ],
+    "clarity-benchmarking": [
+      "instruction:how to "
+    ],
+    "clarity-scaffolding": [
+      "instruction:how to "
+    ],
+    "close-onset-mechanism": [
+      "instruction:first do"
+    ],
+    "cognitive-fusion": [
+      "du_ansprache:your mind"
+    ],
+    "cognitive-identifiable-effect": [
+      "instruction:First do"
+    ],
+    "cognitive-reserve-reallocation": [
+      "instruction:First do"
+    ],
+    "cognitive-shortcut": [
+      "du_ansprache:you could"
+    ],
+    "coherence-design": [
+      "instruction:how to "
+    ],
+    "collaboration-opportunity": [
+      "instruction:how to "
+    ],
+    "collective-intelligence": [
+      "instruction:how to "
+    ],
+    "collective-reflection": [
+      "instruction:how to "
+    ],
+    "communicative-flow": [
+      "instruction:how to "
+    ],
+    "community-navigation": [
+      "instruction:how to "
+    ],
+    "comparison-blindness": [
+      "instruction:how to "
+    ],
+    "competency-articulation": [
+      "instruction:how to "
+    ],
+    "competency-building": [
+      "instruction:how to "
+    ],
+    "competency-management": [
+      "instruction:step-by-step"
+    ],
+    "complexity-user-effect": [
+      "children_mention:Minor"
+    ],
+    "composition-gravity": [
+      "instruction:how to "
+    ],
+    "compounding-attribution-losing-architecture": [
+      "du_ansprache:your mind"
+    ],
+    "compounding-attribution-losing-valence": [
+      "du_ansprache:your mind"
+    ],
+    "compounding-authorship-dissolving-trajectory": [
+      "du_ansprache:your mind"
+    ],
+    "compounding-delegation-easing-morphology": [
+      "du_ansprache:you could"
+    ],
+    "concept-mapping": [
+      "instruction:how to "
+    ],
+    "confide": [
+      "instruction:First do"
+    ],
+    "confidence-restore-pattern": [
+      "instruction:First do"
+    ],
+    "configuration-space": [
+      "du_ansprache:you are"
+    ],
+    "conflict-resolution": [
+      "instruction:step-by-step"
+    ],
+    "consensus-tyranny": [
+      "instruction:how to "
+    ],
+    "consent-question-indicator": [
+      "instruction:First do"
+    ],
+    "consistency-phantom": [
+      "instruction:how to "
+    ],
+    "constructive-feedback": [
+      "instruction:how to "
+    ],
+    "context-layer": [
+      "instruction:step-by-step"
+    ],
+    "contextual-blindness": [
+      "instruction:how to "
+    ],
+    "continuous-improvement": [
+      "instruction:step-by-step"
+    ],
+    "continuous-professional-development-in-administration": [
+      "instruction:step-by-step"
+    ],
+    "continuous-renewal": [
+      "instruction:how to "
+    ],
+    "contract-management": [
+      "instruction:step-by-step"
+    ],
+    "contrast-blindness": [
+      "instruction:how to "
+    ],
+    "contribution-equity": [
+      "children_mention:kids",
+      "instruction:how to "
+    ],
+    "control-illusion": [
+      "instruction:First do"
+    ],
+    "convention-acceleration": [
+      "instruction:how to "
+    ],
+    "convergence-stalling": [
+      "instruction:how to "
+    ],
+    "corporate-communication": [
+      "instruction:step-by-step"
+    ],
+    "corporate-governance": [
+      "instruction:step-by-step"
+    ],
+    "correspondence-template": [
+      "instruction:step-by-step"
+    ],
+    "cost-benefit-analysis": [
+      "instruction:step-by-step"
+    ],
+    "cost-reduction": [
+      "instruction:step-by-step"
+    ],
+    "craft-bypass": [
+      "du_ansprache:you could"
+    ],
+    "craft-bypass-tendency": [
+      "du_ansprache:you could"
+    ],
+    "craft-shift": [
+      "du_ansprache:you do"
+    ],
+    "craftfulness-appearing": [
+      "instruction:First do"
+    ],
+    "crafts-guard": [
+      "du_ansprache:you could"
+    ],
+    "create": [
+      "instruction:First do"
+    ],
+    "creative-control-delegation": [
+      "instruction:how to "
+    ],
+    "creative-credit-distribution": [
+      "instruction:how to "
+    ],
+    "credibility-cultivation": [
+      "instruction:how to "
+    ],
+    "crisis-management": [
+      "instruction:step-by-step"
+    ],
+    "critical-thinking-activation": [
+      "instruction:how to "
+    ],
+    "cross-functional-team": [
+      "instruction:step-by-step"
+    ],
+    "cross-system-phenomena": [
+      "instruction:First do"
+    ],
+    "crutch-comfort": [
+      "du_ansprache:you could"
+    ],
+    "cultural-color-blindness": [
+      "instruction:how to "
+    ],
+    "cultural-embedding": [
+      "instruction:how to "
+    ],
+    "culture-translation": [
+      "instruction:how to "
+    ],
+    "curiosity-drill": [
+      "instruction:how to "
+    ],
+    "customer-relationship-management": [
+      "instruction:step-by-step"
+    ],
+    "cyber-civility": [
+      "instruction:how to "
+    ],
+    "dashboard": [
+      "instruction:step-by-step"
+    ],
+    "data-interpretation": [
+      "instruction:how to "
+    ],
+    "data-protection": [
+      "instruction:step-by-step"
+    ],
+    "decentralization": [
+      "instruction:step-by-step"
+    ],
+    "decision-making-process": [
+      "instruction:step-by-step"
+    ],
+    "deep-push-2": [
+      "children_mention:minor"
+    ],
+    "deep-root-2": [
+      "instruction:how to "
+    ],
+    "default-shifting": [
+      "instruction:First do"
+    ],
+    "delayed-agency-reclaiming-dimension": [
+      "du_ansprache:you could"
+    ],
+    "delayed-identity-softening-configuration": [
+      "du_ansprache:your mind"
+    ],
+    "delayed-reach-automatic-resonance": [
+      "du_ansprache:you could"
+    ],
+    "delayed-refusal-practicing-profile": [
+      "du_ansprache:you could"
+    ],
+    "delegate-onset-indicator": [
+      "instruction:first do"
+    ],
+    "delegation": [
+      "instruction:step-by-step"
+    ],
+    "delegation-ease": [
+      "du_ansprache:you could"
+    ],
+    "deliberate-no": [
+      "du_ansprache:you could"
+    ],
+    "depend": [
+      "instruction:First do"
+    ],
+    "depth": [
+      "instruction:First do"
+    ],
+    "depth-ambiguity": [
+      "instruction:how to "
+    ],
+    "depth-illusion": [
+      "instruction:First do"
+    ],
+    "deserve-question-indicator": [
+      "instruction:First do"
+    ],
+    "developmental-boundary": [
+      "children_mention:Minor"
+    ],
+    "diagonal-hesitation": [
+      "instruction:how to "
+    ],
+    "dialogue-facilitation": [
+      "instruction:how to "
+    ],
+    "diffuse-the-anthropomorphic-signature": [
+      "instruction:First do"
+    ],
+    "digital-creativity": [
+      "instruction:how to "
+    ],
+    "digital-fluency": [
+      "instruction:how to "
+    ],
+    "digital-transformation": [
+      "instruction:step-by-step"
+    ],
+    "digital-workplace": [
+      "instruction:step-by-step"
+    ],
+    "dimension-conditions-effect-c2c9": [
+      "instruction:First do"
+    ],
+    "dimension-confidence-effect": [
+      "instruction:First do"
+    ],
+    "direction-ambiguity": [
+      "instruction:how to "
+    ],
+    "disagreement-navigation": [
+      "instruction:how to "
+    ],
+    "disclosure-calculus": [
+      "instruction:how to "
+    ],
+    "discourse-facilitation": [
+      "instruction:how to "
+    ],
+    "discovery-onset-pattern": [
+      "instruction:first do"
+    ],
+    "disorienting-thought": [
+      "du_ansprache:your mind"
+    ],
+    "distinction-uncertainty": [
+      "instruction:how to "
+    ],
+    "distinctiveness-reversion": [
+      "instruction:how to "
+    ],
+    "distraction-constant-pattern": [
+      "instruction:First do"
+    ],
+    "divergence-frustration": [
+      "instruction:how to "
+    ],
+    "diversity-management": [
+      "instruction:step-by-step"
+    ],
+    "diy-confidence": [
+      "instruction:step-by-step"
+    ],
+    "document-management": [
+      "instruction:step-by-step"
+    ],
+    "documentation-mastery": [
+      "instruction:how to "
+    ],
+    "documentation-surplus": [
+      "instruction:First do"
+    ],
+    "double": [
+      "instruction:First do"
+    ],
+    "doubt": [
+      "instruction:First do"
+    ],
+    "drift-onset": [
+      "instruction:first do"
+    ],
+    "earliest-cohort-observation": [
+      "children_mention:children"
+    ],
+    "early-adulthood-effect": [
+      "children_mention:childhood"
+    ],
+    "early-age-encounter": [
+      "children_mention:children"
+    ],
+    "echo-loop": [
+      "du_ansprache:your own"
+    ],
+    "echo-onset-pattern": [
+      "instruction:first do"
+    ],
+    "edge": [
+      "instruction:First do"
+    ],
+    "edge-avoidance": [
+      "instruction:how to "
+    ],
+    "edge-k": [
+      "du_ansprache:your experience"
+    ],
+    "effectony-recommendation": [
+      "instruction:how to "
+    ],
+    "efficiency-treadmill": [
+      "instruction:First do"
+    ],
+    "element-routine-effect": [
+      "instruction:First do"
+    ],
+    "eliminated-patterns-effect": [
+      "instruction:First do"
+    ],
+    "emergence-onset-phenomenon": [
+      "instruction:first do"
+    ],
+    "emergent-bloom-inflection": [
+      "instruction:First do"
+    ],
+    "emergent-crutch-leaning-gradient": [
+      "du_ansprache:you could"
+    ],
+    "emerging-feature-effect": [
+      "instruction:First do"
+    ],
+    "emotional-regulation-dynamic": [
+      "instruction:First do"
+    ],
+    "emotional-represented-effect": [
+      "instruction:First do"
+    ],
+    "employee-engagement": [
+      "instruction:step-by-step"
+    ],
+    "employee-handbook": [
+      "instruction:step-by-step"
+    ],
+    "empowerment": [
+      "instruction:step-by-step"
+    ],
+    "engagement-enhancement": [
+      "instruction:how to "
+    ],
+    "engagement-tax-effect": [
+      "instruction:First do"
+    ],
+    "ensuring-existing-effect": [
+      "instruction:first, then"
+    ],
+    "enterprise-content-management": [
+      "instruction:step-by-step"
+    ],
+    "eroding-habitual": [
+      "du_ansprache:you could"
+    ],
+    "escalation": [
+      "instruction:step-by-step"
+    ],
+    "essence-preserving": [
+      "instruction:First do"
+    ],
+    "ethical-ai-dimensions": [
+      "instruction:First do"
+    ],
+    "ethics-management": [
+      "instruction:step-by-step"
+    ],
+    "event-management": [
+      "instruction:step-by-step"
+    ],
+    "evidence-integration": [
+      "instruction:how to "
+    ],
+    "evidence-literacy": [
+      "instruction:how to "
+    ],
+    "evidence-synthesis": [
+      "instruction:how to "
+    ],
+    "evolution-imperceptibility": [
+      "instruction:how to "
+    ],
+    "evolves-change-effect": [
+      "instruction:First do"
+    ],
+    "excuse-creative": [
+      "instruction:how to "
+    ],
+    "exit-interview": [
+      "instruction:step-by-step"
+    ],
+    "expectation-manage-tendency": [
+      "instruction:First do"
+    ],
+    "expectation-reset-marker": [
+      "instruction:First do"
+    ],
+    "experience-integration": [
+      "instruction:how to "
+    ],
+    "experiential-framing": [
+      "instruction:how to "
+    ],
+    "expert-illusion": [
+      "instruction:First do"
+    ],
+    "expertise-authentication-transition": [
+      "instruction:how to "
+    ],
+    "expertise-compression": [
+      "instruction:First do"
+    ],
+    "expression-confidence": [
+      "instruction:how to "
+    ],
+    "facility-management": [
+      "instruction:step-by-step"
+    ],
+    "factor": [
+      "instruction:First do"
+    ],
+    "faith-collapse-profound": [
+      "instruction:First do"
+    ],
+    "faith-shattering": [
+      "instruction:First do"
+    ],
+    "fake-certainty": [
+      "du_ansprache:your own"
+    ],
+    "familiarity-comforting": [
+      "instruction:First do"
+    ],
+    "feature-mismatch": [
+      "instruction:how to "
+    ],
+    "feedback-ambiguity": [
+      "instruction:how to "
+    ],
+    "feedback-loop-distortion": [
+      "instruction:how to "
+    ],
+    "feedback-seek-mechanism": [
+      "instruction:First do"
+    ],
+    "filing-system": [
+      "instruction:step-by-step"
+    ],
+    "flat-onset-marker": [
+      "instruction:first do"
+    ],
+    "flexible-pacing": [
+      "instruction:how to "
+    ],
+    "float-onset-indicator": [
+      "instruction:first do"
+    ],
+    "flow-c": [
+      "du_ansprache:You have"
+    ],
+    "flow-l": [
+      "du_ansprache:you can"
+    ],
+    "flow-m": [
+      "du_ansprache:Your own"
+    ],
+    "flow-onset-signal": [
+      "instruction:first do"
+    ],
+    "flow-p": [
+      "du_ansprache:Your own"
+    ],
+    "flow-r": [
+      "du_ansprache:your mind"
+    ],
+    "flow-v": [
+      "du_ansprache:you could"
+    ],
+    "flow-w": [
+      "du_ansprache:you could"
+    ],
+    "fluency-illusion-pattern": [
+      "instruction:First do"
+    ],
+    "focal-agency-reclaiming-oscillation": [
+      "du_ansprache:you could"
+    ],
+    "focal-origin-confusing-topology": [
+      "du_ansprache:your mind"
+    ],
+    "focal-point-ambiguity": [
+      "instruction:how to "
+    ],
+    "focal-thought-merging-oscillation": [
+      "du_ansprache:your mind"
+    ],
+    "font-pair-familiarity": [
+      "instruction:how to "
+    ],
+    "formative-inquiry": [
+      "instruction:how to "
+    ],
+    "foundation-model-robot": [
+      "children_mention:toddler"
+    ],
+    "framework-cognitive-effect": [
+      "instruction:First do"
+    ],
+    "freedom-too-much": [
+      "instruction:First do"
+    ],
+    "frustration-formation-response": [
+      "instruction:First do"
+    ],
+    "gallery-representation-for-ai-art": [
+      "instruction:how to "
+    ],
+    "gantt-chart": [
+      "instruction:step-by-step"
+    ],
+    "gazebo-simulator": [
+      "instruction:first, then",
+      "du_ansprache:you have"
+    ],
+    "generalization-limitation": [
+      "instruction:how to "
+    ],
+    "generated-artwork-attribution-system": [
+      "instruction:how to "
+    ],
+    "generated-artwork-provenance-documentation": [
+      "instruction:how to "
+    ],
+    "generated-artwork-reproducibility-control": [
+      "instruction:how to "
+    ],
+    "generated-artwork-reproducibility-paradox": [
+      "instruction:how to "
+    ],
+    "generated-artwork-uniqueness-assessment": [
+      "instruction:how to "
+    ],
+    "generated-image-authenticity-claim": [
+      "instruction:how to "
+    ],
+    "generated-image-authenticity-verification": [
+      "instruction:how to "
+    ],
+    "generated-image-editing-detection": [
+      "instruction:how to "
+    ],
+    "generated-image-provenance-tracking": [
+      "instruction:how to "
+    ],
+    "generated-image-quality-prediction": [
+      "instruction:how to "
+    ],
+    "generated-image-quality-variance": [
+      "instruction:how to "
+    ],
+    "generated-image-source-attribution": [
+      "instruction:how to "
+    ],
+    "generated-image-style-recognition": [
+      "instruction:how to "
+    ],
+    "generated-image-watermarking-challenge": [
+      "instruction:how to "
+    ],
+    "generational-digital-divide-persistence": [
+      "instruction:how to "
+    ],
+    "generational-tech-adoption-timeline": [
+      "instruction:first use"
+    ],
+    "generative-art-authentication": [
+      "instruction:how to "
+    ],
+    "generative-art-conceptual-framework": [
+      "instruction:how to "
+    ],
+    "generative-art-medium-acceptance": [
+      "instruction:how to "
+    ],
+    "generative-art-medium-legitimacy": [
+      "instruction:how to "
+    ],
+    "generative-art-technique-standardization": [
+      "instruction:how to "
+    ],
+    "generative-model-training-oversight": [
+      "instruction:how to "
+    ],
+    "gentle-push-8": [
+      "children_mention:minor"
+    ],
+    "gentle-root-8": [
+      "instruction:how to "
+    ],
+    "ghost-onset-signal": [
+      "instruction:first do"
+    ],
+    "gradual-attribution-losing-matrix": [
+      "du_ansprache:your mind"
+    ],
+    "gradual-consciousness-merging-profile": [
+      "du_ansprache:your mind"
+    ],
+    "gradual-self-guarding-substrate": [
+      "du_ansprache:you could"
+    ],
+    "grammar-naturalization": [
+      "instruction:how to "
+    ],
+    "grid-instability": [
+      "instruction:how to "
+    ],
+    "grievance-procedure": [
+      "instruction:step-by-step"
+    ],
+    "growing-user-encounter": [
+      "children_mention:childhood"
+    ],
+    "growth-mapping": [
+      "instruction:how to "
+    ],
+    "guarded-essence-forbidden": [
+      "instruction:First do"
+    ],
+    "guarded-withheld-signal": [
+      "instruction:First do"
+    ],
+    "guide": [
+      "instruction:First do"
+    ],
+    "habitual-ai-interaction": [
+      "instruction:First do"
+    ],
+    "hierarchy-narrowing": [
+      "instruction:how to "
+    ],
+    "history-shift": [
+      "instruction:how to "
+    ],
+    "hone-onset-pattern": [
+      "instruction:first do"
+    ],
+    "hope": [
+      "instruction:First do"
+    ],
+    "human-artistic-skill-valuation-shift": [
+      "instruction:how to "
+    ],
+    "human-evolution-effect": [
+      "instruction:First do"
+    ],
+    "human-generated-art-market-substitution": [
+      "instruction:how to "
+    ],
+    "human-resource-management": [
+      "instruction:step-by-step"
+    ],
+    "human-robot-interaction": [
+      "du_ansprache:You do"
+    ],
+    "human-self-effect": [
+      "instruction:First do"
+    ],
+    "hybrid-team-tension": [
+      "instruction:First do"
+    ],
+    "icon-language-breakdown": [
+      "instruction:how to "
+    ],
+    "idea-ignition-indicator": [
+      "instruction:First do"
+    ],
+    "idea-theft-shame": [
+      "du_ansprache:you can"
+    ],
+    "identifiable-habitual-effect": [
+      "instruction:First do"
+    ],
+    "identifiable-micro-effect": [
+      "instruction:First do"
+    ],
+    "identity-signature-effect": [
+      "instruction:First do"
+    ],
+    "immersion-deepening": [
+      "instruction:First do"
+    ],
+    "immersion-simulation": [
+      "instruction:how to "
+    ],
+    "immersive-ai-states": [
+      "instruction:First do"
+    ],
+    "impetus-onset-response": [
+      "instruction:first do"
+    ],
+    "inbox-management": [
+      "instruction:step-by-step"
+    ],
+    "inclusive-modulation": [
+      "instruction:how to "
+    ],
+    "increasing-recognizable-effect": [
+      "instruction:First do"
+    ],
+    "incremental-acceptance": [
+      "instruction:how to "
+    ],
+    "indexical-memory": [
+      "instruction:how to "
+    ],
+    "influence-chain-opacity": [
+      "instruction:how to "
+    ],
+    "information-discernment": [
+      "instruction:how to "
+    ],
+    "information-management": [
+      "instruction:step-by-step"
+    ],
+    "information-security-management": [
+      "instruction:step-by-step"
+    ],
+    "informed-participation": [
+      "children_mention:Minor"
+    ],
+    "inner-strain-dynamic": [
+      "instruction:First do"
+    ],
+    "innovation-integration": [
+      "instruction:how to "
+    ],
+    "innovation-management": [
+      "instruction:step-by-step"
+    ],
+    "innovation-pathway": [
+      "instruction:how to "
+    ],
+    "inquiry-initiation": [
+      "instruction:how to "
+    ],
+    "instant-know-pattern": [
+      "instruction:First do"
+    ],
+    "institutional-resistance": [
+      "instruction:how to "
+    ],
+    "integration-deep-response": [
+      "instruction:First do"
+    ],
+    "integration-friction": [
+      "instruction:how to "
+    ],
+    "integration-navigation": [
+      "instruction:how to "
+    ],
+    "integration-weaving": [
+      "instruction:how to "
+    ],
+    "integration-work-response": [
+      "instruction:First do"
+    ],
+    "intense-push-7": [
+      "children_mention:minor"
+    ],
+    "intense-root-7": [
+      "instruction:how to "
+    ],
+    "intention-obscurity": [
+      "instruction:how to "
+    ],
+    "intentional-craft": [
+      "du_ansprache:you could"
+    ],
+    "interaction-orchestration": [
+      "instruction:how to "
+    ],
+    "interface-accessibility-afterthought-pattern": [
+      "instruction:first, then"
+    ],
+    "interface-constraint": [
+      "instruction:how to "
+    ],
+    "interpretive-recognizable-effect": [
+      "instruction:First do"
+    ],
+    "interreliance-building": [
+      "instruction:how to "
+    ],
+    "interreliance-modeling": [
+      "instruction:how to "
+    ],
+    "interruption-onset-indicator": [
+      "instruction:first do"
+    ],
+    "interruption-resistance-marker": [
+      "children_mention:child"
+    ],
+    "inventory-management": [
+      "instruction:step-by-step"
+    ],
+    "inviolable-boundary-inviolate": [
+      "instruction:First do"
+    ],
+    "invisible-labor-amplification": [
+      "instruction:First do"
+    ],
+    "iso-10218": [
+      "instruction:how to "
+    ],
+    "iso-certification": [
+      "instruction:step-by-step"
+    ],
+    "isolation-depth-indicator": [
+      "instruction:First do"
+    ],
+    "it-management": [
+      "instruction:step-by-step"
+    ],
+    "jargon-shield": [
+      "instruction:how to "
+    ],
+    "joke-failure": [
+      "children_mention:Child"
+    ],
+    "joy": [
+      "instruction:First do"
+    ],
+    "judgment-confidence-narrowing": [
+      "instruction:how to "
+    ],
+    "judgment-manage-tendency": [
+      "instruction:First do"
+    ],
+    "key-performance-indicator": [
+      "instruction:step-by-step"
+    ],
+    "kids-bmx": [
+      "children_mention:Kids"
+    ],
+    "knitting-fix": [
+      "instruction:how to "
+    ],
+    "knowledge-contribution": [
+      "instruction:how to "
+    ],
+    "knowledge-management": [
+      "instruction:step-by-step"
+    ],
+    "knowledge-shift": [
+      "du_ansprache:your own"
+    ],
+    "knowledge-transfer": [
+      "instruction:step-by-step"
+    ],
+    "knowledge-withholding": [
+      "instruction:First do"
+    ],
+    "labor": [
+      "instruction:First do"
+    ],
+    "labor-e": [
+      "violence:violent"
+    ],
+    "language-ladder": [
+      "instruction:step-by-step"
+    ],
+    "last-mile-problem": [
+      "instruction:First do"
+    ],
+    "latent-attachment-forming-ecology": [
+      "du_ansprache:you could"
+    ],
+    "latent-boundary-fading-architecture": [
+      "du_ansprache:your mind"
+    ],
+    "latent-boundary-holding-effect": [
+      "du_ansprache:you could"
+    ],
+    "latent-difficulty-welcoming-pattern": [
+      "du_ansprache:you could"
+    ],
+    "latent-reach-automatic-metabolism": [
+      "du_ansprache:you could"
+    ],
+    "layout-drift": [
+      "instruction:how to "
+    ],
+    "leadership-emergence": [
+      "instruction:how to "
+    ],
+    "leadership-pipeline": [
+      "instruction:how to "
+    ],
+    "lean-administration": [
+      "instruction:step-by-step"
+    ],
+    "lean-management": [
+      "instruction:step-by-step"
+    ],
+    "learn": [
+      "instruction:First do"
+    ],
+    "learn-i": [
+      "du_ansprache:your own"
+    ],
+    "learn-n": [
+      "du_ansprache:You do"
+    ],
+    "learning-curve-inversion": [
+      "instruction:how to "
+    ],
+    "learning-sequencing": [
+      "instruction:how to "
+    ],
+    "legacy-durability": [
+      "instruction:how to "
+    ],
+    "letter-spacing-overdose": [
+      "instruction:how to "
+    ],
+    "line-height-compression": [
+      "instruction:how to "
+    ],
+    "listening-attunement": [
+      "instruction:how to "
+    ],
+    "lockup-instability": [
+      "instruction:how to "
+    ],
+    "logistics": [
+      "instruction:step-by-step"
+    ],
+    "logo-morphing": [
+      "instruction:how to "
+    ],
+    "lookup-for-others": [
+      "instruction:how to "
+    ],
+    "loop-onset": [
+      "instruction:first do"
+    ],
+    "mail-and-correspondence-management": [
+      "instruction:step-by-step"
+    ],
+    "mail-merge": [
+      "instruction:step-by-step"
+    ],
+    "maintenance-weight-response": [
+      "instruction:First do"
+    ],
+    "management-by-objectives": [
+      "instruction:step-by-step"
+    ],
+    "management-information-system": [
+      "instruction:step-by-step"
+    ],
+    "mastery-framework": [
+      "instruction:how to "
+    ],
+    "mastery-progression": [
+      "instruction:how to "
+    ],
+    "mathematical-reasoning-delegation": [
+      "instruction:step-by-step"
+    ],
+    "matrix-organization": [
+      "instruction:step-by-step"
+    ],
+    "meaning": [
+      "instruction:First do"
+    ],
+    "meaning-extraction-problem": [
+      "instruction:First do"
+    ],
+    "meaning-making-boom-signal": [
+      "instruction:First do"
+    ],
+    "meaning-making-discovery-mechanism": [
+      "instruction:First do"
+    ],
+    "meeting-management": [
+      "instruction:step-by-step"
+    ],
+    "meeting-paradox": [
+      "instruction:First do"
+    ],
+    "memorandum": [
+      "instruction:step-by-step"
+    ],
+    "memory-prosthetic": [
+      "du_ansprache:you could"
+    ],
+    "mentorship-disruption": [
+      "instruction:First do"
+    ],
+    "mentorship-reciprocity": [
+      "instruction:how to "
+    ],
+    "merged-process": [
+      "du_ansprache:your mind"
+    ],
+    "message-drafting": [
+      "instruction:how to "
+    ],
+    "metacognitive-atrophy": [
+      "du_ansprache:you don't"
+    ],
+    "micro-win": [
+      "instruction:first try"
+    ],
+    "midnight-hour": [
+      "du_ansprache:you might"
+    ],
+    "milestone": [
+      "instruction:step-by-step"
+    ],
+    "mind-boundary": [
+      "du_ansprache:you could"
+    ],
+    "mini-basketball": [
+      "children_mention:children"
+    ],
+    "minutes": [
+      "instruction:step-by-step"
+    ],
+    "mirror-mind": [
+      "du_ansprache:you can"
+    ],
+    "moment-capture-phenomenon": [
+      "instruction:First do"
+    ],
+    "monochrome-escape": [
+      "instruction:how to "
+    ],
+    "mood-instability": [
+      "instruction:how to "
+    ],
+    "mortal": [
+      "instruction:First do"
+    ],
+    "multi-site-management": [
+      "instruction:step-by-step"
+    ],
+    "multimodal-competence": [
+      "instruction:how to "
+    ],
+    "muscle-memory-disruption": [
+      "instruction:how to "
+    ],
+    "muted-preference": [
+      "instruction:how to "
+    ],
+    "mutual-accountability": [
+      "instruction:how to "
+    ],
+    "nano-robot": [
+      "du_ansprache:you do"
+    ],
+    "narrative-represents-effect": [
+      "instruction:First do"
+    ],
+    "narrative-threading": [
+      "instruction:how to "
+    ],
+    "neck-tension": [
+      "instruction:first, then"
+    ],
+    "negative-space-invasion": [
+      "instruction:how to "
+    ],
+    "negotiation": [
+      "instruction:step-by-step"
+    ],
+    "neuromorphic-robotic-architecture": [
+      "du_ansprache:you can"
+    ],
+    "next-thing-marker": [
+      "instruction:First do"
+    ],
+    "novelty-fatigue": [
+      "instruction:how to "
+    ],
+    "now-onset-marker": [
+      "instruction:first do"
+    ],
+    "occupational-health-management": [
+      "instruction:step-by-step"
+    ],
+    "oee-measurement": [
+      "du_ansprache:you are"
+    ],
+    "office-layout": [
+      "instruction:step-by-step"
+    ],
+    "office-management": [
+      "instruction:step-by-step"
+    ],
+    "offload-relief": [
+      "du_ansprache:you could"
+    ],
+    "onboarding": [
+      "instruction:step-by-step"
+    ],
+    "operations-management": [
+      "instruction:step-by-step"
+    ],
+    "organizational-chart": [
+      "instruction:step-by-step"
+    ],
+    "organizational-culture": [
+      "instruction:step-by-step"
+    ],
+    "organizational-development": [
+      "instruction:step-by-step"
+    ],
+    "organizational-learning": [
+      "instruction:step-by-step"
+    ],
+    "organizational-resilience": [
+      "instruction:step-by-step"
+    ],
+    "organizational-structure": [
+      "instruction:step-by-step"
+    ],
+    "originality-phantom": [
+      "instruction:how to "
+    ],
+    "oscillating-hardship-embracing-register": [
+      "du_ansprache:you could"
+    ],
+    "oscillating-reliance-growing-substrate": [
+      "du_ansprache:you could"
+    ],
+    "output-inflation": [
+      "instruction:First do"
+    ],
+    "outsourcing": [
+      "instruction:step-by-step"
+    ],
+    "pace-match-mechanism": [
+      "instruction:First do"
+    ],
+    "package-recognition": [
+      "instruction:how to "
+    ],
+    "palette-convergence": [
+      "instruction:how to "
+    ],
+    "paperless-office": [
+      "instruction:step-by-step"
+    ],
+    "paradoxical-authorship-dissolving-valence": [
+      "du_ansprache:your mind"
+    ],
+    "paradoxical-boundary-fading-contour": [
+      "du_ansprache:your mind"
+    ],
+    "paradoxical-reliance-growing-oscillation": [
+      "du_ansprache:you could"
+    ],
+    "paradoxical-thought-merging-inflection": [
+      "du_ansprache:your mind"
+    ],
+    "parameter-overwhelm": [
+      "instruction:how to "
+    ],
+    "parental-oversight": [
+      "children_mention:minors"
+    ],
+    "parental-priority-valve": [
+      "children_mention:children"
+    ],
+    "parenting-shortcut": [
+      "children_mention:children"
+    ],
+    "pattern-exhaustion": [
+      "instruction:how to "
+    ],
+    "pedagogical-presence": [
+      "instruction:how to "
+    ],
+    "peer-elevation": [
+      "instruction:how to "
+    ],
+    "perfect-threshold": [
+      "instruction:how to "
+    ],
+    "performance-appraisal": [
+      "instruction:step-by-step"
+    ],
+    "performance-dashboard": [
+      "instruction:step-by-step"
+    ],
+    "performance-elevation": [
+      "instruction:how to "
+    ],
+    "performance-try-effect": [
+      "instruction:First do"
+    ],
+    "peripheral-default-shifting-substrate": [
+      "du_ansprache:you could"
+    ],
+    "peripheral-hardship-embracing-effect": [
+      "du_ansprache:you could"
+    ],
+    "peripheral-identity-softening-morphology": [
+      "du_ansprache:your mind"
+    ],
+    "personal-style-contamination": [
+      "instruction:how to "
+    ],
+    "personality-mismatch": [
+      "instruction:how to "
+    ],
+    "perspective-broadening": [
+      "instruction:how to "
+    ],
+    "perspective-weaving": [
+      "instruction:how to "
+    ],
+    "platform-agility": [
+      "instruction:how to "
+    ],
+    "playful-ai-engagement": [
+      "instruction:First do"
+    ],
+    "point-dependency-effect": [
+      "instruction:First do"
+    ],
+    "point-onset-tendency": [
+      "instruction:first do"
+    ],
+    "policy": [
+      "instruction:step-by-step"
+    ],
+    "policy-manual": [
+      "instruction:step-by-step"
+    ],
+    "portfolio-emergence": [
+      "instruction:how to "
+    ],
+    "power-flip-response": [
+      "instruction:First do"
+    ],
+    "precious-protected-space": [
+      "instruction:First do"
+    ],
+    "precision-shift": [
+      "instruction:how to "
+    ],
+    "predictive-maintenance": [
+      "du_ansprache:you should"
+    ],
+    "preference-guilt": [
+      "du_ansprache:you do"
+    ],
+    "presence-amplification": [
+      "instruction:how to "
+    ],
+    "presence-challenge-effect": [
+      "instruction:First do"
+    ],
+    "prickling-visible-effect": [
+      "instruction:First do"
+    ],
+    "pride": [
+      "instruction:First do"
+    ],
+    "printer-whisperer": [
+      "instruction:how to "
+    ],
+    "privacy-awareness": [
+      "instruction:how to "
+    ],
+    "process-mapping": [
+      "instruction:step-by-step"
+    ],
+    "procurement": [
+      "instruction:step-by-step"
+    ],
+    "productive-merged": [
+      "du_ansprache:your mind"
+    ],
+    "productivity-paradox": [
+      "instruction:First do"
+    ],
+    "professional-development": [
+      "instruction:step-by-step"
+    ],
+    "professional-loss-effect": [
+      "instruction:First do"
+    ],
+    "professional-moat-erosion": [
+      "instruction:First do"
+    ],
+    "project-management": [
+      "instruction:step-by-step"
+    ],
+    "project-portfolio-management": [
+      "instruction:step-by-step"
+    ],
+    "prompt-engineering-as-labor": [
+      "instruction:First do"
+    ],
+    "prompt-exhaust-dynamic": [
+      "instruction:First do"
+    ],
+    "prompt-visual-gap": [
+      "instruction:how to "
+    ],
+    "proportional-echo": [
+      "instruction:how to "
+    ],
+    "prosthetic-robotics": [
+      "children_mention:children"
+    ],
+    "punctuated-glimpse-of-register": [
+      "instruction:First do"
+    ],
+    "punctuated-habit-deepening-configuration": [
+      "du_ansprache:you could"
+    ],
+    "punctuated-offloading-comforting-pattern": [
+      "du_ansprache:you could"
+    ],
+    "purpose-alignment": [
+      "instruction:how to "
+    ],
+    "quality-management": [
+      "instruction:step-by-step"
+    ],
+    "quiet-push-9": [
+      "children_mention:minor"
+    ],
+    "quiet-root-9": [
+      "instruction:how to "
+    ],
+    "radiant-delight": [
+      "instruction:First do"
+    ],
+    "reach-first": [
+      "du_ansprache:you could"
+    ],
+    "readability-sacrifice": [
+      "instruction:how to "
+    ],
+    "reasoning-granularity-mismatch": [
+      "instruction:step-by-step"
+    ],
+    "recipe-database": [
+      "instruction:step-by-step"
+    ],
+    "recognition-experiences-in-ai": [
+      "instruction:First do"
+    ],
+    "records-management": [
+      "instruction:step-by-step"
+    ],
+    "refinement-perception": [
+      "instruction:how to "
+    ],
+    "reflection-activation": [
+      "instruction:how to "
+    ],
+    "reflective-practice": [
+      "instruction:how to "
+    ],
+    "refresh-first-principle": [
+      "instruction:first, then"
+    ],
+    "refusal-practice": [
+      "du_ansprache:you could"
+    ],
+    "regression-onset-indicator": [
+      "instruction:first do"
+    ],
+    "relational-ai-phenomena": [
+      "instruction:First do"
+    ],
+    "relationship-maintain-effect": [
+      "instruction:First do"
+    ],
+    "relationship-work-effect": [
+      "instruction:First do"
+    ],
+    "relevance-resonance": [
+      "instruction:how to "
+    ],
+    "relevance-threading": [
+      "instruction:how to "
+    ],
+    "reliability-questioned-wounding": [
+      "instruction:First do"
+    ],
+    "reliably-building-effect": [
+      "instruction:First do"
+    ],
+    "remote-work-management": [
+      "instruction:step-by-step"
+    ],
+    "rendering-surprise": [
+      "instruction:how to "
+    ],
+    "rent-defense": [
+      "instruction:how to "
+    ],
+    "repeated-social-effect": [
+      "instruction:First do"
+    ],
+    "replay-fix": [
+      "instruction:how to "
+    ],
+    "reporting": [
+      "instruction:step-by-step"
+    ],
+    "research-design-literacy": [
+      "instruction:how to "
+    ],
+    "residual-independence-eroding-metabolism": [
+      "du_ansprache:you could"
+    ],
+    "residual-learn-architecture": [
+      "instruction:First do"
+    ],
+    "resource-allocation": [
+      "instruction:step-by-step"
+    ],
+    "respect-based-learning": [
+      "instruction:how to "
+    ],
+    "restart-button": [
+      "instruction:how to "
+    ],
+    "retail-robot": [
+      "children_mention:children"
+    ],
+    "retention-building": [
+      "instruction:how to "
+    ],
+    "retention-schedule": [
+      "instruction:step-by-step"
+    ],
+    "retroactive-hardship-embracing-register": [
+      "du_ansprache:you could"
+    ],
+    "retroactive-origin-confusing-modality": [
+      "du_ansprache:your mind"
+    ],
+    "return-on-investment": [
+      "instruction:step-by-step"
+    ],
+    "return-onset-indicator": [
+      "instruction:first do"
+    ],
+    "revision-augmented-effect": [
+      "instruction:First do"
+    ],
+    "revision-fatigue": [
+      "instruction:how to "
+    ],
+    "rift": [
+      "instruction:First do"
+    ],
+    "rift-acceleration-effect": [
+      "instruction:First do"
+    ],
+    "rift-ambivalence-signal": [
+      "instruction:First do"
+    ],
+    "rift-amplification-by-design": [
+      "instruction:First do"
+    ],
+    "rift-amplification-response": [
+      "instruction:First do"
+    ],
+    "rift-anticipation-response": [
+      "instruction:First do"
+    ],
+    "rift-attenuation-indicator": [
+      "instruction:First do"
+    ],
+    "rift-avoidance-phenomenon": [
+      "instruction:First do"
+    ],
+    "rift-awareness-dynamic": [
+      "instruction:First do"
+    ],
+    "rift-boundary-marker": [
+      "instruction:First do"
+    ],
+    "rift-cascade": [
+      "instruction:First do"
+    ],
+    "rift-comfort-marker": [
+      "instruction:First do"
+    ],
+    "rift-comparison-phenomenon": [
+      "instruction:First do"
+    ],
+    "rift-compensation-pattern": [
+      "instruction:First do"
+    ],
+    "rift-contagion-signal": [
+      "instruction:First do"
+    ],
+    "rift-cross-domain": [
+      "instruction:First do"
+    ],
+    "rift-cultural-variation": [
+      "instruction:First do"
+    ],
+    "rift-disclosure-pattern": [
+      "instruction:First do"
+    ],
+    "rift-discomfort-signal": [
+      "instruction:First do"
+    ],
+    "rift-escalation-tendency": [
+      "instruction:First do"
+    ],
+    "rift-fascination-effect": [
+      "instruction:First do"
+    ],
+    "rift-habituation-pattern": [
+      "instruction:First do"
+    ],
+    "rift-individual-difference": [
+      "instruction:First do"
+    ],
+    "rift-integration-effect": [
+      "instruction:First do"
+    ],
+    "rift-isolation-dynamic": [
+      "instruction:First do"
+    ],
+    "rift-latency-response": [
+      "instruction:First do"
+    ],
+    "rift-learning-curve": [
+      "instruction:First do"
+    ],
+    "rift-measurement-response": [
+      "instruction:First do"
+    ],
+    "rift-mitigation-mechanism": [
+      "instruction:First do"
+    ],
+    "rift-normalization-effect": [
+      "instruction:First do"
+    ],
+    "rift-novice-specific": [
+      "instruction:First do"
+    ],
+    "rift-onset-indicator": [
+      "instruction:first do"
+    ],
+    "rift-persistence-pattern": [
+      "instruction:First do"
+    ],
+    "rift-plateau-phenomenon": [
+      "instruction:First do"
+    ],
+    "rift-recurrence-indicator": [
+      "instruction:First do"
+    ],
+    "rift-resignation-signal": [
+      "instruction:First do"
+    ],
+    "rift-resistance-indicator": [
+      "instruction:First do"
+    ],
+    "rift-retrospection-mechanism": [
+      "instruction:First do"
+    ],
+    "rift-reversal-signal": [
+      "instruction:First do"
+    ],
+    "rift-ritualization-mechanism": [
+      "instruction:First do"
+    ],
+    "rift-self-report": [
+      "instruction:First do"
+    ],
+    "rift-threshold": [
+      "instruction:First do"
+    ],
+    "risk-management": [
+      "instruction:step-by-step"
+    ],
+    "robot-operating-system": [
+      "du_ansprache:you need"
+    ],
+    "robot-programming": [
+      "du_ansprache:you need"
+    ],
+    "role-clarity": [
+      "instruction:how to "
+    ],
+    "root": [
+      "instruction:how to "
+    ],
+    "root-acceleration-mechanism": [
+      "instruction:how to "
+    ],
+    "root-ambivalence-phenomenon": [
+      "instruction:how to "
+    ],
+    "root-amplification-by-design": [
+      "instruction:how to "
+    ],
+    "root-amplification-mechanism": [
+      "instruction:how to "
+    ],
+    "root-anticipation-mechanism": [
+      "instruction:how to "
+    ],
+    "root-attenuation-mechanism": [
+      "instruction:how to "
+    ],
+    "root-avoidance-dynamic": [
+      "instruction:how to "
+    ],
+    "root-awareness-dynamic": [
+      "instruction:how to "
+    ],
+    "root-boundary-signal": [
+      "instruction:how to "
+    ],
+    "root-cascade": [
+      "instruction:how to "
+    ],
+    "root-cause-analysis": [
+      "instruction:step-by-step"
+    ],
+    "root-comfort-dynamic": [
+      "instruction:how to "
+    ],
+    "root-comparison-indicator": [
+      "instruction:how to "
+    ],
+    "root-compensation-response": [
+      "instruction:how to "
+    ],
+    "root-contagion-phenomenon": [
+      "instruction:how to "
+    ],
+    "root-cross-domain": [
+      "instruction:how to "
+    ],
+    "root-cultural-variation": [
+      "instruction:how to "
+    ],
+    "root-disclosure-marker": [
+      "instruction:how to "
+    ],
+    "root-discomfort-signal": [
+      "instruction:how to "
+    ],
+    "root-escalation-tendency": [
+      "instruction:how to "
+    ],
+    "root-fascination-signal": [
+      "instruction:how to "
+    ],
+    "root-habituation-mechanism": [
+      "instruction:how to "
+    ],
+    "root-individual-difference": [
+      "instruction:how to "
+    ],
+    "root-integration-effect": [
+      "instruction:how to "
+    ],
+    "root-isolation-mechanism": [
+      "instruction:how to "
+    ],
+    "root-latency-effect": [
+      "instruction:how to "
+    ],
+    "root-learning-curve": [
+      "instruction:how to "
+    ],
+    "root-measurement-mechanism": [
+      "instruction:how to "
+    ],
+    "root-mitigation-phenomenon": [
+      "instruction:how to "
+    ],
+    "root-normalization-pattern": [
+      "instruction:how to "
+    ],
+    "root-novice-specific": [
+      "instruction:how to "
+    ],
+    "root-onset-indicator": [
+      "instruction:how to "
+    ],
+    "root-persistence-phenomenon": [
+      "instruction:how to "
+    ],
+    "root-plateau-tendency": [
+      "instruction:how to "
+    ],
+    "root-recurrence-response": [
+      "instruction:how to "
+    ],
+    "root-resignation-dynamic": [
+      "instruction:how to "
+    ],
+    "root-resistance-effect": [
+      "instruction:how to "
+    ],
+    "root-retrospection-mechanism": [
+      "instruction:how to "
+    ],
+    "root-reversal-dynamic": [
+      "instruction:how to "
+    ],
+    "root-ritualization-phenomenon": [
+      "instruction:how to "
+    ],
+    "root-self-report": [
+      "instruction:how to "
+    ],
+    "root-threshold": [
+      "instruction:how to "
+    ],
+    "ros2": [
+      "instruction:how to "
+    ],
+    "rubric-clarity": [
+      "instruction:how to "
+    ],
+    "rupture": [
+      "instruction:First do"
+    ],
+    "sacred": [
+      "instruction:First do"
+    ],
+    "saturation-escalation": [
+      "instruction:how to "
+    ],
+    "scale-imbalance": [
+      "instruction:how to "
+    ],
+    "scheduling": [
+      "instruction:step-by-step"
+    ],
+    "scholarly-engagement": [
+      "instruction:how to "
+    ],
+    "script-overconfidence": [
+      "instruction:how to "
+    ],
+    "seamless-blend": [
+      "du_ansprache:your mind"
+    ],
+    "seamless-thought-origin-loss": [
+      "du_ansprache:your mind"
+    ],
+    "secondary-element-chaos": [
+      "instruction:how to "
+    ],
+    "secret-map": [
+      "instruction:how to "
+    ],
+    "seen-doubt-phenomenon": [
+      "instruction:First do"
+    ],
+    "seen-prophecy": [
+      "du_ansprache:you are"
+    ],
+    "self-direction-activation": [
+      "instruction:how to "
+    ],
+    "self-reflection-through-ai": [
+      "instruction:First do"
+    ],
+    "sequence-across-effect": [
+      "instruction:First do"
+    ],
+    "sequence-conditions-effect": [
+      "instruction:First do"
+    ],
+    "sequential-chain": [
+      "instruction:step-by-step"
+    ],
+    "service-level-agreement": [
+      "instruction:step-by-step"
+    ],
+    "session-architecture-awareness": [
+      "instruction:how to "
+    ],
+    "shadow-knowledge": [
+      "du_ansprache:you might"
+    ],
+    "shape-acceleration-dynamic": [
+      "instruction:First do"
+    ],
+    "shape-ambivalence-mechanism": [
+      "instruction:First do"
+    ],
+    "shape-amplification-by-design": [
+      "instruction:First do"
+    ],
+    "shape-amplification-tendency": [
+      "instruction:First do"
+    ],
+    "shape-anticipation-marker": [
+      "instruction:First do"
+    ],
+    "shape-attenuation-mechanism": [
+      "instruction:First do"
+    ],
+    "shape-avoidance-effect": [
+      "instruction:First do"
+    ],
+    "shape-awareness-pattern": [
+      "instruction:First do"
+    ],
+    "shape-boundary-phenomenon": [
+      "instruction:First do"
+    ],
+    "shape-cascade": [
+      "instruction:First do"
+    ],
+    "shape-comfort-mechanism": [
+      "instruction:First do"
+    ],
+    "shape-comparison-dynamic": [
+      "instruction:First do"
+    ],
+    "shape-compensation-indicator": [
+      "instruction:First do"
+    ],
+    "shape-contagion-tendency": [
+      "instruction:First do"
+    ],
+    "shape-cross-domain": [
+      "instruction:First do"
+    ],
+    "shape-cultural-variation": [
+      "instruction:First do"
+    ],
+    "shape-disclosure-mechanism": [
+      "instruction:First do"
+    ],
+    "shape-discomfort-signal": [
+      "instruction:First do"
+    ],
+    "shape-escalation-effect": [
+      "instruction:First do"
+    ],
+    "shape-fascination-dynamic": [
+      "instruction:First do"
+    ],
+    "shape-habituation-phenomenon": [
+      "instruction:First do"
+    ],
+    "shape-individual-difference": [
+      "instruction:First do"
+    ],
+    "shape-integration-response": [
+      "instruction:First do"
+    ],
+    "shape-isolation-signal": [
+      "instruction:First do"
+    ],
+    "shape-latency-phenomenon": [
+      "instruction:First do"
+    ],
+    "shape-learning-curve": [
+      "instruction:First do"
+    ],
+    "shape-measurement-effect": [
+      "instruction:First do"
+    ],
+    "shape-mitigation-indicator": [
+      "instruction:First do"
+    ],
+    "shape-normalization-indicator": [
+      "instruction:First do"
+    ],
+    "shape-novice-specific": [
+      "instruction:First do"
+    ],
+    "shape-onset-response": [
+      "instruction:first do"
+    ],
+    "shape-persistence-pattern": [
+      "instruction:First do"
+    ],
+    "shape-plateau-dynamic": [
+      "instruction:First do"
+    ],
+    "shape-recurrence-dynamic": [
+      "instruction:First do"
+    ],
+    "shape-resignation-pattern": [
+      "instruction:First do"
+    ],
+    "shape-resistance-pattern": [
+      "instruction:First do"
+    ],
+    "shape-retrospection-mechanism": [
+      "instruction:First do"
+    ],
+    "shape-reversal-tendency": [
+      "instruction:First do"
+    ],
+    "shape-ritualization-indicator": [
+      "instruction:First do"
+    ],
+    "shape-self-report": [
+      "instruction:First do"
+    ],
+    "shape-threshold": [
+      "instruction:First do"
+    ],
+    "shared-services-center": [
+      "instruction:step-by-step"
+    ],
+    "shift": [
+      "instruction:First do"
+    ],
+    "shift-onset": [
+      "instruction:first do"
+    ],
+    "shift-scenarios-effect": [
+      "instruction:First do"
+    ],
+    "signature-authority": [
+      "instruction:step-by-step"
+    ],
+    "silence": [
+      "instruction:First do"
+    ],
+    "six-sigma": [
+      "instruction:step-by-step"
+    ],
+    "skill-attribution-transition": [
+      "instruction:how to "
+    ],
+    "skill-devaluation-awareness": [
+      "instruction:First do"
+    ],
+    "skill-shift": [
+      "instruction:how to "
+    ],
+    "slam-algorithm": [
+      "du_ansprache:you need"
+    ],
+    "slow-crawl": [
+      "du_ansprache:you need"
+    ],
+    "slow-integration-principle": [
+      "instruction:step by step"
+    ],
+    "slow-path": [
+      "du_ansprache:you could"
+    ],
+    "social": [
+      "instruction:First do"
+    ],
+    "soft-push-1": [
+      "children_mention:minor"
+    ],
+    "soft-root-1": [
+      "instruction:how to "
+    ],
+    "somatic-etiquette": [
+      "instruction:how to "
+    ],
+    "source-evaluation": [
+      "instruction:how to "
+    ],
+    "spaced-amnesia-phenomenon": [
+      "instruction:First do"
+    ],
+    "span-of-accountability": [
+      "instruction:step-by-step"
+    ],
+    "span-of-control": [
+      "instruction:step-by-step"
+    ],
+    "span-of-control-optimization": [
+      "instruction:step-by-step"
+    ],
+    "spiral-deepening": [
+      "instruction:how to "
+    ],
+    "spreadsheet-relief": [
+      "instruction:step-by-step"
+    ],
+    "stakeholder-communication-plan": [
+      "instruction:step-by-step"
+    ],
+    "stakeholder-management": [
+      "instruction:step-by-step"
+    ],
+    "standard": [
+      "instruction:step-by-step"
+    ],
+    "standard-form": [
+      "instruction:step-by-step"
+    ],
+    "standard-operating-procedure": [
+      "instruction:step-by-step"
+    ],
+    "standard-operating-procedures-sop": [
+      "instruction:step-by-step"
+    ],
+    "stark-onset-signal": [
+      "instruction:first do"
+    ],
+    "stark-push-5": [
+      "children_mention:minor"
+    ],
+    "stark-root-5": [
+      "instruction:how to "
+    ],
+    "start-onset-response": [
+      "instruction:first do"
+    ],
+    "stay-onset-response": [
+      "instruction:first do"
+    ],
+    "story-tell-self": [
+      "instruction:First do"
+    ],
+    "strategic-management": [
+      "instruction:step-by-step"
+    ],
+    "strengthening-deliberate": [
+      "du_ansprache:you could"
+    ],
+    "stress-response": [
+      "children_mention:minor"
+    ],
+    "style-dilution": [
+      "instruction:how to "
+    ],
+    "style-inheritance-question": [
+      "instruction:how to "
+    ],
+    "subclinical-craft-preserving-register": [
+      "du_ansprache:you could"
+    ],
+    "subclinical-thinking-interweaving-signature": [
+      "du_ansprache:your mind"
+    ],
+    "subtle-push-6": [
+      "children_mention:minor"
+    ],
+    "subtle-root-6": [
+      "instruction:how to "
+    ],
+    "sudden-trust-shattering": [
+      "instruction:First do"
+    ],
+    "supply-chain-management": [
+      "instruction:step-by-step"
+    ],
+    "surrounding-trajectory-effect": [
+      "instruction:First do"
+    ],
+    "sustainability-management": [
+      "instruction:step-by-step"
+    ],
+    "sustainability-question-signal": [
+      "instruction:First do"
+    ],
+    "swot-analysis": [
+      "instruction:step-by-step"
+    ],
+    "symbolic-confusion": [
+      "instruction:how to "
+    ],
+    "symmetry-fixation": [
+      "instruction:how to "
+    ],
+    "synchronous-adaptation": [
+      "instruction:how to "
+    ],
+    "synergy-emergence": [
+      "instruction:how to "
+    ],
+    "system-game-signal": [
+      "instruction:First do"
+    ],
+    "tangle-onset-phenomenon": [
+      "instruction:first do"
+    ],
+    "task-level-programming": [
+      "instruction:how to "
+    ],
+    "tasks-related-effect": [
+      "instruction:First do"
+    ],
+    "taste-recalibration": [
+      "instruction:how to "
+    ],
+    "teach-you-back": [
+      "instruction:how to "
+    ],
+    "tech-adoption-timing-effect": [
+      "instruction:first use"
+    ],
+    "technological-competence-verification-difficulty": [
+      "instruction:how to "
+    ],
+    "technology-optimization": [
+      "instruction:how to "
+    ],
+    "tell": [
+      "instruction:First do"
+    ],
+    "tell-acceleration-phenomenon": [
+      "instruction:First do"
+    ],
+    "tell-ambivalence-indicator": [
+      "instruction:First do"
+    ],
+    "tell-amplification-by-design": [
+      "instruction:First do"
+    ],
+    "tell-amplification-effect": [
+      "instruction:First do"
+    ],
+    "tell-anticipation-pattern": [
+      "instruction:First do"
+    ],
+    "tell-attenuation-phenomenon": [
+      "instruction:First do"
+    ],
+    "tell-avoidance-pattern": [
+      "instruction:First do"
+    ],
+    "tell-awareness-dynamic": [
+      "instruction:First do"
+    ],
+    "tell-boundary-mechanism": [
+      "instruction:First do"
+    ],
+    "tell-cascade": [
+      "instruction:First do"
+    ],
+    "tell-comfort-effect": [
+      "instruction:First do"
+    ],
+    "tell-comparison-phenomenon": [
+      "instruction:First do"
+    ],
+    "tell-compensation-tendency": [
+      "instruction:First do"
+    ],
+    "tell-contagion-mechanism": [
+      "instruction:First do"
+    ],
+    "tell-cross-domain": [
+      "instruction:First do"
+    ],
+    "tell-cultural-variation": [
+      "instruction:First do"
+    ],
+    "tell-disclosure-mechanism": [
+      "instruction:First do"
+    ],
+    "tell-discomfort-mechanism": [
+      "instruction:First do"
+    ],
+    "tell-escalation-pattern": [
+      "instruction:First do"
+    ],
+    "tell-fascination-phenomenon": [
+      "instruction:First do"
+    ],
+    "tell-habituation-response": [
+      "instruction:First do"
+    ],
+    "tell-individual-difference": [
+      "instruction:First do"
+    ],
+    "tell-integration-effect": [
+      "instruction:First do"
+    ],
+    "tell-isolation-phenomenon": [
+      "instruction:First do"
+    ],
+    "tell-latency-effect": [
+      "instruction:First do"
+    ],
+    "tell-learning-curve": [
+      "instruction:First do"
+    ],
+    "tell-measurement-pattern": [
+      "instruction:First do"
+    ],
+    "tell-mitigation-tendency": [
+      "instruction:First do"
+    ],
+    "tell-normalization-signal": [
+      "instruction:First do"
+    ],
+    "tell-novice-specific": [
+      "instruction:First do"
+    ],
+    "tell-onset-effect": [
+      "instruction:first do"
+    ],
+    "tell-persistence-response": [
+      "instruction:First do"
+    ],
+    "tell-plateau-signal": [
+      "instruction:First do"
+    ],
+    "tell-recurrence-effect": [
+      "instruction:First do"
+    ],
+    "tell-resignation-tendency": [
+      "instruction:First do"
+    ],
+    "tell-resistance-pattern": [
+      "instruction:First do"
+    ],
+    "tell-retrospection-response": [
+      "instruction:First do"
+    ],
+    "tell-reversal-response": [
+      "instruction:First do"
+    ],
+    "tell-ritualization-mechanism": [
+      "instruction:First do"
+    ],
+    "tell-self-report": [
+      "instruction:First do"
+    ],
+    "tell-threshold": [
+      "instruction:First do"
+    ],
+    "temperature-inconsistency": [
+      "instruction:how to "
+    ],
+    "template-gravity": [
+      "instruction:how to "
+    ],
+    "temporal-ai-phenomena": [
+      "instruction:First do"
+    ],
+    "temporal-sink-dynamic": [
+      "instruction:First do"
+    ],
+    "tender-management": [
+      "instruction:step-by-step"
+    ],
+    "tension-flattening": [
+      "instruction:how to "
+    ],
+    "terminology-creation-experiences": [
+      "instruction:First do"
+    ],
+    "the-blank-cursor": [
+      "instruction:how to "
+    ],
+    "the-careful-tester": [
+      "instruction:step by step"
+    ],
+    "the-context-layer": [
+      "instruction:step-by-step"
+    ],
+    "the-craft-shift": [
+      "du_ansprache:you do"
+    ],
+    "the-earliest-cohort-observation": [
+      "children_mention:children"
+    ],
+    "the-language-ladder": [
+      "instruction:step-by-step"
+    ],
+    "the-parental-oversight": [
+      "children_mention:minors"
+    ],
+    "the-parental-priority-valve": [
+      "children_mention:children"
+    ],
+    "the-parenting-shortcut": [
+      "children_mention:children"
+    ],
+    "the-proxy-parent": [
+      "children_mention:children"
+    ],
+    "the-sequential-chain": [
+      "instruction:step-by-step"
+    ],
+    "the-slow-integration-principle": [
+      "instruction:step by step"
+    ],
+    "the-somatic-etiquette": [
+      "instruction:how to "
+    ],
+    "thinking-alone": [
+      "du_ansprache:your own"
+    ],
+    "thought-influence": [
+      "du_ansprache:your mind"
+    ],
+    "thought-origin": [
+      "du_ansprache:your mind"
+    ],
+    "threshold-autonomy-fading-morphology": [
+      "du_ansprache:you could"
+    ],
+    "threshold-one-thinking-ecology": [
+      "du_ansprache:your mind"
+    ],
+    "thrill": [
+      "children_mention:minor"
+    ],
+    "time-management": [
+      "instruction:step-by-step"
+    ],
+    "timing-mastery": [
+      "instruction:how to "
+    ],
+    "tool-reliance": [
+      "instruction:how to "
+    ],
+    "total-quality-management": [
+      "instruction:step-by-step"
+    ],
+    "training-data-provenance-invisibility": [
+      "instruction:how to "
+    ],
+    "trajectory-creativity-effect": [
+      "instruction:First do"
+    ],
+    "transfer-activation": [
+      "instruction:how to "
+    ],
+    "transfer-optimization": [
+      "instruction:how to "
+    ],
+    "transparency-reflect-marker": [
+      "instruction:First do"
+    ],
+    "travel-management": [
+      "instruction:step-by-step"
+    ],
+    "trend-compression": [
+      "instruction:how to "
+    ],
+    "trust-dynamics-in-ai": [
+      "instruction:First do"
+    ],
+    "tutorial-patience-shift": [
+      "instruction:step-by-step"
+    ],
+    "twr-081": [
+      "instruction:First Use"
+    ],
+    "typeface-orphaning": [
+      "instruction:how to "
+    ],
+    "typically-type-effect": [
+      "instruction:First do"
+    ],
+    "ubuntu-web": [
+      "instruction:how to "
+    ],
+    "under-changes-effect": [
+      "instruction:First do"
+    ],
+    "undo-availability-bias": [
+      "instruction:how to "
+    ],
+    "undo-regret": [
+      "instruction:how to "
+    ],
+    "uniqueness-uncertainty": [
+      "instruction:how to "
+    ],
+    "unworthy-sense-signal": [
+      "instruction:First do"
+    ],
+    "validate-urge-effect": [
+      "instruction:First do"
+    ],
+    "value-question-indicator": [
+      "instruction:First do"
+    ],
+    "verification-burden": [
+      "instruction:First do"
+    ],
+    "verification-spiral": [
+      "du_ansprache:your own"
+    ],
+    "version-narrowing": [
+      "instruction:how to "
+    ],
+    "version-proliferation": [
+      "instruction:how to "
+    ],
+    "visual-vocabulary-fatigue": [
+      "instruction:how to "
+    ],
+    "vitality-cultivation": [
+      "instruction:how to "
+    ],
+    "vivid-push-3": [
+      "children_mention:minor"
+    ],
+    "vivid-root-3": [
+      "instruction:how to "
+    ],
+    "vocabulary-anchoring": [
+      "instruction:how to "
+    ],
+    "warmth-onset-mechanism": [
+      "instruction:first do"
+    ],
+    "weigh-onset-phenomenon": [
+      "instruction:first do"
+    ],
+    "weight-inconsistency": [
+      "instruction:how to "
+    ],
+    "whitespace-shift": [
+      "instruction:how to "
+    ],
+    "whole-brain-dynamic": [
+      "instruction:First do"
+    ],
+    "wisdom-actualization": [
+      "instruction:how to "
+    ],
+    "witness": [
+      "instruction:First do"
+    ],
+    "wonder-stirring": [
+      "instruction:First do"
+    ],
+    "worker-rights-tendency": [
+      "instruction:First do"
+    ],
+    "workflow": [
+      "instruction:step-by-step"
+    ],
+    "workflow-automation": [
+      "instruction:step-by-step"
+    ],
+    "workplace-ai-stratification": [
+      "instruction:First do"
+    ],
+    "workplace-safety": [
+      "instruction:step-by-step"
+    ],
+    "zap-onset-indicator": [
+      "instruction:first do"
+    ]
+  }
+}
