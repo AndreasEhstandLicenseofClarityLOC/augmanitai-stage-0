@@ -1,0 +1,16 @@
+{
+  "version": "V2",
+  "deposit_id": "20119072",
+  "record_id": 20119072,
+  "v2_doi": "10.5281/zenodo.20119072",
+  "concept_doi": "10.5281/zenodo.20118267",
+  "zenodo_url": "https://zenodo.org/record/20119072",
+  "bundle_size_bytes": 126462061,
+  "hashes": {
+    "sha256": "654a80b253eceec4cff415bf2cf3863dde5b8b1ad8c5ff5e4aa3a3047bd1aa4c",
+    "sha512": "decf83a161a2593c88010b9bcb2f05a677f3aa2d996e6ffbee4c6ba09ac57a8d663e6312342b2637f0bf78d5fba7410cc3d9897b60a8dfc6a37bd1bf7bbf320a",
+    "sha3_256": "3fc4bc82df0dfa9f44d5af16cf7c0d2d8c2c3087b89cbe4f85e14a43a127ac18",
+    "sha3_512": "0ce7a543825d92eafd12352785e8466fa50bd3f6585084352e7d149f27ec03a37531a94de115801ade8ef2c270ccebb57c21eed94e661f624920c741c54c7d96",
+    "blake3": "334701b7a4ef21b353eb01056a97fc034bc8cc97b3f9c325502b8358d73d2c23"
+  }
+}

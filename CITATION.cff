@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "AUGMANITAI Stage-0 V1 (8842 Phenomenological Terms, Research Preprint, Restricted)"
+title: "AUGMANITAI Stage-0 V2 (8842 Phenomenological Terms, Research Preprint, Restricted)"
 authors:
   - family-names: Ehstand
     given-names: Andreas
@@ -11,10 +11,13 @@ identifiers:
     value: 10.5281/zenodo.20118267
     description: AUGMANITAI Stage-0 Concept-DOI (persistent anchor)
   - type: doi
+    value: 10.5281/zenodo.20119072
+    description: AUGMANITAI Stage-0 V2 (latest, 8842 terms)
+  - type: doi
     value: 10.5281/zenodo.20118268
-    description: AUGMANITAI Stage-0 V1 version-specific DOI
+    description: AUGMANITAI Stage-0 V1 (historical, 1112 terms)
   - type: doi
     value: 10.5281/zenodo.14888381
     description: AUGMANITAI Compendium parent Concept-DOI
 repository-code: "https://github.com/AndreasEhstandLicenseofClarityLOC/augmanitai-stage-0"
-url: "https://zenodo.org/record/20118268"
+url: "https://zenodo.org/record/20119072"
