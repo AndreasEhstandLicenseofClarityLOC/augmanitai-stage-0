@@ -1,0 +1,13 @@
+{
+  "date": "2026-05-11T22:24:48.369620",
+  "worker_records_seen": 82,
+  "quality_passing": 79,
+  "gate_passing_written": 78,
+  "gate_rejected": 1,
+  "rejection_breakdown": {
+    "instruction": 1
+  },
+  "quality_rejection_breakdown": {
+    "hard_block": 3
+  }
+}

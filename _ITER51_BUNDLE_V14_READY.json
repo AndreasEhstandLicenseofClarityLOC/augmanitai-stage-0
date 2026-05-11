@@ -1,0 +1,16 @@
+{
+  "bundle_path": "augmanitai_stage_0_v14_2026-05-11.zip",
+  "bundle_name": "augmanitai_stage_0_v14_2026-05-11.zip",
+  "concept_doi": "10.5281/zenodo.20118267",
+  "predecessor_v13": "10.5281/zenodo.20126969",
+  "n_files": 33555,
+  "size_bytes": 259305496,
+  "hashes": {
+    "sha256": "f6fd2db94fd82678e9d91e526fe6680c7d37552067014e887cb1ac4999f6b58d",
+    "sha512": "729a5fab701870397f070be54c69397ca99b5f0cf1b53dd612c1158442f8496f2e00cab9e833570766327499856703d601638a74a80533148399288be1e1a0fe",
+    "sha3_256": "b8c79b62d00ed4080d9273274ecf14a2035cd978baa9c5c56ab96a0b7fa6d637",
+    "sha3_512": "1baa84971753d1c53b982861f9af7ebedb7604d92a94f43aa576641994f55c3bbfe21b0d248ffc7883a4c8f7cadc6010b4b00314d3c8814a2591bde40c10b48c",
+    "blake3": "4daf1bfffb445996f65561f017e55cd4f6502ad434bddfedf6b14c506efc9a9d"
+  },
+  "date": "2026-05-11"
+}
