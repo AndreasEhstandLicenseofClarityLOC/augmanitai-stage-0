@@ -1,7 +1,7 @@
 # AUGMANITAI Stage-0
 Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
 License: CC BY-NC-ND 4.0
-Concept-DOI: 10.5281/zenodo.14888381
+Concept-DOI: 10.5281/zenodo.20118267
 Trademark: License of Clarity (EUIPO 019206780)
 Set: 29 phenomenological terms coined by Andreas Ehstand. Research preprint. Living document.
 ISO inspired (NOT claimed): ISO 704:2022, ISO 1087:2019, ISO 30042:2019.

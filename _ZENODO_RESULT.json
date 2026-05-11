@@ -1,0 +1,20 @@
+{
+  "deposit_id": 20118268,
+  "record_id": 20118268,
+  "doi": "10.5281/zenodo.20118268",
+  "concept_doi": "10.5281/zenodo.20118267",
+  "zenodo_url": "https://zenodo.org/record/20118268",
+  "bundle_name": "augmanitai_stage_0_v1_2026-05-11.zip",
+  "bundle_size_bytes": 18676438,
+  "publish_timestamp_utc": "20260511T080211Z",
+  "access_right": "restricted",
+  "license": "cc-by-nc-nd-4.0",
+  "title": "AUGMANITAI Stage-0 V1 — 1112 Phenomenological Terms (Research Preprint, Restricted, 2026-05-11)",
+  "hashes": {
+    "sha256": "68d1e80d062fe127263666df278c38a9aa8f79fe763264d8947d36dd3fc485f0",
+    "sha512": "72be375a9b5bcafd18c9a1d1710dadb7621b7f44f8b8d00f30f9a2869ee11826d9b15f1492ed5947a22420cd009dbb10adc0da67fb495dc5a31c1a5bf81e12fe",
+    "sha3_256": "5b47518c2eb740369d3fcdef5cb30d903b98b4e7d13a5bd81dde4fc7aa0a5759",
+    "sha3_512": "ce23e5798b4a6b756a39fea5ec18aa9908645d183ea8c14b00e5c7165c0e3990dcffb1f18d23a198f33597b98712dd9ff730bcec5f823d8de702d3b44cc48049",
+    "blake3": "a6b716a9393883dfd9ca2d2b4a9e399eadf7642439244abba4773e42c9095a96"
+  }
+}

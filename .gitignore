@@ -10,3 +10,5 @@ legal_scan_reports/
 _scale_filter.py
 _build_hub_scaled.py
 _build_disclaimer.py
+_zenodo_deposit.py
+*.zip

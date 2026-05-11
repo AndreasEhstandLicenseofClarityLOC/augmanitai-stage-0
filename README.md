@@ -2,7 +2,7 @@
 
 **Author:** Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
 **License:** CC BY-NC-ND 4.0
-**Concept-DOI:** 10.5281/zenodo.14888381
+**Concept-DOI:** 10.5281/zenodo.20118267
 **Trademark:** License of Clarity (EUIPO 019206780)
 **Status:** Research preprint, living document
 **Terms:** 1112
