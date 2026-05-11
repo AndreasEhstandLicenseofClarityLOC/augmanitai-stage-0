@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Public domain crawl: yes, attribution required.

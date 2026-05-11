@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://augmanitai-stage-0.com/sitemap.xml

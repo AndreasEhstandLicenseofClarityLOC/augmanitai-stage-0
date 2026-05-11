@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "AUGMANITAI Stage-0 — 50 Terms in Multi-LLM Cross-Validation"
+authors:
+  - family-names: Ehstand
+    given-names: Andreas
+    orcid: "https://orcid.org/0009-0006-3773-7796"
+license: CC-BY-NC-ND-4.0
+date-released: "2026-05-11"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19178907
+    description: parent AUGMANITAI Compendium concept DOI
+repository-code: "https://github.com/augmanitai/augmanitai-stage-0"

@@ -1,0 +1,8 @@
+# AUGMANITAI Stage-0
+Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
+License: CC BY-NC-ND 4.0
+Concept-DOI: 10.5281/zenodo.19178907
+Trademark: License of Clarity (EUIPO 019206780)
+Set: 50 phenomenological terms in multi-LLM cross-validation.
+Built: 2026-05-11
+Parent: https://augmanitai.com/
