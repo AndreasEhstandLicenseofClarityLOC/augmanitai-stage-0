@@ -1,0 +1,18 @@
+{
+  "ready": true,
+  "bundle_path": "C:\\Users\\Andreas Ehstand\\Desktop\\Claude\\_AKTIV\\_FIRST_NETWORK_BUILD\\augmanitai_stage_0_v3_2026-05-11.zip",
+  "bundle_name": "augmanitai_stage_0_v3_2026-05-11.zip",
+  "concept_doi": "10.5281/zenodo.20118267",
+  "v2_predecessor": "10.5281/zenodo.20119072",
+  "n_files": 8687,
+  "size_bytes": 107850402,
+  "hashes": {
+    "sha256": "14876341d5f643bbfb847882d811c716bdb9593f9adcc5afb6fd673f79797c8b",
+    "sha512": "93f8ed4e65a59afd668511d52af09c4f839b18289679d21caab4bd7dcc58c6e3841668a395187ba15512c8450c69f98dbc4e4687b33e676715e781ebe9265082",
+    "sha3_256": "af198c927de14ff711349478ed2d4433b42d90086de2595f734f9355860eb238",
+    "sha3_512": "f514a7059277d334692a7b18e60e2520fa817b41c4876129126b76d3fb99080ea59adada1cd58c72e1481c494720e7344e184681ec90d0bdbbd9252a135f11cd",
+    "blake3": "6d152cdd11b01718e8cb6cbc74b06e8fd9cca1d9dfcd4f25763d2b87414b9f47"
+  },
+  "date": "2026-05-11",
+  "next_step": "set ZENODO_TOKEN env var, then run _zenodo_newversion.py (or adapted V3 script)"
+}
