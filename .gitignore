@@ -2,3 +2,6 @@ build_stage_0.py
 *.pyc
 __pycache__/
 .DS_Store
+build_stage_0.py
+_build_hub.py
+_hub_data.json

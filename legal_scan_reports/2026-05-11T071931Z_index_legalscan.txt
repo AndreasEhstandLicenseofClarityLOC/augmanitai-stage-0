@@ -1,0 +1,75 @@
+========================================================================
+LEGAL SCAN REPORT
+========================================================================
+Source:       index.html
+Timestamp:    2026-05-11T07:19:31Z
+Word count:   2878
+Line count:   744
+
+------------------------------------------------------------------------
+STAGE 1 -- RED-FLAG SCAN + FOOTER CHECK
+------------------------------------------------------------------------
+
+[CRITICAL] 15 Treffer:
+  Line    4, Col   2  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line    5, Col   2  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line    7, Col   2  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line    8, Col   2  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line    9, Col   2  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line   11, Col   2  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line  294, Col   8  [company_name]  'META'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line  295, Col   2  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line  296, Col   2  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line  304, Col   2  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line  309, Col   2  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line  310, Col   2  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line  440, Col   4  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line  465, Col  39  [company_name]  'meta'
+                        -> Firmenname direkt genannt
+                        Vorschlag: ein Anbieter
+  Line  569, Col  97  [financial_advice]  'financial advice'
+                        -> financial advice claim / English
+                        Vorschlag: (remove)
+
+[WARNING] 1 Treffer:
+  Line   11, Col  36  [doi_check_error]  '10.5281/zenodo.14888381'
+                        -> DOI-Validierung fehlgeschlagen: ReadTimeout
+                        Vorschlag: Manuell pruefen oder mit --no-doi-check deaktivieren
+
+Summary: 15 critical, 1 warnings
+
+------------------------------------------------------------------------
+STAGE 2 -- ADVERSARIAL LEGAL REVIEW
+------------------------------------------------------------------------
+(uebersprungen mit --scan-only)
+
+------------------------------------------------------------------------
+VERDICT: REVISE  (exit code 2)
+------------------------------------------------------------------------
+Critical flags gefunden. PFLICHT: Ueberarbeiten bevor Release.
