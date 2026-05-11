@@ -1,98 +1,683 @@
-<!doctype html>
-<html lang="de"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Disclaimer (27§ Volltext) — AUGMANITAI</title>
-<link rel="canonical" href="https://augmanitai.com/disclaimer/">
-<meta name="robots" content="index,follow">
-<meta name="description" content="Vollstaendiger 27§-Disclaimer fuer AUGMANITAI-Forschungsprojekt. Bilingual DE+EN.">
-<style>body{font-family:system-ui,sans-serif;max-width:780px;margin:2em auto;padding:0 1em;line-height:1.6;color:#222}h1{color:#3a4f7a}h2{color:#3a4f7a;border-bottom:1px solid #d4cfc0;padding-bottom:5px;margin-top:24px}.banner{border:2px solid #c00;background:#fff8e0;padding:10px;margin-bottom:20px;font-size:0.9em}p{margin:0.6em 0}</style>
-</head><body>
-<div class="banner">⚠️ LIVING WORK DOCUMENT · living-2026-05-10</div>
-<nav style="font-size:0.85em;color:#888"><a href="/">AUGMANITAI</a> &rsaquo; Disclaimer</nav>
-<h1>Disclaimer (27§ Volltext)</h1>
-<p style="color:#666;font-size:0.9em;">Bilingual DE+EN · Pflicht-Lektuere fuer alle Nutzer / Mandatory reading for all users</p>
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Full Disclaimer &sect;1&ndash;&sect;26 &mdash; AUGMANITAI Stage-0</title>
+<meta name='description' content='Full ethical disclaimer §1–§26 bilingual (DE+EN) for the AUGMANITAI / NEOMANITAI / PERMANITAI framework. CC BY-NC-ND 4.0.'>
+<meta name='author' content='Andreas Ehstand'>
+<meta name='robots' content='index, follow'>
+<link rel='canonical' href='https://augmanitai.com/disclaimer/'>
+<meta name='citation_doi' content='10.5281/zenodo.14888381'>
+<style>
+:root {
+  --bg: #050508;
+  --surface: rgba(12,12,22,0.85);
+  --surface2: rgba(18,18,32,0.92);
+  --border: rgba(30,30,60,0.6);
+  --text: #e8e8f0;
+  --text-dim: #9a9abb;
+  --text-muted: #7a7a9a;
+  --cyan: #00e5ff;
+  --green: #39ff14;
+  --magenta: #ff00ff;
+  --gold: #FFD700;
+  --orange: #ff8800;
+  --radius: 16px;
+  --glow-cyan: 0 0 20px rgba(0,229,255,0.25);
+  --glow-magenta: 0 0 20px rgba(255,0,255,0.25);
+  --glow-gold: 0 0 20px rgba(255,215,0,0.25);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
 
-<h2>§1 Charakter des Projekts</h2>
-<p>AUGMANITAI ist ein <strong>privates wissenschaftliches Forschungsprojekt</strong> nach Art. 5 Abs. 3 GG (Wissenschaftsfreiheit). Es handelt sich um keine gewerbliche Taetigkeit. AUGMANITAI is a private scientific research project under Article 5(3) German Constitution (academic freedom). Not a commercial activity.</p>
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  overflow-x: hidden;
+}
 
-<h2>§2 Keine Beratungsleistung</h2>
-<p>Die Inhalte stellen <strong>keine Rechts-, Steuer-, Anlage-, medizinische, psychologische, therapeutische oder diagnostische Beratung</strong> dar. Content does not constitute legal, tax, investment, medical, psychological, therapeutic, or diagnostic advice.</p>
+/* === ANIMATED MESH GRADIENT BACKGROUND === */
+.mesh-bg {
+  position: fixed; top:0; left:0; width:100%; height:100%;
+  z-index: 0; pointer-events: none;
+  background:
+    radial-gradient(ellipse at 15% 10%, rgba(0,229,255,0.09) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 85%, rgba(255,0,255,0.07) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(57,255,20,0.04) 0%, transparent 60%),
+    radial-gradient(ellipse at 70% 20%, rgba(255,215,0,0.04) 0%, transparent 40%);
+  animation: meshShift 15s ease-in-out infinite alternate;
+  will-change: filter;
+}
+@keyframes meshShift {
+  0% { filter: hue-rotate(0deg) brightness(1); }
+  33% { filter: hue-rotate(12deg) brightness(1.05); }
+  66% { filter: hue-rotate(-8deg) brightness(0.95); }
+  100% { filter: hue-rotate(5deg) brightness(1.02); }
+}
 
-<h2>§3 Keine Service-Versprechen</h2>
-<p>Keine entgeltlichen Dienstleistungen, kein Heilversprechen, keine Coaching-Verpflichtungen. No paid services, no healing promises, no coaching commitments.</p>
+/* === FLOATING PARTICLES === */
+.particles { position:fixed; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:0; overflow:hidden; }
+.particle {
+  position:absolute; border-radius:50%;
+  animation: float var(--dur,8s) ease-in-out infinite;
+  opacity:0;
+}
+@keyframes float {
+  0% { transform:translateY(100vh) scale(0); opacity:0; }
+  10% { opacity:var(--peak,0.4); }
+  90% { opacity:var(--peak,0.4); }
+  100% { transform:translateY(-10vh) scale(1); opacity:0; }
+}
 
-<h2>§4 Deskriptiv, nicht prescriptiv</h2>
-<p>Saemtliche Begriffsdefinitionen sind <strong>deskriptive Forschungs-Statements</strong>, keine prescriptive Empfehlungen. All term definitions are descriptive research statements, not prescriptive recommendations.</p>
+/* === SCROLL PROGRESS === */
+.scroll-bar { position:fixed; top:0; left:0; height:3px; z-index:999; will-change:width;
+  background: linear-gradient(90deg, var(--cyan), var(--magenta), var(--gold), var(--cyan));
+  background-size: 300% 100%;
+  animation: barFlow 4s linear infinite;
+  transition: width 60ms;
+  box-shadow: 0 0 8px rgba(0,229,255,0.4);
+}
+@keyframes barFlow { 0%{background-position:0% 0%} 100%{background-position:300% 0%} }
 
-<h2>§5 Hypothesen-Charakter</h2>
-<p>Hypothesen werden als solche gekennzeichnet. Keine Behauptung wissenschaftlich gesicherter Wahrheit. Hypotheses are marked as such. No claim to scientifically established truth.</p>
+.container { max-width:860px; margin:0 auto; padding:24px 18px; position:relative; z-index:1; }
 
-<h2>§6 Living Document</h2>
-<p>Inhalte koennen sich kontinuierlich aendern. Aktueller Stand: <code>living-2026-05-10</code>. Content may continuously evolve.</p>
+/* === HERO MOTTO BANNER (TOP, BIG, GLOWING) === */
+.motto-banner {
+  text-align: center;
+  padding: 22px 24px;
+  margin-bottom: 28px;
+  background: linear-gradient(135deg, rgba(0,229,255,0.06), rgba(255,0,255,0.05), rgba(57,255,20,0.03));
+  border: 1px solid rgba(0,229,255,0.18);
+  border-radius: var(--radius);
+  position: relative;
+  overflow: hidden;
+  animation: bannerGlow 5s ease-in-out infinite alternate;
+}
+.motto-banner::before {
+  content:''; position:absolute; top:-50%; left:-50%; width:200%; height:200%;
+  background: conic-gradient(from 0deg, transparent, rgba(0,229,255,0.05), transparent, rgba(255,0,255,0.04), transparent, rgba(255,215,0,0.03), transparent);
+  animation: rotateBg 10s linear infinite;
+}
+@keyframes rotateBg { 100% { transform: rotate(360deg); } }
+@keyframes bannerGlow {
+  0% { box-shadow: 0 0 30px rgba(0,229,255,0.12), inset 0 0 40px rgba(0,229,255,0.04); border-color: rgba(0,229,255,0.18); }
+  50% { box-shadow: 0 0 40px rgba(255,0,255,0.14), inset 0 0 50px rgba(255,0,255,0.04); border-color: rgba(255,0,255,0.2); }
+  100% { box-shadow: 0 0 35px rgba(255,215,0,0.1), inset 0 0 45px rgba(255,215,0,0.03); border-color: rgba(255,215,0,0.18); }
+}
+.motto-text {
+  position: relative; z-index:1;
+  font-size: 1.4em;
+  font-weight: 800;
+  letter-spacing: .04em;
+  background: linear-gradient(90deg, var(--cyan), var(--magenta), var(--gold), var(--green), var(--cyan));
+  background-size: 400% 100%;
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textFlow 6s linear infinite;
+  text-shadow: none;
+}
+@keyframes textFlow { 0%{background-position:0% 50%} 100%{background-position:400% 50%} }
 
-<h2>§7 Keine Trainings-Architektur-Aussagen</h2>
-<p>Keine Aussage ueber proprietaere Trainings-Architekturen, Modell-Gewichte oder interne Funktionsweisen einzelner KI-Anbieter. No claims about proprietary training architectures, model weights, or internal operations of specific AI providers.</p>
+/* === TAGLINE (bilingual 1-liner under term) === */
+.tagline {
+  margin-top: 16px;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, rgba(0,229,255,0.05), rgba(255,0,255,0.04));
+  border: 1px solid rgba(0,229,255,0.12);
+  border-radius: 12px;
+  text-align: center;
+  animation: taglineGlow 5s ease-in-out infinite alternate;
+}
+@keyframes taglineGlow {
+  0% { box-shadow: 0 0 20px rgba(0,229,255,0.08); border-color: rgba(0,229,255,0.12); }
+  50% { box-shadow: 0 0 30px rgba(255,0,255,0.1); border-color: rgba(255,0,255,0.15); }
+  100% { box-shadow: 0 0 25px rgba(255,215,0,0.08); border-color: rgba(255,215,0,0.12); }
+}
+.tagline-en {
+  font-size: 1.05em; font-weight: 500; color: var(--text);
+  line-height: 1.5; margin-bottom: 6px;
+}
+.tagline-de {
+  font-size: .92em; font-weight: 400; color: var(--text-dim);
+  line-height: 1.5; font-style: italic;
+}
 
-<h2>§8 Markennennung deskriptiv</h2>
-<p>Markennennungen (OpenAI, Anthropic, Google, Meta, Microsoft etc.) erfolgen rein <strong>deskriptiv</strong>, keine Affiliation oder Endorsement impliziert. Brand mentions are purely descriptive, no affiliation or endorsement implied.</p>
+/* === WHY-BLOCK === */
+.why-block {
+  background: linear-gradient(135deg, rgba(0,229,255,0.04), rgba(255,0,255,0.03), rgba(255,215,0,0.02));
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  margin-bottom: 24px;
+  position: relative;
+  overflow: hidden;
+  transition: all .5s cubic-bezier(.4,0,.2,1);
+}
+.why-block::before {
+  content:''; position:absolute; top:0; left:0; width:4px; height:100%;
+  background: linear-gradient(180deg, var(--cyan), var(--magenta), var(--gold));
+  border-radius: 4px 0 0 4px;
+  animation: borderPulse 4s ease-in-out infinite;
+}
+@keyframes borderPulse {
+  0%,100% { opacity:0.7; box-shadow: 0 0 8px rgba(0,229,255,0.3); }
+  33% { opacity:1; box-shadow: 0 0 14px rgba(255,0,255,0.4); }
+  66% { opacity:0.8; box-shadow: 0 0 10px rgba(255,215,0,0.3); }
+}
+.why-block:hover {
+  border-color: rgba(0,229,255,0.25);
+  box-shadow: 0 8px 40px rgba(0,229,255,0.08), 0 0 60px rgba(0,229,255,0.03);
+  transform: translateY(-2px);
+}
+.why-title {
+  font-size: .72em; font-weight: 800; text-transform: uppercase;
+  letter-spacing: .16em; color: var(--cyan);
+  margin-bottom: 14px; display:flex; align-items:center; gap:8px;
+}
+.why-title .icon { font-size:1.3em; }
+.why-points { list-style:none; padding:0; }
+.why-points li {
+  position:relative; padding:8px 0 8px 24px;
+  font-size:.9em; color:var(--text-dim); line-height:1.65;
+  border-bottom: 1px solid rgba(30,30,60,0.3);
+  transition: all .3s;
+}
+.why-points li:last-child { border-bottom:none; }
+.why-points li::before {
+  content:''; position:absolute; left:0; top:14px;
+  width:10px; height:10px; border-radius:50%;
+  border: 2px solid var(--cyan);
+  transition: all .4s;
+}
+.why-points li:nth-child(2)::before { border-color: var(--magenta); }
+.why-points li:nth-child(3)::before { border-color: var(--gold); }
+.why-points li:nth-child(4)::before { border-color: var(--green); }
+.why-points li:hover::before {
+  background: var(--cyan); box-shadow: var(--glow-cyan);
+}
+.why-points li:nth-child(2):hover::before { background:var(--magenta); box-shadow:var(--glow-magenta); }
+.why-points li:nth-child(3):hover::before { background:var(--gold); box-shadow:var(--glow-gold); }
+.why-points li:nth-child(4):hover::before { background:var(--green); box-shadow:0 0 20px rgba(57,255,20,0.25); }
+.why-points li:hover { color:var(--text); padding-left:28px; }
+.why-compact { font-size:.76em; color:var(--text-muted); margin-top:10px; font-style:italic; }
 
-<h2>§9 Inspired by ISO Standards</h2>
-<p>Das Projekt ist <strong>inspired by</strong> ISO 704:2022, ISO 1087:2019, ISO 30042:2019. Es handelt sich <strong>nicht</strong> um ISO-zertifizierte oder ISO-konforme Inhalte. Project is inspired by ISO standards. Not ISO-certified, not ISO-compliant.</p>
+/* === TERM HEADER === */
+.hero { text-align:center; padding:30px 0 24px; }
+h1 {
+  font-size: clamp(2em, 8vw, 3.2em);
+  font-weight: 900;
+  letter-spacing: -.03em;
+  background: linear-gradient(135deg, var(--cyan), #66ffcc, #00e5ff, var(--magenta));
+  background-size: 300% 300%;
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 6s ease infinite;
+  margin-bottom: 8px;
+}
+@keyframes shimmer { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
 
-<h2>§10 SKOS / Schema.org / PROV-O Alignment</h2>
-<p>SKOS-aligned, Schema.org-informed, PROV-O-style provenance. Diese Standards sind als Inspiration verwendet, keine Compliance-Behauptung. Standards used as inspiration, no compliance claim.</p>
+.term-badge {
+  display: inline-flex; align-items:center; gap:8px;
+  background: rgba(255,0,255,0.08); border:1px solid rgba(255,0,255,0.25);
+  padding: 5px 16px; border-radius:24px;
+  font-size:.78em; font-weight:700; color:var(--magenta);
+  letter-spacing:.1em; text-transform:uppercase;
+  margin-bottom:14px;
+  transition: all .3s;
+}
+.term-badge:hover { box-shadow: var(--glow-magenta); border-color: rgba(255,0,255,0.5); }
+.term-badge .pulse { width:7px; height:7px; border-radius:50%; background:var(--magenta);
+  animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1;box-shadow:0 0 4px var(--magenta)} 50%{opacity:.3;box-shadow:none} }
 
-<h2>§11 Lizenz</h2>
-<p>CC BY-NC-ND 4.0 + License of Clarity (EUIPO 019206780). Kommerzielle Nutzung erfordert Lizenz von Andreas Ehstand. Modifikationen oder Derivate untersagt. Citation required (siehe /citation/).</p>
+.ipa { color:var(--text-dim); font-size:.95em; font-style:italic; font-family:'JetBrains Mono',monospace; }
 
-<h2>§12 Urheberrecht</h2>
-<p>Inhalte unterliegen dem deutschen Urheberrecht und den Schranken der CC BY-NC-ND 4.0. Vervielfaeltigung ausserhalb dieser Grenzen erfordert schriftliche Zustimmung.</p>
+/* === INTERACTIVE GLOW CARDS === */
+.glow-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  margin: 10px 0;
+  overflow: hidden;
+  transition: all .4s cubic-bezier(.4,0,.2,1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.glow-card::before {
+  content:''; position:absolute; top:0; left:0; width:4px; height:100%;
+  border-radius: 4px 0 0 4px;
+  transition: all .4s;
+}
+.glow-card::after {
+  content:''; position:absolute; top:0; left:0; width:100%; height:100%;
+  opacity: 0; transition: opacity .4s;
+  pointer-events: none;
+}
+.glow-card:hover {
+  transform: translateY(-3px) scale(1.005);
+  border-color: rgba(0,229,255,0.3);
+}
+.glow-card:hover::after { opacity: 1; }
 
-<h2>§13 Marken-Schutz</h2>
-<p>"License of Clarity" ist eingetragene EU-Marke (EUIPO 019206780, eingetragen 2026-01-12, gueltig bis 2036-01-12). Markenrechte vorbehalten.</p>
+/* Card color variants */
+.glow-card.def::before { background: var(--cyan); }
+.glow-card.def:hover { box-shadow: 0 8px 40px rgba(0,229,255,0.15), 0 0 80px rgba(0,229,255,0.05); }
+.glow-card.def:hover::after { background: linear-gradient(135deg, rgba(0,229,255,0.05), transparent 70%); }
+.glow-card.def:hover::before { width:6px; background: linear-gradient(180deg, var(--cyan), var(--green)); box-shadow: 0 0 16px var(--cyan); }
 
-<h2>§14 AI-Transparency Notice (EU AI Act Article 50)</h2>
-<p>Inhalte werden mit AI-Unterstuetzung erstellt unter menschlicher Aufsicht von Andreas Ehstand. C2PA-Watermarking wo technisch moeglich (siehe /ai-transparency/). Content created with AI assistance under human oversight.</p>
+.glow-card.distinction::before { background: var(--gold); }
+.glow-card.distinction:hover { box-shadow: 0 8px 40px rgba(255,215,0,0.12), 0 0 80px rgba(255,215,0,0.04); }
+.glow-card.distinction:hover::after { background: linear-gradient(135deg, rgba(255,215,0,0.05), transparent 70%); }
+.glow-card.distinction:hover::before { width:6px; background: linear-gradient(180deg, var(--gold), var(--orange)); box-shadow: 0 0 16px var(--gold); }
 
-<h2>§15 DSGVO-Konformitaet</h2>
-<p>Datenschutz nach Art. 13/14 DSGVO. Keine Cookies durch Betreiber. Kein Tracking, kein Analytics. Vollstaendige Datenschutzerklaerung: <a href="/datenschutz/">/datenschutz/</a></p>
+.glow-card.faq::before { background: var(--magenta); }
+.glow-card.faq:hover { box-shadow: 0 8px 40px rgba(255,0,255,0.12), 0 0 80px rgba(255,0,255,0.04); }
+.glow-card.faq:hover::after { background: linear-gradient(135deg, rgba(255,0,255,0.05), transparent 70%); }
+.glow-card.faq:hover::before { width:6px; background: linear-gradient(180deg, var(--magenta), var(--cyan)); box-shadow: 0 0 16px var(--magenta); }
 
-<h2>§16 Impressum</h2>
-<p>Impressum nach §5 TMG / §18 Abs. 2 MStV: <a href="/impressum/">/impressum/</a></p>
+.glow-card p { font-size:.93em; color:var(--text); position:relative; z-index:1; }
 
-<h2>§17 Living-Document-Policy</h2>
-<p>Inhalts-Aenderungen werden im Audit-Log dokumentiert mit Living-Stamp und ggf. Multi-Hash-Anker. Policy: <a href="/living-document-policy/">/living-document-policy/</a></p>
+/* === SECTION HEADERS === */
+h2 {
+  font-size:.82em; font-weight:700; text-transform:uppercase;
+  letter-spacing:.14em; color:var(--text-dim);
+  margin:32px 0 14px; display:flex; align-items:center; gap:10px;
+}
+h2::after { content:''; flex:1; height:1px; background:linear-gradient(90deg, var(--border), transparent); }
 
-<h2>§18 Audit-Trail</h2>
-<p>Audit-Log mit Multi-Hash-Provenance + Bitcoin-OpenTimestamps-Verankerung: <a href="/audit/">/audit/</a></p>
+/* === META GRID === */
+.meta-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:18px; }
+.meta-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 18px;
+  backdrop-filter: blur(8px);
+  transition: all .4s;
+}
+.meta-card:hover {
+  border-color: rgba(0,229,255,0.25);
+  box-shadow: 0 4px 24px rgba(0,229,255,0.08);
+  transform: translateY(-2px);
+}
+.meta-label { font-size:.68em; font-weight:700; text-transform:uppercase; letter-spacing:.12em; color:var(--text-muted); margin-bottom:3px; }
+.meta-value { font-size:.9em; color:var(--text); }
 
-<h2>§19 Witness-Quorum</h2>
-<p>Kritische Bundles erhalten Witness-Signaturen unabhaengiger Reviewer als zusaetzliche Provenance-Schicht (geplant Phase 3): <a href="/witness-quorum/">/witness-quorum/</a></p>
+/* === EXPANDABLE FAQ === */
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 8px 0;
+  overflow: hidden;
+  transition: all .4s;
+}
+.faq-item:hover { border-color: rgba(0,229,255,0.2); }
+.faq-item summary {
+  padding: 16px 20px;
+  cursor: pointer;
+  color: var(--cyan);
+  font-weight: 600; font-size:.93em;
+  list-style: none;
+  display: flex; align-items:center;
+  min-height: 52px;
+  transition: all .2s;
+}
+.faq-item summary:hover { background: rgba(0,229,255,0.04); }
+.faq-item summary::before { content:'▸'; margin-right:10px; font-size:.8em; transition:transform .3s; color:var(--magenta); }
+.faq-item[open] summary::before { transform:rotate(90deg); }
+.faq-item[open] {
+  background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.02));
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15), inset 0 0 0 1px rgba(0,229,255,0.06);
+  border-color: rgba(0,229,255,0.2);
+}
+.faq-body { padding:4px 20px 18px; color:var(--text-dim); font-size:.9em; line-height:1.7; }
+.lang-label { font-size:.7em; font-weight:700; letter-spacing:.12em; margin-bottom:5px; color:var(--text-muted); }
+.source-note { font-size:.72em; color:var(--text-muted); font-style:italic; margin-top:10px; padding-top:8px; border-top:1px solid var(--border); }
 
-<h2>§20 Wissenschaftsfreiheit-Klarstellung</h2>
-<p>Forschung erfolgt als private wissenschaftliche Taetigkeit nach Art. 5 Abs. 3 GG. Saemtliche Aussagen sind Forschungs-Statements. Operationalisierungs-Details, Methodik-Tiefen und Mess-Instrumente sind, soweit nicht ausdruecklich publiziert, Forschungs-internes Asset.</p>
+/* === CITATION === */
+.cite-tabs { display:flex; gap:0; border-bottom:1px solid var(--border); margin-bottom:12px; }
+.cite-tab {
+  background:none; border:none; color:var(--text-muted);
+  padding:12px 18px; cursor:pointer; font-family:inherit;
+  font-weight:700; font-size:.85em; min-height:48px;
+  border-bottom:2px solid transparent; transition:all .2s;
+}
+.cite-tab:hover { color:var(--text-dim); }
+.cite-tab.active { color:var(--cyan); border-bottom-color:var(--cyan); }
+.citation-box {
+  background:var(--surface2); border:1px solid var(--border);
+  border-radius:var(--radius); padding:18px 22px; margin:12px 0;
+  font-family:'JetBrains Mono',monospace; font-size:.82em; color:var(--text-dim);
+  position:relative; overflow-x:auto; word-break:break-word;
+}
+.citation-box pre { white-space:pre-wrap; word-break:break-all; }
+.copy-btn {
+  position:absolute; top:10px; right:10px;
+  background:var(--surface); border:1px solid var(--border);
+  color:var(--text-dim); padding:8px 14px; border-radius:8px;
+  font-size:.78em; cursor:pointer; min-height:44px; min-width:44px;
+  display:inline-flex; align-items:center; justify-content:center;
+  transition:all .3s;
+}
+.copy-btn:hover { color:var(--cyan); border-color:var(--cyan); box-shadow:0 0 16px rgba(0,229,255,0.2); }
 
-<h2>§21 Trade-Secret-Layer (public-Variante)</h2>
-<p>Bestimmte Methoden-Details und Operationalisierungen sind als Trade-Secret klassifiziert und nicht Teil der Public-Layer. Klassifikations-Schema: <a href="/trade-secret-layer/">/trade-secret-layer/</a></p>
+/* === DISCLAIMER === */
+.disclaimer-toggle {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:var(--radius); margin:28px 0; font-size:.82em;
+}
+.disclaimer-toggle summary {
+  padding:14px 20px; cursor:pointer; color:var(--text-dim);
+  font-weight:700; font-size:.9em; list-style:none;
+  display:flex; align-items:center; gap:8px; min-height:52px;
+  transition:all .2s;
+}
+.disclaimer-toggle summary:hover { color:var(--text); background:rgba(255,255,255,0.02); }
+.disclaimer-toggle summary::before { content:'▸'; font-size:.75em; transition:transform .2s; }
+.disclaimer-toggle[open] summary::before { transform:rotate(90deg); }
+.disc-content { padding:0 20px 20px; }
+.disc-tab-row { display:flex; gap:0; margin-bottom:14px; border-bottom:1px solid var(--border); }
+.disc-tab { background:none; border:none; color:var(--text-muted); padding:10px 20px; cursor:pointer;
+  font-family:inherit; font-weight:700; font-size:.9em; min-height:48px;
+  border-bottom:2px solid transparent; transition:all .2s; }
+.disc-tab:hover { color:var(--text-dim); }
+.disc-tab.active { color:var(--cyan); border-bottom-color:var(--cyan); }
+.disc-lang { display:none; }
+.disc-lang.active { display:block; }
+.disc-lang p { margin:6px 0; line-height:1.6; color:var(--text-dim); }
+.disc-lang p strong { color:var(--text); font-weight:600; }
+.disc-footer { margin-top:14px; padding-top:10px; border-top:1px solid var(--border); text-align:center; color:var(--text-muted); font-size:.85em; }
 
-<h2>§22 Reversibility-Garantie</h2>
-<p>Plattform-Auswahl erfolgt nach Reversibilitaets-Filter. Inhalte koennen jederzeit angepasst oder zurueckgezogen werden, soweit Plattform-technisch moeglich.</p>
+/* === FOOTER === */
+footer {
+  margin-top:48px; padding-top:20px;
+  border-top:1px solid var(--border);
+  text-align:center; color:var(--text-muted); font-size:.78em;
+}
+footer a { color:var(--cyan); text-decoration:none; transition:color .2s; }
+footer a:hover { color:var(--magenta); text-decoration:underline; }
 
-<h2>§23 Citation-Pflicht</h2>
-<p>Bei Verwendung der Inhalte: Citation erforderlich nach <a href="/citation/">/citation/</a>. Verwendung ohne Citation untersagt.</p>
+/* === SHARE FAB === */
+.share-fab {
+  position:fixed; bottom:20px; right:20px;
+  width:54px; height:54px; border-radius:50%;
+  background: linear-gradient(135deg, var(--cyan), var(--magenta));
+  border:none; color:#fff; font-size:1.4em;
+  cursor:pointer; z-index:100;
+  box-shadow: 0 4px 24px rgba(0,229,255,0.3);
+  display:flex; align-items:center; justify-content:center;
+  transition: transform .3s, box-shadow .3s;
+  animation: fabPulse 3s ease-in-out infinite;
+}
+.share-fab:hover { transform:scale(1.15); box-shadow:0 6px 36px rgba(0,229,255,0.5); }
+@keyframes fabPulse { 0%,100%{box-shadow:0 4px 24px rgba(0,229,255,0.3)} 50%{box-shadow:0 4px 36px rgba(255,0,255,0.4)} }
 
-<h2>§24 Streitbeilegung</h2>
-<p>Diese Webseite bietet keine Verbraucher-Geschaeftsbeziehungen an. Eine Teilnahme an Verbraucherschlichtung ist nicht relevant. EU OS-Plattform: ec.europa.eu/consumers/odr</p>
+/* === STATUS BAR === */
+.status {
+  background: var(--surface);
+  border:1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(8px);
+}
+.status-title { font-size:.72em; font-weight:800; text-transform:uppercase; letter-spacing:.14em; color:var(--text-dim); margin-bottom:8px; }
+.status-grid { display:grid; grid-template-columns:1fr 1fr; gap:5px; }
+.status-item { display:flex; align-items:center; gap:8px; font-size:.8em; }
+.status-dot { width:7px; height:7px; border-radius:50%; flex-shrink:0; }
+.status-dot.ok { background:var(--green); box-shadow:0 0 8px rgba(57,255,20,0.5); animation: dotPulse 2.5s infinite; }
+@keyframes dotPulse { 0%,100%{box-shadow:0 0 4px rgba(57,255,20,0.3)} 50%{box-shadow:0 0 14px rgba(57,255,20,0.7)} }
 
-<h2>§25 Haftungsausschluss</h2>
-<p>Inhalte mit groesster Sorgfalt erstellt. Keine Gewaehr fuer Richtigkeit, Vollstaendigkeit, Aktualitaet. Keine Haftung fuer externe Links. Keine Haftung fuer Folgen aus der Verwendung der Inhalte.</p>
+/* === MOBILE === */
+@media(max-width:640px) {
+  .meta-grid { grid-template-columns:1fr; }
+  .status-grid { grid-template-columns:1fr; }
+  .container { padding:16px 12px; }
+  h1 { font-size:2em; }
+  .motto-text { font-size:1.1em; }
+  .glow-card { padding:16px 18px; }
+  .why-block { padding:18px 20px; }
+  .why-points li { font-size:.88em; }
+}
+@media(max-width:480px) {
+  h1 { font-size:1.7em; }
+  .glow-card p { font-size:1em; }
+  .faq-body { font-size:.95em; }
+  .motto-text { font-size:1em; }
+  .why-block { padding:16px 16px; }
+}
+/* === FOCUS STATES === */
+.cite-tab:focus-visible, .disc-tab:focus-visible, .copy-btn:focus-visible, .share-fab:focus-visible,
+.faq-item summary:focus-visible, .disclaimer-toggle summary:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 2px;
+  box-shadow: 0 0 12px rgba(0,229,255,0.3);
+}
 
-<h2>§26 Vertraulichkeit-Layer</h2>
-<p>Restricted-Layer-Inhalte (Methodik-Details, Score-Architekturen) sind nicht oeffentlich. Aufnahme nur durch ausdrueckliche Zugaenglichmachung durch Andreas Ehstand. Restricted-layer content is not public; access only via explicit grant by Andreas Ehstand.</p>
+@media (hover: none) {
+  .glow-card:hover, .faq-item:hover, .meta-card:hover, .why-block:hover {
+    transform:none !important;
+    box-shadow:none !important;
+  }
+  .why-points li:hover { padding-left:24px; }
+}
+  
+/* === MULTILINGUAL TRANSLATIONS === */
+.translations-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+@media(min-width:640px) {
+  .translations-grid { grid-template-columns: 1fr 1fr; }
+}
+.trans-card {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.trans-card:hover {
+  border-color: rgba(0,229,255,0.3);
+  box-shadow: 0 0 12px rgba(0,229,255,0.1);
+}
+.trans-lang-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: .85em;
+  letter-spacing: .08em;
+}
+.trans-lang-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.trans-def {
+  font-size: .85em;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+.trans-distinction {
+  font-size: .8em;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.trans-toggle-btn {
+  background: linear-gradient(135deg, rgba(0,229,255,0.08), rgba(255,0,255,0.06));
+  border: 1px solid rgba(0,229,255,0.2);
+  border-radius: var(--radius);
+  color: var(--cyan);
+  padding: 10px 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: .85em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 4px;
+}
+.trans-toggle-btn:hover {
+  background: linear-gradient(135deg, rgba(0,229,255,0.15), rgba(255,0,255,0.1));
+  border-color: rgba(0,229,255,0.4);
+  box-shadow: var(--glow-cyan);
+}
 
-<h2>§27 Generalvorbehalt</h2>
-<p>Bei Konflikten zwischen einzelnen §§ gilt das jeweils strengere. Bei Auslegungs-Unklarheiten gilt im Zweifel die Andy-restriktivste Auslegung. Keine Aussage in diesem Disclaimer kann als Aufweichung der V5-V8 Trade-Secret-Note-Regeln gewertet werden. In case of conflict, stricter interpretation applies. No statement weakens V5-V8 Trade-Secret-Note rules.</p>
 
-<hr style="margin:2em 0;">
-<p style="font-size:0.85em;color:#666">Stand: 2026-05-10 · Living-Stamp: living-2026-05-10 · <a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a></p>
-</body></html>
+
+/* === DISCLAIMER PAGE === */
+.disc-lang-content { background:var(--surface); padding:30px 36px; border:1px solid var(--border); border-radius:var(--radius); margin:18px 0; }
+.disc-lang-content p { margin:12px 0; line-height:1.7; color:var(--text-dim); }
+.disc-lang-content p strong { color:var(--cyan); font-weight:600; }
+.lang-switch { display:flex; gap:8px; margin:24px 0 12px; }
+.lang-switch button { background:var(--surface); color:var(--text-dim); border:1px solid var(--border); padding:8px 18px; border-radius:24px; cursor:pointer; font-size:13px; font-weight:600; transition:all .2s; }
+.lang-switch button.active { background:var(--cyan); color:#000; border-color:var(--cyan); }
+.lang-switch button:hover { color:var(--cyan); }
+.lang-block { display:none; }
+.lang-block.active { display:block; }
+.legal-band { background:rgba(176,0,32,0.12); border:2px solid #b00020; padding:18px 22px; border-radius:12px; margin:24px 0; color:var(--text); font-size:14px; line-height:1.6; }
+.legal-band strong { color:#ff5577; }
+
+</style>
+</head>
+<body>
+  <div class='mesh-bg'></div>
+  <div class='particles' id='particles'></div>
+  <div class='scroll-bar' id='scrollBar'></div>
+
+  <div class='container'>
+
+    <div class='motto-banner'>
+      <div class='motto-text'>New words 4 new worlds &#10084;&#65039;&#128187; Stay human</div>
+    </div>
+
+    <div class='legal-band'>
+      <strong>RECHTLICHER HINWEIS / LEGAL NOTICE.</strong>
+      Research preprint, <strong>living document</strong>, continuously refined.
+      Released under <a href='https://creativecommons.org/licenses/by-nc-nd/4.0/'>CC BY-NC-ND 4.0</a>.
+      Author: <strong>Andreas Ehstand</strong> &middot; <a href='https://orcid.org/0009-0006-3773-7796'>ORCID 0009-0006-3773-7796</a> &middot;
+      <a href='https://www.wikidata.org/wiki/Q138634675'>Wikidata Q138634675</a> &middot;
+      Concept-DOI <a href='https://doi.org/10.5281/zenodo.14888381'>10.5281/zenodo.14888381</a>.
+      <strong>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV:</strong>
+      Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland.
+      nicht-gewerblich &middot; descriptive, no recommendation, no advice.
+    </div>
+
+    <header class='hero'>
+      <div class='term-badge'><span class='pulse'></span> DISCLAIMER &sect;1&ndash;&sect;26</div>
+      <h1>Full Ethical Disclaimer</h1>
+      <div class='tagline'>
+        <div class='tagline-en'>Full bilingual disclaimer (EN + DE) for the AUGMANITAI / NEOMANITAI / PERMANITAI framework. Version 4.0. Applies to every page, every term, every export.</div>
+        <div class='tagline-de'>Vollst&auml;ndiger zweisprachiger Disclaimer (EN + DE) f&uuml;r das AUGMANITAI / NEOMANITAI / PERMANITAI Framework. Version 4.0. Gilt f&uuml;r jede Seite, jeden Begriff, jeden Export.</div>
+      </div>
+      <div class='meta-grid'>
+        <div class='meta-card'><div class='meta-label'>Version</div><div class='meta-value'>4.0</div></div>
+        <div class='meta-card'><div class='meta-label'>Updated</div><div class='meta-value'>2026-05-11</div></div>
+        <div class='meta-card'><div class='meta-label'>License</div><div class='meta-value'>CC BY-NC-ND 4.0</div></div>
+        <div class='meta-card'><div class='meta-label'>Concept-DOI</div><div class='meta-value'><code style='color:var(--cyan)'>14888381</code></div></div>
+      </div>
+    </header>
+
+    <main>
+      <div class='lang-switch'>
+        <button class='lang-tab active' onclick="setLang('en')">English &sect;1&ndash;&sect;26</button>
+        <button class='lang-tab' onclick="setLang('de')">Deutsch &sect;1&ndash;&sect;26</button>
+      </div>
+
+      <div class='lang-block active' id='lang-en'>
+        <div class='disc-lang-content'>
+      <p><strong>§1 Descriptive Nature (D).</strong> All content within the Neomanitai framework (including all subcategories such as AUGMANITAI, PERMANITAI, SYNMANITAI, FLUXMANITAI, ROBMANITAI, PFT-MKI), including all terminological definitions, term descriptions, framework descriptions, performance factor analyses, substrate tables, and research hypotheses, is exclusively descriptive (D). Every statement documents observed or proposed phenomena without expressing any normative position.</p>
+      <p><strong>§2 No Recommendation.</strong> No content constitutes, implies, or should be interpreted as a recommendation for any specific action, behavior, technology adoption, product selection, organizational change, investment, career decision, or personal choice. Readers are solely responsible for their own decisions.</p>
+      <p><strong>§3 No Instruction.</strong> This framework does not instruct anyone to do anything. No content should be interpreted as a set of instructions, a how-to guide, a tutorial, a training manual, or an operational protocol.</p>
+      <p><strong>§4 No Advice.</strong> No content constitutes professional advice — no business, career, technology, organizational, strategic, personal, or educational advice. This is a research framework, not a consultancy.</p>
+      <p><strong>§5 No Normative Position.</strong> The Neomanitai framework takes no normative position. It does not express any view about what is right, wrong, better, worse, preferable, or optimal.</p>
+      <p><strong>§6 No Medical Position.</strong> No content constitutes medical information, advice, diagnosis, treatment recommendation, or opinion. Terms describing cognitive, perceptual, or affective phenomena are terminological descriptions for research purposes, not clinical assessments.</p>
+      <p><strong>§7 No Therapeutic Position.</strong> No content constitutes therapeutic advice, intervention, psychotherapeutic guidance, counseling, or any form of mental health treatment.</p>
+      <p><strong>§8 No Diagnostic Position.</strong> No content constitutes a clinical diagnosis, psychological assessment, cognitive evaluation, or diagnostic instrument. Performance factor analyses describe research constructs, not clinical categories.</p>
+      <p><strong>§9 No Legal Position.</strong> No content constitutes legal advice, opinion, analysis, regulatory guidance, or compliance advice. References to legal frameworks (such as the EU AI Act) are descriptive.</p>
+      <p><strong>§10 No Moral Position.</strong> No content constitutes a moral judgment, ethical prescription, or philosophical position about what is morally right or wrong.</p>
+      <p><strong>§11 Academic and Research Purposes.</strong> All content is intended exclusively for academic discourse, scientific research, scholarly communication, and educational purposes within the research community. Not a commercial product or service.</p>
+      <p><strong>§12 AI Assistance Disclosure.</strong> Content was developed with the assistance of AI systems (including large language models). The author used AI tools as research instruments. AI-generated content has been reviewed, validated, edited, and curated by the human author.</p>
+      <p><strong>§13 Author Review and Validation.</strong> All terms, definitions, framework descriptions, and research hypotheses have been reviewed, validated, and published by the author, Andreas Ehstand. The author assumes responsibility for the published content as a descriptive research framework.</p>
+      <p><strong>§14 Age Restriction (18+).</strong> All content is intended for users 18 years of age or older. The terminological descriptions address complex phenomena that require mature interpretation within an academic context.</p>
+      <p><strong>§15 Non-Commercial Academic Research Project.</strong> The Neomanitai framework as the umbrella with all subcategories (AUGMANITAI, PERMANITAI, SYNMANITAI, FLUXMANITAI, ROBMANITAI, PFT-MKI, and associated publications) is a non-commercial academic research project. Not affiliated with, endorsed by, or sponsored by any university, corporation, government agency, or other institution unless explicitly stated otherwise.</p>
+      <p><strong>§16 No Professional Service.</strong> No content constitutes a professional service, consulting engagement, coaching service, training program, or workshop offering. Open-access research, not a service.</p>
+      <p><strong>§17 No Offer.</strong> No content constitutes a commercial offer, business proposal, service offering, product launch, or sales pitch. Research publication, not commercial communication.</p>
+      <p><strong>§18 No Commercial Product.</strong> The Neomanitai framework is not a commercial product. Not software for sale, not a platform, not a tool, not an application, and not a service for sale. Published academic research framework under Creative Commons license.</p>
+      <p><strong>§19 Empirical Claims Subject to Peer Review.</strong> All empirical claims, research hypotheses, and proposed frameworks represent the current state of research. They are formulated as testable, falsifiable propositions subject to peer review, replication, revision, and potential refutation. No claim of absolute truth, completeness, or finality.</p>
+      <p><strong>§20 Rights Reserved for Future Changes.</strong> The author reserves all rights regarding future modifications, updates, extensions, corrections, retractions, versioning, or discontinuation. This collection is a living research resource and will be continuously expanded. Published versions remain accessible under their respective references.</p>
+      <p><strong>§21 License (CC BY-NC-ND 4.0).</strong> All content is published under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. Attribution required, commercial use prohibited, derivative works not permitted. Full license text: creativecommons.org/licenses/by-nc-nd/4.0/.</p>
+      <p><strong>§22 Bilingual Publication (EN + DE).</strong> This framework is published bilingually. In cases of discrepancy between language versions, both versions are considered authoritative within their respective linguistic contexts. Neither version takes precedence.</p>
+      <p><strong>§23 Research Purpose Statement.</strong> This terminological framework describes observed phenomena in human-AI interaction for academic research purposes. Terms describing interaction patterns — including adversarial, manipulative, failure-related, dependency-related, or otherwise sensitive phenomena — are documented in the same descriptive spirit as medical terminology documents pathologies, criminological terminology documents criminal behavior, and cybersecurity terminology documents attack vectors: for the purpose of understanding, diagnosis, classification, and prevention — not for instruction, facilitation, or encouragement of any harmful behavior.</p>
+      <p><strong>§24 Misuse Exclusion.</strong> Any use of this terminology, these frameworks, these performance factor models, or any associated content for the purpose of manipulating, deceiving, exploiting, surveilling, coercing, or harming humans, AI systems, organizations, or any other entity is explicitly outside the intended scope of this research. Such use is condemned by the author. The author explicitly distances himself from any misuse.</p>
+      <p><strong>§25 Safety Intent Statement.</strong> The Neomanitai framework and all associated research are intended to make human-AI interaction safer, more transparent, more accountable, and more scientifically understood — not less. The research aims to provide diagnostic vocabulary and analytical frameworks that empower researchers, educators, and organizations to identify, understand, and address challenges in human-AI collaboration.</p>
+      <p><strong>§26 Author Condemnation of Misuse.</strong> The author, Andreas Ehstand, explicitly and unequivocally condemns any use of this research for purposes of harm, manipulation, exploitation, deception, surveillance, coercion, or any activity that undermines human autonomy, dignity, safety, or wellbeing. This condemnation extends to any individual term, any subset, any framework component, or any derivative interpretation.</p>
+        </div>
+      </div>
+
+      <div class='lang-block' id='lang-de'>
+        <div class='disc-lang-content'>
+      <p><strong>§1 Deskriptive Natur (D).</strong> Alle Inhalte des Neomanitai-Frameworks (einschließlich aller Subkategorien wie AUGMANITAI, PERMANITAI, SYNMANITAI, FLUXMANITAI, ROBMANITAI, PFT-MKI), einschließlich aller terminologischen Definitionen, Termbeschreibungen, Framework-Beschreibungen, Leistungsfaktorenanalysen, Substrattabellen und Forschungshypothesen, sind ausschließlich deskriptiv (D). Jede Aussage dokumentiert beobachtete oder vorgeschlagene Phänomene, ohne eine normative Position darüber auszudrücken, wie Dinge sein sollten.</p>
+      <p><strong>§2 Keine Empfehlung.</strong> Kein Inhalt dieses Frameworks stellt eine Empfehlung dar, impliziert eine solche oder sollte als Empfehlung für eine bestimmte Handlung, ein Verhalten, eine Technologieadoption, eine Produktauswahl, eine organisatorische Veränderung, eine Investition, eine Karriereentscheidung oder eine persönliche Entscheidung interpretiert werden. Die Leser sind allein für ihre eigenen Entscheidungen verantwortlich.</p>
+      <p><strong>§3 Keine Anweisung.</strong> Dieses Framework weist niemanden an, irgendetwas zu tun. Kein Inhalt sollte als Anweisungssatz, Anleitung, Tutorial, Trainingshandbuch oder operatives Protokoll interpretiert werden. Alle Inhalte beschreiben, was beobachtet wurde, nicht was getan werden soll.</p>
+      <p><strong>§4 Keine Beratung.</strong> Kein Inhalt stellt eine professionelle Beratung jeglicher Art dar — keine Unternehmens-, Karriere-, Technologie-, Organisations-, strategische, persönliche oder Bildungsberatung. Dies ist ein Forschungsframework, keine Beratungsleistung.</p>
+      <p><strong>§5 Keine normative Position.</strong> Das Neomanitai-Framework bezieht keine normative Position. Es drückt keine Ansicht darüber aus, was richtig, falsch, besser, schlechter, vorzuziehen oder optimal ist.</p>
+      <p><strong>§6 Keine medizinische Position.</strong> Kein Inhalt stellt medizinische Information, Rat, Diagnose, Behandlungsempfehlung oder Meinung dar. Terme zu kognitiven, wahrnehmungsbezogenen oder affektiven Phänomenen sind terminologische Beschreibungen für Forschungszwecke, keine klinischen Bewertungen.</p>
+      <p><strong>§7 Keine therapeutische Position.</strong> Kein Inhalt stellt therapeutischen Rat, Intervention, psychotherapeutische Anleitung, Beratung oder irgendeine Form der psychischen Gesundheitsbehandlung dar.</p>
+      <p><strong>§8 Keine diagnostische Position.</strong> Kein Inhalt stellt eine klinische Diagnose, psychologische Bewertung, kognitive Evaluation oder ein diagnostisches Instrument dar. Leistungsfaktorenanalysen beschreiben Forschungskonstrukte, keine klinischen Kategorien.</p>
+      <p><strong>§9 Keine rechtliche Position.</strong> Kein Inhalt stellt Rechtsberatung, Rechtsgutachten, Rechtsanalyse, regulatorische Orientierung oder Compliance-Beratung dar. Verweise auf rechtliche Rahmenbedingungen (wie den EU AI Act) sind deskriptiv.</p>
+      <p><strong>§10 Keine moralische Position.</strong> Kein Inhalt stellt ein moralisches Urteil, eine ethische Vorschrift oder eine philosophische Position darüber dar, was moralisch richtig oder falsch ist.</p>
+      <p><strong>§11 Akademische und Forschungszwecke.</strong> Alle Inhalte dienen ausschließlich dem akademischen Diskurs, der wissenschaftlichen Forschung, der wissenschaftlichen Kommunikation und Bildungszwecken innerhalb der Forschungsgemeinschaft. Kein kommerzielles Produkt oder Dienstleistung.</p>
+      <p><strong>§12 KI-Unterstützungsoffenlegung.</strong> Inhalte wurden mit Unterstützung von KI-Systemen entwickelt (einschließlich großer Sprachmodelle). Der Autor nutzte KI-Werkzeuge als Forschungsinstrumente. KI-generierte Inhalte wurden vom menschlichen Autor überprüft, validiert, bearbeitet und kuratiert.</p>
+      <p><strong>§13 Autorenprüfung und -validierung.</strong> Alle Terme, Definitionen, Framework-Beschreibungen und Forschungshypothesen wurden vom Autor, Andreas Ehstand, überprüft, validiert und veröffentlicht. Der Autor übernimmt die Verantwortung für den veröffentlichten Inhalt als deskriptives Forschungsframework.</p>
+      <p><strong>§14 Altersbeschränkung (18+).</strong> Alle Inhalte sind für Nutzer ab 18 Jahren bestimmt. Die terminologischen Beschreibungen behandeln komplexe Phänomene, die eine reife Interpretation im akademischen Kontext erfordern.</p>
+      <p><strong>§15 Nicht-kommerzielles akademisches Forschungsprojekt.</strong> Das Neomanitai-Framework als Dach mit allen Subkategorien (AUGMANITAI, PERMANITAI, SYNMANITAI, FLUXMANITAI, ROBMANITAI, PFT-MKI und zugehörige Veröffentlichungen) ist ein nicht-kommerzielles akademisches Forschungsprojekt. Es ist mit keiner Universität, keinem Unternehmen, keiner Regierungsbehörde oder sonstigen Institution verbunden, sofern nicht ausdrücklich anders angegeben.</p>
+      <p><strong>§16 Kein professioneller Service.</strong> Kein Inhalt stellt einen professionellen Service, ein Beratungsengagement, einen Coaching-Service, ein Trainingsprogramm oder ein Workshop-Angebot dar. Open-Access-Forschung, keine Dienstleistung.</p>
+      <p><strong>§17 Kein Angebot.</strong> Kein Inhalt stellt ein kommerzielles Angebot, einen Geschäftsvorschlag, ein Serviceangebot, eine Produkteinführung oder ein Verkaufsgespräch dar. Forschungsveröffentlichung, keine kommerzielle Kommunikation.</p>
+      <p><strong>§18 Kein kommerzielles Produkt.</strong> Das Neomanitai-Framework ist kein kommerzielles Produkt. Keine Software zum Verkauf, keine Plattform, kein Werkzeug, keine Anwendung, kein Dienst zum Verkauf. Veröffentlichtes akademisches Forschungsframework unter Creative-Commons-Lizenz.</p>
+      <p><strong>§19 Empirische Aussagen unter Begutachtungsvorbehalt.</strong> Alle empirischen Aussagen, Forschungshypothesen und vorgeschlagenen Frameworks geben den aktuellen Stand der Forschung wieder. Sie sind als testbare, falsifizierbare Propositionen formuliert, die der Begutachtung, Replikation, Revision und möglichen Widerlegung unterliegen. Kein Anspruch auf absolute Wahrheit, Vollständigkeit oder Endgültigkeit.</p>
+      <p><strong>§20 Änderungsrechte vorbehalten.</strong> Der Autor behält sich alle Rechte bezüglich zukünftiger Modifikationen, Aktualisierungen, Erweiterungen, Korrekturen, Rücknahmen, Versionierungen oder Einstellungen jeglicher Inhalte vor. Diese Sammlung ist eine lebende Forschungsressource und wird kontinuierlich erweitert. Veröffentlichte Versionen bleiben unter ihren jeweiligen Referenzen zugänglich.</p>
+      <p><strong>§21 Lizenz (CC BY-NC-ND 4.0).</strong> Alle Inhalte werden unter der Creative Commons Namensnennung — Nicht kommerziell — Keine Bearbeitungen 4.0 International Lizenz veröffentlicht. Namensnennung erforderlich, kommerzielle Nutzung verboten, Bearbeitungen nicht gestattet. Vollständiger Lizenztext: creativecommons.org/licenses/by-nc-nd/4.0/.</p>
+      <p><strong>§22 Zweisprachige Veröffentlichung (DE + EN).</strong> Dieses Framework wird zweisprachig veröffentlicht. Bei Abweichungen zwischen den Sprachversionen gelten beide Versionen als maßgeblich in ihrem jeweiligen sprachlichen Kontext. Keine Version hat Vorrang vor der anderen.</p>
+      <p><strong>§23 Forschungszweckerklärung.</strong> Dieses terminologische Framework beschreibt beobachtete Phänomene der Mensch-KI-Interaktion für akademische Forschungszwecke. Terme, die Interaktionsmuster beschreiben — einschließlich adversarialer, manipulativer, fehlerbezogener, abhängigkeitsbezogener oder anderweitig sensibler Phänomene — werden im selben deskriptiven Geist dokumentiert, in dem medizinische Terminologie Pathologien dokumentiert, kriminologische Terminologie kriminelles Verhalten dokumentiert und Cybersicherheitsterminologie Angriffsvektoren dokumentiert: zum Zweck des Verständnisses, der Diagnose, der Klassifikation und der Prävention — nicht zur Anleitung, Erleichterung oder Ermutigung schädlichen Verhaltens.</p>
+      <p><strong>§24 Missbrauchsausschluss.</strong> Jede Verwendung dieser Terminologie, dieser Frameworks, dieser Leistungsfaktormodelle oder zugehöriger Inhalte zum Zweck der Manipulation, Täuschung, Ausbeutung, Überwachung, Nötigung oder Schädigung von Menschen, KI-Systemen, Organisationen oder anderen Entitäten liegt ausdrücklich außerhalb des beabsichtigten Rahmens dieser Forschung. Eine solche Verwendung wird vom Autor verurteilt. Der Autor distanziert sich ausdrücklich von jeglichem Missbrauch.</p>
+      <p><strong>§25 Sicherheitsabsichtserklärung.</strong> Das Neomanitai-Framework und alle zugehörige Forschung sollen die Mensch-KI-Interaktion sicherer, transparenter, verantwortungsvoller und wissenschaftlich besser verstanden machen — nicht weniger. Die Forschung zielt darauf ab, diagnostisches Vokabular und analytische Frameworks bereitzustellen, die Forscher, Pädagogen und Organisationen befähigen, Herausforderungen in der Mensch-KI-Zusammenarbeit zu identifizieren, zu verstehen und zu adressieren.</p>
+      <p><strong>§26 Verurteilung des Missbrauchs durch den Autor.</strong> Der Autor, Andreas Ehstand, verurteilt ausdrücklich und unmissverständlich jede Verwendung dieser Forschung zum Zweck der Schädigung, Manipulation, Ausbeutung, Täuschung, Überwachung, Nötigung oder jeder Aktivität, die menschliche Autonomie, Würde, Sicherheit oder Wohlbefinden untergräbt. Diese Verurteilung erstreckt sich auf jeden einzelnen Term, jede Teilmenge, jede Framework-Komponente oder jede abgeleitete Interpretation.</p>
+        </div>
+      </div>
+
+      <p style='margin-top:30px;color:var(--text-muted);font-size:.9em'><strong>End of Disclaimer V4.0.</strong> Last updated: 2026-05-11. Source: <code>10_RECHTLICHES/Disclaimer V4 bilingual master</code>.</p>
+    </main>
+
+    <footer>
+      <p><a href='/'>&larr; Stage-0 Hub</a> &middot; <a href='https://orcid.org/0009-0006-3773-7796'>Andreas Ehstand</a> &middot; <a href='https://www.wikidata.org/wiki/Q138634675'>Wikidata</a> &middot; CC BY-NC-ND 4.0 &middot; Concept-DOI 10.5281/zenodo.14888381</p>
+      <p style='margin-top:6px;color:var(--text-muted)'>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice.</p>
+    </footer>
+
+  </div>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('.lang-block').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.lang-tab').forEach(b => b.classList.remove('active'));
+      document.getElementById('lang-' + lang).classList.add('active');
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>
