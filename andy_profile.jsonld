@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Andreas Ehstand",
+  "givenName": "Andreas",
+  "familyName": "Ehstand",
+  "jobTitle": "Independent Researcher — Applied Terminology Science",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Starnberg",
+    "addressCountry": "DE"
+  },
+  "identifier": "https://orcid.org/0009-0006-3773-7796",
+  "sameAs": [
+    "https://orcid.org/0009-0006-3773-7796",
+    "https://www.wikidata.org/wiki/Q138634675",
+    "https://github.com/AndreasEhstandLicenseofClarityLOC",
+    "https://de.linkedin.com/in/andreas-ehstand-11a590a8",
+    "https://medium.com/@ehstand.schule",
+    "https://scholar.google.com/citations?user=KOarq7AAAAAJ",
+    "https://huggingface.co/AndreasEhstand",
+    "https://ballscience4u.de",
+    "https://www.padeleros.de"
+  ],
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "TU Dortmund — Lehrstuhl fuer Allgemeine Paedagogik"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "University of Bayreuth — Sport Science + Hochschuldidaktik"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "FBZHL Bayern (Zertifikat Hochschullehre)"
+    }
+  ],
+  "knowsAbout": [
+    "Phenomenology of Human-AI Interaction",
+    "Terminology Science (ISO 704/1087/30042 inspired)",
+    "Substrate-Independent Performance Theory",
+    "Performance Factor Theory",
+    "Tennis Coaching (GPTCA/ISMCA, BTV B-Trainer Leistungssport)",
+    "Padel + Pickleball + Golf",
+    "Cognitive Continuity Methodology",
+    "Multi-LLM Triadic Audit Framework"
+  ],
+  "award": [
+    "Zertifikat Hochschullehre Bayern (FBZHL, youngest holder)",
+    "Toni Nadal Excellence Zertifikat",
+    "License of Clarity Trademark (EUIPO 019206780, 2026-2036)"
+  ],
+  "owns": "License of Clarity (EUIPO 019206780)",
+  "description": "Independent researcher in applied terminology science. Creator of the AUGMANITAI Compendium for human-AI interaction phenomenology. 25 years professional sport coaching (tennis, padel, pickleball, golf) — including multiple years as Bundesliga tennis coach. Former Research Associate at TU Dortmund (Prof. Dr. Sabine Hornberg). Co-author of 'Faszination Padel' (2024). Path: from court to code to compendium.",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "owns_trademark": "License of Clarity (EUIPO 019206780)"
+}
