@@ -9,8 +9,9 @@
 ## Purpose
 
 Research preprint of **50 phenomenological terms** coined by Andreas Ehstand.
-Each term describes a contemporary human-AI or human-technology phenomenon,
-released under CC BY-NC-ND 4.0 as part of the AUGMANITAI Compendium.
+Each term has a stable AUG-ID (`AUG-XXXX`) and is released as a descriptive research
+artifact, inspired by ISO 704:2022 / ISO 1087:2019 / ISO 30042:2019 (NOT compliance-claimed),
+aligned with W3C SKOS / schema.org / PROV-O-style provenance.
 
 ## Status
 
@@ -19,13 +20,13 @@ Living document. Definitions are in continuous refinement.
 ## Disclaimer
 
 Research preprint. No commercial offer. No medical / legal / psychological /
-financial advice. Terms are descriptive research artifacts, not diagnostic
-categories.
+financial / therapeutic advice. Terms are descriptive research artifacts, not
+diagnostic categories.
 
 ## Verantwortlich
 
 i.S.d. &sect; 5 TMG / &sect; 18 Abs. 2 MStV:
 Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland.
 
-EU AI Act (Reg. 2024/1689) Art. 50: this site is a static research artifact
-and does not interact with users via AI.
+EU AI Act (Reg. 2024/1689) Art. 50: this site is a static research artifact and
+does not interact with users via AI.
