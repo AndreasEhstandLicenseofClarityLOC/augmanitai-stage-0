@@ -543,7 +543,7 @@ footer a:hover { color:var(--magenta); text-decoration:underline; }
 /* === STAGE-0 SCALED HUB === */
 .hub-stats { display:flex; flex-wrap:wrap; gap:10px; margin:24px 0; }
 .hub-stat { background:var(--surface); border:1px solid var(--border); padding:8px 14px; border-radius:14px; color:var(--cyan); font-size:12px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; }
-.search-bar { margin:24px 0; }
+.search-bar { margin:24px 0; position:sticky; top:0; z-index:50; background:rgba(5,5,8,0.92); backdrop-filter:blur(8px); padding:14px 0; }
 .search-bar input { width:100%; padding:14px 18px; background:var(--surface2); border:1px solid var(--border); border-radius:30px; font-size:15px; color:var(--text); font-family:inherit; outline:none; transition:border .2s; }
 .search-bar input:focus { border-color:var(--cyan); box-shadow:0 0 16px rgba(0,229,255,0.25); }
 .search-bar input::placeholder { color:var(--text-muted); }
@@ -647,7 +647,7 @@ footer a:hover { color:var(--magenta); text-decoration:underline; }
 
       <div class="az-nav"><a href="#letter-0-9">0-9</a> <a href="#letter-A">A</a> <a href="#letter-B">B</a> <a href="#letter-C">C</a> <a href="#letter-D">D</a> <a href="#letter-E">E</a> <a href="#letter-F">F</a> <a href="#letter-G">G</a> <a href="#letter-H">H</a> <a href="#letter-I">I</a> <a href="#letter-J">J</a> <a href="#letter-K">K</a> <a href="#letter-L">L</a> <a href="#letter-M">M</a> <a href="#letter-N">N</a> <a href="#letter-O">O</a> <a href="#letter-P">P</a> <a href="#letter-Q">Q</a> <a href="#letter-R">R</a> <a href="#letter-S">S</a> <a href="#letter-T">T</a> <a href="#letter-U">U</a> <a href="#letter-V">V</a> <a href="#letter-W">W</a> <a href="#letter-Z">Z</a></div>
 
-      <div id='no-results' class='no-results'>No terms match your search.</div>
+      <div id="no-results" class="no-results" hidden aria-live="polite">No terms match the current search filter. Clear the input to browse all 8842 terms.</div>
       <section class="letter-section" id="letter-0-9">
         <h3 class="letter-heading">0-9 <span class="letter-count">(3)</span></h3>
         <div class="term-grid">
@@ -9651,8 +9651,8 @@ footer a:hover { color:var(--magenta); text-decoration:underline; }
     const tiles = document.querySelectorAll('.term-tile');
     const sections = document.querySelectorAll('.letter-section');
     const noResults = document.getElementById('no-results');
-    search.addEventListener('input', (e) => {
-      const q = e.target.value.toLowerCase().trim();
+    function applyFilter() {
+      const q = (search.value || '').toLowerCase().trim();
       let visibleCount = 0;
       tiles.forEach(t => {
         const match = !q || (t.dataset.search || '').includes(q);
@@ -9663,8 +9663,15 @@ footer a:hover { color:var(--magenta); text-decoration:underline; }
         const visTiles = s.querySelectorAll('.term-tile:not(.hidden)');
         s.style.display = visTiles.length ? '' : 'none';
       });
-      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
-    });
+      if (visibleCount === 0 && q) {
+        noResults.removeAttribute('hidden');
+        noResults.style.display = 'block';
+      } else {
+        noResults.setAttribute('hidden', '');
+        noResults.style.display = 'none';
+      }
+    }
+    search.addEventListener('input', applyFilter);
   </script>
 </body>
 </html>
