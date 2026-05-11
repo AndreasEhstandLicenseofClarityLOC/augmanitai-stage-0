@@ -7,3 +7,6 @@ _build_hub.py
 _hub_data.json
 legal_scan_reports/
 *.bak
+_scale_filter.py
+_build_hub_scaled.py
+_build_disclaimer.py
