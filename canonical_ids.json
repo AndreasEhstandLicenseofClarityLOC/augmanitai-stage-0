@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "purpose": "Single source of truth for ALL canonical identifiers used across the deploy. NEVER hard-code IDs in any generator script — import from here.",
+    "source_of_truth_files": [
+      "TRADE_SECRET_NOTE.md (Section 3 Public-Kanon)",
+      "02_NEOMANITAI/PERMANITAI_LAUNCH/COINAGES_INVENTIONS_REGISTRY_2026-04-26.md",
+      "02_NEOMANITAI/PERMANITAI_LAUNCH/HANDOFF_STATUS_2026-04-19.md"
+    ],
+    "last_updated": "2026-05-11",
+    "owner": "Andreas Ehstand"
+  },
+  "author": {
+    "name": "Andreas Ehstand",
+    "givenName": "Andreas",
+    "familyName": "Ehstand",
+    "orcid": "0009-0006-3773-7796",
+    "orcid_url": "https://orcid.org/0009-0006-3773-7796",
+    "wikidata_qid": "Q138634675",
+    "wikidata_url": "https://www.wikidata.org/wiki/Q138634675",
+    "job_title": "AI Scientist / KI-Wissenschaftler / Phenomenology Researcher",
+    "contact_email": "augmanitai@gmail.com",
+    "linkedin": "https://linkedin.com/in/andreas-ehstand",
+    "github_user": "AndreasEhstandLicenseofClarityLOC",
+    "github_url": "https://github.com/AndreasEhstandLicenseofClarityLOC",
+    "twitter_handle": "@andreasehstand"
+  },
+  "address_impressum": {
+    "_note": "Verwendung NUR im juristisch-zwingenden Impressum-Footer pro § 18 MStV. Sonst nicht in body-text.",
+    "street": "Nepomukweg 7",
+    "zip": "82319",
+    "city": "Starnberg",
+    "country": "Deutschland",
+    "country_code": "DE",
+    "verantwortlich_paragraph": "§ 5 DDG / § 18 Abs. 2 MStV"
+  },
+  "framework": {
+    "augmanitai": {
+      "name": "AUGMANITAI",
+      "wikidata_qid": "Q138522830",
+      "wikidata_url": "https://www.wikidata.org/wiki/Q138522830",
+      "homepage": "https://augmanitai.com",
+      "github_pages_url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0",
+      "research_programme_qid": "Q139491295"
+    },
+    "permanitai": {
+      "name": "PERMANITAI",
+      "wikidata_qid": "Q139491246"
+    },
+    "neomanitai": {
+      "name": "NEOMANITAI",
+      "wikidata_qid": "Q139491268"
+    },
+    "hybrid_team_protocol": {
+      "name": "Hybrid Team Protocol",
+      "wikidata_qid": "Q139491267"
+    },
+    "performance_factor_theory": {
+      "name": "Substrate-Independent Performance Factor Theory",
+      "wikidata_qid": "Q139270039",
+      "concept_doi": "10.5281/zenodo.19540924"
+    }
+  },
+  "trademarks": {
+    "license_of_clarity": {
+      "name": "License of Clarity",
+      "euipo_number": "019206780",
+      "_note": "Holder is intentionally NOT stated in public-facing pages (per TRADE_SECRET_NOTE Section 1.C — Andy-Leomanitai-link must not be visible). EUIPO number is public registry data and may stand alone."
+    }
+  },
+  "doi_anchors": {
+    "augmanitai_main_concept": "10.5281/zenodo.14888381",
+    "augmanitai_main_v6": "10.5281/zenodo.19178907",
+    "stage0_concept": "10.5281/zenodo.20118267",
+    "stage0_v1": "10.5281/zenodo.20118268",
+    "stage0_v2": "10.5281/zenodo.20119072",
+    "stage0_v3": "10.5281/zenodo.20119294"
+  },
+  "license": {
+    "name": "CC BY-NC-ND 4.0",
+    "spdx": "CC-BY-NC-ND-4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  "compliance": {
+    "eu_ai_act": "EU AI Act Regulation 2024/1689 Art. 50 (transparency obligations)",
+    "dsgvo_authority": "Bayerisches Landesamt für Datenschutzaufsicht, Promenade 18, 91522 Ansbach"
+  },
+  "prior_art_anchor": {
+    "bitcoin_block_1": "945970",
+    "bitcoin_block_2": "945979",
+    "manifest_root_sha256": "299e4b3d0ac9e50740268896b5eeb541f6462332bb67b7efdf4cd309704770d0",
+    "timestamp": "2026-04-20T20:57:30Z"
+  }
+}
