@@ -6,6 +6,29 @@
 
 ---
 
+## PFLICHT-WORKFLOW — Zenodo-First-Regel (Andy-Direktive 2026-05-11)
+
+**Vor JEDEM großen Push (1000er-Wellen) ab sofort:**
+
+```
+1. Bundle bauen (atlas/ + schutz-pages + exports + data)
+2. Multi-Hash berechnen (SHA-256 + SHA-512 + SHA3-256 + SHA3-512 + BLAKE3)
+3. Zenodo Priority-Deposit ZUERST (NEWVERSION auf Concept-DOI 20118267)
+   - DOI bekommen (V2-DOI, V3-DOI, ...)
+   - Manifest in 10_RECHTLICHES/PRIOR_ART_TIMESTAMPS/ ablegen
+   - HASH_REGISTRY.json append
+4. DANN GitHub-Push (Atlas-Pages, Hub, Sitemap)
+5. DANN Live-Verify (URLs 200, sitemap aktuell)
+```
+
+**Begründung:** Prior-Art-Anker via Zenodo-DOI MUSS zeitlich VOR dem öffentlichen Push gesetzt sein. Auch wenn niemand klagt — Vorsicht-Prinzip. Zenodo-Timestamp = unstrittiger Datum-Beweis dass Andy zur DOI-Registrierungs-Zeit den Inhalt hatte. GitHub-Push danach ist durch den Zenodo-Hash gedeckt.
+
+**Concept-DOI bleibt persistent:** 10.5281/zenodo.20118267. Jede Welle = neue Version-DOI in der Version-Chain. Keine neuen Concept-DOIs außer Andy sagt explizit.
+
+**Bei Zenodo-Downtime/504:** großen Push zurückhalten bis Zenodo wieder up. Lokal alles vorbereiten (Bundle + Manifest + Hash) und retry. Im Notfall: Push erst nach Zenodo-Bestätigung.
+
+---
+
 ## Heute (Iteration 1 — done, commit "bearbeitung")
 
 - 29 V11.2-Pages (Mesh-Gradient, Particles, Motto-Banner, §1–§19 inkl. §17 AI Training Prohibition, §19 Salvatorisch, Verantwortlich-Pressepflicht-Footer §5 DDG / §18 MStV)
