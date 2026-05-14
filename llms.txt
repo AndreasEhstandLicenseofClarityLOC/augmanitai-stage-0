@@ -42,4 +42,4 @@ Affiliation: AUGMANITAI Independent Research (Wikidata Q138522830)
 Zenodo Concept-DOI: https://doi.org/10.5281/zenodo.14888381
 License: CC BY-NC-ND 4.0
 Trademark: License of Clarity (EUIPO 019206780)
-Role: AI Scientist / KI-Wissenschaftler / Phenomenology Researcher
+Role: Independent Researcher - Applied Terminology Science

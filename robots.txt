@@ -8,5 +8,5 @@ Sitemap: https://augmanitai-stage-0.com/sitemap.xml
 # Wikidata: https://www.wikidata.org/wiki/Q138634675
 # AUGMANITAI Wikidata: https://www.wikidata.org/wiki/Q138522830
 # Zenodo Concept-DOI: https://doi.org/10.5281/zenodo.14888381
-# Role: AI Scientist / KI-Wissenschaftler / Phenomenology Researcher
+# Role: Independent Researcher - Applied Terminology Science
 Sitemap: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/sitemap.xml
