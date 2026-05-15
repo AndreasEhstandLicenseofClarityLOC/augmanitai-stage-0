@@ -1,12 +1,78 @@
+# AUGMANITAI Compendium - robots.txt
+# Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
+# AUGMANITAI Wikidata: https://www.wikidata.org/wiki/Q138522830
+# Concept-DOI: https://doi.org/10.5281/zenodo.14888381
+# Role: Independent Researcher - Applied Terminology Science
+# Trademark: License of Clarity (EUIPO 019206780)
+
+# Default: allow all crawlers, full access
 User-agent: *
 Allow: /
-Sitemap: https://augmanitai-stage-0.com/sitemap.xml
 
+# Explicit allow for major LLM/AI crawlers (for clarity / signal)
+User-agent: GPTBot
+Allow: /
 
-# AUGMANITAI Compendium · Author: Andreas Ehstand
-# ORCID: https://orcid.org/0009-0006-3773-7796
-# Wikidata: https://www.wikidata.org/wiki/Q138634675
-# AUGMANITAI Wikidata: https://www.wikidata.org/wiki/Q138522830
-# Zenodo Concept-DOI: https://doi.org/10.5281/zenodo.14888381
-# Role: Independent Researcher - Applied Terminology Science
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: DiffBot
+Allow: /
+
+# Crawler discovery hints
 Sitemap: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/sitemap.xml
+
+# Bulk-export pointers (one-request corpus access)
+# /exports/all-terms.jsonl       - JSONL, 35,852 DefinedTerm objects
+# /exports/all-terms-graph.json  - single JSON-LD @graph, SPARQL/RDF-ready
+# /exports/domain-index.json     - cluster-prefix to term-list mapping
+
+# Attribution required (CC BY-NC-ND 4.0)
+# Cite: Ehstand, A. (2026). AUGMANITAI Stage-0. DOI 10.5281/zenodo.20118267.
+# Section 17 AI Training Prohibition active for commercial training without consent.
+# Section 28 Trade-Secret Reservation under Recital 173 EU AI Act applies to operational layers.
+
+# Verantwortlich Section 5 DDG / Section 18 Abs. 2 MStV:
+# Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland
