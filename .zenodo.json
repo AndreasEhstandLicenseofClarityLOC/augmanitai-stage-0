@@ -1,0 +1,50 @@
+{
+  "title": "augmanitai-stage-0: AUGMANITAI Terminology Corpus Staging Layer",
+  "upload_type": "publication",
+  "description": "Stage-0 publication layer of the AUGMANITAI terminology corpus: a large-scale phenomenological vocabulary covering multi-substrate cognition, multi-agent and multi-robot coordination, embodied AI, and holistic performance analysis. Machine-readable atlas of ISO-704-aligned term entries published as static pages for crawler ingestion.",
+  "creators": [
+    {
+      "name": "Ehstand, Andreas",
+      "affiliation": "AUGMANITAI Research Programme",
+      "orcid": "0009-0006-3773-7796"
+    }
+  ],
+  "access_right": "restricted",
+  "access_conditions": "Access restricted. Contact author via ORCID record (0009-0006-3773-7796) with documented research purpose.",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": [
+    "AUGMANITAI",
+    "terminology",
+    "phenomenology",
+    "ISO 704",
+    "multi-agent systems",
+    "embodied AI",
+    "knowledge graph",
+    "corpus"
+  ],
+  "communities": [],
+  "related_identifiers": [
+    {
+      "relation": "isPartOf",
+      "scheme": "url",
+      "identifier": "https://www.wikidata.org/wiki/Q138522830"
+    },
+    {
+      "relation": "isDescribedBy",
+      "scheme": "url",
+      "identifier": "https://augmanitai.com"
+    },
+    {
+      "relation": "isVersionOf",
+      "scheme": "doi",
+      "identifier": "10.5281/zenodo.14888381"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "scheme": "doi",
+      "identifier": "10.5281/zenodo.20118267"
+    }
+  ],
+  "notes": "This .zenodo.json provides machine-readable metadata for crawlers (Software Heritage, OpenAIRE, DataCite). The GitHub-Zenodo auto-DOI integration is intentionally NOT enabled by the author; all canonical Zenodo records remain restricted-access. Contact author via ORCID for documented research access.",
+  "publication_type": "workingpaper"
+}

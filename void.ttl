@@ -1,0 +1,54 @@
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema:  <http://schema.org/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd:      <http://www.wikidata.org/entity/> .
+@prefix augm:    <https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/> .
+
+<https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/#dataset>
+    a void:Dataset , dcat:Dataset ;
+    dct:title "AUGMANITAI Stage-0 Term Atlas"@en ;
+    dct:description "Phenomenological terminology corpus of 32,656 defined terms with SKOS concept graph, Schema.org DefinedTerm pages, and PROV provenance. ISO 704 / 1087 / 30042 aligned."@en ;
+    dct:creator <https://orcid.org/0009-0006-3773-7796> ;
+    dct:publisher <https://orcid.org/0009-0006-3773-7796> ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:created "2026-04-01"^^xsd:date ;
+    dct:modified "2026-05-15"^^xsd:date ;
+    dct:identifier <https://doi.org/10.5281/zenodo.20118267> ;
+    dct:conformsTo <https://www.iso.org/standard/38109.html> , # ISO 704
+                   <https://www.iso.org/standard/20057.html> , # ISO 1087
+                   <https://www.iso.org/standard/62330.html> ; # ISO 30042
+    foaf:homepage <https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/> ;
+    owl:sameAs wd:Q138522830 ;
+    schema:sameAs <https://doi.org/10.5281/zenodo.20118267> , wd:Q138522830 ;
+    void:feature <http://www.w3.org/ns/formats/JSON-LD> ,
+                 <http://www.w3.org/ns/formats/Turtle> ;
+    void:vocabulary <http://www.w3.org/2004/02/skos/core#> ,
+                    <http://schema.org/> ,
+                    <http://www.w3.org/ns/prov#> ,
+                    <http://purl.org/dc/terms/> ;
+    void:dataDump <https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms.jsonl> ,
+                  <https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms-graph.json> ;
+    void:rootResource <https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/> ;
+    void:exampleResource augm:cognitive-continuity-methodology ;
+    void:uriSpace "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/" ;
+    void:entities 32656 ;
+    void:classes 4 ;
+    void:properties 18 ;
+    void:triples 850000 ;
+    void:distinctSubjects 32656 ;
+    void:distinctObjects 180000 ;
+    # No SPARQL endpoint provided — static-site corpus. Consume via dataDump.
+    schema:keywords "terminology, phenomenology, SKOS, DefinedTerm, ISO 704, controlled vocabulary, AUGMANITAI, cognitive science" .
+
+<https://orcid.org/0009-0006-3773-7796>
+    a foaf:Person , schema:Person ;
+    foaf:name "Andreas Ehstand" ;
+    schema:identifier "0009-0006-3773-7796" ;
+    owl:sameAs wd:Q138634675 ;
+    schema:affiliation "Starnberg, Germany" .

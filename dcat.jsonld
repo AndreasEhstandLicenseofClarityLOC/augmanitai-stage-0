@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "owl": "http://www.w3.org/2002/07/owl#"
+  },
+  "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/#catalog",
+  "@type": "dcat:Catalog",
+  "dct:title": "AUGMANITAI Stage-0 DCAT Catalog",
+  "dct:description": "DCAT v3 catalog for the AUGMANITAI phenomenological term corpus (32,656 defined terms).",
+  "dct:publisher": {
+    "@id": "https://orcid.org/0009-0006-3773-7796",
+    "@type": "foaf:Person",
+    "foaf:name": "Andreas Ehstand",
+    "owl:sameAs": "http://www.wikidata.org/entity/Q138634675"
+  },
+  "dct:license": { "@id": "https://creativecommons.org/licenses/by-nc-nd/4.0/" },
+  "dct:issued": { "@value": "2026-04-01", "@type": "xsd:date" },
+  "dct:modified": { "@value": "2026-05-15", "@type": "xsd:date" },
+  "foaf:homepage": { "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/" },
+  "dcat:dataset": [
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/#dataset",
+      "@type": "dcat:Dataset",
+      "dct:title": "AUGMANITAI Term Atlas",
+      "dct:description": "Phenomenological terminology corpus: 32,656 DefinedTerm / skos:Concept entries with PROV provenance.",
+      "dct:identifier": "https://doi.org/10.5281/zenodo.20118267",
+      "dct:license": { "@id": "https://creativecommons.org/licenses/by-nc-nd/4.0/" },
+      "dct:creator": { "@id": "https://orcid.org/0009-0006-3773-7796" },
+      "dct:conformsTo": [
+        { "@id": "https://www.iso.org/standard/38109.html" },
+        { "@id": "https://www.iso.org/standard/20057.html" },
+        { "@id": "https://www.iso.org/standard/62330.html" }
+      ],
+      "dcat:keyword": ["terminology", "phenomenology", "SKOS", "DefinedTerm", "ISO 704", "AUGMANITAI"],
+      "dcat:landingPage": { "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/" },
+      "owl:sameAs": "http://www.wikidata.org/entity/Q138522830",
+      "dcat:distribution": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms.jsonl",
+          "@type": "dcat:Distribution",
+          "dct:title": "All Terms — JSON Lines",
+          "dcat:downloadURL": { "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms.jsonl" },
+          "dcat:mediaType": "application/x-jsonlines",
+          "dcat:byteSize": 48000000,
+          "dct:license": { "@id": "https://creativecommons.org/licenses/by-nc-nd/4.0/" }
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms-graph.json",
+          "@type": "dcat:Distribution",
+          "dct:title": "All Terms — JSON-LD Graph",
+          "dcat:downloadURL": { "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms-graph.json" },
+          "dcat:mediaType": "application/ld+json",
+          "dcat:byteSize": 62000000,
+          "dct:license": { "@id": "https://creativecommons.org/licenses/by-nc-nd/4.0/" }
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/",
+          "@type": "dcat:Distribution",
+          "dct:title": "Atlas — Per-Term HTML+JSON-LD Pages",
+          "dcat:accessURL": { "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/" },
+          "dcat:mediaType": "text/html",
+          "dct:format": "HTML+JSON-LD"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/sitemap.xml",
+          "@type": "dcat:Distribution",
+          "dct:title": "Sitemap",
+          "dcat:downloadURL": { "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/sitemap.xml" },
+          "dcat:mediaType": "application/xml"
+        }
+      ]
+    }
+  ],
+  "dcat:service": [
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/",
+      "@type": "dcat:DataService",
+      "dct:title": "AUGMANITAI Domain Hub",
+      "dcat:endpointURL": { "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/" },
+      "dct:description": "Per-domain navigation pages grouping terms by phenomenological domain."
+    }
+  ]
+}

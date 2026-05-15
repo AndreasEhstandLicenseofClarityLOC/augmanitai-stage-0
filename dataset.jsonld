@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/#dataset",
+  "name": "AUGMANITAI Stage-0 Term Atlas",
+  "alternateName": "AUGMANITAI Phenomenological Terminology Corpus",
+  "description": "A controlled phenomenological terminology corpus of 32,656 defined terms with SKOS concept graph, Schema.org DefinedTerm pages, and W3C PROV provenance. Aligned with ISO 704 (terminology principles), ISO 1087 (vocabulary), and ISO 30042 (TBX). Each term is published as an HTML page with inline JSON-LD; bulk JSONL and JSON-LD graph exports are provided. Covers cognitive continuity, reflective cognitive modeling, holistic performance analysis, multi-agent and multi-robot systems, and embodied AI.",
+  "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/",
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.20118267",
+    "https://www.wikidata.org/wiki/Q138522830"
+  ],
+  "identifier": [
+    "https://doi.org/10.5281/zenodo.20118267",
+    "https://www.wikidata.org/wiki/Q138522830"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0009-0006-3773-7796",
+    "name": "Andreas Ehstand",
+    "identifier": "https://orcid.org/0009-0006-3773-7796",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q138634675",
+      "https://orcid.org/0009-0006-3773-7796"
+    ],
+    "jobTitle": "AI Researcher",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Starnberg",
+      "addressCountry": "DE"
+    }
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0009-0006-3773-7796",
+    "name": "Andreas Ehstand"
+  },
+  "datePublished": "2026-04-01",
+  "dateModified": "2026-05-15",
+  "version": "stage-0",
+  "inLanguage": ["en", "de"],
+  "keywords": [
+    "terminology",
+    "phenomenology",
+    "controlled vocabulary",
+    "SKOS",
+    "DefinedTerm",
+    "ISO 704",
+    "ISO 1087",
+    "ISO 30042",
+    "cognitive continuity methodology",
+    "reflective cognitive modeling",
+    "holistic performance analysis",
+    "multi-agent systems",
+    "multi-robot systems",
+    "embodied AI",
+    "AUGMANITAI"
+  ],
+  "measurementTechnique": [
+    "ISO 704 terminological analysis",
+    "SKOS concept modelling",
+    "Schema.org DefinedTerm authoring",
+    "W3C PROV provenance annotation"
+  ],
+  "variableMeasured": [
+    "term label", "definition", "domain", "broader concept", "narrower concept", "related concept", "provenance"
+  ],
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/#catalog",
+    "name": "AUGMANITAI Stage-0 DCAT Catalog",
+    "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "All Terms — JSON Lines",
+      "encodingFormat": "application/x-jsonlines",
+      "contentUrl": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms.jsonl",
+      "contentSize": "48MB"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "All Terms — JSON-LD Graph",
+      "encodingFormat": "application/ld+json",
+      "contentUrl": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms-graph.json",
+      "contentSize": "62MB"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Sitemap",
+      "encodingFormat": "application/xml",
+      "contentUrl": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/sitemap.xml"
+    }
+  ],
+  "citation": [
+    "https://doi.org/10.5281/zenodo.20118267",
+    "https://doi.org/10.5281/zenodo.20209040",
+    "https://doi.org/10.5281/zenodo.19178907"
+  ],
+  "conformsTo": [
+    "https://www.iso.org/standard/38109.html",
+    "https://www.iso.org/standard/20057.html",
+    "https://www.iso.org/standard/62330.html"
+  ]
+}
