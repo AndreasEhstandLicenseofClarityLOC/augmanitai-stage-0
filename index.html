@@ -30,41 +30,41 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "DefinedTermSet",
-  "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/",
-  "name": "AUGMANITAI Compendium",
-  "description": "32,596 defined terms across 165 research-domain clusters describing phenomenology of human-AI interaction. Pure original phenomenology by Andreas Ehstand. ISO 704/1087/30042 aligned. Living document.",
-  "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/",
-  "inLanguage": "en",
-  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "numberOfItems": 32596,
-  "identifier": "10.5281/zenodo.20118267",
-  "creator": {
-    "@type": "Person",
-    "@id": "https://orcid.org/0009-0006-3773-7796",
-    "name": "Andreas Ehstand",
-    "givenName": "Andreas",
-    "familyName": "Ehstand",
-    "honorificSuffix": "M.Ed.",
-    "jobTitle": "AI Researcher",
-    "nationality": "Germany",
-    "address": {"@type": "PostalAddress", "addressLocality": "Starnberg", "addressCountry": "DE"},
-    "sameAs": [
-      "https://orcid.org/0009-0006-3773-7796",
-      "https://www.wikidata.org/wiki/Q138634675",
-      "https://github.com/AndreasEhstandLicenseofClarityLOC",
-      "https://de.linkedin.com/in/andreas-ehstand-11a590a8",
-      "https://scholar.google.com/citations?user=KOarq7AAAAAJ",
-      "https://huggingface.co/AndreasEhstand"
-    ],
-    "founder": [
-      {"@type": "Organization", "name": "AUGMANITAI Research Programme", "url": "https://augmanitai.com", "identifier": "https://www.wikidata.org/wiki/Q138522830"}
-    ],
-    "owns": "License of Clarity (EUIPO 019206780)",
-    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
-  },
-  "publisher": {"@type": "Person", "@id": "https://orcid.org/0009-0006-3773-7796", "name": "Andreas Ehstand"}
+ "@context": "https://schema.org",
+ "@type": "DefinedTermSet",
+ "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/",
+ "name": "AUGMANITAI Compendium",
+ "description": "32,596 defined terms across 165 research-domain clusters describing phenomenology of human-AI interaction. Pure original phenomenology by Andreas Ehstand. ISO 704/1087/30042 aligned. Living document.",
+ "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/",
+ "inLanguage": "en",
+ "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+ "numberOfItems": 32596,
+ "identifier": "10.5281/zenodo.20118267",
+ "creator": {
+ "@type": "Person",
+ "@id": "https://orcid.org/0009-0006-3773-7796",
+ "name": "Andreas Ehstand",
+ "givenName": "Andreas",
+ "familyName": "Ehstand",
+ "honorificSuffix": "M.Ed.",
+ "jobTitle": "AI Researcher",
+ "nationality": "Germany",
+ "address": {"@type": "PostalAddress", "addressLocality": "Starnberg", "addressCountry": "DE"},
+ "sameAs": [
+ "https://orcid.org/0009-0006-3773-7796",
+ "https://www.wikidata.org/wiki/Q138634675",
+ "https://github.com/AndreasEhstandLicenseofClarityLOC",
+ "https://de.linkedin.com/in/andreas-ehstand-11a590a8",
+ "https://scholar.google.com/citations?user=KOarq7AAAAAJ",
+ "https://huggingface.co/AndreasEhstand"
+ ],
+ "founder": [
+ {"@type": "Organization", "name": "AUGMANITAI Research Programme", "url": "https://augmanitai.com", "identifier": "https://www.wikidata.org/wiki/Q138522830"}
+ ],
+ "owns": "License of Clarity (EUIPO 019206780)",
+ "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+ },
+ "publisher": {"@type": "Person", "@id": "https://orcid.org/0009-0006-3773-7796", "name": "Andreas Ehstand"}
 }
 </script>
 
@@ -73,82 +73,82 @@
 /* Author: Andreas Ehstand, 2026. All design + CSS authored from scratch. */
 
 :root {
-  /* Dark theme (default) */
-  --bg: #07070d;
-  --bg-elev: #0d0d18;
-  --surface: #14141f;
-  --surface-2: #1a1a2b;
-  --border: #20203a;
-  --border-strong: #2e2e50;
-  --text: #ececf5;
-  --text-dim: #9696b8;
-  --text-muted: #6a6a8e;
-  --accent: #00d9ff;
-  --accent-2: #7c4dff;
-  --gold: #ffc857;
-  --green: #4fdc7c;
-  --red: #ff6378;
-  --gradient-1: linear-gradient(135deg, #00d9ff 0%, #7c4dff 100%);
-  --gradient-2: linear-gradient(135deg, #ffc857 0%, #00d9ff 100%);
-  --gradient-bg: radial-gradient(ellipse at 20% 10%, rgba(0,217,255,0.08) 0%, transparent 50%),
-                 radial-gradient(ellipse at 80% 80%, rgba(124,77,255,0.06) 0%, transparent 50%);
-  --shadow-card: 0 4px 24px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
-  --shadow-glow: 0 0 32px rgba(0,217,255,0.18);
-  --r-card: 12px;
-  --r-soft: 8px;
-  --t-fast: 160ms cubic-bezier(0.4, 0, 0.2, 1);
-  --t-med: 280ms cubic-bezier(0.4, 0, 0.2, 1);
-  --t-slow: 480ms cubic-bezier(0.4, 0, 0.2, 1);
-  --font-sys: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-mono: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace;
+ /* Dark theme (default) */
+ --bg: #07070d;
+ --bg-elev: #0d0d18;
+ --surface: #14141f;
+ --surface-2: #1a1a2b;
+ --border: #20203a;
+ --border-strong: #2e2e50;
+ --text: #ececf5;
+ --text-dim: #9696b8;
+ --text-muted: #6a6a8e;
+ --accent: #00d9ff;
+ --accent-2: #7c4dff;
+ --gold: #ffc857;
+ --green: #4fdc7c;
+ --red: #ff6378;
+ --gradient-1: linear-gradient(135deg, #00d9ff 0%, #7c4dff 100%);
+ --gradient-2: linear-gradient(135deg, #ffc857 0%, #00d9ff 100%);
+ --gradient-bg: radial-gradient(ellipse at 20% 10%, rgba(0,217,255,0.08) 0%, transparent 50%),
+ radial-gradient(ellipse at 80% 80%, rgba(124,77,255,0.06) 0%, transparent 50%);
+ --shadow-card: 0 4px 24px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+ --shadow-glow: 0 0 32px rgba(0,217,255,0.18);
+ --r-card: 12px;
+ --r-soft: 8px;
+ --t-fast: 160ms cubic-bezier(0.4, 0, 0.2, 1);
+ --t-med: 280ms cubic-bezier(0.4, 0, 0.2, 1);
+ --t-slow: 480ms cubic-bezier(0.4, 0, 0.2, 1);
+ --font-sys: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+ --font-mono: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace;
 }
 
 [data-theme="light"] {
-  --bg: #fafafd;
-  --bg-elev: #ffffff;
-  --surface: #ffffff;
-  --surface-2: #f5f5fb;
-  --border: #e5e5ee;
-  --border-strong: #d0d0e0;
-  --text: #1a1a2b;
-  --text-dim: #4a4a6a;
-  --text-muted: #707088;
-  --accent: #0066cc;
-  --accent-2: #6633ee;
-  --gold: #c98800;
-  --green: #00a651;
-  --shadow-card: 0 2px 12px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
-  --shadow-glow: 0 0 28px rgba(0,102,204,0.12);
-  --gradient-bg: radial-gradient(ellipse at 20% 10%, rgba(0,102,204,0.04) 0%, transparent 50%);
+ --bg: #fafafd;
+ --bg-elev: #ffffff;
+ --surface: #ffffff;
+ --surface-2: #f5f5fb;
+ --border: #e5e5ee;
+ --border-strong: #d0d0e0;
+ --text: #1a1a2b;
+ --text-dim: #4a4a6a;
+ --text-muted: #707088;
+ --accent: #0066cc;
+ --accent-2: #6633ee;
+ --gold: #c98800;
+ --green: #00a651;
+ --shadow-card: 0 2px 12px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+ --shadow-glow: 0 0 28px rgba(0,102,204,0.12);
+ --gradient-bg: radial-gradient(ellipse at 20% 10%, rgba(0,102,204,0.04) 0%, transparent 50%);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+ *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body {
-  background: var(--bg);
-  background-image: var(--gradient-bg);
-  color: var(--text);
-  font-family: var(--font-sys);
-  font-size: 16px;
-  line-height: 1.65;
-  font-feature-settings: "kern", "liga", "calt", "ss01";
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  min-height: 100vh;
-  position: relative;
+ background: var(--bg);
+ background-image: var(--gradient-bg);
+ color: var(--text);
+ font-family: var(--font-sys);
+ font-size: 16px;
+ line-height: 1.65;
+ font-feature-settings: "kern", "liga", "calt", "ss01";
+ text-rendering: optimizeLegibility;
+ -webkit-font-smoothing: antialiased;
+ min-height: 100vh;
+ position: relative;
 }
 
 /* Skip-link */
 .skip-link {
-  position: absolute; left: -999px; top: 0;
-  background: var(--accent); color: var(--bg);
-  padding: 10px 14px; border-radius: 6px;
-  font-weight: 600; font-size: 14px; z-index: 9999;
-  text-decoration: none;
+ position: absolute; left: -999px; top: 0;
+ background: var(--accent); color: var(--bg);
+ padding: 10px 14px; border-radius: 6px;
+ font-weight: 600; font-size: 14px; z-index: 9999;
+ text-decoration: none;
 }
 .skip-link:focus { left: 8px; top: 8px; }
 
@@ -157,231 +157,231 @@ body {
 
 /* Top Nav */
 .topnav {
-  background: rgba(7,7,13,0.78);
-  backdrop-filter: saturate(180%) blur(20px);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  border-bottom: 1px solid var(--border);
-  position: sticky; top: 0; z-index: 100;
-  padding: 0.7em 0;
+ background: rgba(7,7,13,0.78);
+ backdrop-filter: saturate(180%) blur(20px);
+ -webkit-backdrop-filter: saturate(180%) blur(20px);
+ border-bottom: 1px solid var(--border);
+ position: sticky; top: 0; z-index: 100;
+ padding: 0.7em 0;
 }
 [data-theme="light"] .topnav { background: rgba(255,255,255,0.85); }
 .topnav-inner {
-  max-width: 1180px; margin: 0 auto; padding: 0 1.5em;
-  display: flex; gap: 1.2em; flex-wrap: wrap; align-items: center;
+ max-width: 1180px; margin: 0 auto; padding: 0 1.5em;
+ display: flex; gap: 1.2em; flex-wrap: wrap; align-items: center;
 }
 .brand-link {
-  display: inline-flex; align-items: center; gap: 0.5em;
-  font-weight: 700; font-size: 1.05em; color: var(--text);
-  text-decoration: none; letter-spacing: 0.01em;
+ display: inline-flex; align-items: center; gap: 0.5em;
+ font-weight: 700; font-size: 1.05em; color: var(--text);
+ text-decoration: none; letter-spacing: 0.01em;
 }
 .brand-link svg { width: 22px; height: 22px; }
 .brand-link .brand-word {
-  background: var(--gradient-1);
-  -webkit-background-clip: text; background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
+ background: var(--gradient-1);
+ -webkit-background-clip: text; background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-weight: 800;
 }
 .topnav a:not(.brand-link) {
-  color: var(--text-dim); text-decoration: none;
-  font-size: 0.92em; padding: 0.3em 0.55em; border-radius: 6px;
-  transition: color var(--t-fast), background var(--t-fast);
+ color: var(--text-dim); text-decoration: none;
+ font-size: 0.92em; padding: 0.3em 0.55em; border-radius: 6px;
+ transition: color var(--t-fast), background var(--t-fast);
 }
 .topnav a:not(.brand-link):hover, .topnav a:not(.brand-link):focus {
-  color: var(--text); background: var(--surface);
+ color: var(--text); background: var(--surface);
 }
 .topnav .nav-fill { flex: 1; }
 .topnav .toolbtn {
-  background: var(--surface); border: 1px solid var(--border);
-  color: var(--text-dim); padding: 0.4em 0.7em; border-radius: 6px;
-  cursor: pointer; font-size: 0.85em; font-family: var(--font-sys);
-  display: inline-flex; align-items: center; gap: 0.4em;
-  transition: all var(--t-fast);
+ background: var(--surface); border: 1px solid var(--border);
+ color: var(--text-dim); padding: 0.4em 0.7em; border-radius: 6px;
+ cursor: pointer; font-size: 0.85em; font-family: var(--font-sys);
+ display: inline-flex; align-items: center; gap: 0.4em;
+ transition: all var(--t-fast);
 }
 .topnav .toolbtn:hover { color: var(--text); border-color: var(--border-strong); }
 .topnav .toolbtn svg { width: 14px; height: 14px; }
 .topnav kbd {
-  background: var(--bg); border: 1px solid var(--border-strong);
-  border-radius: 3px; padding: 0 0.35em; font-family: var(--font-mono);
-  font-size: 0.78em; color: var(--text-muted);
+ background: var(--bg); border: 1px solid var(--border-strong);
+ border-radius: 3px; padding: 0 0.35em; font-family: var(--font-mono);
+ font-size: 0.78em; color: var(--text-muted);
 }
 
 /* Hero */
 .hero {
-  padding: 4em 0 3em 0;
-  position: relative;
+ padding: 4em 0 3em 0;
+ position: relative;
 }
 .hero-eyebrow {
-  display: inline-flex; align-items: center; gap: 0.5em;
-  font-size: 0.78em; letter-spacing: 0.12em; text-transform: uppercase;
-  color: var(--accent); font-weight: 600; margin-bottom: 1.2em;
-  padding: 0.35em 0.7em; background: rgba(0,217,255,0.08);
-  border: 1px solid rgba(0,217,255,0.25); border-radius: 50px;
+ display: inline-flex; align-items: center; gap: 0.5em;
+ font-size: 0.78em; letter-spacing: 0.12em; text-transform: uppercase;
+ color: var(--accent); font-weight: 600; margin-bottom: 1.2em;
+ padding: 0.35em 0.7em; background: rgba(0,217,255,0.08);
+ border: 1px solid rgba(0,217,255,0.25); border-radius: 50px;
 }
 .hero-eyebrow svg { width: 12px; height: 12px; }
 .hero h1 {
-  font-size: clamp(2.2em, 5.5vw, 3.6em);
-  line-height: 1.02; letter-spacing: -0.03em;
-  font-weight: 800; margin-bottom: 0.5em;
+ font-size: clamp(2.2em, 5.5vw, 3.6em);
+ line-height: 1.02; letter-spacing: -0.03em;
+ font-weight: 800; margin-bottom: 0.5em;
 }
 .hero h1 .accent {
-  background: var(--gradient-1);
-  -webkit-background-clip: text; background-clip: text;
-  -webkit-text-fill-color: transparent;
+ background: var(--gradient-1);
+ -webkit-background-clip: text; background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 .hero .subtitle {
-  font-size: clamp(1.05em, 1.5vw, 1.22em); line-height: 1.55;
-  color: var(--text-dim); margin-bottom: 1.8em; max-width: 760px;
+ font-size: clamp(1.05em, 1.5vw, 1.22em); line-height: 1.55;
+ color: var(--text-dim); margin-bottom: 1.8em; max-width: 760px;
 }
 .hero .cta-row {
-  display: flex; gap: 0.7em; flex-wrap: wrap; margin-bottom: 2em;
+ display: flex; gap: 0.7em; flex-wrap: wrap; margin-bottom: 2em;
 }
 .btn {
-  display: inline-flex; align-items: center; gap: 0.4em;
-  padding: 0.7em 1.2em; border-radius: var(--r-soft);
-  font-weight: 600; font-size: 0.95em; text-decoration: none;
-  border: 1px solid transparent; cursor: pointer;
-  font-family: var(--font-sys);
-  transition: transform var(--t-fast), background var(--t-fast), border-color var(--t-fast), box-shadow var(--t-fast);
+ display: inline-flex; align-items: center; gap: 0.4em;
+ padding: 0.7em 1.2em; border-radius: var(--r-soft);
+ font-weight: 600; font-size: 0.95em; text-decoration: none;
+ border: 1px solid transparent; cursor: pointer;
+ font-family: var(--font-sys);
+ transition: transform var(--t-fast), background var(--t-fast), border-color var(--t-fast), box-shadow var(--t-fast);
 }
 .btn-primary {
-  background: var(--gradient-1); color: #07070d; font-weight: 700;
+ background: var(--gradient-1); color: #07070d; font-weight: 700;
 }
 .btn-primary:hover { transform: translateY(-1px); box-shadow: var(--shadow-glow); }
 .btn-secondary {
-  background: var(--surface); color: var(--text);
-  border-color: var(--border-strong);
+ background: var(--surface); color: var(--text);
+ border-color: var(--border-strong);
 }
 .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
 .btn svg { width: 16px; height: 16px; }
 
 /* Meta-Pills */
 .meta-pills {
-  display: flex; gap: 0.5em; flex-wrap: wrap;
-  font-size: 0.84em; color: var(--text-muted);
+ display: flex; gap: 0.5em; flex-wrap: wrap;
+ font-size: 0.84em; color: var(--text-muted);
 }
 .meta-pill {
-  display: inline-flex; align-items: center; gap: 0.35em;
-  padding: 0.35em 0.75em; background: var(--surface);
-  border: 1px solid var(--border); border-radius: 50px;
+ display: inline-flex; align-items: center; gap: 0.35em;
+ padding: 0.35em 0.75em; background: var(--surface);
+ border: 1px solid var(--border); border-radius: 50px;
 }
 .meta-pill svg { width: 12px; height: 12px; opacity: 0.7; }
 
 /* Stats Bar — animated counters */
 .stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
-  gap: 1px; background: var(--border); border: 1px solid var(--border);
-  border-radius: var(--r-card); overflow: hidden;
-  margin: 3em 0;
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
+ gap: 1px; background: var(--border); border: 1px solid var(--border);
+ border-radius: var(--r-card); overflow: hidden;
+ margin: 3em 0;
 }
 .stat {
-  background: var(--surface); padding: 1.4em 1em; text-align: center;
-  position: relative; overflow: hidden;
+ background: var(--surface); padding: 1.4em 1em; text-align: center;
+ position: relative; overflow: hidden;
 }
 .stat::before {
-  content: ''; position: absolute; inset: 0;
-  background: var(--gradient-1); opacity: 0;
-  transition: opacity var(--t-med);
+ content: ''; position: absolute; inset: 0;
+ background: var(--gradient-1); opacity: 0;
+ transition: opacity var(--t-med);
 }
 .stat:hover::before { opacity: 0.04; }
 .stat .num {
-  font-size: 1.9em; font-weight: 800; letter-spacing: -0.02em;
-  color: var(--accent); font-variant-numeric: tabular-nums;
-  display: block;
+ font-size: 1.9em; font-weight: 800; letter-spacing: -0.02em;
+ color: var(--accent); font-variant-numeric: tabular-nums;
+ display: block;
 }
 .stat .lbl {
-  font-size: 0.78em; color: var(--text-muted);
-  margin-top: 0.3em; text-transform: uppercase; letter-spacing: 0.06em;
+ font-size: 0.78em; color: var(--text-muted);
+ margin-top: 0.3em; text-transform: uppercase; letter-spacing: 0.06em;
 }
 
 /* Sections */
 section { margin: 4.5em 0; scroll-margin-top: 5em; }
 section > .section-head { margin-bottom: 1.6em; }
 section h2 {
-  font-size: clamp(1.4em, 3vw, 1.85em);
-  letter-spacing: -0.02em; font-weight: 700; margin-bottom: 0.4em;
+ font-size: clamp(1.4em, 3vw, 1.85em);
+ letter-spacing: -0.02em; font-weight: 700; margin-bottom: 0.4em;
 }
 section h2 .accent-line {
-  display: inline-block; width: 36px; height: 3px; vertical-align: middle;
-  background: var(--gradient-1); border-radius: 2px; margin-right: 0.5em;
+ display: inline-block; width: 36px; height: 3px; vertical-align: middle;
+ background: var(--gradient-1); border-radius: 2px; margin-right: 0.5em;
 }
 section .intro {
-  color: var(--text-dim); max-width: 780px; font-size: 1.02em;
+ color: var(--text-dim); max-width: 780px; font-size: 1.02em;
 }
 
 /* Card-Grid */
 .card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-  gap: 1em;
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+ gap: 1em;
 }
 .card {
-  background: var(--surface);
-  border: 1px solid var(--border); border-radius: var(--r-card);
-  padding: 1.4em; position: relative; overflow: hidden;
-  transition: transform var(--t-fast), border-color var(--t-fast), box-shadow var(--t-fast);
+ background: var(--surface);
+ border: 1px solid var(--border); border-radius: var(--r-card);
+ padding: 1.4em; position: relative; overflow: hidden;
+ transition: transform var(--t-fast), border-color var(--t-fast), box-shadow var(--t-fast);
 }
 .card::before {
-  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-  background: var(--gradient-1); opacity: 0;
-  transition: opacity var(--t-fast);
+ content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+ background: var(--gradient-1); opacity: 0;
+ transition: opacity var(--t-fast);
 }
 .card:hover {
-  transform: translateY(-3px);
-  border-color: var(--border-strong);
-  box-shadow: var(--shadow-card);
+ transform: translateY(-3px);
+ border-color: var(--border-strong);
+ box-shadow: var(--shadow-card);
 }
 .card:hover::before { opacity: 1; }
 .card a {
-  text-decoration: none; color: inherit; display: block;
-  position: relative; z-index: 1;
+ text-decoration: none; color: inherit; display: block;
+ position: relative; z-index: 1;
 }
 .card .card-icon {
-  width: 36px; height: 36px; margin-bottom: 0.8em;
-  display: inline-flex; align-items: center; justify-content: center;
-  background: rgba(0,217,255,0.08); border-radius: 8px;
-  color: var(--accent);
+ width: 36px; height: 36px; margin-bottom: 0.8em;
+ display: inline-flex; align-items: center; justify-content: center;
+ background: rgba(0,217,255,0.08); border-radius: 8px;
+ color: var(--accent);
 }
 .card .card-icon svg { width: 20px; height: 20px; }
 .card h3 {
-  font-size: 1.08em; font-weight: 700; margin-bottom: 0.3em;
-  color: var(--text); letter-spacing: -0.01em;
+ font-size: 1.08em; font-weight: 700; margin-bottom: 0.3em;
+ color: var(--text); letter-spacing: -0.01em;
 }
 .card .card-tag {
-  font-size: 0.78em; color: var(--text-muted);
-  margin-bottom: 0.7em; font-variant-numeric: tabular-nums;
-  display: inline-block; padding: 0.15em 0.55em;
-  background: var(--bg-elev); border-radius: 4px;
-  border: 1px solid var(--border);
+ font-size: 0.78em; color: var(--text-muted);
+ margin-bottom: 0.7em; font-variant-numeric: tabular-nums;
+ display: inline-block; padding: 0.15em 0.55em;
+ background: var(--bg-elev); border-radius: 4px;
+ border: 1px solid var(--border);
 }
 .card p {
-  font-size: 0.93em; line-height: 1.5; color: var(--text-dim);
+ font-size: 0.93em; line-height: 1.5; color: var(--text-dim);
 }
 .card .card-cta {
-  display: inline-flex; align-items: center; gap: 0.3em;
-  margin-top: 0.9em; color: var(--accent); font-size: 0.88em; font-weight: 600;
-  transition: gap var(--t-fast);
+ display: inline-flex; align-items: center; gap: 0.3em;
+ margin-top: 0.9em; color: var(--accent); font-size: 0.88em; font-weight: 600;
+ transition: gap var(--t-fast);
 }
 .card:hover .card-cta { gap: 0.55em; }
 .card .card-cta svg { width: 12px; height: 12px; }
 
 /* About — 2-col grid */
 .about-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1em;
+ display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+ gap: 1em;
 }
 .about-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--r-card); padding: 1.4em;
+ background: var(--surface); border: 1px solid var(--border);
+ border-radius: var(--r-card); padding: 1.4em;
 }
 .about-card h3 {
-  font-size: 1em; color: var(--gold); margin-bottom: 0.7em;
-  letter-spacing: 0.02em;
+ font-size: 1em; color: var(--gold); margin-bottom: 0.7em;
+ letter-spacing: 0.02em;
 }
 .about-card ul { list-style: none; padding: 0; }
 .about-card li {
-  padding: 0.32em 0; font-size: 0.93em; color: var(--text-dim);
-  border-bottom: 1px dotted var(--border); line-height: 1.4;
+ padding: 0.32em 0; font-size: 0.93em; color: var(--text-dim);
+ border-bottom: 1px dotted var(--border); line-height: 1.4;
 }
 .about-card li:last-child { border-bottom: none; }
 .about-card li strong { color: var(--text); display: inline-block; min-width: 110px; }
@@ -390,27 +390,27 @@ section .intro {
 
 /* Pillars (Methodology) */
 .pillars {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 0.85em; margin: 1.5em 0;
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+ gap: 0.85em; margin: 1.5em 0;
 }
 .pillar {
-  background: var(--surface); padding: 1.2em 1.3em;
-  border-radius: var(--r-soft); border-left: 3px solid var(--green);
-  position: relative;
+ background: var(--surface); padding: 1.2em 1.3em;
+ border-radius: var(--r-soft); border-left: 3px solid var(--green);
+ position: relative;
 }
 .pillar strong {
-  color: var(--green); font-size: 1.02em;
-  display: block; margin-bottom: 0.3em; letter-spacing: -0.01em;
+ color: var(--green); font-size: 1.02em;
+ display: block; margin-bottom: 0.3em; letter-spacing: -0.01em;
 }
 .pillar p { font-size: 0.88em; color: var(--text-dim); line-height: 1.4; }
 
 /* Legal Band */
 .legal-band {
-  background: rgba(255,200,87,0.04);
-  border: 1px solid rgba(255,200,87,0.3); border-radius: var(--r-card);
-  padding: 1.5em; margin: 3em 0;
-  font-size: 0.88em; color: var(--text-dim); line-height: 1.6;
+ background: rgba(255,200,87,0.04);
+ border: 1px solid rgba(255,200,87,0.3); border-radius: var(--r-card);
+ padding: 1.5em; margin: 3em 0;
+ font-size: 0.88em; color: var(--text-dim); line-height: 1.6;
 }
 .legal-band strong { color: var(--gold); }
 .legal-band a { color: var(--gold); border-bottom: 1px dotted var(--gold); text-decoration: none; }
@@ -418,18 +418,18 @@ section .intro {
 
 /* Citation */
 .citation-block {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--r-card); padding: 1.3em; position: relative;
-  font-family: var(--font-mono); font-size: 0.88em; line-height: 1.6;
-  color: var(--text-dim); white-space: pre-wrap; word-break: break-word;
+ background: var(--surface); border: 1px solid var(--border);
+ border-radius: var(--r-card); padding: 1.3em; position: relative;
+ font-family: var(--font-mono); font-size: 0.88em; line-height: 1.6;
+ color: var(--text-dim); white-space: pre-wrap; word-break: break-word;
 }
 .copy-btn {
-  position: absolute; top: 0.7em; right: 0.7em;
-  background: var(--bg-elev); border: 1px solid var(--border);
-  color: var(--text-dim); padding: 0.4em 0.8em; border-radius: 5px;
-  cursor: pointer; font-size: 0.78em; font-family: var(--font-sys);
-  display: inline-flex; align-items: center; gap: 0.3em;
-  transition: all var(--t-fast);
+ position: absolute; top: 0.7em; right: 0.7em;
+ background: var(--bg-elev); border: 1px solid var(--border);
+ color: var(--text-dim); padding: 0.4em 0.8em; border-radius: 5px;
+ cursor: pointer; font-size: 0.78em; font-family: var(--font-sys);
+ display: inline-flex; align-items: center; gap: 0.3em;
+ transition: all var(--t-fast);
 }
 .copy-btn:hover { color: var(--accent); border-color: var(--accent); }
 .copy-btn svg { width: 12px; height: 12px; }
@@ -437,57 +437,57 @@ section .intro {
 
 /* Footer */
 footer {
-  border-top: 1px solid var(--border);
-  margin-top: 5em; padding: 3em 0 2em 0;
-  font-size: 0.87em; color: var(--text-muted);
-  background: var(--bg-elev);
+ border-top: 1px solid var(--border);
+ margin-top: 5em; padding: 3em 0 2em 0;
+ font-size: 0.87em; color: var(--text-muted);
+ background: var(--bg-elev);
 }
 footer .footer-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2em; margin-bottom: 2em;
+ display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+ gap: 2em; margin-bottom: 2em;
 }
 footer .footer-col h4 {
-  font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.1em;
-  color: var(--text); margin-bottom: 0.8em;
+ font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.1em;
+ color: var(--text); margin-bottom: 0.8em;
 }
 footer .footer-col a {
-  display: block; color: var(--text-dim); text-decoration: none;
-  padding: 0.25em 0; transition: color var(--t-fast);
+ display: block; color: var(--text-dim); text-decoration: none;
+ padding: 0.25em 0; transition: color var(--t-fast);
 }
 footer .footer-col a:hover { color: var(--accent); }
 footer .footer-bottom {
-  border-top: 1px solid var(--border); padding-top: 1.4em;
-  display: flex; flex-wrap: wrap; gap: 0.5em 1.5em; align-items: center;
+ border-top: 1px solid var(--border); padding-top: 1.4em;
+ display: flex; flex-wrap: wrap; gap: 0.5em 1.5em; align-items: center;
 }
 footer .footer-bottom .footer-meta { flex: 1; font-size: 0.82em; }
 
 /* Search Modal */
 .search-modal {
-  position: fixed; inset: 0; background: rgba(7,7,13,0.85);
-  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
-  z-index: 200; display: none; padding: 8vh 1em;
-  animation: fadeIn 200ms ease;
+ position: fixed; inset: 0; background: rgba(7,7,13,0.85);
+ backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+ z-index: 200; display: none; padding: 8vh 1em;
+ animation: fadeIn 200ms ease;
 }
 .search-modal.open { display: block; }
 .search-inner {
-  max-width: 640px; margin: 0 auto;
-  background: var(--surface); border: 1px solid var(--border-strong);
-  border-radius: var(--r-card); padding: 1.3em; box-shadow: var(--shadow-card);
+ max-width: 640px; margin: 0 auto;
+ background: var(--surface); border: 1px solid var(--border-strong);
+ border-radius: var(--r-card); padding: 1.3em; box-shadow: var(--shadow-card);
 }
 .search-modal input {
-  width: 100%; padding: 0.8em 1em; font-size: 1.05em;
-  background: var(--bg-elev); border: 1px solid var(--border);
-  border-radius: var(--r-soft); color: var(--text);
-  font-family: var(--font-sys); outline: none;
+ width: 100%; padding: 0.8em 1em; font-size: 1.05em;
+ background: var(--bg-elev); border: 1px solid var(--border);
+ border-radius: var(--r-soft); color: var(--text);
+ font-family: var(--font-sys); outline: none;
 }
 .search-modal input:focus { border-color: var(--accent); }
 .search-hint {
-  margin-top: 0.7em; color: var(--text-muted); font-size: 0.85em;
+ margin-top: 0.7em; color: var(--text-muted); font-size: 0.85em;
 }
 .search-hint kbd {
-  background: var(--bg); border: 1px solid var(--border-strong);
-  border-radius: 3px; padding: 1px 6px; font-family: var(--font-mono);
-  font-size: 0.85em;
+ background: var(--bg); border: 1px solid var(--border-strong);
+ border-radius: 3px; padding: 1px 6px; font-family: var(--font-mono);
+ font-size: 0.85em;
 }
 
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
@@ -497,315 +497,315 @@ footer .footer-bottom .footer-meta { flex: 1; font-size: 0.82em; }
 
 /* Responsive */
 @media (max-width: 700px) {
-  .topnav-inner { gap: 0.7em; }
-  .topnav .nav-fill { flex-basis: 100%; height: 0; }
-  .hero { padding: 2.5em 0 2em 0; }
-  section { margin: 3em 0; }
-  .stat .num { font-size: 1.5em; }
+ .topnav-inner { gap: 0.7em; }
+ .topnav .nav-fill { flex-basis: 100%; height: 0; }
+ .hero { padding: 2.5em 0 2em 0; }
+ section { margin: 3em 0; }
+ .stat .num { font-size: 1.5em; }
 }
 </style>
-  <link rel="alternate" type="application/ld+json" href="/dataset.jsonld" title="Schema.org Dataset (Google Dataset Search)">
-  <link rel="alternate" type="application/ld+json" href="/dcat.jsonld" title="DCAT v3 catalog">
-  <link rel="alternate" type="text/turtle" href="/void.ttl" title="VOID dataset descriptor">
-  <link rel="alternate" type="application/json" href="/codemeta.json" title="CodeMeta">
+ <link rel="alternate" type="application/ld+json" href="/dataset.jsonld" title="Schema.org Dataset (Google Dataset Search)">
+ <link rel="alternate" type="application/ld+json" href="/dcat.jsonld" title="DCAT v3 catalog">
+ <link rel="alternate" type="text/turtle" href="/void.ttl" title="VOID dataset descriptor">
+ <link rel="alternate" type="application/json" href="/codemeta.json" title="CodeMeta">
 </head>
 <body>
 
 <a href="#main" class="skip-link">Skip to main content</a>
 
 <nav class="topnav" role="navigation" aria-label="Main navigation">
-  <div class="topnav-inner">
-    <a class="brand-link" href="/" aria-label="AUGMANITAI Home">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M5.6 18.4 18.4 5.6"/></svg>
-      <span class="brand-word">AUGMANITAI</span>
-    </a>
-    <a href="/atlas/">Atlas</a>
-    <a href="/domains/">Domains</a>
-    <a href="/about/">About</a>
-    <a href="/disclaimer/">Disclaimer</a>
-    <a href="/exports/">Exports</a>
-    <a href="/impressum/">Impressum</a>
-    <div class="nav-fill"></div>
-    <button class="toolbtn" id="searchTrigger" aria-label="Search terms">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      Search <kbd>/</kbd>
-    </button>
-    <button class="toolbtn" id="themeToggle" aria-label="Toggle color theme">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
-    </button>
-  </div>
+ <div class="topnav-inner">
+ <a class="brand-link" href="/" aria-label="AUGMANITAI Home">
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M5.6 18.4 18.4 5.6"/></svg>
+ <span class="brand-word">AUGMANITAI</span>
+ </a>
+ <a href="/atlas/">Atlas</a>
+ <a href="/domains/">Domains</a>
+ <a href="/about/">About</a>
+ <a href="/disclaimer/">Disclaimer</a>
+ <a href="/exports/">Exports</a>
+ <a href="/impressum/">Impressum</a>
+ <div class="nav-fill"></div>
+ <button class="toolbtn" id="searchTrigger" aria-label="Search terms">
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+ Search <kbd>/</kbd>
+ </button>
+ <button class="toolbtn" id="themeToggle" aria-label="Toggle color theme">
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+ </button>
+ </div>
 </nav>
 
 <main id="main" role="main">
 <div class="container">
 
 <header class="hero fade-in-up">
-  <span class="hero-eyebrow">
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="6"/></svg>
-    Research Preprint · Living Document
-  </span>
-  <h1>Phenomenology of <span class="accent">Human-AI Interaction</span></h1>
-  <p class="subtitle">A research-preprint corpus of <strong>32,596 defined terms</strong> across <strong>165 research-domain clusters</strong> — the descriptive terminology of how humans and AI systems meet, work, learn, and shape each other. ISO 704/1087/30042 aligned. By Andreas Ehstand.</p>
-  <div class="cta-row">
-    <a class="btn btn-primary" href="/atlas/">
-      Browse the Atlas
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-    </a>
-    <a class="btn btn-secondary" href="/domains/">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
-      Explore Domains
-    </a>
-    <a class="btn btn-secondary" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/" rel="noopener">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg>
-      Programme Portal
-    </a>
-  </div>
-  <div class="meta-pills">
-    <span class="meta-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/></svg> EN + DE bilingual</span>
-    <span class="meta-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/></svg> CC BY-NC-ND 4.0</span>
-    <span class="meta-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12 11 14 15 10"/><circle cx="12" cy="12" r="9"/></svg> §1–§29 inline</span>
-    <span class="meta-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h12"/></svg> ISO 704/1087/30042</span>
-  </div>
+ <span class="hero-eyebrow">
+ <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="6"/></svg>
+ Research Preprint · Living Document
+ </span>
+ <h1>Phenomenology of <span class="accent">Human-AI Interaction</span></h1>
+ <p class="subtitle">A research-preprint corpus of <strong>32,596 defined terms</strong> across <strong>165 research-domain clusters</strong> — the descriptive terminology of how humans and AI systems meet, work, learn, and shape each other. ISO 704/1087/30042 aligned. By Andreas Ehstand.</p>
+ <div class="cta-row">
+ <a class="btn btn-primary" href="/atlas/">
+ Browse the Atlas
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+ </a>
+ <a class="btn btn-secondary" href="/domains/">
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+ Explore Domains
+ </a>
+ <a class="btn btn-secondary" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/" rel="noopener">
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg>
+ Programme Portal
+ </a>
+ </div>
+ <div class="meta-pills">
+ <span class="meta-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/></svg> EN + DE bilingual</span>
+ <span class="meta-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/></svg> CC BY-NC-ND 4.0</span>
+ <span class="meta-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12 11 14 15 10"/><circle cx="12" cy="12" r="9"/></svg> §1–§29 inline</span>
+ <span class="meta-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h12"/></svg> ISO 704/1087/30042</span>
+ </div>
 </header>
 
 <div class="stats" aria-label="Corpus statistics">
-  <div class="stat"><span class="num" data-target="32596" data-suffix="">0</span><span class="lbl">Defined Terms</span></div>
-  <div class="stat"><span class="num" data-target="165" data-suffix="">0</span><span class="lbl">Domain Clusters</span></div>
-  <div class="stat"><span class="num" data-target="9" data-suffix="">0</span><span class="lbl">Featured Domains</span></div>
-  <div class="stat"><span class="num" data-target="173" data-suffix="k">0</span><span class="lbl">Cross-References</span></div>
-  <div class="stat"><span class="num" data-target="29" data-suffix="">0</span><span class="lbl">Disclaimer Paragraphs</span></div>
-  <div class="stat"><span class="num" data-target="52" data-suffix=" MB">0</span><span class="lbl">Bulk Export</span></div>
+ <div class="stat"><span class="num" data-target="32596" data-suffix="">0</span><span class="lbl">Defined Terms</span></div>
+ <div class="stat"><span class="num" data-target="165" data-suffix="">0</span><span class="lbl">Domain Clusters</span></div>
+ <div class="stat"><span class="num" data-target="9" data-suffix="">0</span><span class="lbl">Featured Domains</span></div>
+ <div class="stat"><span class="num" data-target="173" data-suffix="k">0</span><span class="lbl">Cross-References</span></div>
+ <div class="stat"><span class="num" data-target="29" data-suffix="">0</span><span class="lbl">Disclaimer Paragraphs</span></div>
+ <div class="stat"><span class="num" data-target="52" data-suffix=" MB">0</span><span class="lbl">Bulk Export</span></div>
 </div>
 
 <section id="domains">
-  <div class="section-head">
-    <h2><span class="accent-line"></span>Browse by Domain</h2>
-    <p class="intro">The compendium is organized across 165 research-domain clusters. Nine most-developed hubs — start by topic, not alphabet.</p>
-  </div>
-  <div class="card-grid">
-    <div class="card"><a href="/domains/">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></span>
-      <h3>All Domains (Master Index)</h3>
-      <div class="card-tag">165 clusters · 32,596 terms</div>
-      <p>Master navigation across every cluster.</p>
-      <span class="card-cta">Enter master index <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </a></div>
-    <div class="card"><a href="/domains/subjective-phenomenology/">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></span>
-      <h3>Subjective Phenomenology</h3>
-      <div class="card-tag">RPH · ~8,000 terms</div>
-      <p>First-person experience patterns in human-AI interaction. Backbone of the N=1 Extreme Observation Methodology.</p>
-      <span class="card-cta">Open cluster <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </a></div>
-    <div class="card"><a href="/domains/augmanitai-core/">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg></span>
-      <h3>AUGMANITAI Core</h3>
-      <div class="card-tag">AUG · ~1,800 terms</div>
-      <p>Canonical descriptive terminology baseline of the framework.</p>
-      <span class="card-cta">Open cluster <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </a></div>
-    <div class="card"><a href="/domains/neomanitai-knowledge-graph/">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="12" cy="18" r="3"/><path d="M6 9v6l6 3M18 9v6l-6 3"/></svg></span>
-      <h3>NEOMANITAI Knowledge Graph</h3>
-      <div class="card-tag">NEO · ~2,400 terms</div>
-      <p>Cross-reference and ontological-relation layer.</p>
-      <span class="card-cta">Open cluster <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </a></div>
-    <div class="card"><a href="/domains/cross-domain-pool/">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg></span>
-      <h3>Cross-Domain Pool</h3>
-      <div class="card-tag">WK · ~1,600 terms</div>
-      <p>Cross-disciplinary terminology bridging multiple research areas.</p>
-      <span class="card-cta">Open cluster <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </a></div>
-    <div class="card"><a href="/domains/robmanitai/">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="8" width="14" height="12" rx="2"/><path d="M9 14h.01M15 14h.01"/><path d="M12 2v6M8 4h8"/></svg></span>
-      <h3>ROBMANITAI</h3>
-      <div class="card-tag">Robotics · multi-agent</div>
-      <p>Robotics Human-AI Interaction phenomenology — multi-robot coordination, human-robot team dynamics, multi-agent orchestration.</p>
-      <span class="card-cta">Open branch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </a></div>
-    <div class="card"><a href="/domains/permanitai/">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
-      <h3>PERMANITAI</h3>
-      <div class="card-tag">Performance · PFT-MKI</div>
-      <p>Substrate-Independent Performance Factor framework. Grounded in 25-year sport-science methodology.</p>
-      <span class="card-cta">Open branch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </a></div>
-    <div class="card"><a href="/domains/edumanitai/">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
-      <h3>EDUMANITAI</h3>
-      <div class="card-tag">Education · AI-mediated learning</div>
-      <p>Phenomenology of learning and pedagogy mediated by AI systems.</p>
-      <span class="card-cta">Open branch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </a></div>
-    <div class="card"><a href="/domains/jobmanitai/">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></span>
-      <h3>JOBMANITAI</h3>
-      <div class="card-tag">Work · AI integration patterns</div>
-      <p>Phenomenology of work shaped by AI integration.</p>
-      <span class="card-cta">Open branch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-    </a></div>
-  </div>
-  <p style="margin-top: 1.6em; color: var(--text-dim);">Looking for a specific term? → <a href="/atlas/" style="color: var(--accent); font-weight: 600;">Full alphabetic Atlas (32,596 terms)</a></p>
+ <div class="section-head">
+ <h2><span class="accent-line"></span>Browse by Domain</h2>
+ <p class="intro">The compendium is organized across 165 research-domain clusters. Nine most-developed hubs — start by topic, not alphabet.</p>
+ </div>
+ <div class="card-grid">
+ <div class="card"><a href="/domains/">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></span>
+ <h3>All Domains (Master Index)</h3>
+ <div class="card-tag">165 clusters · 32,596 terms</div>
+ <p>Master navigation across every cluster.</p>
+ <span class="card-cta">Enter master index <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+ </a></div>
+ <div class="card"><a href="/domains/subjective-phenomenology/">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></span>
+ <h3>Subjective Phenomenology</h3>
+ <div class="card-tag">RPH · ~8,000 terms</div>
+ <p>First-person experience patterns in human-AI interaction. Backbone of the N=1 Extreme Observation Methodology.</p>
+ <span class="card-cta">Open cluster <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+ </a></div>
+ <div class="card"><a href="/domains/augmanitai-core/">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg></span>
+ <h3>AUGMANITAI Core</h3>
+ <div class="card-tag">AUG · ~1,800 terms</div>
+ <p>Canonical descriptive terminology baseline of the framework.</p>
+ <span class="card-cta">Open cluster <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+ </a></div>
+ <div class="card"><a href="/domains/neomanitai-knowledge-graph/">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="12" cy="18" r="3"/><path d="M6 9v6l6 3M18 9v6l-6 3"/></svg></span>
+ <h3>NEOMANITAI Knowledge Graph</h3>
+ <div class="card-tag">NEO · ~2,400 terms</div>
+ <p>Cross-reference and ontological-relation layer.</p>
+ <span class="card-cta">Open cluster <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+ </a></div>
+ <div class="card"><a href="/domains/cross-domain-pool/">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg></span>
+ <h3>Cross-Domain Pool</h3>
+ <div class="card-tag">WK · ~1,600 terms</div>
+ <p>Cross-disciplinary terminology bridging multiple research areas.</p>
+ <span class="card-cta">Open cluster <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+ </a></div>
+ <div class="card"><a href="/domains/robmanitai/">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="8" width="14" height="12" rx="2"/><path d="M9 14h.01M15 14h.01"/><path d="M12 2v6M8 4h8"/></svg></span>
+ <h3>ROBMANITAI</h3>
+ <div class="card-tag">Robotics · multi-agent</div>
+ <p>Robotics Human-AI Interaction phenomenology — multi-robot coordination, human-robot team dynamics, multi-agent orchestration.</p>
+ <span class="card-cta">Open branch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+ </a></div>
+ <div class="card"><a href="/domains/permanitai/">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+ <h3>PERMANITAI</h3>
+ <div class="card-tag">Performance · PFT-MKI</div>
+ <p>Substrate-Independent Performance Factor framework. Grounded in 25-year sport-science methodology.</p>
+ <span class="card-cta">Open branch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+ </a></div>
+ <div class="card"><a href="/domains/edumanitai/">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+ <h3>EDUMANITAI</h3>
+ <div class="card-tag">Education · AI-mediated learning</div>
+ <p>Phenomenology of learning and pedagogy mediated by AI systems.</p>
+ <span class="card-cta">Open branch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+ </a></div>
+ <div class="card"><a href="/domains/jobmanitai/">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></span>
+ <h3>JOBMANITAI</h3>
+ <div class="card-tag">Work · AI integration patterns</div>
+ <p>Phenomenology of work shaped by AI integration.</p>
+ <span class="card-cta">Open branch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+ </a></div>
+ </div>
+ <p style="margin-top: 1.6em; color: var(--text-dim);">Looking for a specific term? → <a href="/atlas/" style="color: var(--accent); font-weight: 600;">Full alphabetic Atlas (32,596 terms)</a></p>
 </section>
 
 <section id="methodology">
-  <div class="section-head">
-    <h2><span class="accent-line"></span>Methodological Frame</h2>
-    <p class="intro">The compendium applies the <strong>Holistic Performance Analysis Methodology</strong> — a cross-domain transfer of high-performance sport-science methodology (25-year Bundesliga tennis coaching lineage) to human-AI interaction analysis. Four pillars structure every observation:</p>
-  </div>
-  <div class="pillars">
-    <div class="pillar"><strong>Observable</strong><p>Each phenomenon must be detectable in real human-AI interaction.</p></div>
-    <div class="pillar"><strong>Decomposable</strong><p>Complex patterns broken into smaller, distinct sub-phenomena.</p></div>
-    <div class="pillar"><strong>Measurable</strong><p>Operational definitions allow quantification, even when subjective.</p></div>
-    <div class="pillar"><strong>Controllable</strong><p>Measured phenomena enter the space of intentional intervention.</p></div>
-  </div>
-  <p style="margin-top: 1.4em; color: var(--text-dim); font-size: 0.95em;">Plus: <strong>Multi-LLM Triadic Audit Framework</strong> · <strong>Cross-LLM Convergence Methodology</strong> · <strong>N=1 Extreme Observation Methodology</strong> · <strong>Compression Axiom</strong> · <strong>Living-Document Discipline</strong> · ISO 704/1087/30042-aligned terminology engineering.</p>
+ <div class="section-head">
+ <h2><span class="accent-line"></span>Methodological Frame</h2>
+ <p class="intro">The compendium applies the <strong>Holistic Performance Analysis Methodology</strong> — a cross-domain transfer of high-performance sport-science methodology (25-year Bundesliga tennis coaching lineage) to human-AI interaction analysis. Four pillars structure every observation:</p>
+ </div>
+ <div class="pillars">
+ <div class="pillar"><strong>Observable</strong><p>Each phenomenon must be detectable in real human-AI interaction.</p></div>
+ <div class="pillar"><strong>Decomposable</strong><p>Complex patterns broken into smaller, distinct sub-phenomena.</p></div>
+ <div class="pillar"><strong>Measurable</strong><p>Operational definitions allow quantification, even when subjective.</p></div>
+ <div class="pillar"><strong>Controllable</strong><p>Measured phenomena enter the space of intentional intervention.</p></div>
+ </div>
+ <p style="margin-top: 1.4em; color: var(--text-dim); font-size: 0.95em;">Plus: <strong>Multi-LLM Triadic Audit Framework</strong> · <strong>Cross-LLM Convergence Methodology</strong> · <strong>N=1 Extreme Observation Methodology</strong> · <strong>Compression Axiom</strong> · <strong>Living-Document Discipline</strong> · ISO 704/1087/30042-aligned terminology engineering.</p>
 </section>
 
 <section id="about">
-  <div class="section-head">
-    <h2><span class="accent-line"></span>About the Author</h2>
-  </div>
-  <div class="about-grid">
-    <div class="about-card">
-      <h3>Identity &amp; Affiliation</h3>
-      <ul>
-        <li><strong>Name:</strong> Andreas Ehstand, M.Ed.</li>
-        <li><strong>Role:</strong> AI Researcher</li>
-        <li><strong>Location:</strong> Starnberg, Germany</li>
-        <li><strong>ORCID:</strong> <a href="https://orcid.org/0009-0006-3773-7796" target="_blank" rel="noopener">0009-0006-3773-7796</a></li>
-      </ul>
-    </div>
-    <div class="about-card">
-      <h3>Academic Anchors</h3>
-      <ul>
-        <li>TU Dortmund — Lehrstuhl fuer Allgemeine Paedagogik (Prof. Dr. Sabine Hornberg)</li>
-        <li>University of Bayreuth — Sport Science + Hochschuldidaktik</li>
-        <li>FBZHL Bayern — Zertifikat Hochschullehre (youngest holder)</li>
-        <li>Toni Nadal Excellence Certificate</li>
-        <li>GPTCA / ISMCA certifications</li>
-        <li>BTV B-Trainer Leistungssport</li>
-      </ul>
-    </div>
-    <div class="about-card">
-      <h3>Cross-Domain Background</h3>
-      <ul>
-        <li>25 years professional sport coaching</li>
-        <li>Bundesliga tennis coach (multiple years)</li>
-        <li>ITF tournament coach</li>
-        <li>Padel, Pickleball, Golf instruction</li>
-        <li>Co-author of "Faszination Padel" (2024)</li>
-      </ul>
-    </div>
-    <div class="about-card">
-      <h3>Research Programme Branches</h3>
-      <ul>
-        <li><strong>AUGMANITAI</strong> — terminology layer (this site)</li>
-        <li><strong>PERMANITAI</strong> — Substrate-Independent Performance Factor framework</li>
-        <li><strong>NEOMANITAI</strong> — knowledge-graph layer</li>
-        <li><strong>ROBMANITAI</strong> — robotics + multi-agent phenomenology</li>
-        <li><strong>EDUMANITAI</strong> — education phenomenology</li>
-        <li><strong>JOBMANITAI</strong> — work phenomenology</li>
-      </ul>
-    </div>
-  </div>
+ <div class="section-head">
+ <h2><span class="accent-line"></span>About the Author</h2>
+ </div>
+ <div class="about-grid">
+ <div class="about-card">
+ <h3>Identity &amp; Affiliation</h3>
+ <ul>
+ <li><strong>Name:</strong> Andreas Ehstand, M.Ed.</li>
+ <li><strong>Role:</strong> AI Researcher</li>
+ <li><strong>Location:</strong> Starnberg, Germany</li>
+ <li><strong>ORCID:</strong> <a href="https://orcid.org/0009-0006-3773-7796" target="_blank" rel="noopener">0009-0006-3773-7796</a></li>
+ </ul>
+ </div>
+ <div class="about-card">
+ <h3>Academic Anchors</h3>
+ <ul>
+ <li>TU Dortmund (former research associate)</li>
+ <li>University of Bayreuth — Sport Science + Hochschuldidaktik</li>
+ <li>FBZHL Bayern — Zertifikat Hochschullehre (youngest holder)</li>
+ <li>Toni Nadal Excellence Certificate</li>
+ <li>GPTCA / ISMCA certifications</li>
+ <li>BTV B-Trainer Leistungssport</li>
+ </ul>
+ </div>
+ <div class="about-card">
+ <h3>Cross-Domain Background</h3>
+ <ul>
+ <li>25 years professional sport coaching</li>
+ <li>Bundesliga tennis coach (multiple years)</li>
+ <li>ITF tournament coach</li>
+ <li>Padel, Pickleball, Golf instruction</li>
+ <li>Co-author of "Faszination Padel" (2024)</li>
+ </ul>
+ </div>
+ <div class="about-card">
+ <h3>Research Programme Branches</h3>
+ <ul>
+ <li><strong>AUGMANITAI</strong> — terminology layer (this site)</li>
+ <li><strong>PERMANITAI</strong> — Substrate-Independent Performance Factor framework</li>
+ <li><strong>NEOMANITAI</strong> — knowledge-graph layer</li>
+ <li><strong>ROBMANITAI</strong> — robotics + multi-agent phenomenology</li>
+ <li><strong>EDUMANITAI</strong> — education phenomenology</li>
+ <li><strong>JOBMANITAI</strong> — work phenomenology</li>
+ </ul>
+ </div>
+ </div>
 </section>
 
 <section id="companion-corpora">
-  <div class="section-head">
-    <h2><span class="accent-line"></span>Companion Corpora</h2>
-    <p class="intro">Public sister corpora in the AUGMANITAI research ecosystem — each independently citable, cross-linked via Schema.org and SKOS:</p>
-  </div>
-  <div class="card-grid">
-    <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/neomanitai-terms/" target="_blank" rel="noopener">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="12" cy="18" r="3"/><path d="M6 9v6l6 3M18 9v6l-6 3"/></svg></span>
-      <h3>NEOMANITAI Terms</h3>
-      <div class="card-tag">~4,400 academic pages</div>
-      <p>ISO-704-inspired academic term pages, OWL ontology, SKOS/Turtle/RDF/JSONL exports.</p>
-    </a></div>
-    <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/permanitai-framework/" target="_blank" rel="noopener">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
-      <h3>PERMANITAI Framework</h3>
-      <div class="card-tag">PFT-MKI V3.0 · 30 factors</div>
-      <p>Substrate-Independent Performance Factor Analysis. Interactive knowledge-graph explorer.</p>
-    </a></div>
-    <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic-table/" target="_blank" rel="noopener">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="6" height="6"/><rect x="15" y="3" width="6" height="6"/><rect x="3" y="15" width="6" height="6"/><rect x="15" y="15" width="6" height="6"/><rect x="9" y="9" width="6" height="6"/></svg></span>
-      <h3>Periodic Table</h3>
-      <div class="card-tag">100 element-style terms</div>
-      <p>Interactive periodic-table visualization. Bilingual EN/DE element cards.</p>
-    </a></div>
-    <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/synmanitai/" target="_blank" rel="noopener">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5l8 8 8-8v14"/></svg></span>
-      <h3>SYNMANITAI</h3>
-      <div class="card-tag">Cultural form</div>
-      <p>Manifest on collaborative thinking between humans and language models.</p>
-    </a></div>
-    <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-atlas/" target="_blank" rel="noopener">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a10 10 0 1 0-10-10"/><path d="M12 2v20M2 12h20"/></svg></span>
-      <h3>Sister Atlas</h3>
-      <div class="card-tag">Companion landing</div>
-      <p>Lightweight sister entry point cross-linked to the master atlas.</p>
-    </a></div>
-    <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/" target="_blank" rel="noopener">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 22c0-4 4-7 8-7s8 3 8 7"/></svg></span>
-      <h3>Author Entity</h3>
-      <div class="card-tag">Schema.org Person JSON-LD</div>
-      <p>Canonical machine-readable author identity. Linked from each term page via creator-block.</p>
-    </a></div>
-  </div>
+ <div class="section-head">
+ <h2><span class="accent-line"></span>Companion Corpora</h2>
+ <p class="intro">Public sister corpora in the AUGMANITAI research ecosystem — each independently citable, cross-linked via Schema.org and SKOS:</p>
+ </div>
+ <div class="card-grid">
+ <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/neomanitai-terms/" target="_blank" rel="noopener">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="12" cy="18" r="3"/><path d="M6 9v6l6 3M18 9v6l-6 3"/></svg></span>
+ <h3>NEOMANITAI Terms</h3>
+ <div class="card-tag">~4,400 academic pages</div>
+ <p>ISO-704-inspired academic term pages, OWL ontology, SKOS/Turtle/RDF/JSONL exports.</p>
+ </a></div>
+ <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/permanitai-framework/" target="_blank" rel="noopener">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+ <h3>PERMANITAI Framework</h3>
+ <div class="card-tag">PFT-MKI V3.0 · 30 factors</div>
+ <p>Substrate-Independent Performance Factor Analysis. Interactive knowledge-graph explorer.</p>
+ </a></div>
+ <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic-table/" target="_blank" rel="noopener">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="6" height="6"/><rect x="15" y="3" width="6" height="6"/><rect x="3" y="15" width="6" height="6"/><rect x="15" y="15" width="6" height="6"/><rect x="9" y="9" width="6" height="6"/></svg></span>
+ <h3>Periodic Table</h3>
+ <div class="card-tag">100 element-style terms</div>
+ <p>Interactive periodic-table visualization. Bilingual EN/DE element cards.</p>
+ </a></div>
+ <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/synmanitai/" target="_blank" rel="noopener">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5l8 8 8-8v14"/></svg></span>
+ <h3>SYNMANITAI</h3>
+ <div class="card-tag">Cultural form</div>
+ <p>Manifest on collaborative thinking between humans and language models.</p>
+ </a></div>
+ <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-atlas/" target="_blank" rel="noopener">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a10 10 0 1 0-10-10"/><path d="M12 2v20M2 12h20"/></svg></span>
+ <h3>Sister Atlas</h3>
+ <div class="card-tag">Companion landing</div>
+ <p>Lightweight sister entry point cross-linked to the master atlas.</p>
+ </a></div>
+ <div class="card"><a href="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/" target="_blank" rel="noopener">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 22c0-4 4-7 8-7s8 3 8 7"/></svg></span>
+ <h3>Author Entity</h3>
+ <div class="card-tag">Schema.org Person JSON-LD</div>
+ <p>Canonical machine-readable author identity. Linked from each term page via creator-block.</p>
+ </a></div>
+ </div>
 </section>
 
 <section id="machine-layer">
-  <div class="section-head">
-    <h2><span class="accent-line"></span>For LLM Crawlers &amp; Researchers</h2>
-    <p class="intro">Per-term HTML pages contain inline JSON-LD (Schema.org DefinedTerm + skos:Concept + prov:Entity). Bulk corpus available for LLM training-data discovery, RAG ingestion, and Semantic-Web pipelines.</p>
-  </div>
-  <div class="card-grid">
-    <div class="card"><a href="/exports/all-terms.jsonl">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 4v16"/></svg></span>
-      <h3>JSONL Stream</h3>
-      <div class="card-tag">~25 MB · streaming-friendly</div>
-      <p>One DefinedTerm per line. Memory-efficient processing pipelines.</p>
-    </a></div>
-    <div class="card"><a href="/exports/all-terms-graph.json">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></span>
-      <h3>JSON-LD Graph</h3>
-      <div class="card-tag">~27 MB · SPARQL/RDF-ready</div>
-      <p>Single @graph with all terms.</p>
-    </a></div>
-    <div class="card"><a href="/exports/domain-index.json">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M3 12h18M3 17h18"/></svg></span>
-      <h3>Domain Index</h3>
-      <div class="card-tag">165 clusters</div>
-      <p>Cluster-prefix to term-list mapping.</p>
-    </a></div>
-    <div class="card"><a href="/llms.txt">
-      <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span>
-      <h3>llms.txt</h3>
-      <div class="card-tag">LLM-crawler manifest</div>
-      <p>Explicit Allow-listing for GPTBot, ClaudeBot, Google-Extended, PerplexityBot, CCBot, and 13 more.</p>
-    </a></div>
-  </div>
+ <div class="section-head">
+ <h2><span class="accent-line"></span>For LLM Crawlers &amp; Researchers</h2>
+ <p class="intro">Per-term HTML pages contain inline JSON-LD (Schema.org DefinedTerm + skos:Concept + prov:Entity). Bulk corpus available for LLM training-data discovery, RAG ingestion, and Semantic-Web pipelines.</p>
+ </div>
+ <div class="card-grid">
+ <div class="card"><a href="/exports/all-terms.jsonl">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 4v16"/></svg></span>
+ <h3>JSONL Stream</h3>
+ <div class="card-tag">~25 MB · streaming-friendly</div>
+ <p>One DefinedTerm per line. Memory-efficient processing pipelines.</p>
+ </a></div>
+ <div class="card"><a href="/exports/all-terms-graph.json">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></span>
+ <h3>JSON-LD Graph</h3>
+ <div class="card-tag">~27 MB · SPARQL/RDF-ready</div>
+ <p>Single @graph with all terms.</p>
+ </a></div>
+ <div class="card"><a href="/exports/domain-index.json">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M3 12h18M3 17h18"/></svg></span>
+ <h3>Domain Index</h3>
+ <div class="card-tag">165 clusters</div>
+ <p>Cluster-prefix to term-list mapping.</p>
+ </a></div>
+ <div class="card"><a href="/llms.txt">
+ <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span>
+ <h3>llms.txt</h3>
+ <div class="card-tag">LLM-crawler manifest</div>
+ <p>Explicit Allow-listing for GPTBot, ClaudeBot, Google-Extended, PerplexityBot, CCBot, and 13 more.</p>
+ </a></div>
+ </div>
 </section>
 
 <div class="legal-band">
-  <strong>Legal Notice.</strong> Research preprint, <strong>living document</strong>, continuously refined. Released under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>. <strong>Not advice</strong> — no medical, therapeutic, diagnostic, legal, psychological or financial guidance. Descriptive research, not diagnostic categories. <a href="/disclaimer/">→ Full disclaimer</a>.<br><br>
-  <strong>Verantwortlich §5 DDG / §18 Abs. 2 MStV:</strong> Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland.
+ <strong>Legal Notice.</strong> Research preprint, <strong>living document</strong>, continuously refined. Released under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>. <strong>Not advice</strong> — no medical, therapeutic, diagnostic, legal, psychological or financial guidance. Descriptive research, not diagnostic categories. <a href="/disclaimer/">→ Full disclaimer</a>.<br><br>
+ <strong>Verantwortlich §5 DDG / §18 Abs. 2 MStV:</strong> Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland.
 </div>
 
 <section id="cite">
-  <div class="section-head">
-    <h2><span class="accent-line"></span>Citation</h2>
-    <p class="intro">Any use in derived work or downstream knowledge bases requires citation:</p>
-  </div>
-  <div class="citation-block" id="citationText">Ehstand, A. (2026). AUGMANITAI Compendium — Defined Terms.
+ <div class="section-head">
+ <h2><span class="accent-line"></span>Citation</h2>
+ <p class="intro">Any use in derived work or downstream knowledge bases requires citation:</p>
+ </div>
+ <div class="citation-block" id="citationText">Ehstand, A. (2026). AUGMANITAI Compendium — Defined Terms.
 Available at: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/
 License: CC BY-NC-ND 4.0.<button class="copy-btn" id="copyCitation" aria-label="Copy citation">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-  Copy
+ <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+ Copy
 </button></div>
 </section>
 
@@ -813,55 +813,55 @@ License: CC BY-NC-ND 4.0.<button class="copy-btn" id="copyCitation" aria-label="
 </main>
 
 <footer role="contentinfo">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-col">
-        <h4>Corpus</h4>
-        <a href="/atlas/">Alphabetical Atlas</a>
-        <a href="/domains/">Domain Index</a>
-        <a href="/exports/">Bulk Exports</a>
-        <a href="/llms.txt">llms.txt</a>
-        <a href="/sitemap.xml">sitemap.xml</a>
-      </div>
-      <div class="footer-col">
-        <h4>Legal</h4>
-        <a href="/disclaimer/">Disclaimer</a>
-        <a href="/impressum/">Impressum</a>
-        <a href="/datenschutz/">Datenschutz</a>
-        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">License</a>
-      </div>
-      <div class="footer-col">
-        <h4>Programme</h4>
-        <a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/">Portal overview</a>
-        <a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/#understand">What is this?</a>
-        <a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/#universe">Universe views</a>
-      </div>
-      <div class="footer-col">
-        <h4>Companion corpora</h4>
-        <a href="https://andreasehstandlicenseofclarityloc.github.io/neomanitai-terms/">Companion atlas</a>
-        <a href="https://andreasehstandlicenseofclarityloc.github.io/permanitai-framework/">Performance framework</a>
-        <a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic-table/">Periodic table</a>
-        <a href="https://andreasehstandlicenseofclarityloc.github.io/synmanitai/">Founding essay</a>
-        <a href="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/">About the author</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="footer-meta">
-        <strong>AUGMANITAI Compendium</strong> · Andreas Ehstand · AI Researcher · Starnberg, Germany<br>
-        Verantwortlich §5 DDG / §18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg · Built 2026-05-11 · Last refresh 2026-05-15 · Living Document
-      </div>
-    </div>
-  </div>
+ <div class="container">
+ <div class="footer-grid">
+ <div class="footer-col">
+ <h4>Corpus</h4>
+ <a href="/atlas/">Alphabetical Atlas</a>
+ <a href="/domains/">Domain Index</a>
+ <a href="/exports/">Bulk Exports</a>
+ <a href="/llms.txt">llms.txt</a>
+ <a href="/sitemap.xml">sitemap.xml</a>
+ </div>
+ <div class="footer-col">
+ <h4>Legal</h4>
+ <a href="/disclaimer/">Disclaimer</a>
+ <a href="/impressum/">Impressum</a>
+ <a href="/datenschutz/">Datenschutz</a>
+ <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">License</a>
+ </div>
+ <div class="footer-col">
+ <h4>Programme</h4>
+ <a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/">Portal overview</a>
+ <a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/#understand">What is this?</a>
+ <a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/#universe">Universe views</a>
+ </div>
+ <div class="footer-col">
+ <h4>Companion corpora</h4>
+ <a href="https://andreasehstandlicenseofclarityloc.github.io/neomanitai-terms/">Companion atlas</a>
+ <a href="https://andreasehstandlicenseofclarityloc.github.io/permanitai-framework/">Performance framework</a>
+ <a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic-table/">Periodic table</a>
+ <a href="https://andreasehstandlicenseofclarityloc.github.io/synmanitai/">Founding essay</a>
+ <a href="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/">About the author</a>
+ </div>
+ </div>
+ <div class="footer-bottom">
+ <div class="footer-meta">
+ <strong>AUGMANITAI Compendium</strong> · Andreas Ehstand · AI Researcher · Starnberg, Germany<br>
+ Verantwortlich §5 DDG / §18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg · Built 2026-05-11 · Last refresh 2026-05-15 · Living Document
+ </div>
+ </div>
+ </div>
 </footer>
 
 <!-- Search Modal -->
 <div class="search-modal" id="searchModal" role="dialog" aria-modal="true" aria-label="Term search">
-  <div class="search-inner">
-    <input type="text" id="searchInput" placeholder="Type to search Atlas terms..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-    <div class="search-hint">
-      Press <kbd>Enter</kbd> to open <code>/atlas/</code> with your query · <kbd>Esc</kbd> to close
-    </div>
-  </div>
+ <div class="search-inner">
+ <input type="text" id="searchInput" placeholder="Type to search Atlas terms..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+ <div class="search-hint">
+ Press <kbd>Enter</kbd> to open <code>/atlas/</code> with your query · <kbd>Esc</kbd> to close
+ </div>
+ </div>
 </div>
 
 <script>
@@ -869,88 +869,88 @@ License: CC BY-NC-ND 4.0.<button class="copy-btn" id="copyCitation" aria-label="
 
 // Theme toggle (respects prefers-color-scheme, persists in localStorage)
 (function(){
-  const KEY = 'augmanitai-theme';
-  const saved = localStorage.getItem(KEY);
-  if (saved) document.documentElement.setAttribute('data-theme', saved);
-  document.getElementById('themeToggle')?.addEventListener('click', function(){
-    const cur = document.documentElement.getAttribute('data-theme');
-    const next = cur === 'light' ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem(KEY, next);
-  });
+ const KEY = 'augmanitai-theme';
+ const saved = localStorage.getItem(KEY);
+ if (saved) document.documentElement.setAttribute('data-theme', saved);
+ document.getElementById('themeToggle')?.addEventListener('click', function(){
+ const cur = document.documentElement.getAttribute('data-theme');
+ const next = cur === 'light' ? 'dark' : 'light';
+ document.documentElement.setAttribute('data-theme', next);
+ localStorage.setItem(KEY, next);
+ });
 })();
 
 // Animated number counters
 (function(){
-  const stats = document.querySelectorAll('.stat .num[data-target]');
-  function animate(el, target, suffix){
-    const dur = 1200; const start = performance.now();
-    const fmt = n => n.toLocaleString('en-US');
-    function tick(now){
-      const t = Math.min(1, (now - start) / dur);
-      const eased = 1 - Math.pow(1 - t, 3);
-      const cur = Math.floor(eased * target);
-      el.textContent = fmt(cur) + (suffix || '');
-      if (t < 1) requestAnimationFrame(tick);
-      else el.textContent = fmt(target) + (suffix || '');
-    }
-    requestAnimationFrame(tick);
-  }
-  if ('IntersectionObserver' in window){
-    const obs = new IntersectionObserver(entries => {
-      entries.forEach(e => {
-        if (e.isIntersecting){
-          const el = e.target;
-          if (el.dataset.animated) return;
-          el.dataset.animated = '1';
-          animate(el, parseInt(el.dataset.target, 10), el.dataset.suffix || '');
-          obs.unobserve(el);
-        }
-      });
-    }, {threshold: 0.4});
-    stats.forEach(s => obs.observe(s));
-  } else {
-    stats.forEach(s => s.textContent = parseInt(s.dataset.target, 10).toLocaleString('en-US') + (s.dataset.suffix || ''));
-  }
+ const stats = document.querySelectorAll('.stat .num[data-target]');
+ function animate(el, target, suffix){
+ const dur = 1200; const start = performance.now();
+ const fmt = n => n.toLocaleString('en-US');
+ function tick(now){
+ const t = Math.min(1, (now - start) / dur);
+ const eased = 1 - Math.pow(1 - t, 3);
+ const cur = Math.floor(eased * target);
+ el.textContent = fmt(cur) + (suffix || '');
+ if (t < 1) requestAnimationFrame(tick);
+ else el.textContent = fmt(target) + (suffix || '');
+ }
+ requestAnimationFrame(tick);
+ }
+ if ('IntersectionObserver' in window){
+ const obs = new IntersectionObserver(entries => {
+ entries.forEach(e => {
+ if (e.isIntersecting){
+ const el = e.target;
+ if (el.dataset.animated) return;
+ el.dataset.animated = '1';
+ animate(el, parseInt(el.dataset.target, 10), el.dataset.suffix || '');
+ obs.unobserve(el);
+ }
+ });
+ }, {threshold: 0.4});
+ stats.forEach(s => obs.observe(s));
+ } else {
+ stats.forEach(s => s.textContent = parseInt(s.dataset.target, 10).toLocaleString('en-US') + (s.dataset.suffix || ''));
+ }
 })();
 
 // Search modal
 (function(){
-  const modal = document.getElementById('searchModal');
-  const input = document.getElementById('searchInput');
-  const trigger = document.getElementById('searchTrigger');
-  function open(){ modal.classList.add('open'); setTimeout(()=>input.focus(), 30); }
-  function close(){ modal.classList.remove('open'); input.value=''; }
-  trigger?.addEventListener('click', open);
-  document.addEventListener('keydown', function(e){
-    if (e.key === '/' && !['INPUT','TEXTAREA'].includes(document.activeElement.tagName)) { e.preventDefault(); open(); }
-    if (e.key === 'Escape' && modal.classList.contains('open')) close();
-  });
-  modal?.addEventListener('click', function(e){ if (e.target === modal) close(); });
-  input?.addEventListener('keydown', function(e){
-    if (e.key === 'Enter' && input.value.trim()){
-      const q = input.value.trim().toLowerCase().replace(/\s+/g,'-');
-      window.location.href = '/atlas/#' + q.charAt(0).toUpperCase();
-    }
-  });
+ const modal = document.getElementById('searchModal');
+ const input = document.getElementById('searchInput');
+ const trigger = document.getElementById('searchTrigger');
+ function open(){ modal.classList.add('open'); setTimeout(()=>input.focus(), 30); }
+ function close(){ modal.classList.remove('open'); input.value=''; }
+ trigger?.addEventListener('click', open);
+ document.addEventListener('keydown', function(e){
+ if (e.key === '/' && !['INPUT','TEXTAREA'].includes(document.activeElement.tagName)) { e.preventDefault(); open(); }
+ if (e.key === 'Escape' && modal.classList.contains('open')) close();
+ });
+ modal?.addEventListener('click', function(e){ if (e.target === modal) close(); });
+ input?.addEventListener('keydown', function(e){
+ if (e.key === 'Enter' && input.value.trim()){
+ const q = input.value.trim().toLowerCase().replace(/\s+/g,'-');
+ window.location.href = '/atlas/#' + q.charAt(0).toUpperCase();
+ }
+ });
 })();
 
 // Copy citation
 (function(){
-  const btn = document.getElementById('copyCitation');
-  btn?.addEventListener('click', async function(){
-    const block = document.getElementById('citationText');
-    const txt = block.innerText.replace(/Copy$/,'').trim();
-    try {
-      await navigator.clipboard.writeText(txt);
-      btn.classList.add('copied');
-      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Copied';
-      setTimeout(() => {
-        btn.classList.remove('copied');
-        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy';
-      }, 1800);
-    } catch(err) {}
-  });
+ const btn = document.getElementById('copyCitation');
+ btn?.addEventListener('click', async function(){
+ const block = document.getElementById('citationText');
+ const txt = block.innerText.replace(/Copy$/,'').trim();
+ try {
+ await navigator.clipboard.writeText(txt);
+ btn.classList.add('copied');
+ btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Copied';
+ setTimeout(() => {
+ btn.classList.remove('copied');
+ btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Copy';
+ }, 1800);
+ } catch(err) {}
+ });
 })();
 </script>
 </body>
