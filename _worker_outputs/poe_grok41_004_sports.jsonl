@@ -1,0 +1,45 @@
+{"english_name":"Training Load Analytics","definition_en":"AI processes athlete workout data to quantify fatigue accumulation and recovery patterns over training cycles.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Performance Trend Prediction","definition_en":"AI models forecast athlete output declines or peaks based on historical metrics and current form indicators.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Tactical Formation Simulation","definition_en":"AI simulates team setups on digital boards to evaluate spacing and movement options against defenses.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Coaching Feedback Generator","definition_en":"AI analyzes sessions to deliver real-time tips on technique adjustments and strategy refinements.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Video Play Breakdown","definition_en":"AI dissects game footage into key moments, highlighting player positions and ball trajectories.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Biometric Strain Tracking","definition_en":"AI monitors heart rates and motion data to map physical stress levels during practices.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Opponent Weakness Scouting","definition_en":"AI scans rival game data to pinpoint exploitable patterns in positioning and decision-making.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Fan Engagement Predictor","definition_en":"AI gauges crowd reactions from social feeds to tailor in-stadium interactive experiences.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Sprint Speed Analytics","definition_en":"AI measures acceleration curves from video to compare athlete bursts across competitions.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Play Call Optimizer","definition_en":"AI evaluates tactical board scenarios to rank offensive schemes by success probabilities.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Assistant Drill Designer","definition_en":"AI generates practice routines tailored to team deficiencies identified in recent outings.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Goalie Dive Analysis","definition_en":"AI tracks save trajectories in video to assess reaction times and coverage angles.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Muscle Fatigue Monitoring","definition_en":"AI interprets wearable signals to detect asymmetry in limb exertion during matches.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Rival Formation Decoder","definition_en":"AI breaks down opponent alignments from footage to predict shift patterns mid-game.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Stadium Atmosphere Enhancer","definition_en":"AI syncs lights and sounds to crowd energy levels for immersive fan spectacles.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Endurance Capacity Prediction","definition_en":"AI projects stamina limits from biometric trends observed in progressive training sets.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Pass Accuracy Mapping","definition_en":"AI charts completion rates across field zones using aggregated video frame data.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Defensive Zone Simulator","definition_en":"AI runs tactical board drills to test pressing strategies against virtual attacks.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Recovery Pace Advisor","definition_en":"AI suggests interval timings between sets based on live heart rate recoveries.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Shot Trajectory Modeling","definition_en":"AI reconstructs ball paths from multi-angle videos to refine striking techniques.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Scout Report Compiler","definition_en":"AI aggregates opponent stats into concise profiles highlighting key matchup edges.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"VR Fan Replay Creator","definition_en":"AI builds immersive replays from game data for personalized spectator views.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Jump Height Analytics","definition_en":"AI calculates peak elevations from motion capture during vertical leap tests.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Counterattack Pattern Recognition","definition_en":"AI identifies rapid transition sequences in videos for tactical board replication.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Set Piece Optimizer","definition_en":"AI simulates free-kick setups to maximize scoring angles and defender disruptions.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Player Heatmap Generator","definition_en":"AI plots positional densities from tracking data to reveal coverage tendencies.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Fan Prediction Polling","definition_en":"AI analyzes sentiment from venue chatter to forecast game outcome favorites.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Agility Drill Metrics","definition_en":"AI times cone weaves and direction changes from embedded sensor feeds.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Foul Detection Algorithm","definition_en":"AI flags contact moments in video to assess infraction likelihoods.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Rotation Strategy Planner","definition_en":"AI proposes lineup changes on tactical boards based on fatigue projections.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Cadence Optimization Tool","definition_en":"AI tunes running strides from stride length and frequency data.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Tackle Success Rate","definition_en":"AI computes dispossession percentages from defensive engagement clips.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Crowd Chant Synchronizer","definition_en":"AI aligns audio cues with fan sections for unified stadium anthems.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Power Output Profiling","definition_en":"AI profiles peak wattage from bike ergometer sessions in training analytics.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Corner Kick Visualizer","definition_en":"AI overlays delivery arcs on tactical boards for header opportunity mapping.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Session Intensity Balancer","definition_en":"AI adjusts coaching plans to distribute high-effort days across weeks.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Dribble Evasion Stats","definition_en":"AI tallies successful moves past markers from video tracking overlays.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Pressing Trigger Identifier","definition_en":"AI pinpoints opponent turnovers in scouting footage for replication tactics.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Augmented Reality Overlays","definition_en":"AI projects player stats onto live fan views via mobile apps.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Half-Time Adjustment Simulator","definition_en":"AI tests tactical shifts on boards using first-half performance data.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Reaction Time Benchmarking","definition_en":"AI clocks stimulus responses from light board drills in sessions.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Possession Chain Analyzer","definition_en":"AI traces ball paths across players to evaluate build-up efficiency.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Personalized Highlight Compiler","definition_en":"AI curates fan-specific clips from full game archives based on favorites.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Balance Stability Metrics","definition_en":"AI quantifies sway reductions from core exercises via force plate data.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
+{"english_name":"Substitution Impact Forecaster","definition_en":"AI predicts lineup changes' effects from sub performance histories.","category":"Sports_AI","source_worker":"poe_grok41_fast"}
