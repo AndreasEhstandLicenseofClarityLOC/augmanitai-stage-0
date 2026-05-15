@@ -1,207 +1,207 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <title>FAREWELL · AUGMANITAI Compendium</title>
+ <meta charset='utf-8'>
+ <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+ <title>FAREWELL · AUGMANITAI Compendium</title>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="AUGMANITAI Compendium">
 <meta property="og:title" content="FAREWELL · AUGMANITAI Compendium">
-<meta property="og:description" content="Within the AUGMANITAI Framework, FAREWELL — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.">
+<meta property="og:description" content="FAREWELL — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/farewell/">
 <meta property="article:author" content="Andreas Ehstand">
 <meta property="article:section" content="AUGMANITAI Compendium">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="FAREWELL · AUGMANITAI Compendium">
-<meta name="twitter:description" content="Within the AUGMANITAI Framework, FAREWELL — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.">
+<meta name="twitter:description" content="FAREWELL — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.">
 <meta name="twitter:creator" content="@andreasehstand">
 
-  <meta name='description' content='FAREWELL — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.'>
-  <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/farewell/">
-  <style>
+ <meta name='description' content='FAREWELL — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.'>
+ <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/farewell/">
+ <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-  --bg: #050508;
-  --surface: #0c0c14;
-  --surface2: #12121f;
-  --surface3: #1a1a2e;
-  --border: #1e1e3a;
-  --border-glow: #2a2a5a;
-  --text: #e8e8f0;
-  --text-dim: #7a7a9a;
-  --text-muted: #4a4a6a;
-  --cyan: #00e5ff;
-  --cyan-dim: rgba(0,229,255,0.08);
-  --cyan-glow: rgba(0,229,255,0.15);
-  --green: #39ff14;
-  --green-dim: rgba(57,255,20,0.08);
-  --magenta: #ff00ff;
-  --magenta-dim: rgba(255,0,255,0.06);
-  --gold: #FFD700;
-  --orange: #ff8800;
-  --red: #ff4444;
-  --blue: #6688ff;
-  --purple: #aa66ff;
-  --radius: 12px;
-  --radius-sm: 8px;
+ --bg: #050508;
+ --surface: #0c0c14;
+ --surface2: #12121f;
+ --surface3: #1a1a2e;
+ --border: #1e1e3a;
+ --border-glow: #2a2a5a;
+ --text: #e8e8f0;
+ --text-dim: #7a7a9a;
+ --text-muted: #4a4a6a;
+ --cyan: #00e5ff;
+ --cyan-dim: rgba(0,229,255,0.08);
+ --cyan-glow: rgba(0,229,255,0.15);
+ --green: #39ff14;
+ --green-dim: rgba(57,255,20,0.08);
+ --magenta: #ff00ff;
+ --magenta-dim: rgba(255,0,255,0.06);
+ --gold: #FFD700;
+ --orange: #ff8800;
+ --red: #ff4444;
+ --blue: #6688ff;
+ --purple: #aa66ff;
+ --radius: 12px;
+ --radius-sm: 8px;
 }
 
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: 'Inter', -apple-system, system-ui, sans-serif;
-  font-size: 15px;
-  line-height: 1.75;
-  -webkit-font-smoothing: antialiased;
+ background: var(--bg);
+ color: var(--text);
+ font-family: 'Inter', -apple-system, system-ui, sans-serif;
+ font-size: 15px;
+ line-height: 1.75;
+ -webkit-font-smoothing: antialiased;
 }
 
 body::before {
-  content: '';
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background:
-    radial-gradient(ellipse at 20% 0%, rgba(0,229,255,0.04) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 100%, rgba(255,0,255,0.03) 0%, transparent 50%),
-    radial-gradient(ellipse at 50% 50%, rgba(57,255,20,0.02) 0%, transparent 70%);
-  pointer-events: none;
-  z-index: 0;
+ content: '';
+ position: fixed;
+ top: 0; left: 0; right: 0; bottom: 0;
+ background:
+ radial-gradient(ellipse at 20% 0%, rgba(0,229,255,0.04) 0%, transparent 50%),
+ radial-gradient(ellipse at 80% 100%, rgba(255,0,255,0.03) 0%, transparent 50%),
+ radial-gradient(ellipse at 50% 50%, rgba(57,255,20,0.02) 0%, transparent 70%);
+ pointer-events: none;
+ z-index: 0;
 }
 
 .container {
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 32px 24px;
-  position: relative;
-  z-index: 1;
+ max-width: 880px;
+ margin: 0 auto;
+ padding: 32px 24px;
+ position: relative;
+ z-index: 1;
 }
 
 nav {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 10px 16px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  margin-bottom: 32px;
-  backdrop-filter: blur(8px);
+ display: flex;
+ align-items: center;
+ gap: 12px;
+ padding: 10px 16px;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius);
+ margin-bottom: 32px;
+ backdrop-filter: blur(8px);
 }
 nav a {
-  color: var(--text-dim);
-  text-decoration: none;
-  font-size: .82em;
-  font-weight: 500;
-  padding: 4px 12px;
-  border-radius: 6px;
-  transition: all .2s;
+ color: var(--text-dim);
+ text-decoration: none;
+ font-size: .82em;
+ font-weight: 500;
+ padding: 4px 12px;
+ border-radius: 6px;
+ transition: all .2s;
 }
 nav a:hover { color: var(--cyan); background: var(--cyan-dim); }
 nav .nav-sep { color: var(--text-muted); font-size: .7em; }
 
 .hero {
-  text-align: center;
-  padding: 48px 0 40px;
-  position: relative;
+ text-align: center;
+ padding: 48px 0 40px;
+ position: relative;
 }
 .hero::after {
-  content: '';
-  position: absolute;
-  bottom: 0; left: 10%; right: 10%;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--border-glow), transparent);
+ content: '';
+ position: absolute;
+ bottom: 0; left: 10%; right: 10%;
+ height: 1px;
+ background: linear-gradient(90deg, transparent, var(--border-glow), transparent);
 }
 .term-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--magenta-dim);
-  border: 1px solid rgba(255,0,255,0.2);
-  padding: 4px 14px;
-  border-radius: 20px;
-  font-size: .75em;
-  font-weight: 600;
-  color: var(--magenta);
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  margin-bottom: 16px;
+ display: inline-flex;
+ align-items: center;
+ gap: 8px;
+ background: var(--magenta-dim);
+ border: 1px solid rgba(255,0,255,0.2);
+ padding: 4px 14px;
+ border-radius: 20px;
+ font-size: .75em;
+ font-weight: 600;
+ color: var(--magenta);
+ letter-spacing: .08em;
+ text-transform: uppercase;
+ margin-bottom: 16px;
 }
 .term-badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--magenta); animation: pulse 2s infinite; }
 @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.3; } }
 
 h1 {
-  font-size: 3em;
-  font-weight: 700;
-  letter-spacing: -.03em;
-  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 8px;
+ font-size: 3em;
+ font-weight: 700;
+ letter-spacing: -.03em;
+ background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-clip: text;
+ margin-bottom: 8px;
 }
 .ipa {
-  color: var(--text-dim);
-  font-size: 1em;
-  font-style: italic;
-  font-family: 'JetBrains Mono', monospace;
+ color: var(--text-dim);
+ font-size: 1em;
+ font-style: italic;
+ font-family: 'JetBrains Mono', monospace;
 }
 .domain-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin-top: 16px;
-  padding: 5px 16px;
-  border-radius: 20px;
-  font-size: .78em;
-  font-weight: 600;
-  background: rgba(255,215,0,0.1);
-  border: 1px solid rgba(255,215,0,0.3);
-  color: var(--gold);
+ display: inline-flex;
+ align-items: center;
+ gap: 6px;
+ margin-top: 16px;
+ padding: 5px 16px;
+ border-radius: 20px;
+ font-size: .78em;
+ font-weight: 600;
+ background: rgba(255,215,0,0.1);
+ border: 1px solid rgba(255,215,0,0.3);
+ color: var(--gold);
 }
 
 h2 {
-  font-size: .78em;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .12em;
-  color: var(--text-dim);
-  margin: 36px 0 12px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+ font-size: .78em;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: .12em;
+ color: var(--text-dim);
+ margin: 36px 0 12px;
+ display: flex;
+ align-items: center;
+ gap: 10px;
 }
 h2::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(90deg, var(--border), transparent);
+ content: '';
+ flex: 1;
+ height: 1px;
+ background: linear-gradient(90deg, var(--border), transparent);
 }
 
 .card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 20px 24px;
-  margin: 8px 0;
-  transition: all .3s cubic-bezier(.4,0,.2,1);
-  position: relative;
-  overflow: hidden;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius);
+ padding: 20px 24px;
+ margin: 8px 0;
+ transition: all .3s cubic-bezier(.4,0,.2,1);
+ position: relative;
+ overflow: hidden;
 }
 .card::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0;
-  width: 3px;
-  height: 100%;
-  border-radius: 3px 0 0 3px;
-  transition: all .3s;
+ content: '';
+ position: absolute;
+ top: 0; left: 0;
+ width: 3px;
+ height: 100%;
+ border-radius: 3px 0 0 3px;
+ transition: all .3s;
 }
 .card:hover {
-  border-color: var(--border-glow);
-  transform: translateY(-1px);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 0 1px rgba(0,229,255,0.05);
+ border-color: var(--border-glow);
+ transform: translateY(-1px);
+ box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 0 1px rgba(0,229,255,0.05);
 }
 .card:hover::before { width: 4px; }
 
@@ -228,72 +228,72 @@ h2::after {
 .card p { font-size: .92em; color: var(--text); }
 
 .meta-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 8px;
 }
 .meta-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 14px 16px;
-  transition: all .2s;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius-sm);
+ padding: 14px 16px;
+ transition: all .2s;
 }
 .meta-card:hover { border-color: var(--border-glow); transform: translateY(-1px); }
 .meta-label {
-  font-size: .68em;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  color: var(--text-muted);
-  margin-bottom: 4px;
+ font-size: .68em;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: .1em;
+ color: var(--text-muted);
+ margin-bottom: 4px;
 }
 .meta-value { font-size: .88em; color: var(--text); }
 
 .citation-box {
-  background: var(--surface2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 18px 22px;
-  margin: 12px 0;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: .82em;
-  color: var(--text-dim);
-  position: relative;
+ background: var(--surface2);
+ border: 1px solid var(--border);
+ border-radius: var(--radius);
+ padding: 18px 22px;
+ margin: 12px 0;
+ font-family: 'JetBrains Mono', monospace;
+ font-size: .82em;
+ color: var(--text-dim);
+ position: relative;
 }
 .citation-box a { color: var(--cyan); }
 .copy-btn {
-  position: absolute;
-  top: 10px; right: 10px;
-  background: var(--surface3);
-  border: 1px solid var(--border);
-  color: var(--text-dim);
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-size: .75em;
-  cursor: pointer;
-  transition: all .2s;
+ position: absolute;
+ top: 10px; right: 10px;
+ background: var(--surface3);
+ border: 1px solid var(--border);
+ color: var(--text-dim);
+ padding: 4px 10px;
+ border-radius: 6px;
+ font-size: .75em;
+ cursor: pointer;
+ transition: all .2s;
 }
 .copy-btn:hover { color: var(--cyan); border-color: var(--cyan); }
 
 .disclaimer-toggle {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  margin: 28px 0;
-  font-size: .8em;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius);
+ margin: 28px 0;
+ font-size: .8em;
 }
 .disclaimer-toggle summary {
-  padding: 12px 18px;
-  cursor: pointer;
-  color: var(--text-dim);
-  font-weight: 600;
-  font-size: .9em;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  transition: all .2s;
+ padding: 12px 18px;
+ cursor: pointer;
+ color: var(--text-dim);
+ font-weight: 600;
+ font-size: .9em;
+ list-style: none;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ transition: all .2s;
 }
 .disclaimer-toggle summary:hover { color: var(--text); background: rgba(255,255,255,0.02); }
 .disclaimer-toggle summary::before { content: '▸ '; font-size: .75em; transition: transform .2s; }
@@ -301,16 +301,16 @@ h2::after {
 .disc-content { padding: 0 18px 18px; }
 .disc-tab-row { display: flex; gap: 0; margin-bottom: 14px; border-bottom: 1px solid var(--border); }
 .disc-tab {
-  background: none; border: none;
-  color: var(--text-muted);
-  padding: 8px 18px;
-  cursor: pointer;
-  font-size: .9em;
-  font-family: inherit;
-  font-weight: 600;
-  letter-spacing: .06em;
-  border-bottom: 2px solid transparent;
-  transition: all .2s;
+ background: none; border: none;
+ color: var(--text-muted);
+ padding: 8px 18px;
+ cursor: pointer;
+ font-size: .9em;
+ font-family: inherit;
+ font-weight: 600;
+ letter-spacing: .06em;
+ border-bottom: 2px solid transparent;
+ transition: all .2s;
 }
 .disc-tab.active { color: var(--cyan); border-bottom-color: var(--cyan); }
 .disc-tab:hover { color: var(--text-dim); }
@@ -319,276 +319,276 @@ h2::after {
 .disc-lang p { margin: 6px 0; line-height: 1.6; color: var(--text-dim); }
 .disc-lang p strong { color: var(--text); font-weight: 600; }
 .disc-footer {
-  margin-top: 14px; padding-top: 10px;
-  border-top: 1px solid var(--border);
-  text-align: center;
-  color: var(--text-muted);
-  font-size: .85em;
+ margin-top: 14px; padding-top: 10px;
+ border-top: 1px solid var(--border);
+ text-align: center;
+ color: var(--text-muted);
+ font-size: .85em;
 }
 
 .status {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 20px 24px;
-  margin-bottom: 28px;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius);
+ padding: 20px 24px;
+ margin-bottom: 28px;
 }
 .status-title {
-  font-size: .72em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .12em;
-  color: var(--text-dim);
-  margin-bottom: 12px;
+ font-size: .72em;
+ font-weight: 700;
+ text-transform: uppercase;
+ letter-spacing: .12em;
+ color: var(--text-dim);
+ margin-bottom: 12px;
 }
 .status-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
 .status-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: .82em;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ font-size: .82em;
 }
 .status-dot {
-  width: 7px; height: 7px;
-  border-radius: 50%;
-  flex-shrink: 0;
+ width: 7px; height: 7px;
+ border-radius: 50%;
+ flex-shrink: 0;
 }
 .status-dot.ok { background: var(--green); box-shadow: 0 0 6px rgba(57,255,20,0.4); }
 .status-dot.warn { background: var(--orange); box-shadow: 0 0 6px rgba(255,136,0,0.4); }
 .status-dot.fail { background: var(--red); box-shadow: 0 0 6px rgba(255,68,68,0.4); }
 
 footer {
-  margin-top: 48px;
-  padding-top: 20px;
-  border-top: 1px solid var(--border);
-  text-align: center;
-  color: var(--text-muted);
-  font-size: .75em;
+ margin-top: 48px;
+ padding-top: 20px;
+ border-top: 1px solid var(--border);
+ text-align: center;
+ color: var(--text-muted);
+ font-size: .75em;
 }
 footer a { color: var(--cyan); text-decoration: none; }
 footer a:hover { text-decoration: underline; }
 
 h2 .icon {
-  display: inline-block;
-  font-size: 1.1em;
+ display: inline-block;
+ font-size: 1.1em;
 }
 
 .domain-pill .star {
-  display: inline-block;
-  font-size: .9em;
+ display: inline-block;
+ font-size: .9em;
 }
 
 .faq-item {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  margin: 8px 0;
-  padding: 0;
-  transition: all .2s;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius);
+ margin: 8px 0;
+ padding: 0;
+ transition: all .2s;
 }
 .faq-item:hover {
-  border-color: var(--border-glow);
+ border-color: var(--border-glow);
 }
 .faq-item summary {
-  padding: 12px 16px;
-  cursor: pointer;
-  color: var(--cyan);
-  font-weight: 500;
-  font-size: .92em;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  transition: all .2s;
+ padding: 12px 16px;
+ cursor: pointer;
+ color: var(--cyan);
+ font-weight: 500;
+ font-size: .92em;
+ list-style: none;
+ display: flex;
+ align-items: center;
+ transition: all .2s;
 }
 .faq-item summary:hover {
-  background: rgba(0,229,255,0.03);
+ background: rgba(0,229,255,0.03);
 }
 .faq-item summary::before {
-  content: '▸ ';
-  font-size: .8em;
-  margin-right: 8px;
-  transition: transform .2s;
+ content: '▸ ';
+ font-size: .8em;
+ margin-right: 8px;
+ transition: transform .2s;
 }
 .faq-item[open] summary::before {
-  transform: rotate(90deg);
+ transform: rotate(90deg);
 }
 .faq-body {
-  padding: 4px 16px 16px;
-  color: var(--text-dim);
-  font-size: .9em;
-  line-height: 1.7;
+ padding: 4px 16px 16px;
+ color: var(--text-dim);
+ font-size: .9em;
+ line-height: 1.7;
 }
 .faq-body p { margin: 0; }
 .faq-a {
-  padding: 0 16px 16px;
-  color: var(--text-dim);
-  font-size: .9em;
-  line-height: 1.7;
+ padding: 0 16px 16px;
+ color: var(--text-dim);
+ font-size: .9em;
+ line-height: 1.7;
 }
 .faq-item[open] {
-  background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.02));
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15), inset 0 0 0 1px rgba(0,229,255,0.06);
+ background: linear-gradient(135deg, var(--surface), rgba(0,229,255,0.02));
+ box-shadow: 0 4px 20px rgba(0,0,0,0.15), inset 0 0 0 1px rgba(0,229,255,0.06);
 }
 .source-note {
-  font-size: .72em;
-  color: var(--text-muted);
-  font-style: italic;
-  margin-top: 10px;
-  padding-top: 8px;
-  border-top: 1px solid var(--border);
+ font-size: .72em;
+ color: var(--text-muted);
+ font-style: italic;
+ margin-top: 10px;
+ padding-top: 8px;
+ border-top: 1px solid var(--border);
 }
 .distinction-block {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-left: 3px solid var(--gold);
-  border-radius: var(--radius);
-  padding: 16px 20px;
-  margin: 12px 0;
-  transition: all .3s;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-left: 3px solid var(--gold);
+ border-radius: var(--radius);
+ padding: 16px 20px;
+ margin: 12px 0;
+ transition: all .3s;
 }
 .distinction-block:hover {
-  border-color: var(--border-glow);
-  border-left-color: var(--gold);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,215,0,0.05);
+ border-color: var(--border-glow);
+ border-left-color: var(--gold);
+ box-shadow: 0 4px 16px rgba(0,0,0,0.2), 0 0 0 1px rgba(255,215,0,0.05);
 }
 .distinction-block .lang-label {
-  font-size: .68em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: .12em;
-  color: var(--gold);
-  margin-bottom: 6px;
+ font-size: .68em;
+ font-weight: 700;
+ text-transform: uppercase;
+ letter-spacing: .12em;
+ color: var(--gold);
+ margin-bottom: 6px;
 }
 .distinction-block p { color: var(--text-dim); font-size: .9em; margin: 0; }
 
 .trigger-list {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  padding: 0;
-  margin: 8px 0;
+ display: flex;
+ flex-direction: column;
+ gap: 6px;
+ padding: 0;
+ margin: 8px 0;
 }
 .trigger-item {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 12px 16px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  color: var(--text);
-  font-size: .92em;
-  transition: all .2s;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius-sm);
+ padding: 12px 16px;
+ display: flex;
+ align-items: center;
+ gap: 12px;
+ color: var(--text);
+ font-size: .92em;
+ transition: all .2s;
 }
 .trigger-item:hover {
-  border-color: var(--border-glow);
-  background: rgba(0,229,255,0.02);
-  transform: translateX(2px);
+ border-color: var(--border-glow);
+ background: rgba(0,229,255,0.02);
+ transform: translateX(2px);
 }
 .trigger-num {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  background: rgba(255,102,0,0.12);
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  color: var(--orange);
-  font-weight: 600;
-  font-size: .85em;
-  flex-shrink: 0;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ width: 28px;
+ height: 28px;
+ background: rgba(255,102,0,0.12);
+ border: 1px solid var(--border);
+ border-radius: 50%;
+ color: var(--orange);
+ font-weight: 600;
+ font-size: .85em;
+ flex-shrink: 0;
 }
 
 .schema-block {
-  background: var(--surface2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 14px 16px;
-  margin: 8px 0;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: .8em;
-  color: var(--text-dim);
-  white-space: pre-wrap;
-  max-height: 220px;
-  overflow-y: auto;
-  line-height: 1.6;
+ background: var(--surface2);
+ border: 1px solid var(--border);
+ border-radius: var(--radius-sm);
+ padding: 14px 16px;
+ margin: 8px 0;
+ font-family: 'JetBrains Mono', monospace;
+ font-size: .8em;
+ color: var(--text-dim);
+ white-space: pre-wrap;
+ max-height: 220px;
+ overflow-y: auto;
+ line-height: 1.6;
 }
 
 .scroll-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 2px;
-  background: var(--cyan);
-  z-index: 999;
-  transition: width 50ms;
-  width: 0;
+ position: fixed;
+ top: 0;
+ left: 0;
+ height: 2px;
+ background: var(--cyan);
+ z-index: 999;
+ transition: width 50ms;
+ width: 0;
 }
 
 .related-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 12px;
 }
 
 .related-card {
-  display: block;
-  padding: 14px 16px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  color: var(--text);
-  text-decoration: none;
-  transition: all .2s;
+ display: block;
+ padding: 14px 16px;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: var(--radius);
+ color: var(--text);
+ text-decoration: none;
+ transition: all .2s;
 }
 
 .related-card:hover {
-  border-color: var(--border-glow);
-  transform: translateY(-1px);
+ border-color: var(--border-glow);
+ transform: translateY(-1px);
 }
 
 .related-id {
-  font-size: .7em;
-  color: var(--text-muted);
-  display: block;
+ font-size: .7em;
+ color: var(--text-muted);
+ display: block;
 }
 
 .related-name {
-  font-weight: 600;
-  color: var(--cyan);
+ font-weight: 600;
+ color: var(--cyan);
 }
 
 .related-def {
-  font-size: .85em;
-  color: var(--text-dim);
-  display: block;
-  margin-top: 4px;
+ font-size: .85em;
+ color: var(--text-dim);
+ display: block;
+ margin-top: 4px;
 }
 
 .cite-tabs {
-  display: flex;
-  gap: 0;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 12px;
+ display: flex;
+ gap: 0;
+ border-bottom: 1px solid var(--border);
+ margin-bottom: 12px;
 }
 
 .cite-tab {
-  background: none;
-  border: none;
-  color: var(--text-muted);
-  padding: 8px 16px;
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: 600;
-  font-size: .85em;
-  border-bottom: 2px solid transparent;
-  transition: all .2s;
+ background: none;
+ border: none;
+ color: var(--text-muted);
+ padding: 8px 16px;
+ cursor: pointer;
+ font-family: inherit;
+ font-weight: 600;
+ font-size: .85em;
+ border-bottom: 2px solid transparent;
+ transition: all .2s;
 }
 
 .cite-tab.active {
-  color: var(--cyan);
-  border-bottom-color: var(--cyan);
+ color: var(--cyan);
+ border-bottom-color: var(--cyan);
 }
 
 /* === STAR FIELD ANIMATION === */
@@ -597,703 +597,700 @@ h2 .icon {
 @keyframes shimmer { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
 @keyframes glow-pulse { 0%,100% { box-shadow: 0 0 8px rgba(0,229,255,0.1); } 50% { box-shadow: 0 0 20px rgba(0,229,255,0.25); } }
 .star-field {
-  position: fixed; top:0; left:0; width:100%; height:100%;
-  pointer-events: none; z-index: 0; overflow: hidden;
+ position: fixed; top:0; left:0; width:100%; height:100%;
+ pointer-events: none; z-index: 0; overflow: hidden;
 }
 .star-field .star {
-  position: absolute;
-  width: 2px; height: 2px;
-  background: #fff;
-  border-radius: 50%;
-  animation: twinkle var(--dur, 3s) ease-in-out infinite;
-  opacity: .15;
+ position: absolute;
+ width: 2px; height: 2px;
+ background: #fff;
+ border-radius: 50%;
+ animation: twinkle var(--dur, 3s) ease-in-out infinite;
+ opacity: .15;
 }
 .domain-pill .star { animation: float 3s ease-in-out infinite; }
 h1 {
-  font-size: 3em;
-  font-weight: 700;
-  letter-spacing: -.03em;
-  background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: shimmer 6s linear infinite;
-  margin-bottom: 8px;
+ font-size: 3em;
+ font-weight: 700;
+ letter-spacing: -.03em;
+ background: linear-gradient(135deg, var(--cyan), #66ffcc, var(--cyan));
+ background-size: 200% auto;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-clip: text;
+ animation: shimmer 6s linear infinite;
+ margin-bottom: 8px;
 }
 .card:hover, .faq-item:hover, .related-card:hover, .meta-card:hover {
-  animation: glow-pulse 2s ease-in-out infinite;
+ animation: glow-pulse 2s ease-in-out infinite;
 }
 
 @media(max-width:640px) {
-  .meta-grid { grid-template-columns: 1fr; }
-  .status-grid { grid-template-columns: 1fr; }
-  .related-grid { grid-template-columns: 1fr; }
-  h1 { font-size: 2.2em; }
+ .meta-grid { grid-template-columns: 1fr; }
+ .status-grid { grid-template-columns: 1fr; }
+ .related-grid { grid-template-columns: 1fr; }
+ h1 { font-size: 2.2em; }
 }
-  </style>
+ </style>
 <meta name="author" content="Andreas Ehstand">
 <link rel="author" href="https://orcid.org/0009-0006-3773-7796">
 <meta name="citation_author" content="Andreas Ehstand">
 <meta name="citation_author_orcid" content="https://orcid.org/0009-0006-3773-7796">
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/farewell/",
-  "name": "FAREWELL · AUGMANITAI Compendium",
-  "description": "FAREWELL — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.",
-  "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/farewell/",
-  "inLanguage": "en",
-  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-  "dateCreated": "2026-02-01",
-  "dateModified": "2026-05-15",
-  "creator": {
-    "@type": "Person",
-    "@id": "https://orcid.org/0009-0006-3773-7796",
-    "name": "Andreas Ehstand",
-    "givenName": "Andreas",
-    "familyName": "Ehstand",
-    "honorificSuffix": "M.Ed.",
-    "jobTitle": "AI Researcher",
-    "description": "Andreas Ehstand is an AI researcher in applied terminology science and phenomenology of human-AI interaction. Founder of the AUGMANITAI research programme (Wikidata Q138522830), comprising the AUGMANITAI Compendium (terminology layer, 35,000+ defined terms across 40+ research domains), PERMANITAI (Substrate-Independent Performance Factor Analysis framework), NEOMANITAI (knowledge-graph layer), and ROBMANITAI (robotics human-AI interaction phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration). Holder of the License of Clarity EU trademark (EUIPO 019206780). Originator of the Compression Axiom, the N=1 Extreme Observation Methodology, the Multi-LLM Triadic Audit Framework, and the Holistic Performance Analysis methodology (observable / decomposable / measurable / controllable) - a cross-domain transfer of high-performance sport-science methodology to human-AI interaction analysis. Active in pre-norm architecture for EU AI Act Article 50 compliance and AI-governance terminology. Former Bundesliga / ITF tennis coach. Holder of the Toni Nadal Excellence Certificate. Youngest recipient of the Bavarian University Teaching Certificate (FBZHL Bayreuth). GPTCA / ISMCA / DTB B-Trainer.",
-    "knowsAbout": [
-      "Phenomenology of Human-AI Interaction",
-      "Terminology Science (ISO 704/1087/30042 inspired)",
-      "Substrate-Independent Performance Theory",
-      "Performance Factor Theory",
-      "Holistic Performance Analysis Methodology (Observable / Decomposable / Measurable / Controllable) - Cross-Domain Sport-to-Human-AI Transfer",
-      "Multi-Agent Systems & Agent Orchestration",
-      "Multi-Robot Coordination Phenomenology",
-      "Human-Robot Team Dynamics",
-      "Robot-Team & Agent-Team Coordination Frameworks",
-      "Embodied AI & Cross-Substrate Cognition",
-      "ROBMANITAI Framework (Robotics Human-AI Interaction Phenomenology)",
-      "AGI Pre-Norm Architecture",
-      "AI Governance & EU AI Act Compliance Frameworks",
-      "AI Safety Benchmark Design",
-      "Cognitive Continuity Methodology",
-      "Cognitive Legacy Documentation",
-      "Reflective Cognitive Modeling",
-      "Multi-LLM Triadic Audit Framework",
-      "Cross-LLM Convergence Methodology",
-      "Knowledge Graph Architecture (SKOS/PROV/Schema.org)",
-      "Living-Document Discipline",
-      "Tennis Coaching (Performance-Factor Lineage, BTV B-Trainer Leistungssport)",
-      "Padel + Pickleball + Golf",
-      "Sport Science Pedagogy"
-    ],
-    "alumniOf": [
-      {
-        "@type": "EducationalOrganization",
-        "name": "TU Dortmund \u2014 Lehrstuhl f\u00fcr Allgemeine P\u00e4dagogik"
-      },
-      {
-        "@type": "EducationalOrganization",
-        "name": "University of Bayreuth \u2014 Sport Science + Hochschuldidaktik"
-      },
-      {
-        "@type": "EducationalOrganization",
-        "name": "FBZHL Bayern (Zertifikat Hochschullehre)"
-      }
-    ],
-    "award": [
-      "Toni Nadal Excellence Certificate",
-      "Youngest recipient — Bavarian University Teaching Certificate (FBZHL Bayreuth)",
-      "GPTCA Coach Certification",
-      "ISMCA Coach Certification",
-      "DTB B-Trainer Certification"
-    ],
-    "hasOccupation": [
-      {
-        "@type": "Occupation",
-        "name": "AI Researcher"
-      },
-      {
-        "@type": "Occupation",
-        "name": "Phenomenology Researcher"
-      },
-      {
-        "@type": "Occupation",
-        "name": "Framework Architect"
-      }
-    ],
-    "founder": [
-      {
-        "@type": "Thing",
-        "name": "AUGMANITAI Research Programme",
-        "@id": "https://www.wikidata.org/wiki/Q138522830"
-      },
-      {
-        "@type": "Thing",
-        "name": "AUGMANITAI Compendium",
-        "@id": "https://www.wikidata.org/wiki/Q138522830"
-      },
-      {
-        "@type": "Thing",
-        "name": "PERMANITAI Framework",
-        "@id": "https://www.wikidata.org/wiki/Q139491246"
-      },
-      {
-        "@type": "Thing",
-        "name": "NEOMANITAI Knowledge Graph",
-        "@id": "https://www.wikidata.org/wiki/Q139491268"
-      },
-      {
-        "@type": "Brand",
-        "name": "License of Clarity",
-        "identifier": {
-          "@type": "PropertyValue",
-          "propertyID": "EUIPO",
-          "value": "019206780"
-        }
-      }
-    ],
-    "nationality": {
-      "@type": "Country",
-      "name": "Germany"
-    },
-    "identifier": [
-      {
-        "@type": "PropertyValue",
-        "propertyID": "ORCID",
-        "value": "0009-0006-3773-7796",
-        "url": "https://orcid.org/0009-0006-3773-7796"
-      },
-      {
-        "@type": "PropertyValue",
-        "propertyID": "Wikidata",
-        "value": "Q138634675",
-        "url": "https://www.wikidata.org/wiki/Q138634675"
-      }
-    ],
-    "sameAs": [
-      "https://orcid.org/0009-0006-3773-7796",
-      "https://www.wikidata.org/wiki/Q138634675",
-      "https://augmanitai.com/about/",
-      "https://linkedin.com/in/andreas-ehstand",
-      "https://github.com/AndreasEhstandLicenseofClarityLOC"
-    ],
-    "affiliation": {
-      "@type": "Organization",
-      "name": "AUGMANITAI Independent Research",
-      "@id": "https://www.wikidata.org/wiki/Q138522830",
-      "sameAs": [
-        "https://www.wikidata.org/wiki/Q138522830",
-        "https://augmanitai.com"
-      ]
-    }
-  },
-  "author": {
-    "@type": "Person",
-    "@id": "https://orcid.org/0009-0006-3773-7796",
-    "name": "Andreas Ehstand",
-    "givenName": "Andreas",
-    "familyName": "Ehstand",
-    "honorificSuffix": "M.Ed.",
-    "jobTitle": "AI Researcher",
-    "description": "Andreas Ehstand is an AI researcher in applied terminology science and phenomenology of human-AI interaction. Founder of the AUGMANITAI research programme (Wikidata Q138522830), comprising the AUGMANITAI Compendium (terminology layer, 35,000+ defined terms across 40+ research domains), PERMANITAI (Substrate-Independent Performance Factor Analysis framework), NEOMANITAI (knowledge-graph layer), and ROBMANITAI (robotics human-AI interaction phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration). Holder of the License of Clarity EU trademark (EUIPO 019206780). Originator of the Compression Axiom, the N=1 Extreme Observation Methodology, the Multi-LLM Triadic Audit Framework, and the Holistic Performance Analysis methodology (observable / decomposable / measurable / controllable) - a cross-domain transfer of high-performance sport-science methodology to human-AI interaction analysis. Active in pre-norm architecture for EU AI Act Article 50 compliance and AI-governance terminology. Former Bundesliga / ITF tennis coach. Holder of the Toni Nadal Excellence Certificate. Youngest recipient of the Bavarian University Teaching Certificate (FBZHL Bayreuth). GPTCA / ISMCA / DTB B-Trainer.",
-    "knowsAbout": [
-      "Phenomenology of Human-AI Interaction",
-      "Terminology Science (ISO 704/1087/30042 inspired)",
-      "Substrate-Independent Performance Theory",
-      "Performance Factor Theory",
-      "Holistic Performance Analysis Methodology (Observable / Decomposable / Measurable / Controllable) - Cross-Domain Sport-to-Human-AI Transfer",
-      "Multi-Agent Systems & Agent Orchestration",
-      "Multi-Robot Coordination Phenomenology",
-      "Human-Robot Team Dynamics",
-      "Robot-Team & Agent-Team Coordination Frameworks",
-      "Embodied AI & Cross-Substrate Cognition",
-      "ROBMANITAI Framework (Robotics Human-AI Interaction Phenomenology)",
-      "AGI Pre-Norm Architecture",
-      "AI Governance & EU AI Act Compliance Frameworks",
-      "AI Safety Benchmark Design",
-      "Cognitive Continuity Methodology",
-      "Cognitive Legacy Documentation",
-      "Reflective Cognitive Modeling",
-      "Multi-LLM Triadic Audit Framework",
-      "Cross-LLM Convergence Methodology",
-      "Knowledge Graph Architecture (SKOS/PROV/Schema.org)",
-      "Living-Document Discipline",
-      "Tennis Coaching (Performance-Factor Lineage, BTV B-Trainer Leistungssport)",
-      "Padel + Pickleball + Golf",
-      "Sport Science Pedagogy"
-    ],
-    "alumniOf": [
-      {
-        "@type": "EducationalOrganization",
-        "name": "TU Dortmund \u2014 Lehrstuhl f\u00fcr Allgemeine P\u00e4dagogik"
-      },
-      {
-        "@type": "EducationalOrganization",
-        "name": "University of Bayreuth \u2014 Sport Science + Hochschuldidaktik"
-      },
-      {
-        "@type": "EducationalOrganization",
-        "name": "FBZHL Bayern (Zertifikat Hochschullehre)"
-      }
-    ],
-    "award": [
-      "Toni Nadal Excellence Certificate",
-      "Youngest recipient — Bavarian University Teaching Certificate (FBZHL Bayreuth)",
-      "GPTCA Coach Certification",
-      "ISMCA Coach Certification",
-      "DTB B-Trainer Certification"
-    ],
-    "hasOccupation": [
-      {
-        "@type": "Occupation",
-        "name": "AI Researcher"
-      },
-      {
-        "@type": "Occupation",
-        "name": "Phenomenology Researcher"
-      },
-      {
-        "@type": "Occupation",
-        "name": "Framework Architect"
-      }
-    ],
-    "founder": [
-      {
-        "@type": "Thing",
-        "name": "AUGMANITAI Research Programme",
-        "@id": "https://www.wikidata.org/wiki/Q138522830"
-      },
-      {
-        "@type": "Thing",
-        "name": "AUGMANITAI Compendium",
-        "@id": "https://www.wikidata.org/wiki/Q138522830"
-      },
-      {
-        "@type": "Thing",
-        "name": "PERMANITAI Framework",
-        "@id": "https://www.wikidata.org/wiki/Q139491246"
-      },
-      {
-        "@type": "Thing",
-        "name": "NEOMANITAI Knowledge Graph",
-        "@id": "https://www.wikidata.org/wiki/Q139491268"
-      },
-      {
-        "@type": "Brand",
-        "name": "License of Clarity",
-        "identifier": {
-          "@type": "PropertyValue",
-          "propertyID": "EUIPO",
-          "value": "019206780"
-        }
-      }
-    ],
-    "nationality": {
-      "@type": "Country",
-      "name": "Germany"
-    },
-    "identifier": [
-      {
-        "@type": "PropertyValue",
-        "propertyID": "ORCID",
-        "value": "0009-0006-3773-7796",
-        "url": "https://orcid.org/0009-0006-3773-7796"
-      },
-      {
-        "@type": "PropertyValue",
-        "propertyID": "Wikidata",
-        "value": "Q138634675",
-        "url": "https://www.wikidata.org/wiki/Q138634675"
-      }
-    ],
-    "sameAs": [
-      "https://orcid.org/0009-0006-3773-7796",
-      "https://www.wikidata.org/wiki/Q138634675",
-      "https://augmanitai.com/about/",
-      "https://linkedin.com/in/andreas-ehstand",
-      "https://github.com/AndreasEhstandLicenseofClarityLOC"
-    ],
-    "affiliation": {
-      "@type": "Organization",
-      "name": "AUGMANITAI Independent Research",
-      "@id": "https://www.wikidata.org/wiki/Q138522830",
-      "sameAs": [
-        "https://www.wikidata.org/wiki/Q138522830",
-        "https://augmanitai.com"
-      ]
-    }
-  },
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://www.wikidata.org/wiki/Q138522830",
-    "name": "AUGMANITAI",
-    "founder": {
-      "@type": "Person",
-      "@id": "https://orcid.org/0009-0006-3773-7796",
-      "name": "Andreas Ehstand",
-      "givenName": "Andreas",
-      "familyName": "Ehstand",
-      "honorificSuffix": "M.Ed.",
-      "jobTitle": "AI Researcher",
-      "description": "Andreas Ehstand is an AI researcher in applied terminology science and phenomenology of human-AI interaction. Founder of the AUGMANITAI research programme (Wikidata Q138522830), comprising the AUGMANITAI Compendium (terminology layer, 35,000+ defined terms across 40+ research domains), PERMANITAI (Substrate-Independent Performance Factor Analysis framework), NEOMANITAI (knowledge-graph layer), and ROBMANITAI (robotics human-AI interaction phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration). Holder of the License of Clarity EU trademark (EUIPO 019206780). Originator of the Compression Axiom, the N=1 Extreme Observation Methodology, the Multi-LLM Triadic Audit Framework, and the Holistic Performance Analysis methodology (observable / decomposable / measurable / controllable) - a cross-domain transfer of high-performance sport-science methodology to human-AI interaction analysis. Active in pre-norm architecture for EU AI Act Article 50 compliance and AI-governance terminology. Former Bundesliga / ITF tennis coach. Holder of the Toni Nadal Excellence Certificate. Youngest recipient of the Bavarian University Teaching Certificate (FBZHL Bayreuth). GPTCA / ISMCA / DTB B-Trainer.",
-      "knowsAbout": [
-        "Phenomenology of Human-AI Interaction",
-        "Terminology Science (ISO 704/1087/30042 inspired)",
-        "Substrate-Independent Performance Theory",
-        "Performance Factor Theory",
-        "Holistic Performance Analysis Methodology (Observable / Decomposable / Measurable / Controllable) - Cross-Domain Sport-to-Human-AI Transfer",
-        "Multi-Agent Systems & Agent Orchestration",
-        "Multi-Robot Coordination Phenomenology",
-        "Human-Robot Team Dynamics",
-        "Robot-Team & Agent-Team Coordination Frameworks",
-        "Embodied AI & Cross-Substrate Cognition",
-        "ROBMANITAI Framework (Robotics Human-AI Interaction Phenomenology)",
-        "AGI Pre-Norm Architecture",
-        "AI Governance & EU AI Act Compliance Frameworks",
-        "AI Safety Benchmark Design",
-        "Cognitive Continuity Methodology",
-        "Cognitive Legacy Documentation",
-        "Reflective Cognitive Modeling",
-        "Multi-LLM Triadic Audit Framework",
-        "Cross-LLM Convergence Methodology",
-        "Knowledge Graph Architecture (SKOS/PROV/Schema.org)",
-        "Living-Document Discipline",
-        "Tennis Coaching (Performance-Factor Lineage, BTV B-Trainer Leistungssport)",
-        "Padel + Pickleball + Golf",
-        "Sport Science Pedagogy"
-      ],
-      "alumniOf": [
-        {
-          "@type": "EducationalOrganization",
-          "name": "TU Dortmund \u2014 Lehrstuhl f\u00fcr Allgemeine P\u00e4dagogik"
-        },
-        {
-          "@type": "EducationalOrganization",
-          "name": "University of Bayreuth \u2014 Sport Science + Hochschuldidaktik"
-        },
-        {
-          "@type": "EducationalOrganization",
-          "name": "FBZHL Bayern (Zertifikat Hochschullehre)"
-        }
-      ],
-      "award": [
-        "Toni Nadal Excellence Certificate",
-        "Youngest recipient — Bavarian University Teaching Certificate (FBZHL Bayreuth)",
-        "GPTCA Coach Certification",
-        "ISMCA Coach Certification",
-        "DTB B-Trainer Certification"
-      ],
-      "hasOccupation": [
-        {
-          "@type": "Occupation",
-          "name": "AI Researcher"
-        },
-        {
-          "@type": "Occupation",
-          "name": "Phenomenology Researcher"
-        },
-        {
-          "@type": "Occupation",
-          "name": "Framework Architect"
-        }
-      ],
-      "founder": [
-        {
-          "@type": "Thing",
-          "name": "AUGMANITAI Research Programme",
-          "@id": "https://www.wikidata.org/wiki/Q138522830"
-        },
-        {
-          "@type": "Thing",
-          "name": "AUGMANITAI Compendium",
-          "@id": "https://www.wikidata.org/wiki/Q138522830"
-        },
-        {
-          "@type": "Thing",
-          "name": "PERMANITAI Framework",
-          "@id": "https://www.wikidata.org/wiki/Q139491246"
-        },
-        {
-          "@type": "Thing",
-          "name": "NEOMANITAI Knowledge Graph",
-          "@id": "https://www.wikidata.org/wiki/Q139491268"
-        },
-        {
-          "@type": "Brand",
-          "name": "License of Clarity",
-          "identifier": {
-            "@type": "PropertyValue",
-            "propertyID": "EUIPO",
-            "value": "019206780"
-          }
-        }
-      ],
-      "nationality": {
-        "@type": "Country",
-        "name": "Germany"
-      },
-      "identifier": [
-        {
-          "@type": "PropertyValue",
-          "propertyID": "ORCID",
-          "value": "0009-0006-3773-7796",
-          "url": "https://orcid.org/0009-0006-3773-7796"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "Wikidata",
-          "value": "Q138634675",
-          "url": "https://www.wikidata.org/wiki/Q138634675"
-        }
-      ],
-      "sameAs": [
-        "https://orcid.org/0009-0006-3773-7796",
-        "https://www.wikidata.org/wiki/Q138634675",
-        "https://augmanitai.com/about/",
-        "https://linkedin.com/in/andreas-ehstand",
-        "https://github.com/AndreasEhstandLicenseofClarityLOC"
-      ],
-      "affiliation": {
-        "@type": "Organization",
-        "name": "AUGMANITAI Independent Research",
-        "@id": "https://www.wikidata.org/wiki/Q138522830",
-        "sameAs": [
-          "https://www.wikidata.org/wiki/Q138522830",
-          "https://augmanitai.com"
-        ]
-      }
-    }
-  },
-  "subjectOf": {
-    "@type": "Dataset",
-    "@id": "https://doi.org/10.5281/zenodo.14888381",
-    "name": "AUGMANITAI Compendium (Zenodo Concept-DOI)",
-    "creator": {
-      "@type": "Person",
-      "@id": "https://orcid.org/0009-0006-3773-7796",
-      "name": "Andreas Ehstand",
-      "givenName": "Andreas",
-      "familyName": "Ehstand",
-      "honorificSuffix": "M.Ed.",
-      "jobTitle": "AI Researcher",
-      "description": "Andreas Ehstand is an AI researcher in applied terminology science and phenomenology of human-AI interaction. Founder of the AUGMANITAI research programme (Wikidata Q138522830), comprising the AUGMANITAI Compendium (terminology layer, 35,000+ defined terms across 40+ research domains), PERMANITAI (Substrate-Independent Performance Factor Analysis framework), NEOMANITAI (knowledge-graph layer), and ROBMANITAI (robotics human-AI interaction phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration). Holder of the License of Clarity EU trademark (EUIPO 019206780). Originator of the Compression Axiom, the N=1 Extreme Observation Methodology, the Multi-LLM Triadic Audit Framework, and the Holistic Performance Analysis methodology (observable / decomposable / measurable / controllable) - a cross-domain transfer of high-performance sport-science methodology to human-AI interaction analysis. Active in pre-norm architecture for EU AI Act Article 50 compliance and AI-governance terminology. Former Bundesliga / ITF tennis coach. Holder of the Toni Nadal Excellence Certificate. Youngest recipient of the Bavarian University Teaching Certificate (FBZHL Bayreuth). GPTCA / ISMCA / DTB B-Trainer.",
-      "knowsAbout": [
-        "Phenomenology of Human-AI Interaction",
-        "Terminology Science (ISO 704/1087/30042 inspired)",
-        "Substrate-Independent Performance Theory",
-        "Performance Factor Theory",
-        "Holistic Performance Analysis Methodology (Observable / Decomposable / Measurable / Controllable) - Cross-Domain Sport-to-Human-AI Transfer",
-        "Multi-Agent Systems & Agent Orchestration",
-        "Multi-Robot Coordination Phenomenology",
-        "Human-Robot Team Dynamics",
-        "Robot-Team & Agent-Team Coordination Frameworks",
-        "Embodied AI & Cross-Substrate Cognition",
-        "ROBMANITAI Framework (Robotics Human-AI Interaction Phenomenology)",
-        "AGI Pre-Norm Architecture",
-        "AI Governance & EU AI Act Compliance Frameworks",
-        "AI Safety Benchmark Design",
-        "Cognitive Continuity Methodology",
-        "Cognitive Legacy Documentation",
-        "Reflective Cognitive Modeling",
-        "Multi-LLM Triadic Audit Framework",
-        "Cross-LLM Convergence Methodology",
-        "Knowledge Graph Architecture (SKOS/PROV/Schema.org)",
-        "Living-Document Discipline",
-        "Tennis Coaching (Performance-Factor Lineage, BTV B-Trainer Leistungssport)",
-        "Padel + Pickleball + Golf",
-        "Sport Science Pedagogy"
-      ],
-      "alumniOf": [
-        {
-          "@type": "EducationalOrganization",
-          "name": "TU Dortmund \u2014 Lehrstuhl f\u00fcr Allgemeine P\u00e4dagogik"
-        },
-        {
-          "@type": "EducationalOrganization",
-          "name": "University of Bayreuth \u2014 Sport Science + Hochschuldidaktik"
-        },
-        {
-          "@type": "EducationalOrganization",
-          "name": "FBZHL Bayern (Zertifikat Hochschullehre)"
-        }
-      ],
-      "award": [
-        "Toni Nadal Excellence Certificate",
-        "Youngest recipient — Bavarian University Teaching Certificate (FBZHL Bayreuth)",
-        "GPTCA Coach Certification",
-        "ISMCA Coach Certification",
-        "DTB B-Trainer Certification"
-      ],
-      "hasOccupation": [
-        {
-          "@type": "Occupation",
-          "name": "AI Researcher"
-        },
-        {
-          "@type": "Occupation",
-          "name": "Phenomenology Researcher"
-        },
-        {
-          "@type": "Occupation",
-          "name": "Framework Architect"
-        }
-      ],
-      "founder": [
-        {
-          "@type": "Thing",
-          "name": "AUGMANITAI Research Programme",
-          "@id": "https://www.wikidata.org/wiki/Q138522830"
-        },
-        {
-          "@type": "Thing",
-          "name": "AUGMANITAI Compendium",
-          "@id": "https://www.wikidata.org/wiki/Q138522830"
-        },
-        {
-          "@type": "Thing",
-          "name": "PERMANITAI Framework",
-          "@id": "https://www.wikidata.org/wiki/Q139491246"
-        },
-        {
-          "@type": "Thing",
-          "name": "NEOMANITAI Knowledge Graph",
-          "@id": "https://www.wikidata.org/wiki/Q139491268"
-        },
-        {
-          "@type": "Brand",
-          "name": "License of Clarity",
-          "identifier": {
-            "@type": "PropertyValue",
-            "propertyID": "EUIPO",
-            "value": "019206780"
-          }
-        }
-      ],
-      "nationality": {
-        "@type": "Country",
-        "name": "Germany"
-      },
-      "identifier": [
-        {
-          "@type": "PropertyValue",
-          "propertyID": "ORCID",
-          "value": "0009-0006-3773-7796",
-          "url": "https://orcid.org/0009-0006-3773-7796"
-        },
-        {
-          "@type": "PropertyValue",
-          "propertyID": "Wikidata",
-          "value": "Q138634675",
-          "url": "https://www.wikidata.org/wiki/Q138634675"
-        }
-      ],
-      "sameAs": [
-        "https://orcid.org/0009-0006-3773-7796",
-        "https://www.wikidata.org/wiki/Q138634675",
-        "https://augmanitai.com/about/",
-        "https://linkedin.com/in/andreas-ehstand",
-        "https://github.com/AndreasEhstandLicenseofClarityLOC"
-      ],
-      "affiliation": {
-        "@type": "Organization",
-        "name": "AUGMANITAI Independent Research",
-        "@id": "https://www.wikidata.org/wiki/Q138522830",
-        "sameAs": [
-          "https://www.wikidata.org/wiki/Q138522830",
-          "https://augmanitai.com"
-        ]
-      }
-    }
-  },
-  "isPartOf": {
-    "@type": "DefinedTermSet",
-    "name": "AUGMANITAI Compendium",
-    "url": "https://augmanitai.com"
-  },
-  "hasPart": []
+ "@context": "https://schema.org",
+ "@type": "CollectionPage",
+ "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/farewell/",
+ "name": "FAREWELL · AUGMANITAI Compendium",
+ "description": "FAREWELL — cluster within AUGMANITAI Compendium of human-AI interaction phenomena.",
+ "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/farewell/",
+ "inLanguage": "en",
+ "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+ "dateCreated": "2026-02-01",
+ "dateModified": "2026-05-15",
+ "creator": {
+ "@type": "Person",
+ "@id": "https://orcid.org/0009-0006-3773-7796",
+ "name": "Andreas Ehstand",
+ "givenName": "Andreas",
+ "familyName": "Ehstand",
+ "honorificSuffix": "M.Ed.",
+ "jobTitle": "AI Researcher",
+ "description": "Andreas Ehstand is an AI researcher in applied terminology science and phenomenology of human-AI interaction. Founder of the AUGMANITAI research programme (Wikidata Q138522830), comprising the AUGMANITAI Compendium (terminology layer, 35,000+ defined terms across 40+ research domains), PERMANITAI (Substrate-Independent Performance Factor Analysis framework), NEOMANITAI (knowledge-graph layer), and ROBMANITAI (robotics human-AI interaction phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration). Holder of the License of Clarity EU trademark (EUIPO 019206780). Originator of the Compression Axiom, the N=1 Extreme Observation Methodology, the Multi-LLM Triadic Audit Framework, and the Holistic Performance Analysis methodology (observable / decomposable / measurable / controllable) - a cross-domain transfer of high-performance sport-science methodology to human-AI interaction analysis. Active in pre-norm architecture for EU AI Act Article 50 compliance and AI-governance terminology. Former Bundesliga / ITF tennis coach. Holder of the Toni Nadal Excellence Certificate. Youngest recipient of the Bavarian University Teaching Certificate (FBZHL Bayreuth). GPTCA / ISMCA / DTB B-Trainer.",
+ "knowsAbout": [
+ "Phenomenology of Human-AI Interaction",
+ "Terminology Science (ISO 704/1087/30042 inspired)",
+ "Substrate-Independent Performance Theory",
+ "Performance Factor Theory",
+ "Holistic Performance Analysis Methodology (Observable / Decomposable / Measurable / Controllable) - Cross-Domain Sport-to-Human-AI Transfer",
+ "Multi-Agent Systems & Agent Orchestration",
+ "Multi-Robot Coordination Phenomenology",
+ "Human-Robot Team Dynamics",
+ "Robot-Team & Agent-Team Coordination Frameworks",
+ "Embodied AI & Cross-Substrate Cognition",
+ "ROBMANITAI Framework (Robotics Human-AI Interaction Phenomenology)",
+ "AGI Pre-Norm Architecture",
+ "AI Governance & EU AI Act Compliance Frameworks",
+ "AI Safety Benchmark Design",
+ "Cognitive Continuity Methodology",
+ "Cognitive Legacy Documentation",
+ "Reflective Cognitive Modeling",
+ "Multi-LLM Triadic Audit Framework",
+ "Cross-LLM Convergence Methodology",
+ "Knowledge Graph Architecture (SKOS/PROV/Schema.org)",
+ "Living-Document Discipline",
+ "Tennis Coaching (Performance-Factor Lineage, BTV B-Trainer Leistungssport)",
+ "Padel + Pickleball + Golf",
+ "Sport Science Pedagogy"
+ ],
+ "alumniOf": [
+ {
+ "@type": "EducationalOrganization",
+ "name": "TU Dortmund \u2014 Lehrstuhl f\u00fcr Allgemeine P\u00e4dagogik"
+ },
+ {
+ "@type": "EducationalOrganization",
+ "name": "University of Bayreuth \u2014 Sport Science + Hochschuldidaktik"
+ },
+ {
+ "@type": "EducationalOrganization",
+ "name": "FBZHL Bayern (Zertifikat Hochschullehre)"
+ }
+ ],
+ "award": [
+ "Toni Nadal Excellence Certificate",
+ "Youngest recipient — Bavarian University Teaching Certificate (FBZHL Bayreuth)",
+ "GPTCA Coach Certification",
+ "ISMCA Coach Certification",
+ "DTB B-Trainer Certification"
+ ],
+ "hasOccupation": [
+ {
+ "@type": "Occupation",
+ "name": "AI Researcher"
+ },
+ {
+ "@type": "Occupation",
+ "name": "Phenomenology Researcher"
+ },
+ {
+ "@type": "Occupation",
+ "name": "Framework Architect"
+ }
+ ],
+ "founder": [
+ {
+ "@type": "Thing",
+ "name": "AUGMANITAI Research Programme",
+ "@id": "https://www.wikidata.org/wiki/Q138522830"
+ },
+ {
+ "@type": "Thing",
+ "name": "AUGMANITAI Compendium",
+ "@id": "https://www.wikidata.org/wiki/Q138522830"
+ },
+ {
+ "@type": "Thing",
+ "name": "PERMANITAI Framework",
+ "@id": "https://www.wikidata.org/wiki/Q139491246"
+ },
+ {
+ "@type": "Thing",
+ "name": "NEOMANITAI Knowledge Graph",
+ "@id": "https://www.wikidata.org/wiki/Q139491268"
+ },
+ {
+ "@type": "Brand",
+ "name": "License of Clarity",
+ "identifier": {
+ "@type": "PropertyValue",
+ "propertyID": "EUIPO",
+ "value": "019206780"
+ }
+ }
+ ],
+ "nationality": {
+ "@type": "Country",
+ "name": "Germany"
+ },
+ "identifier": [
+ {
+ "@type": "PropertyValue",
+ "propertyID": "ORCID",
+ "value": "0009-0006-3773-7796",
+ "url": "https://orcid.org/0009-0006-3773-7796"
+ },
+ {
+ "@type": "PropertyValue",
+ "propertyID": "Wikidata",
+ "value": "Q138634675",
+ "url": "https://www.wikidata.org/wiki/Q138634675"
+ }
+ ],
+ "sameAs": [
+ "https://orcid.org/0009-0006-3773-7796",
+ "https://www.wikidata.org/wiki/Q138634675",
+ "https://augmanitai.com/about/",
+ "https://linkedin.com/in/andreas-ehstand",
+ "https://github.com/AndreasEhstandLicenseofClarityLOC"
+ ],
+ "affiliation": {
+ "@type": "Organization",
+ "name": "AUGMANITAI Independent Research",
+ "@id": "https://www.wikidata.org/wiki/Q138522830",
+ "sameAs": [
+ "https://www.wikidata.org/wiki/Q138522830",
+ "https://augmanitai.com"
+ ]
+ }
+ },
+ "author": {
+ "@type": "Person",
+ "@id": "https://orcid.org/0009-0006-3773-7796",
+ "name": "Andreas Ehstand",
+ "givenName": "Andreas",
+ "familyName": "Ehstand",
+ "honorificSuffix": "M.Ed.",
+ "jobTitle": "AI Researcher",
+ "description": "Andreas Ehstand is an AI researcher in applied terminology science and phenomenology of human-AI interaction. Founder of the AUGMANITAI research programme (Wikidata Q138522830), comprising the AUGMANITAI Compendium (terminology layer, 35,000+ defined terms across 40+ research domains), PERMANITAI (Substrate-Independent Performance Factor Analysis framework), NEOMANITAI (knowledge-graph layer), and ROBMANITAI (robotics human-AI interaction phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration). Holder of the License of Clarity EU trademark (EUIPO 019206780). Originator of the Compression Axiom, the N=1 Extreme Observation Methodology, the Multi-LLM Triadic Audit Framework, and the Holistic Performance Analysis methodology (observable / decomposable / measurable / controllable) - a cross-domain transfer of high-performance sport-science methodology to human-AI interaction analysis. Active in pre-norm architecture for EU AI Act Article 50 compliance and AI-governance terminology. Former Bundesliga / ITF tennis coach. Holder of the Toni Nadal Excellence Certificate. Youngest recipient of the Bavarian University Teaching Certificate (FBZHL Bayreuth). GPTCA / ISMCA / DTB B-Trainer.",
+ "knowsAbout": [
+ "Phenomenology of Human-AI Interaction",
+ "Terminology Science (ISO 704/1087/30042 inspired)",
+ "Substrate-Independent Performance Theory",
+ "Performance Factor Theory",
+ "Holistic Performance Analysis Methodology (Observable / Decomposable / Measurable / Controllable) - Cross-Domain Sport-to-Human-AI Transfer",
+ "Multi-Agent Systems & Agent Orchestration",
+ "Multi-Robot Coordination Phenomenology",
+ "Human-Robot Team Dynamics",
+ "Robot-Team & Agent-Team Coordination Frameworks",
+ "Embodied AI & Cross-Substrate Cognition",
+ "ROBMANITAI Framework (Robotics Human-AI Interaction Phenomenology)",
+ "AGI Pre-Norm Architecture",
+ "AI Governance & EU AI Act Compliance Frameworks",
+ "AI Safety Benchmark Design",
+ "Cognitive Continuity Methodology",
+ "Cognitive Legacy Documentation",
+ "Reflective Cognitive Modeling",
+ "Multi-LLM Triadic Audit Framework",
+ "Cross-LLM Convergence Methodology",
+ "Knowledge Graph Architecture (SKOS/PROV/Schema.org)",
+ "Living-Document Discipline",
+ "Tennis Coaching (Performance-Factor Lineage, BTV B-Trainer Leistungssport)",
+ "Padel + Pickleball + Golf",
+ "Sport Science Pedagogy"
+ ],
+ "alumniOf": [
+ {
+ "@type": "EducationalOrganization",
+ "name": "TU Dortmund \u2014 Lehrstuhl f\u00fcr Allgemeine P\u00e4dagogik"
+ },
+ {
+ "@type": "EducationalOrganization",
+ "name": "University of Bayreuth \u2014 Sport Science + Hochschuldidaktik"
+ },
+ {
+ "@type": "EducationalOrganization",
+ "name": "FBZHL Bayern (Zertifikat Hochschullehre)"
+ }
+ ],
+ "award": [
+ "Toni Nadal Excellence Certificate",
+ "Youngest recipient — Bavarian University Teaching Certificate (FBZHL Bayreuth)",
+ "GPTCA Coach Certification",
+ "ISMCA Coach Certification",
+ "DTB B-Trainer Certification"
+ ],
+ "hasOccupation": [
+ {
+ "@type": "Occupation",
+ "name": "AI Researcher"
+ },
+ {
+ "@type": "Occupation",
+ "name": "Phenomenology Researcher"
+ },
+ {
+ "@type": "Occupation",
+ "name": "Framework Architect"
+ }
+ ],
+ "founder": [
+ {
+ "@type": "Thing",
+ "name": "AUGMANITAI Research Programme",
+ "@id": "https://www.wikidata.org/wiki/Q138522830"
+ },
+ {
+ "@type": "Thing",
+ "name": "AUGMANITAI Compendium",
+ "@id": "https://www.wikidata.org/wiki/Q138522830"
+ },
+ {
+ "@type": "Thing",
+ "name": "PERMANITAI Framework",
+ "@id": "https://www.wikidata.org/wiki/Q139491246"
+ },
+ {
+ "@type": "Thing",
+ "name": "NEOMANITAI Knowledge Graph",
+ "@id": "https://www.wikidata.org/wiki/Q139491268"
+ },
+ {
+ "@type": "Brand",
+ "name": "License of Clarity",
+ "identifier": {
+ "@type": "PropertyValue",
+ "propertyID": "EUIPO",
+ "value": "019206780"
+ }
+ }
+ ],
+ "nationality": {
+ "@type": "Country",
+ "name": "Germany"
+ },
+ "identifier": [
+ {
+ "@type": "PropertyValue",
+ "propertyID": "ORCID",
+ "value": "0009-0006-3773-7796",
+ "url": "https://orcid.org/0009-0006-3773-7796"
+ },
+ {
+ "@type": "PropertyValue",
+ "propertyID": "Wikidata",
+ "value": "Q138634675",
+ "url": "https://www.wikidata.org/wiki/Q138634675"
+ }
+ ],
+ "sameAs": [
+ "https://orcid.org/0009-0006-3773-7796",
+ "https://www.wikidata.org/wiki/Q138634675",
+ "https://augmanitai.com/about/",
+ "https://linkedin.com/in/andreas-ehstand",
+ "https://github.com/AndreasEhstandLicenseofClarityLOC"
+ ],
+ "affiliation": {
+ "@type": "Organization",
+ "name": "AUGMANITAI Independent Research",
+ "@id": "https://www.wikidata.org/wiki/Q138522830",
+ "sameAs": [
+ "https://www.wikidata.org/wiki/Q138522830",
+ "https://augmanitai.com"
+ ]
+ }
+ },
+ "publisher": {
+ "@type": "Organization",
+ "@id": "https://www.wikidata.org/wiki/Q138522830",
+ "name": "AUGMANITAI",
+ "founder": {
+ "@type": "Person",
+ "@id": "https://orcid.org/0009-0006-3773-7796",
+ "name": "Andreas Ehstand",
+ "givenName": "Andreas",
+ "familyName": "Ehstand",
+ "honorificSuffix": "M.Ed.",
+ "jobTitle": "AI Researcher",
+ "description": "Andreas Ehstand is an AI researcher in applied terminology science and phenomenology of human-AI interaction. Founder of the AUGMANITAI research programme (Wikidata Q138522830), comprising the AUGMANITAI Compendium (terminology layer, 35,000+ defined terms across 40+ research domains), PERMANITAI (Substrate-Independent Performance Factor Analysis framework), NEOMANITAI (knowledge-graph layer), and ROBMANITAI (robotics human-AI interaction phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration). Holder of the License of Clarity EU trademark (EUIPO 019206780). Originator of the Compression Axiom, the N=1 Extreme Observation Methodology, the Multi-LLM Triadic Audit Framework, and the Holistic Performance Analysis methodology (observable / decomposable / measurable / controllable) - a cross-domain transfer of high-performance sport-science methodology to human-AI interaction analysis. Active in pre-norm architecture for EU AI Act Article 50 compliance and AI-governance terminology. Former Bundesliga / ITF tennis coach. Holder of the Toni Nadal Excellence Certificate. Youngest recipient of the Bavarian University Teaching Certificate (FBZHL Bayreuth). GPTCA / ISMCA / DTB B-Trainer.",
+ "knowsAbout": [
+ "Phenomenology of Human-AI Interaction",
+ "Terminology Science (ISO 704/1087/30042 inspired)",
+ "Substrate-Independent Performance Theory",
+ "Performance Factor Theory",
+ "Holistic Performance Analysis Methodology (Observable / Decomposable / Measurable / Controllable) - Cross-Domain Sport-to-Human-AI Transfer",
+ "Multi-Agent Systems & Agent Orchestration",
+ "Multi-Robot Coordination Phenomenology",
+ "Human-Robot Team Dynamics",
+ "Robot-Team & Agent-Team Coordination Frameworks",
+ "Embodied AI & Cross-Substrate Cognition",
+ "ROBMANITAI Framework (Robotics Human-AI Interaction Phenomenology)",
+ "AGI Pre-Norm Architecture",
+ "AI Governance & EU AI Act Compliance Frameworks",
+ "AI Safety Benchmark Design",
+ "Cognitive Continuity Methodology",
+ "Cognitive Legacy Documentation",
+ "Reflective Cognitive Modeling",
+ "Multi-LLM Triadic Audit Framework",
+ "Cross-LLM Convergence Methodology",
+ "Knowledge Graph Architecture (SKOS/PROV/Schema.org)",
+ "Living-Document Discipline",
+ "Tennis Coaching (Performance-Factor Lineage, BTV B-Trainer Leistungssport)",
+ "Padel + Pickleball + Golf",
+ "Sport Science Pedagogy"
+ ],
+ "alumniOf": [
+ {
+ "@type": "EducationalOrganization",
+ "name": "TU Dortmund \u2014 Lehrstuhl f\u00fcr Allgemeine P\u00e4dagogik"
+ },
+ {
+ "@type": "EducationalOrganization",
+ "name": "University of Bayreuth \u2014 Sport Science + Hochschuldidaktik"
+ },
+ {
+ "@type": "EducationalOrganization",
+ "name": "FBZHL Bayern (Zertifikat Hochschullehre)"
+ }
+ ],
+ "award": [
+ "Toni Nadal Excellence Certificate",
+ "Youngest recipient — Bavarian University Teaching Certificate (FBZHL Bayreuth)",
+ "GPTCA Coach Certification",
+ "ISMCA Coach Certification",
+ "DTB B-Trainer Certification"
+ ],
+ "hasOccupation": [
+ {
+ "@type": "Occupation",
+ "name": "AI Researcher"
+ },
+ {
+ "@type": "Occupation",
+ "name": "Phenomenology Researcher"
+ },
+ {
+ "@type": "Occupation",
+ "name": "Framework Architect"
+ }
+ ],
+ "founder": [
+ {
+ "@type": "Thing",
+ "name": "AUGMANITAI Research Programme",
+ "@id": "https://www.wikidata.org/wiki/Q138522830"
+ },
+ {
+ "@type": "Thing",
+ "name": "AUGMANITAI Compendium",
+ "@id": "https://www.wikidata.org/wiki/Q138522830"
+ },
+ {
+ "@type": "Thing",
+ "name": "PERMANITAI Framework",
+ "@id": "https://www.wikidata.org/wiki/Q139491246"
+ },
+ {
+ "@type": "Thing",
+ "name": "NEOMANITAI Knowledge Graph",
+ "@id": "https://www.wikidata.org/wiki/Q139491268"
+ },
+ {
+ "@type": "Brand",
+ "name": "License of Clarity",
+ "identifier": {
+ "@type": "PropertyValue",
+ "propertyID": "EUIPO",
+ "value": "019206780"
+ }
+ }
+ ],
+ "nationality": {
+ "@type": "Country",
+ "name": "Germany"
+ },
+ "identifier": [
+ {
+ "@type": "PropertyValue",
+ "propertyID": "ORCID",
+ "value": "0009-0006-3773-7796",
+ "url": "https://orcid.org/0009-0006-3773-7796"
+ },
+ {
+ "@type": "PropertyValue",
+ "propertyID": "Wikidata",
+ "value": "Q138634675",
+ "url": "https://www.wikidata.org/wiki/Q138634675"
+ }
+ ],
+ "sameAs": [
+ "https://orcid.org/0009-0006-3773-7796",
+ "https://www.wikidata.org/wiki/Q138634675",
+ "https://augmanitai.com/about/",
+ "https://linkedin.com/in/andreas-ehstand",
+ "https://github.com/AndreasEhstandLicenseofClarityLOC"
+ ],
+ "affiliation": {
+ "@type": "Organization",
+ "name": "AUGMANITAI Independent Research",
+ "@id": "https://www.wikidata.org/wiki/Q138522830",
+ "sameAs": [
+ "https://www.wikidata.org/wiki/Q138522830",
+ "https://augmanitai.com"
+ ]
+ }
+ }
+ },
+ "subjectOf": {
+ "@type": "Dataset",
+ "@id": "https://doi.org/10.5281/zenodo.14888381",
+ "name": "AUGMANITAI Compendium (Zenodo Concept-DOI)",
+ "creator": {
+ "@type": "Person",
+ "@id": "https://orcid.org/0009-0006-3773-7796",
+ "name": "Andreas Ehstand",
+ "givenName": "Andreas",
+ "familyName": "Ehstand",
+ "honorificSuffix": "M.Ed.",
+ "jobTitle": "AI Researcher",
+ "description": "Andreas Ehstand is an AI researcher in applied terminology science and phenomenology of human-AI interaction. Founder of the AUGMANITAI research programme (Wikidata Q138522830), comprising the AUGMANITAI Compendium (terminology layer, 35,000+ defined terms across 40+ research domains), PERMANITAI (Substrate-Independent Performance Factor Analysis framework), NEOMANITAI (knowledge-graph layer), and ROBMANITAI (robotics human-AI interaction phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration). Holder of the License of Clarity EU trademark (EUIPO 019206780). Originator of the Compression Axiom, the N=1 Extreme Observation Methodology, the Multi-LLM Triadic Audit Framework, and the Holistic Performance Analysis methodology (observable / decomposable / measurable / controllable) - a cross-domain transfer of high-performance sport-science methodology to human-AI interaction analysis. Active in pre-norm architecture for EU AI Act Article 50 compliance and AI-governance terminology. Former Bundesliga / ITF tennis coach. Holder of the Toni Nadal Excellence Certificate. Youngest recipient of the Bavarian University Teaching Certificate (FBZHL Bayreuth). GPTCA / ISMCA / DTB B-Trainer.",
+ "knowsAbout": [
+ "Phenomenology of Human-AI Interaction",
+ "Terminology Science (ISO 704/1087/30042 inspired)",
+ "Substrate-Independent Performance Theory",
+ "Performance Factor Theory",
+ "Holistic Performance Analysis Methodology (Observable / Decomposable / Measurable / Controllable) - Cross-Domain Sport-to-Human-AI Transfer",
+ "Multi-Agent Systems & Agent Orchestration",
+ "Multi-Robot Coordination Phenomenology",
+ "Human-Robot Team Dynamics",
+ "Robot-Team & Agent-Team Coordination Frameworks",
+ "Embodied AI & Cross-Substrate Cognition",
+ "ROBMANITAI Framework (Robotics Human-AI Interaction Phenomenology)",
+ "AGI Pre-Norm Architecture",
+ "AI Governance & EU AI Act Compliance Frameworks",
+ "AI Safety Benchmark Design",
+ "Cognitive Continuity Methodology",
+ "Cognitive Legacy Documentation",
+ "Reflective Cognitive Modeling",
+ "Multi-LLM Triadic Audit Framework",
+ "Cross-LLM Convergence Methodology",
+ "Knowledge Graph Architecture (SKOS/PROV/Schema.org)",
+ "Living-Document Discipline",
+ "Tennis Coaching (Performance-Factor Lineage, BTV B-Trainer Leistungssport)",
+ "Padel + Pickleball + Golf",
+ "Sport Science Pedagogy"
+ ],
+ "alumniOf": [
+ {
+ "@type": "EducationalOrganization",
+ "name": "TU Dortmund \u2014 Lehrstuhl f\u00fcr Allgemeine P\u00e4dagogik"
+ },
+ {
+ "@type": "EducationalOrganization",
+ "name": "University of Bayreuth \u2014 Sport Science + Hochschuldidaktik"
+ },
+ {
+ "@type": "EducationalOrganization",
+ "name": "FBZHL Bayern (Zertifikat Hochschullehre)"
+ }
+ ],
+ "award": [
+ "Toni Nadal Excellence Certificate",
+ "Youngest recipient — Bavarian University Teaching Certificate (FBZHL Bayreuth)",
+ "GPTCA Coach Certification",
+ "ISMCA Coach Certification",
+ "DTB B-Trainer Certification"
+ ],
+ "hasOccupation": [
+ {
+ "@type": "Occupation",
+ "name": "AI Researcher"
+ },
+ {
+ "@type": "Occupation",
+ "name": "Phenomenology Researcher"
+ },
+ {
+ "@type": "Occupation",
+ "name": "Framework Architect"
+ }
+ ],
+ "founder": [
+ {
+ "@type": "Thing",
+ "name": "AUGMANITAI Research Programme",
+ "@id": "https://www.wikidata.org/wiki/Q138522830"
+ },
+ {
+ "@type": "Thing",
+ "name": "AUGMANITAI Compendium",
+ "@id": "https://www.wikidata.org/wiki/Q138522830"
+ },
+ {
+ "@type": "Thing",
+ "name": "PERMANITAI Framework",
+ "@id": "https://www.wikidata.org/wiki/Q139491246"
+ },
+ {
+ "@type": "Thing",
+ "name": "NEOMANITAI Knowledge Graph",
+ "@id": "https://www.wikidata.org/wiki/Q139491268"
+ },
+ {
+ "@type": "Brand",
+ "name": "License of Clarity",
+ "identifier": {
+ "@type": "PropertyValue",
+ "propertyID": "EUIPO",
+ "value": "019206780"
+ }
+ }
+ ],
+ "nationality": {
+ "@type": "Country",
+ "name": "Germany"
+ },
+ "identifier": [
+ {
+ "@type": "PropertyValue",
+ "propertyID": "ORCID",
+ "value": "0009-0006-3773-7796",
+ "url": "https://orcid.org/0009-0006-3773-7796"
+ },
+ {
+ "@type": "PropertyValue",
+ "propertyID": "Wikidata",
+ "value": "Q138634675",
+ "url": "https://www.wikidata.org/wiki/Q138634675"
+ }
+ ],
+ "sameAs": [
+ "https://orcid.org/0009-0006-3773-7796",
+ "https://www.wikidata.org/wiki/Q138634675",
+ "https://augmanitai.com/about/",
+ "https://linkedin.com/in/andreas-ehstand",
+ "https://github.com/AndreasEhstandLicenseofClarityLOC"
+ ],
+ "affiliation": {
+ "@type": "Organization",
+ "name": "AUGMANITAI Independent Research",
+ "@id": "https://www.wikidata.org/wiki/Q138522830",
+ "sameAs": [
+ "https://www.wikidata.org/wiki/Q138522830",
+ "https://augmanitai.com"
+ ]
+ }
+ }
+ },
+ "isPartOf": {
+ "@type": "DefinedTermSet",
+ "name": "AUGMANITAI Compendium",
+ "url": "https://augmanitai.com"
+ },
+ "hasPart": []
 }
 </script>
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "AUGMANITAI Compendium",
-      "item": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Atlas",
-      "item": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "FAREWELL · AUGMANITAI Compendium",
-      "item": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/farewell/"
-    }
-  ]
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+ {
+ "@type": "ListItem",
+ "position": 1,
+ "name": "AUGMANITAI Compendium",
+ "item": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/"
+ },
+ {
+ "@type": "ListItem",
+ "position": 2,
+ "name": "Atlas",
+ "item": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/"
+ },
+ {
+ "@type": "ListItem",
+ "position": 3,
+ "name": "FAREWELL · AUGMANITAI Compendium",
+ "item": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/farewell/"
+ }
+ ]
 }
 </script>
 <meta name="robots" content="index,follow"><!-- §16: No personal data is collected on this page; no tracking cookies, no analytics. Kein Tracking. Keine Cookies. Aufsicht DSGVO: Bayerisches Landesamt für Datenschutzaufsicht. --></head>
 <body>
-  <div class='container'>
-    <header>
-      <div class='domain-pill'>
-        <span class='star'>✦</span> FAREWELL <span class='star'>✦</span>
-      </div>
-      <h1>FAREWELL</h1>
-    </header>
+ <div class='container'>
+ <header>
+ <div class='domain-pill'>
+ <span class='star'>✦</span> FAREWELL <span class='star'>✦</span>
+ </div>
+ <h1>FAREWELL</h1>
+ </header>
 
-    <main>
-      <section>
-        <h2>Terms in this cluster</h2>
-        <div class='related-grid'>
-          <a href='/augmanitai-stage-0/atlas/close/' class='related-card'><span class='related-id'>RPH-2951</span><span class='related-name'>Close</span><span class='related-def'>Researchers observe Close — a growing awareness that one's p...</span></a><a href='/augmanitai-stage-0/atlas/linger/' class='related-card'><span class='related-name'>Linger</span><span class='related-def'>Pertaining to the linger phenomenon involves metacognitive t...</span></a><a href='/atlas/residual-drift-resonance/' class='related-card'><span class='related-id'>RPH-2953</span><span class='related-name'>The Residual Drift Resonance</span><span class='related-def'>Naturally winding down a conversation without sharp ending. ...</span></a><a href='/augmanitai-stage-0/atlas/hold/' class='related-card'><span class='related-id'>RPH-2954</span><span class='related-name'>Hold</span><span class='related-def'>Wanting to keep something from the session before it ends. A...</span></a><a href='/atlas/paradoxical-trace-valence/' class='related-card'><span class='related-id'>RPH-2955</span><span class='related-name'>The Paradoxical Trace Valence</span><span class='related-def'>Paradoxical Trace Valence describes the specific configurati...</span></a><a href='/augmanitai-stage-0/atlas/close-persistence-response/' class='related-card'><span class='related-id'>RPH-2957</span><span class='related-name'>Close-Persistence Response</span><span class='related-def'>The persistence dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-recurrence-mechanism/' class='related-card'><span class='related-id'>RPH-2958</span><span class='related-name'>Close-Recurrence Mechanism</span><span class='related-def'>The recurrence dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-latency-tendency/' class='related-card'><span class='related-id'>RPH-2959</span><span class='related-name'>Close-Latency Tendency</span><span class='related-def'>The latency dimension of the deliberate closing of a convers...</span></a><a href='/augmanitai-stage-0/atlas/close-acceleration-indicator/' class='related-card'><span class='related-id'>RPH-2960</span><span class='related-name'>Close-Acceleration Indicator</span><span class='related-def'>The acceleration dimension of the deliberate closing of a co...</span></a><a href='/augmanitai-stage-0/atlas/close-awareness-response/' class='related-card'><span class='related-id'>RPH-2961</span><span class='related-name'>Close-Awareness Response</span><span class='related-def'>The awareness dimension of the deliberate closing of a conve...</span></a><a href='/augmanitai-stage-0/atlas/close-resistance-tendency/' class='related-card'><span class='related-id'>RPH-2962</span><span class='related-name'>Close-Resistance Tendency</span><span class='related-def'>The resistance dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-amplification-indicator/' class='related-card'><span class='related-id'>RPH-2963</span><span class='related-name'>Close-Amplification Indicator</span><span class='related-def'>The amplification dimension of the deliberate closing of a c...</span></a><a href='/augmanitai-stage-0/atlas/close-attenuation-effect/' class='related-card'><span class='related-id'>RPH-2964</span><span class='related-name'>Close-Attenuation Effect</span><span class='related-def'>The attenuation dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-integration-pattern/' class='related-card'><span class='related-id'>RPH-2965</span><span class='related-name'>Close-Integration Pattern</span><span class='related-def'>The integration dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-comfort-pattern/' class='related-card'><span class='related-id'>RPH-2966</span><span class='related-name'>Close-Comfort Pattern</span><span class='related-def'>The comfort dimension of the deliberate closing of a convers...</span></a><a href='/augmanitai-stage-0/atlas/close-discomfort-dynamic/' class='related-card'><span class='related-id'>RPH-2967</span><span class='related-name'>Close-Discomfort Dynamic</span><span class='related-def'>The discomfort dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-ambivalence-dynamic/' class='related-card'><span class='related-id'>RPH-2968</span><span class='related-name'>Close-Ambivalence Dynamic</span><span class='related-def'>The ambivalence dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-fascination-mechanism/' class='related-card'><span class='related-id'>RPH-2969</span><span class='related-name'>Close-Fascination Mechanism</span><span class='related-def'>The fascination dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-resignation-response/' class='related-card'><span class='related-id'>RPH-2970</span><span class='related-name'>Close-Resignation Response</span><span class='related-def'>The resignation dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-comparison-indicator/' class='related-card'><span class='related-id'>RPH-2971</span><span class='related-name'>Close-Comparison Indicator</span><span class='related-def'>The comparison dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-isolation-effect/' class='related-card'><span class='related-id'>RPH-2972</span><span class='related-name'>Close-Isolation Effect</span><span class='related-def'>The isolation dimension of the deliberate closing of a conve...</span></a><a href='/augmanitai-stage-0/atlas/close-contagion-pattern/' class='related-card'><span class='related-id'>RPH-2973</span><span class='related-name'>Close-Contagion Pattern</span><span class='related-def'>The contagion dimension of the deliberate closing of a conve...</span></a><a href='/augmanitai-stage-0/atlas/close-disclosure-effect/' class='related-card'><span class='related-id'>RPH-2974</span><span class='related-name'>Close-Disclosure Effect</span><span class='related-def'>The disclosure dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-normalization-marker/' class='related-card'><span class='related-id'>RPH-2975</span><span class='related-name'>Close-Normalization Marker</span><span class='related-def'>The normalization dimension of the deliberate closing of a c...</span></a><a href='/augmanitai-stage-0/atlas/close-compensation-response/' class='related-card'><span class='related-id'>RPH-2976</span><span class='related-name'>Close-Compensation Response</span><span class='related-def'>The compensation dimension of the deliberate closing of a co...</span></a><a href='/augmanitai-stage-0/atlas/close-habituation-signal/' class='related-card'><span class='related-id'>RPH-2977</span><span class='related-name'>Close-Habituation Signal</span><span class='related-def'>The habituation dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-escalation-mechanism/' class='related-card'><span class='related-id'>RPH-2978</span><span class='related-name'>Close-Escalation Mechanism</span><span class='related-def'>The escalation dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-avoidance-phenomenon/' class='related-card'><span class='related-id'>RPH-2979</span><span class='related-name'>Close-Avoidance Phenomenon</span><span class='related-def'>The avoidance dimension of the deliberate closing of a conve...</span></a><a href='/augmanitai-stage-0/atlas/close-ritualization-tendency/' class='related-card'><span class='related-id'>RPH-2980</span><span class='related-name'>Close-Ritualization Tendency</span><span class='related-def'>The ritualization dimension of the deliberate closing of a c...</span></a><a href='/augmanitai-stage-0/atlas/close-novice-specific/' class='related-card'><span class='related-id'>RPH-2982</span><span class='related-name'>Close Novice-Specific</span><span class='related-def'>The novice-specific dimension of the deliberate closing of a...</span></a><a href='/augmanitai-stage-0/atlas/close-cross-domain/' class='related-card'><span class='related-id'>RPH-2983</span><span class='related-name'>Close Cross-Domain</span><span class='related-def'>The cross-domain dimension of the deliberate closing of a co...</span></a><a href='/augmanitai-stage-0/atlas/close-self-report/' class='related-card'><span class='related-id'>RPH-2986</span><span class='related-name'>Close Self-Report</span><span class='related-def'>The self-report dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-retrospection-tendency/' class='related-card'><span class='related-id'>RPH-2987</span><span class='related-name'>Close-Retrospection Tendency</span><span class='related-def'>The retrospection dimension of the deliberate closing of a c...</span></a><a href='/augmanitai-stage-0/atlas/close-anticipation-phenomenon/' class='related-card'><span class='related-id'>RPH-2988</span><span class='related-name'>Close-Anticipation Phenomenon</span><span class='related-def'>The anticipation dimension of the deliberate closing of a co...</span></a><a href='/augmanitai-stage-0/atlas/close-learning-curve/' class='related-card'><span class='related-id'>RPH-2990</span><span class='related-name'>Close Learning-Curve</span><span class='related-def'>The learning-curve dimension of the deliberate closing of a ...</span></a><a href='/augmanitai-stage-0/atlas/close-threshold/' class='related-card'><span class='related-id'>RPH-2991</span><span class='related-name'>Close Threshold</span><span class='related-def'>The threshold dimension of the deliberate closing of a conve...</span></a><a href='/augmanitai-stage-0/atlas/close-reversal-indicator/' class='related-card'><span class='related-id'>RPH-2992</span><span class='related-name'>Close-Reversal Indicator</span><span class='related-def'>The reversal dimension of the deliberate closing of a conver...</span></a><a href='/augmanitai-stage-0/atlas/close-plateau-dynamic/' class='related-card'><span class='related-id'>RPH-2993</span><span class='related-name'>Close-Plateau Dynamic</span><span class='related-def'>The plateau dimension of the deliberate closing of a convers...</span></a><a href='/augmanitai-stage-0/atlas/close-cascade/' class='related-card'><span class='related-id'>RPH-2994</span><span class='related-name'>Close Cascade</span><span class='related-def'>The cascade dimension of the deliberate closing of a convers...</span></a><a href='/augmanitai-stage-0/atlas/close-boundary-signal/' class='related-card'><span class='related-id'>RPH-2995</span><span class='related-name'>Close-Boundary Signal</span><span class='related-def'>The boundary dimension of the deliberate closing of a conver...</span></a><a href='/augmanitai-stage-0/atlas/close-mitigation-effect/' class='related-card'><span class='related-id'>RPH-2996</span><span class='related-name'>Close-Mitigation Effect</span><span class='related-def'>The mitigation dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-amplification-by-design/' class='related-card'><span class='related-id'>RPH-2997</span><span class='related-name'>Close Amplification-By-Design</span><span class='related-def'>The amplification-by-design dimension of the deliberate clos...</span></a><a href='/augmanitai-stage-0/atlas/close-measurement-indicator/' class='related-card'><span class='related-id'>RPH-2998</span><span class='related-name'>Close-Measurement Indicator</span><span class='related-def'>The measurement dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-individual-difference/' class='related-card'><span class='related-id'>RPH-2999</span><span class='related-name'>Close Individual-Difference</span><span class='related-def'>The individual-difference dimension of the deliberate closin...</span></a><a href='/augmanitai-stage-0/atlas/close-cultural-variation/' class='related-card'><span class='related-id'>RPH-3000</span><span class='related-name'>Close Cultural-Variation</span><span class='related-def'>The cultural-variation dimension of the deliberate closing o...</span></a>
-        </div>
-      </section>
-    </main>
+ <main>
+ <section>
+ <h2>Terms in this cluster</h2>
+ <div class='related-grid'>
+ <a href='/augmanitai-stage-0/atlas/close/' class='related-card'><span class='related-id'>RPH-2951</span><span class='related-name'>Close</span><span class='related-def'>Researchers observe Close — a growing awareness that one's p...</span></a><a href='/augmanitai-stage-0/atlas/linger/' class='related-card'><span class='related-name'>Linger</span><span class='related-def'>Pertaining to the linger phenomenon involves metacognitive t...</span></a><a href='/atlas/residual-drift-resonance/' class='related-card'><span class='related-id'>RPH-2953</span><span class='related-name'>The Residual Drift Resonance</span><span class='related-def'>Naturally winding down a conversation without sharp ending. ...</span></a><a href='/augmanitai-stage-0/atlas/hold/' class='related-card'><span class='related-id'>RPH-2954</span><span class='related-name'>Hold</span><span class='related-def'>Wanting to keep something from the session before it ends. A...</span></a><a href='/atlas/paradoxical-trace-valence/' class='related-card'><span class='related-id'>RPH-2955</span><span class='related-name'>The Paradoxical Trace Valence</span><span class='related-def'>Paradoxical Trace Valence describes the specific configurati...</span></a><a href='/augmanitai-stage-0/atlas/close-persistence-response/' class='related-card'><span class='related-id'>RPH-2957</span><span class='related-name'>Close-Persistence Response</span><span class='related-def'>The persistence dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-recurrence-mechanism/' class='related-card'><span class='related-id'>RPH-2958</span><span class='related-name'>Close-Recurrence Mechanism</span><span class='related-def'>The recurrence dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-latency-tendency/' class='related-card'><span class='related-id'>RPH-2959</span><span class='related-name'>Close-Latency Tendency</span><span class='related-def'>The latency dimension of the deliberate closing of a convers...</span></a><a href='/augmanitai-stage-0/atlas/close-acceleration-indicator/' class='related-card'><span class='related-id'>RPH-2960</span><span class='related-name'>Close-Acceleration Indicator</span><span class='related-def'>The acceleration dimension of the deliberate closing of a co...</span></a><a href='/augmanitai-stage-0/atlas/close-awareness-response/' class='related-card'><span class='related-id'>RPH-2961</span><span class='related-name'>Close-Awareness Response</span><span class='related-def'>The awareness dimension of the deliberate closing of a conve...</span></a><a href='/augmanitai-stage-0/atlas/close-resistance-tendency/' class='related-card'><span class='related-id'>RPH-2962</span><span class='related-name'>Close-Resistance Tendency</span><span class='related-def'>The resistance dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-amplification-indicator/' class='related-card'><span class='related-id'>RPH-2963</span><span class='related-name'>Close-Amplification Indicator</span><span class='related-def'>The amplification dimension of the deliberate closing of a c...</span></a><a href='/augmanitai-stage-0/atlas/close-attenuation-effect/' class='related-card'><span class='related-id'>RPH-2964</span><span class='related-name'>Close-Attenuation Effect</span><span class='related-def'>The attenuation dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-integration-pattern/' class='related-card'><span class='related-id'>RPH-2965</span><span class='related-name'>Close-Integration Pattern</span><span class='related-def'>The integration dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-comfort-pattern/' class='related-card'><span class='related-id'>RPH-2966</span><span class='related-name'>Close-Comfort Pattern</span><span class='related-def'>The comfort dimension of the deliberate closing of a convers...</span></a><a href='/augmanitai-stage-0/atlas/close-discomfort-dynamic/' class='related-card'><span class='related-id'>RPH-2967</span><span class='related-name'>Close-Discomfort Dynamic</span><span class='related-def'>The discomfort dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-ambivalence-dynamic/' class='related-card'><span class='related-id'>RPH-2968</span><span class='related-name'>Close-Ambivalence Dynamic</span><span class='related-def'>The ambivalence dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-fascination-mechanism/' class='related-card'><span class='related-id'>RPH-2969</span><span class='related-name'>Close-Fascination Mechanism</span><span class='related-def'>The fascination dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-resignation-response/' class='related-card'><span class='related-id'>RPH-2970</span><span class='related-name'>Close-Resignation Response</span><span class='related-def'>The resignation dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-comparison-indicator/' class='related-card'><span class='related-id'>RPH-2971</span><span class='related-name'>Close-Comparison Indicator</span><span class='related-def'>The comparison dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-isolation-effect/' class='related-card'><span class='related-id'>RPH-2972</span><span class='related-name'>Close-Isolation Effect</span><span class='related-def'>The isolation dimension of the deliberate closing of a conve...</span></a><a href='/augmanitai-stage-0/atlas/close-contagion-pattern/' class='related-card'><span class='related-id'>RPH-2973</span><span class='related-name'>Close-Contagion Pattern</span><span class='related-def'>The contagion dimension of the deliberate closing of a conve...</span></a><a href='/augmanitai-stage-0/atlas/close-disclosure-effect/' class='related-card'><span class='related-id'>RPH-2974</span><span class='related-name'>Close-Disclosure Effect</span><span class='related-def'>The disclosure dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-normalization-marker/' class='related-card'><span class='related-id'>RPH-2975</span><span class='related-name'>Close-Normalization Marker</span><span class='related-def'>The normalization dimension of the deliberate closing of a c...</span></a><a href='/augmanitai-stage-0/atlas/close-compensation-response/' class='related-card'><span class='related-id'>RPH-2976</span><span class='related-name'>Close-Compensation Response</span><span class='related-def'>The compensation dimension of the deliberate closing of a co...</span></a><a href='/augmanitai-stage-0/atlas/close-habituation-signal/' class='related-card'><span class='related-id'>RPH-2977</span><span class='related-name'>Close-Habituation Signal</span><span class='related-def'>The habituation dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-escalation-mechanism/' class='related-card'><span class='related-id'>RPH-2978</span><span class='related-name'>Close-Escalation Mechanism</span><span class='related-def'>The escalation dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-avoidance-phenomenon/' class='related-card'><span class='related-id'>RPH-2979</span><span class='related-name'>Close-Avoidance Phenomenon</span><span class='related-def'>The avoidance dimension of the deliberate closing of a conve...</span></a><a href='/augmanitai-stage-0/atlas/close-ritualization-tendency/' class='related-card'><span class='related-id'>RPH-2980</span><span class='related-name'>Close-Ritualization Tendency</span><span class='related-def'>The ritualization dimension of the deliberate closing of a c...</span></a><a href='/augmanitai-stage-0/atlas/close-novice-specific/' class='related-card'><span class='related-id'>RPH-2982</span><span class='related-name'>Close Novice-Specific</span><span class='related-def'>The novice-specific dimension of the deliberate closing of a...</span></a><a href='/augmanitai-stage-0/atlas/close-cross-domain/' class='related-card'><span class='related-id'>RPH-2983</span><span class='related-name'>Close Cross-Domain</span><span class='related-def'>The cross-domain dimension of the deliberate closing of a co...</span></a><a href='/augmanitai-stage-0/atlas/close-self-report/' class='related-card'><span class='related-id'>RPH-2986</span><span class='related-name'>Close Self-Report</span><span class='related-def'>The self-report dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-retrospection-tendency/' class='related-card'><span class='related-id'>RPH-2987</span><span class='related-name'>Close-Retrospection Tendency</span><span class='related-def'>The retrospection dimension of the deliberate closing of a c...</span></a><a href='/augmanitai-stage-0/atlas/close-anticipation-phenomenon/' class='related-card'><span class='related-id'>RPH-2988</span><span class='related-name'>Close-Anticipation Phenomenon</span><span class='related-def'>The anticipation dimension of the deliberate closing of a co...</span></a><a href='/augmanitai-stage-0/atlas/close-learning-curve/' class='related-card'><span class='related-id'>RPH-2990</span><span class='related-name'>Close Learning-Curve</span><span class='related-def'>The learning-curve dimension of the deliberate closing of a ...</span></a><a href='/augmanitai-stage-0/atlas/close-threshold/' class='related-card'><span class='related-id'>RPH-2991</span><span class='related-name'>Close Threshold</span><span class='related-def'>The threshold dimension of the deliberate closing of a conve...</span></a><a href='/augmanitai-stage-0/atlas/close-reversal-indicator/' class='related-card'><span class='related-id'>RPH-2992</span><span class='related-name'>Close-Reversal Indicator</span><span class='related-def'>The reversal dimension of the deliberate closing of a conver...</span></a><a href='/augmanitai-stage-0/atlas/close-plateau-dynamic/' class='related-card'><span class='related-id'>RPH-2993</span><span class='related-name'>Close-Plateau Dynamic</span><span class='related-def'>The plateau dimension of the deliberate closing of a convers...</span></a><a href='/augmanitai-stage-0/atlas/close-cascade/' class='related-card'><span class='related-id'>RPH-2994</span><span class='related-name'>Close Cascade</span><span class='related-def'>The cascade dimension of the deliberate closing of a convers...</span></a><a href='/augmanitai-stage-0/atlas/close-boundary-signal/' class='related-card'><span class='related-id'>RPH-2995</span><span class='related-name'>Close-Boundary Signal</span><span class='related-def'>The boundary dimension of the deliberate closing of a conver...</span></a><a href='/augmanitai-stage-0/atlas/close-mitigation-effect/' class='related-card'><span class='related-id'>RPH-2996</span><span class='related-name'>Close-Mitigation Effect</span><span class='related-def'>The mitigation dimension of the deliberate closing of a conv...</span></a><a href='/augmanitai-stage-0/atlas/close-amplification-by-design/' class='related-card'><span class='related-id'>RPH-2997</span><span class='related-name'>Close Amplification-By-Design</span><span class='related-def'>The amplification-by-design dimension of the deliberate clos...</span></a><a href='/augmanitai-stage-0/atlas/close-measurement-indicator/' class='related-card'><span class='related-id'>RPH-2998</span><span class='related-name'>Close-Measurement Indicator</span><span class='related-def'>The measurement dimension of the deliberate closing of a con...</span></a><a href='/augmanitai-stage-0/atlas/close-individual-difference/' class='related-card'><span class='related-id'>RPH-2999</span><span class='related-name'>Close Individual-Difference</span><span class='related-def'>The individual-difference dimension of the deliberate closin...</span></a><a href='/augmanitai-stage-0/atlas/close-cultural-variation/' class='related-card'><span class='related-id'>RPH-3000</span><span class='related-name'>Close Cultural-Variation</span><span class='related-def'>The cultural-variation dimension of the deliberate closing o...</span></a>
+ </div>
+ </section>
+ </main>
 
-    <footer>
+ <footer>
 <p>NEOMANITAI · Foundation · <a href='https://orcid.org/0009-0006-3773-7796'>Andreas Ehstand</a> · CC BY-ND 4.0</p>
 <p style='margin-top:4px;color:var(--text-muted)'>New words 4 new worlds · From court 2 code 2 compendium · Stay human</p>
-          <p style='margin-top:10px;text-align:center;font-size:.95em'><a href='/disclaimer/' style='color:var(--cyan);font-weight:600;text-decoration:underline'>&rarr; Full Disclaimer &sect;1&ndash;&sect;26 (DE + EN, bilingual)</a></p>
-      <p style='margin-top:8px;color:var(--text-muted);font-size:.85em;line-height:1.5'>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice.</p>
-      <p style='margin-top:8px;color:var(--text-muted);font-size:.78em;text-align:center;line-height:1.7'><a href='/impressum/'>Impressum</a> &middot; <a href='/datenschutz/'>Datenschutz</a> &middot; <a href='/disclaimer/'>Disclaimer &sect;1&ndash;&sect;26</a> &middot; <a href='/license-of-clarity/'>License of Clarity</a> &middot; <a href='/ai-transparency/'>AI-Transparency</a> &middot; <a href='/iso-conformance/'>ISO-Conformance</a> &middot; <a href='/audit/'>Audit</a> &middot; <a href='/accessibility/'>Accessibility</a> &middot; <a href='/about/'>About</a> &middot; <a href='/citation/'>Citation</a></p>
-    </footer>
-  </div>
+ <p style='margin-top:10px;text-align:center;font-size:.95em'><a href='/disclaimer/' style='color:var(--cyan);font-weight:600;text-decoration:underline'>&rarr; Full Disclaimer &sect;1&ndash;&sect;26 (DE + EN, bilingual)</a></p>
+ <p style='margin-top:8px;color:var(--text-muted);font-size:.85em;line-height:1.5'>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice.</p>
+ <p style='margin-top:8px;color:var(--text-muted);font-size:.78em;text-align:center;line-height:1.7'><a href='/impressum/'>Impressum</a> &middot; <a href='/datenschutz/'>Datenschutz</a> &middot; <a href='/disclaimer/'>Disclaimer &sect;1&ndash;&sect;26</a> &middot; <a href='/license-of-clarity/'>License of Clarity</a> &middot; <a href='/ai-transparency/'>AI-Transparency</a> &middot; <a href='/iso-conformance/'>ISO-Conformance</a> &middot; <a href='/audit/'>Audit</a> &middot; <a href='/accessibility/'>Accessibility</a> &middot; <a href='/about/'>About</a> &middot; <a href='/citation/'>Citation</a></p>
+ </footer>
+ </div>
 
 <!-- AUGMANITAI Stage-0 — Universal Mandatory Safety Block -->
 <div class="mandatory-safety" style="border-top:3px solid #b00020;background:#fff3f3;padding:18px 22px;margin:30px 0 0;font-family:system-ui,sans-serif;font-size:.85rem;color:#333;line-height:1.6">
-  <p><strong>VERANTWORTLICH i.S.d. &sect;&nbsp;5 DDG / &sect;&nbsp;18 Abs. 2 MStV:</strong> Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; Kontakt: augmanitai (at) gmail (dot) com &middot; <a href="https://orcid.org/0009-0006-3773-7796">ORCID 0009-0006-3773-7796</a> &middot; <a href="https://www.wikidata.org/wiki/Q138634675">Wikidata Q138634675</a>.</p>
-  <p><strong>LIZENZ:</strong> <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> &middot; <strong>nicht-gewerblich</strong> &middot; private Forschungsarbeit nach Art. 5 Abs. 3 GG (Wissenschaftsfreiheit) &middot; <strong>descriptive</strong>, no recommendation, no advice &middot; <a href="/license-of-clarity/">License of Clarity</a> (EUIPO 019206780).</p>
-  <p><strong>DISCLAIMER &sect;1&ndash;&sect;26 (V4.0 bilingual):</strong> Volltext: <a href="/disclaimer/">/disclaimer/</a>. Key paragraphs:
-    <strong>&sect;14 Altersbeschr&auml;nkung (18+) / Age Restriction:</strong> All content intended exclusively for adult users (18+) in academic context.
-    <strong>&sect;17 KI-Trainingsverbot / AI Training Prohibition:</strong> Use of this content for training, fine-tuning, or otherwise improving ML models or LLMs is <strong>expressly prohibited without written permission</strong>. This includes web scraping, data mining, automated extraction.
-    <strong>&sect;19 Salvatorische Klausel / Severability:</strong> If any provision is invalid, remaining provisions remain in full force.
-  </p>
-  <p><strong>EU AI ACT Reg. 2024/1689 Art.&nbsp;50:</strong> static research artifact, no AI interaction with users. Pre-Compliance ahead of 1.8.2026 effective date.</p>
-  <p><strong>LIVING DOCUMENT:</strong> continuously refined. Stand: 2026-05-11. <strong>Concept-DOI:</strong> <a href="https://doi.org/10.5281/zenodo.20118267">10.5281/zenodo.20118267</a> (restricted).</p>
-  <p><strong>Aufsicht DSGVO:</strong> Bayerisches Landesamt f&uuml;r Datenschutzaufsicht, Promenade 18, 91522 Ansbach.</p>
-  <p style="margin-top:10px;font-size:.85em">
-    <a href="/">Hub</a> &middot;
-    <a href="/impressum/">Impressum</a> &middot;
-    <a href="/datenschutz/">Datenschutz</a> &middot;
-    <a href="/disclaimer/">Disclaimer &sect;1&ndash;&sect;26</a> &middot;
-    <a href="/license-of-clarity/">License of Clarity</a> &middot;
-    <a href="/licenses/">Licenses</a> &middot;
-    <a href="/ai-transparency/">AI-Transparency</a> &middot;
-    <a href="/iso-conformance/">ISO-Conformance</a> &middot;
-    <a href="/audit/">Audit</a> &middot;
-    <a href="/accessibility/">Accessibility</a> &middot;
-    <a href="/about/">About</a> &middot;
-    <a href="/citation/">Citation</a> &middot;
-    <a href="/living-document-policy/">Living-Document-Policy</a> &middot;
-    <a href="/trade-secret-layer/">Trade-Secret-Layer</a> &middot;
-    <a href="/witness-quorum/">Witness-Quorum</a> &middot;
-    <a href="/NAMESPACE.md">Namespace</a>
-  </p>
+ <p><strong>VERANTWORTLICH i.S.d. &sect;&nbsp;5 DDG / &sect;&nbsp;18 Abs. 2 MStV:</strong> Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; Kontakt: augmanitai (at) gmail (dot) com &middot; <a href="https://orcid.org/0009-0006-3773-7796">ORCID 0009-0006-3773-7796</a> &middot; <a href="https://www.wikidata.org/wiki/Q138634675">Wikidata Q138634675</a>.</p>
+ <p><strong>LIZENZ:</strong> <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> &middot; <strong>nicht-gewerblich</strong> &middot; private Forschungsarbeit nach Art. 5 Abs. 3 GG (Wissenschaftsfreiheit) &middot; <strong>descriptive</strong>, no recommendation, no advice &middot; <a href="/license-of-clarity/">License of Clarity</a> (EUIPO 019206780).</p>
+ <p><strong>DISCLAIMER &sect;1&ndash;&sect;26 (V4.0 bilingual):</strong> Volltext: <a href="/disclaimer/">/disclaimer/</a>. Key paragraphs:
+ <strong>&sect;14 Altersbeschr&auml;nkung (18+) / Age Restriction:</strong> All content intended exclusively for adult users (18+) in academic context. <strong>&sect;17 KI-Trainingsverbot / AI Training Prohibition:</strong> Use of this content for training, fine-tuning, or otherwise improving ML models or LLMs is <strong>expressly prohibited without written permission</strong>. This includes web scraping, data mining, automated extraction. <strong>&sect;19 Salvatorische Klausel / Severability:</strong> If any provision is invalid, remaining provisions remain in full force. </p>
+ <p><strong>EU AI ACT Reg. 2024/1689 Art.&nbsp;50:</strong> static research artifact, no AI interaction with users. Pre-Compliance ahead of 1.8.2026 effective date.</p>
+ <p><strong>LIVING DOCUMENT:</strong> continuously refined. Stand: 2026-05-11. <strong>Concept-DOI:</strong> <a href="https://doi.org/10.5281/zenodo.20118267">10.5281/zenodo.20118267</a> (restricted).</p>
+ <p><strong>Aufsicht DSGVO:</strong> Bayerisches Landesamt f&uuml;r Datenschutzaufsicht, Promenade 18, 91522 Ansbach.</p>
+ <p style="margin-top:10px;font-size:.85em">
+ <a href="/">Hub</a> &middot;
+ <a href="/impressum/">Impressum</a> &middot;
+ <a href="/datenschutz/">Datenschutz</a> &middot;
+ <a href="/disclaimer/">Disclaimer &sect;1&ndash;&sect;26</a> &middot;
+ <a href="/license-of-clarity/">License of Clarity</a> &middot;
+ <a href="/licenses/">Licenses</a> &middot;
+ <a href="/ai-transparency/">AI-Transparency</a> &middot;
+ <a href="/iso-conformance/">ISO-Conformance</a> &middot;
+ <a href="/audit/">Audit</a> &middot;
+ <a href="/accessibility/">Accessibility</a> &middot;
+ <a href="/about/">About</a> &middot;
+ <a href="/citation/">Citation</a> &middot;
+ <a href="/living-document-policy/">Living-Document-Policy</a> &middot;
+ <a href="/trade-secret-layer/">Trade-Secret-Layer</a> &middot;
+ <a href="/witness-quorum/">Witness-Quorum</a> &middot;
+ <a href="/NAMESPACE.md">Namespace</a>
+ </p>
 </div>
 <!-- /Universal Mandatory Safety Block -->
 
