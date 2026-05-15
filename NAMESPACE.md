@@ -18,7 +18,6 @@
 | `ROB-XXXX` | ROBMANITAI | Robotics, Embodied AI |
 | `JOB-XXXX` | JOBMANITAI | Career, Work, Profession |
 | `NEO-XXXX` | NEOMANITAI | General Extensions |
-| `LEO-XXXX` | LEOMANITAI | Internal (not in public Stage-0) |
 | `SYN-XXXX` | SYNMANITAI | Synthesis-Layer |
 | `FLUX-XXXX` | FLUXMANITAI | Flow-Dynamics |
 | `BOT-XXXX` | Bot/Companion | AI-Companion-specific terms |

@@ -35,7 +35,7 @@ Each term passed a multi-stage filter before deployment:
    diagnostic, or re-identification patterns. 27 pattern categories, 200+ word-bounded rules.
 2. **Body-Scan** — drops pages with critical legal_scan findings (model names, company names,
    recommendation language, health claims, sensitive personal data).
-3. **V11.2 Patch** — applies Verantwortlich-footer, Claude→AI-assisted replacement, DOI normalization,
+3. **V11.2 Patch** — applies Verantwortlich-footer, AI-assistant-attribution normalization, DOI normalization,
    /atlas/ URL rewriting, /disclaimer/ link.
 
 ## Verantwortlich

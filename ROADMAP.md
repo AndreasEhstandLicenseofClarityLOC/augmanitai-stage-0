@@ -33,7 +33,7 @@
 
 - 29 V11.2-Pages (Mesh-Gradient, Particles, Motto-Banner, §1–§19 inkl. §17 AI Training Prohibition, §19 Salvatorisch, Verantwortlich-Pressepflicht-Footer §5 DDG / §18 MStV)
 - 8 CRITICAL + 10 WARNING + 2 borderline Begriffe entfernt
-- "Claude-verified" → "AI-assisted (machine-translated)" 290× across alle Pages
+- Prior AI-assistant brand-attribution normalized → "AI-assisted (machine-translated)" 290× across alle Pages
 - legal_scan.py auf README: VERDICT OK · auf Atlas-Pages 0 echte critical (49 sind Meta-False-Positives auf `<meta>`-Tags + `.meta-*` CSS-Klassen)
 - Primary DOI auf 14888381 korrigiert
 - Internal cross-refs zu /atlas/{slug}/ rewritten (377 sauber, 0 broken)
@@ -163,7 +163,7 @@ Jede Page muss alle 5 enthalten:
 ## Bekannte Issues (für Iteration 2+)
 
 - **V11.2 Master-Template lacks Verantwortlich-Footer** — alle 1229 AUG_1000_GITHUB-Pages haben die §5 DDG / §18 MStV-Angabe nicht. Stage-0 hat sie gepatcht. Andy könnte das Master-Template korrigieren.
-- **„Claude-verified" als Translation-Quality-Attribution** in 10 Übersetzungs-Blöcken jeder V11.2-Page → 12290 Markennennungen across 1229 Pages. Stage-0 hat „AI-assisted (machine-translated)" ersetzt. Master-Template-Update empfohlen.
+- **Prior AI-assistant brand-attribution as Translation-Quality-Marker** in 10 Übersetzungs-Blöcken jeder V11.2-Page → 12290 Markennennungen across 1229 Pages. Stage-0 hat „AI-assisted (machine-translated)" ersetzt. Master-Template-Update empfohlen.
 - **legal_scan.py HTML-Mode**: false positives auf `<meta>`-HTML-Tags + `.meta-*` CSS-Klassen (matcht „Meta" company name). Vorschlag: HTML-strip-pre-filter im Scanner oder Whitelist für `<meta>`-Tag-Context.
 - **Drei DOIs im Workspace** (14888381 Primary / 19178907 V6-Concept / 19203505 V11.2-Compendium) — Source-of-Truth-Klärung nötig.
 - **Canonical URLs in Atlas-Pages** zeigen auf `augmanitai.com/the-XYZ.html` (PERMANITAI_LAUNCH-Ziel) — bis das deployed ist, zeigen sie aktuell auf eine nicht-existente Page. Optional: temporär auf Stage-0-URL zeigen.

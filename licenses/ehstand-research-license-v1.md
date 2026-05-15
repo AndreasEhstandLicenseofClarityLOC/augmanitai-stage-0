@@ -4,7 +4,7 @@
 
 **Issuer:** Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675).
 **Date:** 2026-05-11.
-**Trademark:** License of Clarity (EUIPO 019206780), held by Leomanitai UG.
+**Trademark:** License of Clarity (EUIPO 019206780), registered EU trademark (see EUIPO registry for holder details).
 **Concept-DOI:** 10.5281/zenodo.20118267.
 
 ---
@@ -75,7 +75,7 @@ In case of conflict between CC BY-NC-ND 4.0 (Public Layer) and ERL (Protected Co
 
 ## §9 Trademark
 
-"License of Clarity" is a registered EU trademark (EUIPO 019206780) held by Leomanitai UG. Mentions in this document are descriptive; no affiliation or endorsement is implied beyond the existing trademark ownership.
+"License of Clarity" is a registered EU trademark (EUIPO 019206780) registered EU trademark (see EUIPO registry for holder details). Mentions in this document are descriptive; no affiliation or endorsement is implied beyond the existing trademark ownership.
 
 ## §10 Acceptance
 
