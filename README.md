@@ -15,7 +15,7 @@ contemporary human-AI and human-technology phenomena. Each term:
 
 - Has bilingual EN/DE definitions plus 10 additional language translations (FR/ES/PT/IT/NL/RU/ZH/AR/HI/TR)
 - Has §1–§29 ethical disclaimer (incl. EU AI Act Art. 5+50 status, Recital 173 trade-secret reservation, re-contextualization clause)
-- Has §17 AI Training Prohibition / KI-Trainingsverbot
+- Has §17 No Offer (this corpus contains no commercial service offering) / KI-Trainingsverbot
 - Has §19 Severability / Salvatorische Klausel
 - Has Verantwortlich-Pressepflicht-Angabe per §5 DDG / §18 Abs. 2 MStV
 - Has passed strict safety-first filter (title-block + body-scan + legal_scan compliance)

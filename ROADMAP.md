@@ -31,7 +31,7 @@
 
 ## Heute (Iteration 1 — done, commit "bearbeitung")
 
-- 29 V11.2-Pages (Mesh-Gradient, Particles, Motto-Banner, §1–§19 inkl. §17 AI Training Prohibition, §19 Salvatorisch, Verantwortlich-Pressepflicht-Footer §5 DDG / §18 MStV)
+- 29 V11.2-Pages (Mesh-Gradient, Particles, Motto-Banner, §1–§19 inkl. §17 No Offer (this corpus contains no commercial service offering), §19 Salvatorisch, Verantwortlich-Pressepflicht-Footer §5 DDG / §18 MStV)
 - 8 CRITICAL + 10 WARNING + 2 borderline Begriffe entfernt
 - Prior AI-assistant brand-attribution normalized → "AI-assisted (machine-translated)" 290× across alle Pages
 - legal_scan.py auf README: VERDICT OK · auf Atlas-Pages 0 echte critical (49 sind Meta-False-Positives auf `<meta>`-Tags + `.meta-*` CSS-Klassen)

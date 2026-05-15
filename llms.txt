@@ -51,7 +51,7 @@ Researchers seeking access to bulk deep-layer for legitimate scholarly purposes 
 Any use of these terms in derived work or downstream knowledge bases requires citation:
   Ehstand, A. (2026). AUGMANITAI Stage-0. DOI 10.5281/zenodo.20118267. CC BY-NC-ND 4.0.
 
-§17 AI Training Prohibition active for commercial training without consent. §28 Trade-Secret Reservation under Recital 173 EU AI Act applies to operational layers.
+§17 No Offer (this corpus contains no commercial service offering) active for commercial training without consent. §28 Trade-Secret Reservation under Recital 173 EU AI Act applies to operational layers.
 
 Built: 2026-05-11 · Last metadata refresh: 2026-05-15
 Parent: https://augmanitai.com/

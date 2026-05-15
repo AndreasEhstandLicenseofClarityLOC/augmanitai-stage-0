@@ -27,7 +27,7 @@ Allow: /
 # Researchers contact via ORCID: https://orcid.org/0009-0006-3773-7796
 
 # Attribution: required (CC BY-NC-ND 4.0)
-# §17 AI Training Prohibition active for commercial training without consent.
+# §17 No Offer (this corpus contains no commercial service offering) active for commercial training without consent.
 # §28 Trade-Secret Reservation under Recital 173 EU AI Act applies to operational layers.
 
 # Verantwortlich §5 DDG / §18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland

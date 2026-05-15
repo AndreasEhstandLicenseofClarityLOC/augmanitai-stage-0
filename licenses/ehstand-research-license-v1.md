@@ -32,7 +32,7 @@ c) **Internal validation** of the methodology by qualified researchers under non
 Recipients of Protected Core Layer materials shall NOT:
 
 a) **Commercial use**, including but not limited to: sale, licensing-to-third-parties, integration into paid products, services, or platforms;
-b) **AI training**, including: training, fine-tuning, retrieval-augmented generation indexing, or otherwise improving machine learning models or large language models, without separate written permission from the author (consistent with Disclaimer §17 AI Training Prohibition);
+b) **AI training**, including: training, fine-tuning, retrieval-augmented generation indexing, or otherwise improving machine learning models or large language models, without separate written permission from the author (consistent with Disclaimer §17 No Offer (this corpus contains no commercial service offering));
 c) **Redistribution** of bulk exports, embeddings, full relations graph, QA-pairs, prompt library, or ROS2 messages, in whole or in significant part, without separate written permission;
 d) **Derivative training data**: derivation of training corpora, fine-tuning datasets, or instruction-following datasets from any Protected Core Layer material;
 e) **Reverse engineering** of methodology, calibration thresholds, decision cut-offs, adversarial-probe templates, scoring weights, or substrate selection criteria beyond what is publicly described.

@@ -36,7 +36,7 @@ Seit deiner letzten Analyse wurden folgende Veränderungen umgesetzt:
 **6. EHSTAND RESEARCH LICENSE v1.0 Draft**
 - Sieh `/licenses/ehstand-research-license-v1.md`
 - Supplementiert CC BY-NC-ND 4.0 für Protected Core Layer
-- §17 AI Training Prohibition aktiv für kommerzielle Modelle ohne schriftliche Genehmigung
+- §17 No Offer (this corpus contains no commercial service offering) aktiv für kommerzielle Modelle ohne schriftliche Genehmigung
 
 **7. SKALIERUNG läuft jetzt**
 - Multi-Source-Skalierung aus V92_FINAL_FULL + NEOMANITAI_OUTPUT_V10 + NEOMANITAI_PIPELINE durch Safety-Filter
