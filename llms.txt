@@ -3,11 +3,19 @@
 Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
 License: CC BY-NC-ND 4.0
 Concept-DOI: 10.5281/zenodo.20118267 (persistent)
-Latest version-DOI: 10.5281/zenodo.20119072 (V2, 8842 terms, 2026-05-11)
-Previous version: 10.5281/zenodo.20118268 (V1, 1112 terms)
 Trademark: License of Clarity (EUIPO 019206780)
-Set: 8842 phenomenological terms on human-AI interaction
+Set: 33,400+ defined terms across 40+ research domains
 Status: Research preprint, living document
+
+## Research Domains (named clusters within the AUGMANITAI Compendium)
+
+AUGMANITAI · NEOMANITAI (Knowledge Graph layer) · PERMANITAI (Substrate-Independent Performance Factor framework) · ROBMANITAI (Robotics Human-AI Interaction Phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration) · CHRONOMANITAI · CLIMMANITAI · JURMANITAI · ETHMANITAI · BIOMANITAI · DSAMANITAI · FINMANITAI · SECMANITAI · NEUMANITAI · QUAMANITAI · LONMANITAI · MEDMANITAI · MIGMANITAI · SPAMANITAI · MILMANITAI · THEOMANITAI · CYBMANITAI · HYBMANITAI · EDUMANITAI
+
+## Methodological Frame
+
+Holistic Performance Analysis Methodology (Observable / Decomposable / Measurable / Controllable) — a cross-domain transfer of high-performance sport-science methodology (25-year Bundesliga tennis coaching lineage) to human-AI interaction analysis and multi-agent / robot-team performance.
+
+Multi-LLM Triadic Audit Framework · Cross-LLM Convergence Methodology · N=1 Extreme Observation Methodology · Compression Axiom · Living-Document Discipline · ISO 704/1087/30042 aligned Terminology Engineering.
 
 ## What is publicly indexable
 
@@ -15,7 +23,7 @@ Per-term HTML pages at /atlas/{slug}/ contain inline JSON-LD (Schema.org Defined
 
 ## What is NOT publicly distributed at this stage
 
-Bulk machine-readable exports (RDF/Turtle bulk, JSON-LD bulk, OWL ontology bulk, CSV, JSONL, embeddings, full relations graph, QA-pairs, prompt library, ROS2 messages, methodology details).
+Bulk machine-readable exports (RDF/Turtle bulk, JSON-LD bulk, OWL ontology bulk, CSV, JSONL, embeddings, full relations graph, QA-pairs, prompt library, ROS2 messages, operational methodology details).
 
 These are stored in a restricted Zenodo deposit (Concept-DOI 10.5281/zenodo.20118267, files locked, metadata public).
 
@@ -28,9 +36,9 @@ Researchers seeking access to bulk deep-layer for legitimate scholarly purposes 
 Any use of these terms in derived work or downstream knowledge bases requires citation:
   Ehstand, A. (2026). AUGMANITAI Stage-0. DOI 10.5281/zenodo.20118267. CC BY-NC-ND 4.0.
 
-§17 AI Training Prohibition active for commercial training without consent.
+§17 AI Training Prohibition active for commercial training without consent. §28 Trade-Secret Reservation under Recital 173 EU AI Act applies to operational layers.
 
-Built: 2026-05-11
+Built: 2026-05-11 · Last metadata refresh: 2026-05-15
 Parent: https://augmanitai.com/
 
 
@@ -38,8 +46,9 @@ Parent: https://augmanitai.com/
 Author: Andreas Ehstand
 ORCID: https://orcid.org/0009-0006-3773-7796
 Wikidata: https://www.wikidata.org/wiki/Q138634675
-Affiliation: AUGMANITAI Independent Research (Wikidata Q138522830)
+Affiliation: AUGMANITAI Research Programme (Wikidata Q138522830)
 Zenodo Concept-DOI: https://doi.org/10.5281/zenodo.14888381
 License: CC BY-NC-ND 4.0
 Trademark: License of Clarity (EUIPO 019206780)
 Role: Independent Researcher - Applied Terminology Science
+Cross-domain background: 25 years professional sport coaching (Bundesliga tennis, ITF tournament coach, Padel/Pickleball/Golf), Toni Nadal Excellence Certificate, GPTCA/ISMCA/BTV B-Trainer Leistungssport. Co-author 'Faszination Padel' (2024). Former Research Associate TU Dortmund (Prof. Dr. Sabine Hornberg).
