@@ -11,3 +11,6 @@ _worker_outputs/
 __pycache__/
 *.pyc
 _canonical_ids_*.bak
+build_stage_0.py
+regenerate_sitemap.py
+*.py
