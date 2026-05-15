@@ -4,12 +4,20 @@ Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
 License: CC BY-NC-ND 4.0
 Concept-DOI: 10.5281/zenodo.20118267 (persistent)
 Trademark: License of Clarity (EUIPO 019206780)
-Set: 33,400+ defined terms across 40+ research domains
+Set: 35,895 defined terms across 169 research-domain clusters
 Status: Research preprint, living document
+Domain hub: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/
 
 ## Research Domains (named clusters within the AUGMANITAI Compendium)
 
-AUGMANITAI · NEOMANITAI (Knowledge Graph layer) · PERMANITAI (Substrate-Independent Performance Factor framework) · ROBMANITAI (Robotics Human-AI Interaction Phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration) · CHRONOMANITAI · CLIMMANITAI · JURMANITAI · ETHMANITAI · BIOMANITAI · DSAMANITAI · FINMANITAI · SECMANITAI · NEUMANITAI · QUAMANITAI · LONMANITAI · MEDMANITAI · MIGMANITAI · SPAMANITAI · MILMANITAI · THEOMANITAI · CYBMANITAI · HYBMANITAI · EDUMANITAI
+Featured domain pages with full term listings:
+- /domains/subjective-phenomenology/ - 8,063 RPH terms (subjective experience in human-AI interaction)
+- /domains/cross-domain-pool/ - 2,553 WK terms (cross-disciplinary terminology bridging the framework)
+- /domains/neomanitai-knowledge-graph/ - 2,439 NEO terms (cross-reference and ontological-relation layer)
+- /domains/augmanitai-core/ - 1,816 AUG terms (canonical descriptive terminology baseline)
+- /domains/ - master index of all 169 clusters
+
+Named framework branches: AUGMANITAI · NEOMANITAI (Knowledge Graph layer) · PERMANITAI (Substrate-Independent Performance Factor framework) · ROBMANITAI (Robotics Human-AI Interaction Phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration) · EDUMANITAI · JOBMANITAI
 
 ## Methodological Frame
 

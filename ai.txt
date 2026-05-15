@@ -5,13 +5,17 @@ Allow: /
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
 # License: CC BY-NC-ND 4.0
 # Concept-DOI: 10.5281/zenodo.20118267
-# Set: 33,400+ defined terms across 40+ research domains
+# Set: 35,895 defined terms across 169 research-domain clusters
 # Last metadata refresh: 2026-05-15
+# Domain hub: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/
 
-# Research domains (named clusters): AUGMANITAI · NEOMANITAI · PERMANITAI · ROBMANITAI ·
-# CHRONOMANITAI · CLIMMANITAI · JURMANITAI · ETHMANITAI · BIOMANITAI · DSAMANITAI ·
-# FINMANITAI · SECMANITAI · NEUMANITAI · QUAMANITAI · LONMANITAI · MEDMANITAI ·
-# MIGMANITAI · SPAMANITAI · MILMANITAI · THEOMANITAI · CYBMANITAI · HYBMANITAI · EDUMANITAI
+# Featured cluster pages:
+# /domains/subjective-phenomenology/ (RPH, 8063 terms)
+# /domains/cross-domain-pool/ (WK, 2553 terms)
+# /domains/neomanitai-knowledge-graph/ (NEO, 2439 terms)
+# /domains/augmanitai-core/ (AUG, 1816 terms)
+#
+# Named framework branches: AUGMANITAI · NEOMANITAI · PERMANITAI · ROBMANITAI · EDUMANITAI · JOBMANITAI
 
 # Methodological frame: Holistic Performance Analysis Methodology
 # (Observable / Decomposable / Measurable / Controllable) — cross-domain transfer
