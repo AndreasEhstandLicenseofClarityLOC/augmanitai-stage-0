@@ -1,23 +1,51 @@
 cff-version: 1.2.0
-title: "AUGMANITAI Stage-0 V2 (8842 Phenomenological Terms, Research Preprint, Restricted)"
+title: "AUGMANITAI Stage-0 (Defined Terms across 169 Research-Domain Clusters, Research Preprint, Living Document)"
 authors:
   - family-names: Ehstand
     given-names: Andreas
     orcid: "https://orcid.org/0009-0006-3773-7796"
+    affiliation: "AUGMANITAI Research Programme (Wikidata Q138522830)"
 license: CC-BY-NC-ND-4.0
-date-released: "2026-05-11"
+date-released: "2026-05-15"
 identifiers:
   - type: doi
     value: 10.5281/zenodo.20118267
     description: AUGMANITAI Stage-0 Concept-DOI (persistent anchor)
   - type: doi
     value: 10.5281/zenodo.20119072
-    description: AUGMANITAI Stage-0 V2 (latest, 8842 terms)
+    description: AUGMANITAI Stage-0 V2 (research preprint snapshot)
   - type: doi
     value: 10.5281/zenodo.20118268
-    description: AUGMANITAI Stage-0 V1 (historical, 1112 terms)
+    description: AUGMANITAI Stage-0 V1 (historical)
   - type: doi
     value: 10.5281/zenodo.14888381
     description: AUGMANITAI Compendium parent Concept-DOI
+keywords:
+  - human-AI interaction
+  - phenomenology
+  - applied terminology science
+  - ISO 704
+  - ISO 1087
+  - ISO 30042
+  - holistic performance analysis
+  - multi-agent systems
+  - multi-robot coordination
+  - robot-team coordination
+  - AGI pre-norm architecture
+  - knowledge graph architecture
+  - living document discipline
+  - License of Clarity
+  - EUIPO 019206780
 repository-code: "https://github.com/AndreasEhstandLicenseofClarityLOC/augmanitai-stage-0"
-url: "https://zenodo.org/record/20119072"
+url: "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/"
+preferred-citation:
+  type: dataset
+  title: "AUGMANITAI Stage-0 - Defined Terms Corpus (Living Document)"
+  authors:
+    - family-names: Ehstand
+      given-names: Andreas
+      orcid: "https://orcid.org/0009-0006-3773-7796"
+  doi: 10.5281/zenodo.20118267
+  year: 2026
+  publisher:
+    name: "AUGMANITAI Research Programme"
