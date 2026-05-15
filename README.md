@@ -1,20 +1,20 @@
-# AUGMANITAI Stage-0 (35,895 Defined Terms across 169 Research-Domain Clusters)
+# AUGMANITAI Stage-0 (32,656 Defined Terms across 169 Research-Domain Clusters - Pure Andreas-Ehstand Phenomenology)
 
 **Author:** Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
 **License:** CC BY-NC-ND 4.0
 **Concept-DOI:** 10.5281/zenodo.20118267
 **Trademark:** License of Clarity (EUIPO 019206780)
 **Status:** Research preprint, living document
-**Terms:** 35,895 (across 169 research-domain clusters)
+**Terms:** 32,656 (pure Andreas-Ehstand phenomenology across 169 clusters)
 **Date:** 2026-05-15
 
 ## Purpose
 
-Research preprint of **35,895 defined terms across 169 research-domain clusters** coined by Andreas Ehstand describing
+Research preprint of **32,656 defined terms across 169 research-domain clusters - 100% original Andreas-Ehstand phenomenology** coined by Andreas Ehstand describing
 contemporary human-AI and human-technology phenomena. Each term:
 
 - Has bilingual EN/DE definitions plus 10 additional language translations (FR/ES/PT/IT/NL/RU/ZH/AR/HI/TR)
-- Has §1–§26 ethical disclaimer
+- Has §1–§29 ethical disclaimer (incl. EU AI Act Art. 5+50 status, Recital 173 trade-secret reservation, re-contextualization clause)
 - Has §17 AI Training Prohibition / KI-Trainingsverbot
 - Has §19 Severability / Salvatorische Klausel
 - Has Verantwortlich-Pressepflicht-Angabe per §5 DDG / §18 Abs. 2 MStV
