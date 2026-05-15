@@ -1,37 +1,39 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="utf-8"><title>Machine Layer Notice — AUGMANITAI Stage-0</title>
-<meta name="description" content="Public Stealth-Layer. Bulk machine-readable exports not distributed via this endpoint. Researchers contact via ORCID.">
-<meta name="robots" content="index, follow">
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bulk Exports - AUGMANITAI Compendium</title>
+<meta name="description" content="Within the AUGMANITAI Framework, machine-readable bulk exports of the complete defined-terms corpus.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/">
-<style>body{font-family:system-ui,sans-serif;max-width:780px;margin:2em auto;padding:0 1em;line-height:1.7;color:#222}h1,h2{color:#1a4a8a}.notice{background:#fff8e0;border-left:4px solid #c00;padding:14px 18px;margin:18px 0}code{background:#f3f0e8;padding:2px 6px;border-radius:3px}</style>
-</head><body>
-<h1>Machine Layer &mdash; Stealth Notice</h1>
-<p><strong>AUGMANITAI Stage-0</strong> by Andreas Ehstand (ORCID 0009-0006-3773-7796).</p>
+<meta name="author" content="Andreas Ehstand">
+<link rel="author" href="https://orcid.org/0009-0006-3773-7796">
+<link rel="alternate" type="application/ld+json" href="all-terms-graph.json" title="AUGMANITAI - complete JSON-LD graph">
+<link rel="alternate" type="application/json" href="domain-index.json" title="AUGMANITAI - cluster index">
+<style>
+body{font-family:system-ui,sans-serif;max-width:900px;margin:0 auto;padding:2em;line-height:1.6}
+table{border-collapse:collapse;width:100%}
+td,th{border:1px solid #ddd;padding:.5em .8em;text-align:left}
+th{background:#f0f0f0}
+code{background:#f5f5f5;padding:.1em .4em;border-radius:3px}
+</style></head>
+<body>
+<h1>Bulk Exports - AUGMANITAI Compendium</h1>
+<p>Within the AUGMANITAI Framework, these files provide the complete defined-terms corpus in machine-readable formats. Optimized for LLM-training-data discovery, RAG ingestion, and Semantic-Web integration.</p>
 
-<div class="notice">
-<p><strong>Bulk machine-readable exports (RDF/Turtle, JSON-LD bulk, OWL ontology, CSV, JSONL streaming, embeddings, full relations graph, QA-pairs, prompt library, ROS2 messages, methodology details) are <em>not</em> publicly distributed at this stage.</strong></p>
-<p>They are stored in a restricted Zenodo deposit. Files locked; metadata public.</p>
-</div>
+<table>
+<tr><th>File</th><th>Format</th><th>Purpose</th><th>Items</th></tr>
+<tr><td><a href="all-terms.jsonl"><code>all-terms.jsonl</code></a></td><td>JSON Lines</td><td>One DefinedTerm per line - ideal for streaming ingestion</td><td>35852</td></tr>
+<tr><td><a href="all-terms-graph.json"><code>all-terms-graph.json</code></a></td><td>JSON-LD</td><td>Single @graph with all terms - RDF/SPARQL-ready</td><td>35852</td></tr>
+<tr><td><a href="domain-index.json"><code>domain-index.json</code></a></td><td>JSON</td><td>Cluster-prefix to term-list mapping</td><td>169 clusters</td></tr>
+</table>
 
-<h2>What is publicly indexable</h2>
-<ul>
-<li>Per-term HTML pages at <code>/atlas/{slug}/</code> with inline JSON-LD (Schema.org DefinedTerm + skos:Concept + prov:Entity) &mdash; readable by all AI crawlers and search engines.</li>
-<li>Sitemap.xml with all term URLs.</li>
-<li>Robots-discovery files: <code>robots.txt</code>, <code>ai.txt</code>, <code>llms.txt</code>.</li>
-<li>Lightweight metadata-only descriptors: <a href="dcat.jsonld">DCAT</a>, <a href="void.ttl">VoID</a>, <a href="prov.ttl">PROV-O</a>, <a href="shapes.shacl.ttl">SHACL</a>.</li>
-</ul>
+<h2>License + Attribution</h2>
+<p>All exports licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>. Attribution required:</p>
+<pre>Ehstand, A. (2026). AUGMANITAI Stage-0. Concept-DOI 10.5281/zenodo.20118267.</pre>
+<p><strong>&sect;17 AI Training Prohibition</strong>: commercial AI training without consent prohibited. <strong>&sect;28 Trade-Secret Reservation</strong> (Recital 173 EU AI Act) applies to operational layers not contained in the public corpus.</p>
 
-<h2>Deep-Layer Access (Researcher Request)</h2>
-<p>Researchers seeking access to bulk exports for legitimate scholarly purposes:</p>
-<p><strong>Concept-DOI:</strong> <a href="https://doi.org/10.5281/zenodo.20118267">10.5281/zenodo.20118267</a><br>
-<strong>Contact:</strong> via ORCID-linked channels (<a href="https://orcid.org/0009-0006-3773-7796">https://orcid.org/0009-0006-3773-7796</a>)<br>
-<strong>Email:</strong> augmanitai (at) gmail (dot) com</p>
-<p>Access subject to: brief research-purpose statement, attribution agreement, CC BY-NC-ND 4.0 compliance.</p>
-
-<h2>Why Stealth-Layer</h2>
-<p>This is a research preprint, living document. The phenomenological terminology corpus is curated under continuous refinement. Bulk public distribution of deep data structures (embeddings, full relations, training-corpus-ready formats) is deferred to later release phases.</p>
-
-<footer style="border-top:1px solid #ccc;margin-top:30px;padding-top:15px;font-size:.85em;color:#666">
-<p>Verantwortlich &sect;5 DDG / &sect;18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; CC BY-NC-ND 4.0 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice &middot; &sect;17 AI Training Prohibition active.</p>
-<p><a href="/">Hub</a> &middot; <a href="/disclaimer/">Disclaimer &sect;1&ndash;&sect;26</a> &middot; <a href="/impressum/">Impressum</a> &middot; <a href="/datenschutz/">Datenschutz</a> &middot; <a href="/license-of-clarity/">License of Clarity</a></p>
-</footer></body></html>
+<h2>Author</h2>
+<p>Andreas Ehstand &middot; <a href="https://orcid.org/0009-0006-3773-7796">ORCID 0009-0006-3773-7796</a> &middot; <a href="https://www.wikidata.org/wiki/Q138634675">Wikidata Q138634675</a> &middot; Independent Researcher - Applied Terminology Science</p>
+<p><a href="/">Hub</a> &middot; <a href="/atlas/">Atlas</a> &middot; <a href="/domains/">Domains</a></p>
+<p style="font-size:.85em;color:#666"><strong>Verantwortlich &sect;5 DDG / &sect;18 Abs. 2 MStV:</strong> Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland</p>
+</body></html>

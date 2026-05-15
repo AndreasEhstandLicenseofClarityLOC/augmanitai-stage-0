@@ -27,13 +27,20 @@ Multi-LLM Triadic Audit Framework · Cross-LLM Convergence Methodology · N=1 Ex
 
 ## What is publicly indexable
 
-Per-term HTML pages at /atlas/{slug}/ contain inline JSON-LD (Schema.org DefinedTerm + skos:Concept + prov:Entity). All terms discoverable via sitemap.xml. Lightweight metadata descriptors at /exports/.
+Per-term HTML pages at /atlas/{slug}/ contain inline JSON-LD (Schema.org DefinedTerm + skos:Concept + prov:Entity). All terms discoverable via sitemap.xml. Domain overviews at /domains/.
+
+Bulk machine-readable exports at /exports/:
+- /exports/all-terms.jsonl - one DefinedTerm per line (35,852 lines, ~25 MB) - streaming-friendly
+- /exports/all-terms-graph.json - single JSON-LD @graph (35,852 terms, ~27 MB) - SPARQL/RDF-ready
+- /exports/domain-index.json - cluster-prefix to term-list mapping (169 clusters)
 
 ## What is NOT publicly distributed at this stage
 
-Bulk machine-readable exports (RDF/Turtle bulk, JSON-LD bulk, OWL ontology bulk, CSV, JSONL, embeddings, full relations graph, QA-pairs, prompt library, ROS2 messages, operational methodology details).
+Operational-layer details: scoring algorithms, proprietary training pipelines,
+internal audit-procedure mechanics, subscription-architecture internals, full
+relations-graph traversal data, ROS2 messages, methodology operational steps.
 
-These are stored in a restricted Zenodo deposit (Concept-DOI 10.5281/zenodo.20118267, files locked, metadata public).
+These are stored in a restricted Zenodo deposit (Concept-DOI 10.5281/zenodo.20118267, files locked, metadata public). Recital 173 EU AI Act trade-secret reservation applies.
 
 ## Researcher access
 
