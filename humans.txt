@@ -1,0 +1,19 @@
+/* TEAM */
+Author: Andreas Ehstand
+Role: AI Researcher
+Site: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/
+ORCID: https://orcid.org/0009-0006-3773-7796
+Wikidata: https://www.wikidata.org/wiki/Q138634675
+GitHub: https://github.com/AndreasEhstandLicenseofClarityLOC
+Location: Starnberg, Germany
+
+/* SITE */
+Title: AUGMANITAI Master Compendium · 32,596 Defined Terms
+Last update: 2026-05-16
+Language: English / Deutsch (bilingual throughout)
+License: CC BY-NC-ND 4.0
+Standards: HTML5, JSON-LD, Schema.org, OpenGraph, Twitter Cards, Dublin Core
+Programme: AUGMANITAI Research Programme
+
+/* THANKS */
+To the open-source community making bilingual research publication tractable.

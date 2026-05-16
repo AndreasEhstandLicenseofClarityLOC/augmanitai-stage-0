@@ -1,69 +1,42 @@
-# AUGMANITAI Stage-0 — Public Stealth Layer
+# AUGMANITAI Master Compendium
 
-Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
-License: CC BY-NC-ND 4.0
-Concept-DOI: 10.5281/zenodo.20118267 (persistent)
-Trademark: License of Clarity (EUIPO 019206780)
-Set: 32,656 defined terms across 169 research-domain clusters (post-V10 copyright cleanup: 100% original Andreas-Ehstand phenomenology, 3,237 LLM-schwarm-filler/3rd-party-attribution pages removed)
-Status: Research preprint, living document
-Domain hub: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/
+> The main library of the AUGMANITAI Research Programme. 32,596 defined terms (EN+DE) describing observable patterns of human-AI interaction. Bilingual descriptive phenomenology. CC BY-NC-ND 4.0.
 
-## Research Domains (named clusters within the AUGMANITAI Compendium)
+## About
 
-Featured domain pages with full term listings:
-- /domains/subjective-phenomenology/ - approx 7,900 RPH terms (subjective experience in human-AI interaction)
-- /domains/cross-domain-pool/ - approx 2,300 WK terms (cross-disciplinary terminology bridging the framework)
-- /domains/neomanitai-knowledge-graph/ - approx 2,200 NEO terms (cross-reference and ontological-relation layer)
-- /domains/augmanitai-core/ - approx 1,700 AUG terms (canonical descriptive terminology baseline)
-- /domains/ - master index of all 169 clusters
+This is the master library of the **AUGMANITAI Research Programme** by **Andreas Ehstand** — AI Researcher · Human-AI Interaction · Starnberg, Germany. Descriptive phenomenology of patterns observed when humans interact with AI systems. One page per named pattern. Bilingual EN/DE.
 
-Named framework branches: AUGMANITAI · NEOMANITAI (Knowledge Graph layer) · PERMANITAI (Substrate-Independent Performance Factor framework) · ROBMANITAI (Robotics Human-AI Interaction Phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration) · EDUMANITAI · JOBMANITAI
+## Identifiers
 
-## Methodological Frame
+- ORCID: https://orcid.org/0009-0006-3773-7796
+- Wikidata: https://www.wikidata.org/wiki/Q138634675
+- GitHub: https://github.com/AndreasEhstandLicenseofClarityLOC
 
-Holistic Performance Analysis Methodology (Observable / Decomposable / Measurable / Controllable) — a cross-domain transfer of high-performance sport-science methodology (25-year Bundesliga tennis coaching lineage) to human-AI interaction analysis and multi-agent / robot-team performance.
+## Structure
 
-Multi-LLM Triadic Audit Framework · Cross-LLM Convergence Methodology · N=1 Extreme Observation Methodology · Compression Axiom · Living-Document Discipline · ISO 704/1087/30042 aligned Terminology Engineering.
+- **32,596 defined terms** across 165 topical clusters and 6 thematic branches
+- **Atlas index**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/
+- **Domains overview**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/
+- **Disclaimer §1–§29 (bilingual)**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/disclaimer/
+- **Impressum (DE)**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/impressum/
+- **Datenschutz (DE)**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/datenschutz/
+- **Exports (JSON-LD/RDF/CSV/JSONL)**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/
 
-## What is publicly indexable
+## Related Resources Across the Programme
 
-Per-term HTML pages at /atlas/{slug}/ contain inline JSON-LD (Schema.org DefinedTerm + skos:Concept + prov:Entity). All terms discoverable via sitemap.xml. Domain overviews at /domains/.
+- [Portal](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/) — Central landing for nine connected corpora
+- [Knowledge Graph](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-wow/) — Interactive 104-term selection
+- [Periodic Table](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic-table/) — 100 most representative patterns
+- [Academic Atlas](https://andreasehstandlicenseofclarityloc.github.io/neomanitai-terms/) — 6,027 academic terms with machine-readable exports
+- [Performance Framework](https://andreasehstandlicenseofclarityloc.github.io/permanitai-framework/) — PERMANITAI cross-domain methodology
+- [Founding Essay](https://andreasehstandlicenseofclarityloc.github.io/synmanitai/) — Synmanitai methodological grounding
+- [Author](https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/) — About Andreas Ehstand
+- [Private Research Partnerships](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/inquiries/) — Co-investigative engagements
 
-Bulk machine-readable exports at /exports/:
-- /exports/all-terms.jsonl - one DefinedTerm per line (35,852 lines, ~25 MB) - streaming-friendly
-- /exports/all-terms-graph.json - single JSON-LD @graph (35,852 terms, ~27 MB) - SPARQL/RDF-ready
-- /exports/domain-index.json - cluster-prefix to term-list mapping (169 clusters)
+## Methodology
 
-## What is NOT publicly distributed at this stage
+Descriptive phenomenology adapted from twenty years of high-performance sport coaching. Each term documents an observable pattern without prescriptive recommendation. Bilingual throughout. Citation-ready with stable DOIs.
 
-Operational-layer details: scoring algorithms, proprietary training pipelines,
-internal audit-procedure mechanics, subscription-architecture internals, full
-relations-graph traversal data, ROS2 messages, methodology operational steps.
+## License
 
-These are stored in a restricted Zenodo deposit (Concept-DOI 10.5281/zenodo.20118267, files locked, metadata public). Recital 173 EU AI Act trade-secret reservation applies.
-
-## Researcher access
-
-Researchers seeking access to bulk deep-layer for legitimate scholarly purposes contact via ORCID-linked channels: https://orcid.org/0009-0006-3773-7796 or augmanitai@gmail.com. Subject to brief research-purpose statement and attribution agreement.
-
-## Attribution required (CC BY-NC-ND 4.0)
-
-Any use of these terms in derived work or downstream knowledge bases requires citation:
-  Ehstand, A. (2026). AUGMANITAI Stage-0. DOI 10.5281/zenodo.20118267. CC BY-NC-ND 4.0.
-
-§17 No Offer (this corpus contains no commercial service offering) active for commercial training without consent. §28 Trade-Secret Reservation under Recital 173 EU AI Act applies to operational layers.
-
-Built: 2026-05-11 · Last metadata refresh: 2026-05-15
-Parent: https://augmanitai.com/
-
-
-# Author identity (canonical)
-Author: Andreas Ehstand
-ORCID: https://orcid.org/0009-0006-3773-7796
-Wikidata: https://www.wikidata.org/wiki/Q138634675
-Affiliation: AUGMANITAI Research Programme (Wikidata Q138522830)
-Zenodo Concept-DOI: https://doi.org/10.5281/zenodo.14888381
-License: CC BY-NC-ND 4.0
-Trademark: License of Clarity (EUIPO 019206780)
-Role: AI Researcher
-Cross-domain background: 25 years professional sport coaching (Bundesliga tennis, ITF tournament coach, Padel/Pickleball/Golf), Toni Nadal Excellence Certificate, GPTCA/ISMCA/BTV B-Trainer Leistungssport. Co-author 'Faszination Padel' (2024). Former Research Associate TU Dortmund (Prof. Dr. Sabine Hornberg).
+CC BY-NC-ND 4.0 · https://creativecommons.org/licenses/by-nc-nd/4.0/
