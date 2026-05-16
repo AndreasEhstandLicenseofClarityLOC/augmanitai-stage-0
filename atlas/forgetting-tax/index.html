@@ -627,9 +627,35 @@ h1{font-size:clamp(1.4em,5vw,2.2em);overflow-wrap:break-word;word-break:break-wo
 .related-grid{grid-template-columns:repeat(auto-fill,minmax(min(280px,100%),1fr))}
 nav.top{display:flex;flex-wrap:wrap;gap:6px 0}
 @media(max-width:480px){body{padding:12px}nav.top a{margin-right:8px}}
+
+/* atlas-premium-uix-v1 */
+/* === PREMIUM UX LAYER === */
+html { scroll-behavior: smooth; }
+:focus-visible { outline: 2px solid #2ee0ff; outline-offset: 2px; border-radius: 4px; }
+
+.atlas-spotlight {
+  position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(circle 450px at var(--ax,50%) var(--ay,50%),
+              rgba(46,224,255,0.10), transparent 65%);
+  transition: background 80ms;
+}
+@media (pointer: coarse), (prefers-reduced-motion: reduce) {
+  .atlas-spotlight { display: none; }
+}
+
+.related-grid a, .related-term, a.related, .term-link, .term-card {
+  transition: transform 180ms cubic-bezier(0.16,1,0.3,1), border-color 180ms, box-shadow 180ms, background 180ms;
+}
+.related-grid a:hover, .related-term:hover, a.related:hover, .term-link:hover, .term-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(46,224,255,0.4);
+  box-shadow: 0 6px 22px rgba(46,224,255,0.16);
+}
+/* === END PREMIUM UX LAYER === */
 </style>
 </head>
 <body>
+<div class="atlas-spotlight" aria-hidden="true"></div>
 <a href="#main" class="skip-link" style="position:absolute;left:-999px;top:0;background:#000;color:#fff;padding:8px;z-index:9999;text-decoration:none" onfocus="this.style.left=\'0\'" onblur="this.style.left=\'-999px\'">Skip to main content</a>
  
  <div class='scroll-progress'></div>
@@ -1718,5 +1744,20 @@ window.addEventListener('scroll', () => {
 
 
 <section class="related"><h2>Related entries (organic graph)</h2><div class="related-grid"><a href="/augmanitai-stage-0/atlas/forgetting-acceleration/" class="related-card"><span class="related-name">Forgetting Acceleration</span></a></div></section>
+<script>
+(function(){
+  var sp=document.querySelector('.atlas-spotlight');
+  if(!sp||matchMedia('(pointer:coarse)').matches||matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+  var raf;
+  document.addEventListener('mousemove',function(e){
+    if(raf)return;
+    raf=requestAnimationFrame(function(){
+      sp.style.setProperty('--ax',e.clientX+'px');
+      sp.style.setProperty('--ay',e.clientY+'px');
+      raf=null;
+    });
+  },{passive:true});
+})();
+</script>
 </body>
 </html>
