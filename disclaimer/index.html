@@ -35,7 +35,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: 'Inter', system-ui, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.75;
   overflow-x: hidden;
 }
@@ -544,14 +544,108 @@ footer a:hover { color:var(--magenta); text-decoration:underline; }
 .disc-lang-content { background:var(--surface); padding:30px 36px; border:1px solid var(--border); border-radius:var(--radius); margin:18px 0; }
 .disc-lang-content p { margin:12px 0; line-height:1.7; color:var(--text-dim); }
 .disc-lang-content p strong { color:var(--cyan); font-weight:600; }
-.lang-switch { display:flex; gap:8px; margin:24px 0 12px; }
-.lang-switch button { background:var(--surface); color:var(--text-dim); border:1px solid var(--border); padding:8px 18px; border-radius:24px; cursor:pointer; font-size:13px; font-weight:600; transition:all .2s; }
+.lang-switch { display:flex; gap:8px; margin:24px 0 12px; flex-wrap:wrap; }
+.lang-switch button { background:var(--surface); color:var(--text-dim); border:1px solid var(--border); padding:10px 20px; border-radius:24px; cursor:pointer; font-size:14px; font-weight:600; transition:all .2s; min-height:44px; }
 .lang-switch button.active { background:var(--cyan); color:#000; border-color:var(--cyan); }
 .lang-switch button:hover { color:var(--cyan); }
 .lang-block { display:none; }
 .lang-block.active { display:block; }
 .legal-band { background:rgba(176,0,32,0.12); border:2px solid #b00020; padding:18px 22px; border-radius:12px; margin:24px 0; color:var(--text); font-size:14px; line-height:1.6; }
 .legal-band strong { color:#ff5577; }
+
+/* === TOP NAV OVERLAY === */
+.disc-topnav {
+  position: sticky;
+  top: 0;
+  z-index: 300;
+  background: rgba(5,5,8,0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(0,229,255,0.15);
+  padding: 0;
+}
+.disc-topnav-inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 1em;
+  min-height: 52px;
+  gap: 0;
+}
+.disc-topnav-inner .brand {
+  font-weight: 800;
+  font-size: 0.98em;
+  color: var(--cyan);
+  text-decoration: none;
+  padding: 0.7em 0.6em 0.7em 0;
+  margin-right: 0.3em;
+  display: inline-block;
+  white-space: nowrap;
+}
+.disc-topnav-inner .nav-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.disc-topnav-inner .nav-links a {
+  font-size: 0.87em;
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 0.7em 0.6em;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 5px;
+  transition: color 0.15s, background 0.15s;
+  white-space: nowrap;
+}
+.disc-topnav-inner .nav-links a:hover,
+.disc-topnav-inner .nav-links a.active {
+  color: var(--text);
+  background: rgba(0,229,255,0.06);
+}
+.disc-back-bar {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  font-size: 0.85em;
+  color: var(--text-muted);
+  position: relative;
+  z-index: 1;
+}
+.disc-back-bar a {
+  color: var(--cyan);
+  text-decoration: none;
+  font-weight: 600;
+}
+.disc-back-bar a:hover { text-decoration: underline; }
+.disc-back-bar .bc-sep { opacity: 0.5; margin: 0 0.4em; }
+
+/* === FOOTER UPGRADE === */
+.disc-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em 1em;
+  margin-bottom: 1em;
+}
+.disc-footer-links a {
+  color: var(--cyan) !important;
+  text-decoration: none;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+.disc-footer-links a:hover { text-decoration: underline !important; color: var(--magenta) !important; }
+
+@media (max-width: 640px) {
+  .disc-topnav-inner { padding: 0 0.6em; }
+  .disc-back-bar { padding: 0.4em 0.6em; }
+  .disc-lang-content { padding: 18px 16px; }
+}
 
 </style>
 <script type="application/ld+json">
@@ -658,6 +752,28 @@ footer a:hover { color:var(--magenta); text-decoration:underline; }
 </script>
 </head>
 <body>
+
+<!-- TOP NAV -->
+<nav class="disc-topnav" role="navigation" aria-label="Main navigation">
+  <div class="disc-topnav-inner">
+    <a class="brand" href="/augmanitai-stage-0/">AUGMANITAI</a>
+    <div class="nav-links">
+      <a href="/augmanitai-stage-0/atlas/">Atlas</a>
+      <a href="/augmanitai-stage-0/domains/">Domains</a>
+      <a href="/augmanitai-stage-0/disclaimer/" class="active" aria-current="page">Disclaimer</a>
+      <a href="/augmanitai-stage-0/exports/">Exports</a>
+      <a href="/augmanitai-stage-0/impressum/">Impressum</a>
+    </div>
+  </div>
+</nav>
+
+<!-- BREADCRUMB / BACK BAR -->
+<div class="disc-back-bar" aria-label="Breadcrumb">
+  <a href="/augmanitai-stage-0/">← Compendium</a>
+  <span class="bc-sep">›</span>
+  <span>Disclaimer §1–§29</span>
+</div>
+
   <div class='mesh-bg'></div>
   <div class='particles' id='particles'></div>
   <div class='scroll-bar' id='scrollBar'></div>
@@ -773,8 +889,15 @@ footer a:hover { color:var(--magenta); text-decoration:underline; }
     </main>
 
     <footer>
-      <p><a href='/'>&larr; Stage-0 Hub</a> &middot; <a href='https://orcid.org/0009-0006-3773-7796'>Andreas Ehstand</a> &middot; <a href='https://www.wikidata.org/wiki/Q138634675'>Wikidata</a> &middot; CC BY-NC-ND 4.0 &middot; Concept-DOI 10.5281/zenodo.20118267</p>
-      <p style='margin-top:6px;color:var(--text-muted)'>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; Wikidata Q138634675 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice.</p>
+      <nav class="disc-footer-links" aria-label="Footer navigation">
+        <a href='/augmanitai-stage-0/'>&larr; Compendium Home</a>
+        <a href='/augmanitai-stage-0/atlas/'>Atlas</a>
+        <a href='/augmanitai-stage-0/domains/'>Domains</a>
+        <a href='/augmanitai-stage-0/exports/'>Exports</a>
+        <a href='/augmanitai-stage-0/impressum/'>Impressum</a>
+      </nav>
+      <p><a href='https://orcid.org/0009-0006-3773-7796'>Andreas Ehstand</a> &middot; CC BY-NC-ND 4.0 &middot; Concept-DOI 10.5281/zenodo.20118267</p>
+      <p style='margin-top:6px;color:var(--text-muted)'>Verantwortlich &sect; 5 DDG / &sect; 18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland &middot; ORCID 0009-0006-3773-7796 &middot; nicht-gewerblich &middot; descriptive, no recommendation, no advice.</p>
     </footer>
 
   </div>
