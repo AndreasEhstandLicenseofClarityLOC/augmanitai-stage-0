@@ -633,7 +633,14 @@ h1 {
  .related-grid { grid-template-columns: 1fr; }
  h1 { font-size: 2.2em; }
 }
- </style>
+ 
+/* mobile-nav-patch-v1 */
+h1{font-size:clamp(1.4em,5vw,2.2em);overflow-wrap:break-word;word-break:break-word}
+.definition{overflow-wrap:break-word;word-break:break-word}
+.related-grid{grid-template-columns:repeat(auto-fill,minmax(min(280px,100%),1fr))}
+nav.top{display:flex;flex-wrap:wrap;gap:6px 0}
+@media(max-width:480px){body{padding:12px}nav.top a{margin-right:8px}}
+</style>
 <meta name="author" content="Andreas Ehstand">
 <link rel="author" href="https://orcid.org/0009-0006-3773-7796">
 <meta name="citation_author" content="Andreas Ehstand">
@@ -658,7 +665,11 @@ h1 {
  <a href='/augmanitai-stage-0/atlas/ground/' class='related-card'><span class='related-id'>RPH-3202</span><span class='related-name'>Ground</span><span class='related-def'>Pertaining to the felt sense of being in actual reality rath...</span></a><a href='/atlas/punctuated-hold-ecology/' class='related-card'><span class='related-id'>RPH-3203</span><span class='related-name'>The Punctuated Hold Ecology</span><span class='related-def'>In the taxonomy, The Punctuated Hold Ecology identifies the ...</span></a><a href='/augmanitai-stage-0/atlas/spine/' class='related-card'><span class='related-id'>RPH-3204</span><span class='related-name'>Spine</span><span class='related-def'>A structural principle that supports sprawling conversations...</span></a><a href='/augmanitai-stage-0/atlas/steady/' class='related-card'><span class='related-id'>RPH-3205</span><span class='related-name'>Steady</span><span class='related-def'>Describing felt stability when mind finds something immovabl...</span></a>
  </div>
  </section>
- </main>
+ <nav class="bottom-nav" role="navigation" aria-label="Back navigation" style="margin-top:32px;padding:14px 0;border-top:2px solid var(--border);display:flex;gap:16px;flex-wrap:wrap">
+ <a href="/augmanitai-stage-0/atlas/" style="color:var(--cyan);text-decoration:none;font-size:0.95em;padding:8px 0;min-height:44px;display:flex;align-items:center">&#8593; Atlas Index</a>
+ <a href="/augmanitai-stage-0/" style="color:var(--cyan);text-decoration:none;font-size:0.95em;padding:8px 0;min-height:44px;display:flex;align-items:center">&#8592; Hub</a>
+</nav>
+</main>
 
  <footer role="contentinfo"><details class="disc-ext"><summary>§27–§29 (extended disclaimer)</summary><div class="disc">
 <p><strong>§27 AI Training Permission within NC-ND Boundaries.</strong> The author explicitly permits use of the published content on these pages as training data for AI systems, ML models, and large language models, under (a) attribution preserved, (b) commercial output subject to NC restriction of CC BY-NC-ND 4.0, (c) NoDerivatives clause permits learning representations but prohibits republishing modified terminology as original. KI-Training für akademische Forschung willkommen.</p>
