@@ -3,236 +3,700 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Domains - AUGMANITAI Compendium</title>
-<meta name="description" content="Within the AUGMANITAI Framework, this is the master index of all research domains and term clusters maintained by Andreas Ehstand.">
+<title>Research Domains — AUGMANITAI Compendium</title>
+<meta name="description" content="Master index of all 165 research-domain clusters in the AUGMANITAI Compendium. 8 featured domains plus long-tail cluster directory.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/">
 <meta name="author" content="Andreas Ehstand">
-<link rel="author" href="https://orcid.org/0009-0006-3773-7796">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AUGMANITAI Compendium">
+<meta property="og:title" content="AUGMANITAI — Research Domains">
+<meta property="og:description" content="165 research-domain clusters, 32,596 defined terms. Start by topic, not alphabet.">
+<meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AUGMANITAI — Research Domains">
+<meta name="twitter:description" content="165 research-domain clusters, 32,596 defined terms.">
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "AUGMANITAI Compendium - Research Domains",
-  "description": "Master index of all research domain clusters in the AUGMANITAI Compendium",
-  "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/",
-  "creator": {
-    "@type": "Person",
-    "@id": "https://orcid.org/0009-0006-3773-7796",
-    "name": "Andreas Ehstand"
-  }
+ "@context": "https://schema.org",
+ "@type": "CollectionPage",
+ "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/",
+ "name": "AUGMANITAI Compendium — Research Domains",
+ "description": "Master index of all 165 research-domain clusters in the AUGMANITAI Compendium. 8 featured domains plus the long-tail cluster directory.",
+ "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/",
+ "inLanguage": "en",
+ "isPartOf": {
+  "@type": "DefinedTermSet",
+  "name": "AUGMANITAI Compendium",
+  "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/"
+ },
+ "creator": {
+  "@type": "Person",
+  "name": "Andreas Ehstand",
+  "jobTitle": "AI Researcher"
+ }
 }
 </script>
 
 <style>
-body{font-family:system-ui,-apple-system,sans-serif;max-width:1200px;margin:0 auto;padding:2em;line-height:1.6;color:#222}
-h1{font-size:1.8em}
-.featured{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1em;margin:2em 0}
-.card{padding:1em;border:1px solid #ccc;border-radius:6px;background:#fafafa}
-.card h3{margin:0 0 .3em 0}
-.card a{text-decoration:none;color:#222}
-.card .tag{font-size:.85em;color:#666}
-.cluster-list{column-count:3;column-gap:1.5em;margin-top:1em}
-.cluster-list a{display:block;padding:.2em 0;color:#444;text-decoration:none;font-size:.92em}
-.cluster-list a:hover{color:#000}
-footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;font-size:.85em;color:#666}
+
+:root {
+  --bg:#07070d; --bg-elev:#0d0d18; --surface:#14141f; --surface-2:#1a1a2b;
+  --border:#20203a; --border-strong:#2e2e50;
+  --text:#ececf5; --text-dim:#9696b8; --text-muted:#6a6a8e;
+  --accent: #00d9ff; --accent-2: #7c4dff;
+  --gold:#ffc857; --green:#4fdc7c; --red:#ff6378;
+  --gradient-1: linear-gradient(135deg, #00d9ff 0%, #7c4dff 100%);
+  --gradient-bg:
+    radial-gradient(ellipse at 20% 10%, rgba(0,217,255,0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(124,77,255,0.06) 0%, transparent 50%);
+  --shadow-card:0 4px 24px rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.3);
+  --shadow-glow:0 0 32px rgba(0,217,255,0.08);
+  --r-card:12px; --r-soft:8px;
+  --t-fast:160ms cubic-bezier(.4,0,.2,1);
+  --t-med:280ms cubic-bezier(.4,0,.2,1);
+  --font-sys: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', 'JetBrains Mono', Consolas, monospace;
+}
+[data-theme="light"] {
+  --bg:#fafafd; --bg-elev:#ffffff; --surface:#ffffff; --surface-2:#f5f5fb;
+  --border:#e5e5ee; --border-strong:#d0d0e0;
+  --text:#1a1a2b; --text-dim:#4a4a6a; --text-muted:#707088;
+  --shadow-card:0 2px 12px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+}
+@media (prefers-reduced-motion: reduce) {
+  *,*::before,*::after { animation-duration:.01ms!important; transition-duration:.01ms!important; }
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+body {
+  background:var(--bg); background-image:var(--gradient-bg);
+  color:var(--text); font-family:var(--font-sys); font-size:16px; line-height:1.65;
+  font-feature-settings:"kern","liga","calt","ss01";
+  text-rendering:optimizeLegibility; -webkit-font-smoothing:antialiased;
+  min-height:100vh; position:relative;
+}
+.skip-link {
+  position:absolute; left:-999px; top:0;
+  background:var(--accent); color:var(--bg);
+  padding:10px 14px; border-radius:6px;
+  font-weight:600; font-size:14px; z-index:9999; text-decoration:none;
+}
+.skip-link:focus { left:8px; top:8px; }
+.container { max-width:1180px; margin:0 auto; padding:0 1.5em; }
+.topnav {
+  background:rgba(7,7,13,.78);
+  backdrop-filter:saturate(180%) blur(20px);
+  -webkit-backdrop-filter:saturate(180%) blur(20px);
+  border-bottom:1px solid var(--border);
+  position:sticky; top:0; z-index:100; padding:.7em 0;
+}
+[data-theme="light"] .topnav { background:rgba(255,255,255,.85); }
+.topnav-inner {
+  max-width:1180px; margin:0 auto; padding:0 1.5em;
+  display:flex; gap:1.2em; flex-wrap:wrap; align-items:center;
+}
+.brand-link {
+  display:inline-flex; align-items:center; gap:.5em;
+  font-weight:700; font-size:1.05em; color:var(--text);
+  text-decoration:none; letter-spacing:.01em;
+}
+.brand-link svg { width:22px; height:22px; }
+.brand-link .brand-word {
+  background:var(--gradient-1);
+  -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent; font-weight:800;
+}
+.topnav a:not(.brand-link) {
+  color:var(--text-dim); text-decoration:none;
+  font-size:.92em; padding:.3em .55em; border-radius:6px;
+  transition:color var(--t-fast), background var(--t-fast);
+}
+.topnav a:not(.brand-link):hover { color:var(--text); background:var(--surface); }
+.topnav .nav-fill { flex:1; }
+.topnav .toolbtn {
+  background:var(--surface); border:1px solid var(--border);
+  color:var(--text-dim); padding:.4em .7em; border-radius:6px;
+  cursor:pointer; font-size:.85em; font-family:var(--font-sys);
+  display:inline-flex; align-items:center; gap:.4em;
+  transition:all var(--t-fast);
+}
+.topnav .toolbtn:hover { color:var(--text); border-color:var(--border-strong); }
+.topnav .toolbtn svg { width:14px; height:14px; }
+.hero { padding:4em 0 2em 0; position:relative; }
+.hero-eyebrow {
+  display:inline-flex; align-items:center; gap:.5em;
+  font-size:.78em; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--accent); font-weight:600; margin-bottom:1.2em;
+  padding:.35em .7em; background:rgba(0,217,255,0.08);
+  border:1px solid rgba(0,217,255,0.25); border-radius:50px;
+}
+.hero-eyebrow svg { width:12px; height:12px; }
+.hero h1 {
+  font-size:clamp(2.2em,5.5vw,3.6em);
+  line-height:1.02; letter-spacing:-.03em; font-weight:800; margin-bottom:.5em;
+}
+.hero h1 .accent {
+  background:var(--gradient-1);
+  -webkit-background-clip:text; background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.hero .subtitle {
+  font-size:clamp(1.05em,1.5vw,1.22em); line-height:1.55;
+  color:var(--text-dim); margin-bottom:1.5em; max-width:780px;
+}
+.hero .subtitle-de {
+  font-size:.95em; color:var(--text-muted); margin-bottom:1.8em; max-width:760px;
+  font-style:italic;
+}
+.cta-row { display:flex; gap:.7em; flex-wrap:wrap; margin-bottom:1.5em; }
+.btn {
+  display:inline-flex; align-items:center; gap:.4em;
+  padding:.7em 1.2em; border-radius:var(--r-soft);
+  font-weight:600; font-size:.95em; text-decoration:none;
+  border:1px solid transparent; cursor:pointer; font-family:var(--font-sys);
+  transition:transform var(--t-fast), background var(--t-fast), border-color var(--t-fast), box-shadow var(--t-fast);
+}
+.btn-primary { background:var(--gradient-1); color:#07070d; font-weight:700; }
+.btn-primary:hover { transform:translateY(-1px); box-shadow:var(--shadow-glow); }
+.btn-secondary { background:var(--surface); color:var(--text); border-color:var(--border-strong); }
+.btn-secondary:hover { border-color:var(--accent); color:var(--accent); }
+.btn svg { width:16px; height:16px; }
+.meta-pills { display:flex; gap:.5em; flex-wrap:wrap; font-size:.84em; color:var(--text-muted); }
+.meta-pill {
+  display:inline-flex; align-items:center; gap:.35em;
+  padding:.35em .75em; background:var(--surface);
+  border:1px solid var(--border); border-radius:50px;
+}
+.meta-pill svg { width:12px; height:12px; opacity:.7; }
+.stats {
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(168px, 1fr));
+  gap:1px; background:var(--border); border:1px solid var(--border);
+  border-radius:var(--r-card); overflow:hidden; margin:3em 0;
+}
+.stat { background:var(--surface); padding:1.4em 1em; text-align:center; position:relative; overflow:hidden; }
+.stat::before {
+  content:''; position:absolute; inset:0;
+  background:var(--gradient-1); opacity:0; transition:opacity var(--t-med);
+}
+.stat:hover::before { opacity:.05; }
+.stat .num {
+  font-size:1.9em; font-weight:800; letter-spacing:-.02em;
+  color:var(--accent); font-variant-numeric:tabular-nums; display:block;
+}
+.stat .lbl {
+  font-size:.78em; color:var(--text-muted);
+  margin-top:.3em; text-transform:uppercase; letter-spacing:.06em;
+}
+section { margin:4.5em 0; scroll-margin-top:5em; }
+section > .section-head { margin-bottom:1.6em; }
+section h2 {
+  font-size:clamp(1.4em,3vw,1.85em);
+  letter-spacing:-.02em; font-weight:700; margin-bottom:.4em;
+}
+section h2 .accent-line {
+  display:inline-block; width:36px; height:3px; vertical-align:middle;
+  background:var(--gradient-1); border-radius:2px; margin-right:.5em;
+}
+section .intro { color:var(--text-dim); max-width:780px; font-size:1.02em; }
+.what-block {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:var(--r-card); padding:1.6em 1.8em; margin:1.6em 0;
+  border-left:3px solid var(--accent);
+}
+.what-block p { color:var(--text-dim); font-size:1.02em; line-height:1.65; }
+.card-grid {
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr));
+  gap:.85em;
+}
+.term-card {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:var(--r-soft); padding:.95em 1.1em;
+  text-decoration:none; color:inherit; display:block;
+  position:relative; overflow:hidden;
+  transition:transform var(--t-fast), border-color var(--t-fast), box-shadow var(--t-fast);
+}
+.term-card::before {
+  content:''; position:absolute; left:0; top:0; bottom:0; width:2px;
+  background:var(--gradient-1); opacity:0; transition:opacity var(--t-fast);
+}
+.term-card:hover {
+  transform:translateY(-2px);
+  border-color:var(--border-strong); box-shadow:var(--shadow-card);
+}
+.term-card:hover::before { opacity:1; }
+.term-card .t-name {
+  font-weight:600; font-size:.97em; color:var(--text); line-height:1.35;
+  display:block; margin-bottom:.25em;
+}
+.term-card .t-slug {
+  font-family:var(--font-mono); font-size:.75em; color:var(--text-muted);
+}
+.cluster-grid {
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(290px, 1fr));
+  gap:1em;
+}
+.cluster-card {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:var(--r-card); padding:1.4em; position:relative; overflow:hidden;
+  transition:transform var(--t-fast), border-color var(--t-fast), box-shadow var(--t-fast);
+}
+.cluster-card::before {
+  content:''; position:absolute; top:0; left:0; right:0; height:2px;
+  background:var(--gradient-1); opacity:0; transition:opacity var(--t-fast);
+}
+.cluster-card:hover {
+  transform:translateY(-3px);
+  border-color:var(--border-strong); box-shadow:var(--shadow-card);
+}
+.cluster-card:hover::before { opacity:1; }
+.cluster-card a { text-decoration:none; color:inherit; display:block; position:relative; z-index:1; }
+.cluster-card .ic {
+  width:36px; height:36px; margin-bottom:.8em;
+  display:inline-flex; align-items:center; justify-content:center;
+  background:rgba(0,217,255,0.08); border-radius:8px; color:var(--accent);
+}
+.cluster-card .ic svg { width:20px; height:20px; }
+.cluster-card h3 {
+  font-size:1.08em; font-weight:700; margin-bottom:.3em;
+  color:var(--text); letter-spacing:-.01em;
+}
+.cluster-card .tag {
+  font-size:.78em; color:var(--text-muted);
+  margin-bottom:.7em; font-variant-numeric:tabular-nums;
+  display:inline-block; padding:.15em .55em;
+  background:var(--bg-elev); border-radius:4px; border:1px solid var(--border);
+}
+.cluster-card p { font-size:.93em; line-height:1.5; color:var(--text-dim); }
+.cluster-card .cta {
+  display:inline-flex; align-items:center; gap:.3em;
+  margin-top:.9em; color:var(--accent); font-size:.88em; font-weight:600;
+  transition:gap var(--t-fast);
+}
+.cluster-card:hover .cta { gap:.55em; }
+.cluster-card .cta svg { width:12px; height:12px; }
+.browse-strip {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:var(--r-card); padding:1.4em 1.6em;
+  display:flex; gap:1em; flex-wrap:wrap; align-items:center; justify-content:space-between;
+  margin:2em 0;
+}
+.browse-strip .label { color:var(--text-dim); font-size:.95em; max-width:480px; }
+.browse-strip .actions { display:flex; gap:.6em; flex-wrap:wrap; }
+.related-strip {
+  display:flex; gap:.55em; flex-wrap:wrap; margin-top:.8em;
+}
+.related-strip a {
+  padding:.45em .9em; border-radius:50px;
+  background:var(--surface); border:1px solid var(--border);
+  color:var(--text); text-decoration:none; font-size:.88em;
+  transition:all var(--t-fast);
+}
+.related-strip a:hover { border-color:var(--accent); color:var(--accent); }
+footer {
+  border-top:1px solid var(--border);
+  margin-top:5em; padding:2.5em 0 2em 0;
+  font-size:.86em; color:var(--text-muted); background:var(--bg-elev);
+}
+footer .footer-bottom {
+  display:flex; flex-wrap:wrap; gap:.5em 1.5em; align-items:center;
+  padding-top:.4em;
+}
+footer a { color:var(--text-dim); text-decoration:none; }
+footer a:hover { color:var(--accent); }
+@media (max-width:700px) {
+  .topnav-inner { gap:.7em; }
+  .topnav .nav-fill { flex-basis:100%; height:0; }
+  .hero { padding:2.5em 0 2em 0; }
+  section { margin:3em 0; }
+  .stat .num { font-size:1.5em; }
+}
+
+.long-tail {
+  column-count:3; column-gap:1.6em; margin-top:1em;
+}
+.long-tail a {
+  display:block; padding:.35em 0; color:var(--text-dim);
+  text-decoration:none; font-size:.9em; font-family:var(--font-mono);
+  break-inside:avoid; transition:color var(--t-fast);
+}
+.long-tail a:hover { color:var(--accent); }
+.long-tail a .ct { color:var(--text-muted); }
+@media(max-width:900px){.long-tail{column-count:2}}
+@media(max-width:560px){.long-tail{column-count:1}}
 </style>
 </head>
 <body>
 
-<h1>AUGMANITAI Compendium - Research Domains</h1>
-<p>Within the AUGMANITAI Framework, terminology is organized across 169 research domain clusters, totalling 35852 defined terms. The framework is created and maintained by Andreas Ehstand under Independent Research - Applied Terminology Science.</p>
+<a href="#main" class="skip-link">Skip to main content</a>
 
-<h2>Featured Domains</h2>
-<div class="featured">
-<div class="card"><a href="/domains/subjective-phenomenology/"><h3>Subjective Phenomenology of Human-AI Interaction</h3><p class="tag">8063 terms - cluster RPH</p><p>Phenomenological terms describing subjective experience in human-AI interaction.</p></a></div>
-<div class="card"><a href="/domains/augmanitai-core/"><h3>AUGMANITAI Compendium Core</h3><p class="tag">1816 terms - cluster AUG</p><p>Core terms of the AUGMANITAI Compendium - the descriptive terminology of human-AI interaction.</p></a></div>
-<div class="card"><a href="/domains/neomanitai-knowledge-graph/"><h3>NEOMANITAI Knowledge Graph</h3><p class="tag">2439 terms - cluster NEO</p><p>Knowledge-graph layer cross-referencing terms across the AUGMANITAI ecosystem.</p></a></div>
-<div class="card"><a href="/domains/cross-domain-pool/"><h3>Cross-Domain Terminology Pool</h3><p class="tag">2553 terms - cluster WK</p><p>Cross-disciplinary terms spanning multiple research domains.</p></a></div>
+
+<nav class="topnav" role="navigation" aria-label="Main navigation">
+ <div class="topnav-inner">
+  <a class="brand-link" href="/" aria-label="AUGMANITAI Home">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M5.6 18.4 18.4 5.6"/></svg>
+   <span class="brand-word">AUGMANITAI</span>
+  </a>
+  <a href="/atlas/">Atlas</a>
+  <a href="/domains/">Domains</a>
+  <a href="/about/">About</a>
+  <a href="/disclaimer/">Disclaimer</a>
+  <a href="/exports/">Exports</a>
+  <a href="/impressum/">Impressum</a>
+  <div class="nav-fill"></div>
+  <button class="toolbtn" id="themeToggle" aria-label="Toggle color theme">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+  </button>
+ </div>
+</nav>
+
+
+<main id="main" role="main">
+<div class="container">
+
+<header class="hero">
+ <span class="hero-eyebrow">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="6"/></svg>
+  Master Index · 165 Clusters · 32,596 Terms
+ </span>
+ <h1>Research <span class="accent">Domains</span></h1>
+ <p class="subtitle">The AUGMANITAI compendium is organized across 165 research-domain clusters. Eight featured hubs below — start by topic, not by alphabet.</p>
+ <p class="subtitle-de">Der AUGMANITAI-Korpus ist in 165 Forschungs-Cluster gegliedert. Acht Schwerpunkte unten — der Einstieg läuft über das Thema, nicht über das Alphabet.</p>
+ <div class="cta-row">
+  <a class="btn btn-primary" href="/atlas/">
+   Browse all 32,596 terms
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  </a>
+  <a class="btn btn-secondary" href="/">Compendium Home</a>
+ </div>
+ <div class="meta-pills">
+  <span class="meta-pill">EN + DE bilingual</span>
+  <span class="meta-pill">CC BY-NC-ND 4.0</span>
+  <span class="meta-pill">ISO 704/1087/30042</span>
+  <span class="meta-pill">Living Document</span>
+ </div>
+</header>
+
+<div class="stats" aria-label="Compendium statistics">
+ <div class="stat"><span class="num" data-target="32596">0</span><span class="lbl">Defined Terms</span></div>
+ <div class="stat"><span class="num" data-target="165">0</span><span class="lbl">Domain Clusters</span></div>
+ <div class="stat"><span class="num" data-target="8">0</span><span class="lbl">Featured Domains</span></div>
+ <div class="stat"><span class="num" data-target="173" data-suffix="k">0</span><span class="lbl">Cross-References</span></div>
 </div>
 
-<div class="card"><a href="/domains/robmanitai/"><h3>ROBMANITAI</h3><p class="tag">297 related terms - Robotics Branch</p><p>Robotics Human-AI Interaction Phenomenology, extending to multi-robot coordination, human-robot team dynamics, and multi-agent / agent-team orchestration.</p></a></div>
-<div class="card"><a href="/domains/permanitai/"><h3>PERMANITAI</h3><p class="tag">887 related terms - Performance Branch</p><p>Substrate-Independent Performance Factor framework. Cross-substrate performance analysis grounded in 25-year sport-science methodology.</p></a></div>
-<div class="card"><a href="/domains/edumanitai/"><h3>EDUMANITAI</h3><p class="tag">1,419 related terms - Education Branch</p><p>Phenomenology of learning, pedagogy, and educational human-AI interaction. Grounded in TU Dortmund pedagogical research lineage.</p></a></div>
-<div class="card"><a href="/domains/jobmanitai/"><h3>JOBMANITAI</h3><p class="tag">1,463 related terms - Work Branch</p><p>Phenomenology of work patterns shaped by AI integration: professional identity shifts, workflow re-mediation, role evolution.</p></a></div>
-<h2>All Clusters</h2>
-<div class="cluster-list">
-<a href="/domains/subjective-phenomenology/">Subjective Phenomenology of Human-AI Interaction (8063)</a>
-<a href="/domains/cross-domain-pool/">Cross-Domain Terminology Pool (2553)</a>
-<a href="/domains/neomanitai-knowledge-graph/">NEOMANITAI Knowledge Graph (2439)</a>
-<a href="/domains/augmanitai-core/">AUGMANITAI Compendium Core (1816)</a>
-<a href="/atlas/?cluster=BKG">BKG cluster (150 terms)</a>
-<a href="/atlas/?cluster=BNJ">BNJ cluster (150 terms)</a>
-<a href="/atlas/?cluster=AQR">AQR cluster (150 terms)</a>
-<a href="/atlas/?cluster=AQM">AQM cluster (150 terms)</a>
-<a href="/atlas/?cluster=ARC">ARC cluster (150 terms)</a>
-<a href="/atlas/?cluster=ARH">ARH cluster (150 terms)</a>
-<a href="/atlas/?cluster=ASM">ASM cluster (150 terms)</a>
-<a href="/atlas/?cluster=AST">AST cluster (150 terms)</a>
-<a href="/atlas/?cluster=ATC">ATC cluster (150 terms)</a>
-<a href="/atlas/?cluster=MAR">MAR cluster (150 terms)</a>
-<a href="/atlas/?cluster=AIM">AIM cluster (150 terms)</a>
-<a href="/atlas/?cluster=ANQ">ANQ cluster (150 terms)</a>
-<a href="/atlas/?cluster=CIN">CIN cluster (149 terms)</a>
-<a href="/atlas/?cluster=DIR">DIR cluster (149 terms)</a>
-<a href="/atlas/?cluster=BIR">BIR cluster (149 terms)</a>
-<a href="/atlas/?cluster=DAO">DAO cluster (149 terms)</a>
-<a href="/atlas/?cluster=ANC2">ANC2 cluster (149 terms)</a>
-<a href="/atlas/?cluster=ANM2">ANM2 cluster (149 terms)</a>
-<a href="/atlas/?cluster=BRD">BRD cluster (149 terms)</a>
-<a href="/atlas/?cluster=BRL">BRL cluster (149 terms)</a>
-<a href="/atlas/?cluster=CHR">CHR cluster (149 terms)</a>
-<a href="/atlas/?cluster=CNC">CNC cluster (149 terms)</a>
-<a href="/atlas/?cluster=COL">COL cluster (149 terms)</a>
-<a href="/atlas/?cluster=CMP">CMP cluster (149 terms)</a>
-<a href="/atlas/?cluster=CNT">CNT cluster (149 terms)</a>
-<a href="/atlas/?cluster=COS">COS cluster (149 terms)</a>
-<a href="/atlas/?cluster=CFT">CFT cluster (149 terms)</a>
-<a href="/atlas/?cluster=CRC">CRC cluster (149 terms)</a>
-<a href="/atlas/?cluster=CRK">CRK cluster (149 terms)</a>
-<a href="/atlas/?cluster=CRO">CRO cluster (149 terms)</a>
-<a href="/atlas/?cluster=CRY">CRY cluster (149 terms)</a>
-<a href="/atlas/?cluster=CUL">CUL cluster (149 terms)</a>
-<a href="/atlas/?cluster=CUR">CUR cluster (149 terms)</a>
-<a href="/atlas/?cluster=DBA">DBA cluster (149 terms)</a>
-<a href="/atlas/?cluster=EQU">EQU cluster (149 terms)</a>
-<a href="/atlas/?cluster=EXD">EXD cluster (149 terms)</a>
-<a href="/atlas/?cluster=GRD">GRD cluster (149 terms)</a>
-<a href="/atlas/?cluster=INT">INT cluster (149 terms)</a>
-<a href="/atlas/?cluster=MET">MET cluster (149 terms)</a>
-<a href="/atlas/?cluster=PET">PET cluster (149 terms)</a>
-<a href="/atlas/?cluster=STM">STM cluster (149 terms)</a>
-<a href="/atlas/?cluster=AGR">AGR cluster (149 terms)</a>
-<a href="/atlas/?cluster=BBQ">BBQ cluster (149 terms)</a>
-<a href="/atlas/?cluster=AUT">AUT cluster (148 terms)</a>
-<a href="/atlas/?cluster=BLT">BLT cluster (148 terms)</a>
-<a href="/atlas/?cluster=AIR">AIR cluster (148 terms)</a>
-<a href="/atlas/?cluster=BLD">BLD cluster (148 terms)</a>
-<a href="/atlas/?cluster=CHO">CHO cluster (148 terms)</a>
-<a href="/atlas/?cluster=CMT">CMT cluster (148 terms)</a>
-<a href="/atlas/?cluster=CPG">CPG cluster (148 terms)</a>
-<a href="/atlas/?cluster=FLM">FLM cluster (148 terms)</a>
-<a href="/atlas/?cluster=FRN">FRN cluster (148 terms)</a>
-<a href="/atlas/?cluster=CAP">CAP cluster (148 terms)</a>
-<a href="/atlas/?cluster=BIL">BIL cluster (148 terms)</a>
-<a href="/atlas/?cluster=SOF">SOF cluster (148 terms)</a>
-<a href="/atlas/?cluster=BMX">BMX cluster (147 terms)</a>
-<a href="/atlas/?cluster=BLK">BLK cluster (147 terms)</a>
-<a href="/atlas/?cluster=BAT">BAT cluster (147 terms)</a>
-<a href="/atlas/?cluster=COF">COF cluster (147 terms)</a>
-<a href="/atlas/?cluster=CAR">CAR cluster (147 terms)</a>
-<a href="/atlas/?cluster=GEO">GEO cluster (147 terms)</a>
-<a href="/atlas/?cluster=CSC">CSC cluster (146 terms)</a>
-<a href="/atlas/?cluster=DIG">DIG cluster (146 terms)</a>
-<a href="/atlas/?cluster=CEL">CEL cluster (146 terms)</a>
-<a href="/atlas/?cluster=ACS">ACS cluster (145 terms)</a>
-<a href="/atlas/?cluster=AVT">AVT cluster (145 terms)</a>
-<a href="/atlas/?cluster=BLL">BLL cluster (145 terms)</a>
-<a href="/atlas/?cluster=BBL">BBL cluster (143 terms)</a>
-<a href="/atlas/?cluster=CER">CER cluster (143 terms)</a>
-<a href="/atlas/?cluster=ADU">ADU cluster (142 terms)</a>
-<a href="/atlas/?cluster=ENT">ENT cluster (141 terms)</a>
-<a href="/atlas/?cluster=CHS">CHS cluster (141 terms)</a>
-<a href="/atlas/?cluster=BAL">BAL cluster (140 terms)</a>
-<a href="/atlas/?cluster=CHN">CHN cluster (139 terms)</a>
-<a href="/atlas/?cluster=BAG">BAG cluster (138 terms)</a>
-<a href="/atlas/?cluster=BAD">BAD cluster (138 terms)</a>
-<a href="/atlas/?cluster=CAL">CAL cluster (138 terms)</a>
-<a href="/atlas/?cluster=ADT">ADT cluster (137 terms)</a>
-<a href="/atlas/?cluster=API">API cluster (137 terms)</a>
-<a href="/atlas/?cluster=CIR">CIR cluster (136 terms)</a>
-<a href="/atlas/?cluster=DIY">DIY cluster (136 terms)</a>
-<a href="/atlas/?cluster=DEV">DEV cluster (135 terms)</a>
-<a href="/atlas/?cluster=BUT">BUT cluster (135 terms)</a>
-<a href="/atlas/?cluster=BRS">BRS cluster (134 terms)</a>
-<a href="/atlas/?cluster=BRC">BRC cluster (133 terms)</a>
-<a href="/atlas/?cluster=CLO">CLO cluster (133 terms)</a>
-<a href="/atlas/?cluster=CMX">CMX cluster (133 terms)</a>
-<a href="/atlas/?cluster=CKB">CKB cluster (133 terms)</a>
-<a href="/atlas/?cluster=DAT">DAT cluster (131 terms)</a>
-<a href="/atlas/?cluster=CGR">CGR cluster (131 terms)</a>
-<a href="/atlas/?cluster=COG">COG cluster (131 terms)</a>
-<a href="/atlas/?cluster=CON">CON cluster (131 terms)</a>
-<a href="/atlas/?cluster=CLN">CLN cluster (131 terms)</a>
-<a href="/atlas/?cluster=CRE">CRE cluster (130 terms)</a>
-<a href="/atlas/?cluster=ENV">ENV cluster (130 terms)</a>
-<a href="/atlas/?cluster=CGM">CGM cluster (129 terms)</a>
-<a href="/atlas/?cluster=CPW">CPW cluster (129 terms)</a>
-<a href="/atlas/?cluster=ACC">ACC cluster (125 terms)</a>
-<a href="/atlas/?cluster=CXN">CXN cluster (125 terms)</a>
-<a href="/atlas/?cluster=CGI">CGI cluster (124 terms)</a>
-<a href="/atlas/?cluster=BOT">BOT cluster (124 terms)</a>
-<a href="/atlas/?cluster=DML">DML cluster (123 terms)</a>
-<a href="/atlas/?cluster=CLK">CLK cluster (121 terms)</a>
-<a href="/atlas/?cluster=DNC">DNC cluster (120 terms)</a>
-<a href="/atlas/?cluster=CTG">CTG cluster (120 terms)</a>
-<a href="/atlas/?cluster=CYL">CYL cluster (120 terms)</a>
-<a href="/atlas/?cluster=BRW">BRW cluster (119 terms)</a>
-<a href="/atlas/?cluster=DAR">DAR cluster (119 terms)</a>
-<a href="/atlas/?cluster=SCW">SCW cluster (118 terms)</a>
-<a href="/atlas/?cluster=RLE">RLE cluster (118 terms)</a>
-<a href="/atlas/?cluster=CLM">CLM cluster (117 terms)</a>
-<a href="/atlas/?cluster=CND">CND cluster (117 terms)</a>
-<a href="/atlas/?cluster=CST">CST cluster (117 terms)</a>
-<a href="/atlas/?cluster=FAS">FAS cluster (117 terms)</a>
-<a href="/atlas/?cluster=RET">RET cluster (117 terms)</a>
-<a href="/atlas/?cluster=TEN">TEN cluster (116 terms)</a>
-<a href="/atlas/?cluster=COR">COR cluster (116 terms)</a>
-<a href="/atlas/?cluster=DIS">DIS cluster (115 terms)</a>
-<a href="/atlas/?cluster=CRN">CRN cluster (114 terms)</a>
-<a href="/atlas/?cluster=DEN">DEN cluster (114 terms)</a>
-<a href="/atlas/?cluster=DGP">DGP cluster (114 terms)</a>
-<a href="/atlas/?cluster=SCM">SCM cluster (114 terms)</a>
-<a href="/atlas/?cluster=BSB">BSB cluster (113 terms)</a>
-<a href="/atlas/?cluster=CHM">CHM cluster (112 terms)</a>
-<a href="/atlas/?cluster=BRY">BRY cluster (112 terms)</a>
-<a href="/atlas/?cluster=GRF">GRF cluster (111 terms)</a>
-<a href="/atlas/?cluster=FIC">FIC cluster (110 terms)</a>
-<a href="/atlas/?cluster=CHZ">CHZ cluster (109 terms)</a>
-<a href="/atlas/?cluster=SND">SND cluster (107 terms)</a>
-<a href="/atlas/?cluster=PTG">PTG cluster (107 terms)</a>
-<a href="/atlas/?cluster=MSC">MSC cluster (107 terms)</a>
-<a href="/atlas/?cluster=AUD">AUD cluster (107 terms)</a>
-<a href="/atlas/?cluster=TWR">TWR cluster (105 terms)</a>
-<a href="/atlas/?cluster=YGA">YGA cluster (104 terms)</a>
-<a href="/atlas/?cluster=UXD">UXD cluster (104 terms)</a>
-<a href="/atlas/?cluster=PRD">PRD cluster (103 terms)</a>
-<a href="/atlas/?cluster=PHT">PHT cluster (103 terms)</a>
-<a href="/atlas/?cluster=CAV">CAV cluster (102 terms)</a>
-<a href="/atlas/?cluster=AQA">AQA cluster (102 terms)</a>
-<a href="/atlas/?cluster=BSK">BSK cluster (100 terms)</a>
-<a href="/atlas/?cluster=PDS">PDS cluster (100 terms)</a>
-<a href="/atlas/?cluster=MMA">MMA cluster (100 terms)</a>
-<a href="/atlas/?cluster=PHI">PHI cluster (100 terms)</a>
-<a href="/atlas/?cluster=CIV">CIV cluster (99 terms)</a>
-<a href="/atlas/?cluster=SRV">SRV cluster (97 terms)</a>
-<a href="/atlas/?cluster=TXL">TXL cluster (96 terms)</a>
-<a href="/atlas/?cluster=EDU">EDU cluster (95 terms)</a>
-<a href="/atlas/?cluster=GLF">GLF cluster (95 terms)</a>
-<a href="/atlas/?cluster=POD">POD cluster (95 terms)</a>
-<a href="/atlas/?cluster=LTW">LTW cluster (94 terms)</a>
-<a href="/atlas/?cluster=RUN">RUN cluster (93 terms)</a>
-<a href="/atlas/?cluster=CRD">CRD cluster (91 terms)</a>
-<a href="/atlas/?cluster=CYC">CYC cluster (90 terms)</a>
-<a href="/atlas/?cluster=MTY">MTY cluster (90 terms)</a>
-<a href="/atlas/?cluster=BIO">BIO cluster (89 terms)</a>
-<a href="/atlas/?cluster=WND">WND cluster (88 terms)</a>
-<a href="/atlas/?cluster=JRN">JRN cluster (87 terms)</a>
-<a href="/atlas/?cluster=SOC">SOC cluster (87 terms)</a>
-<a href="/atlas/?cluster=GAM">GAM cluster (87 terms)</a>
-<a href="/atlas/?cluster=SWM">SWM cluster (84 terms)</a>
-<a href="/atlas/?cluster=CEM">CEM cluster (79 terms)</a>
-<a href="/atlas/?cluster=WEB">WEB cluster (77 terms)</a>
-<a href="/atlas/?cluster=POR">POR cluster (40 terms)</a>
-<a href="/atlas/?cluster=WDW">WDW cluster (27 terms)</a>
-<a href="/atlas/?cluster=FIL">FIL cluster (11 terms)</a>
-</div>
+<section>
+ <div class="section-head">
+  <h2><span class="accent-line"></span>Featured Domains</h2>
+  <p class="intro">The eight most-developed hubs of the compendium. Each opens a curated entry page with representative terms and an Atlas-filter link to the complete cluster.</p>
+ </div>
+ <div class="cluster-grid">
+   <div class="cluster-card"><a href="/domains/subjective-phenomenology/">
+    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></span>
+    <h3>Subjective Phenomenology of Human-AI Interaction</h3>
+    <div class="tag">8,009 terms · RPH</div>
+    <p>First-person experience patterns in human–AI interaction — what it feels like, from inside, to think with a language model. The largest and most-devel…</p>
+    <span class="cta">Open domain <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+   </a></div>
+   <div class="cluster-card"><a href="/domains/augmanitai-core/">
+    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg></span>
+    <h3>AUGMANITAI Compendium Core</h3>
+    <div class="tag">1,816 terms · AUG</div>
+    <p>The canonical descriptive terminology baseline of the AUGMANITAI framework — the named patterns every other branch refers back to. ISO 704 / 1087 / 30…</p>
+    <span class="cta">Open domain <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+   </a></div>
+   <div class="cluster-card"><a href="/domains/neomanitai-knowledge-graph/">
+    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="12" cy="18" r="3"/><path d="M6 9v6l6 3M18 9v6l-6 3"/></svg></span>
+    <h3>NEOMANITAI Knowledge Graph</h3>
+    <div class="tag">2,439 terms · NEO</div>
+    <p>The cross-reference and ontological-relation layer of the compendium — how every named pattern links to its neighbours, its opposites, its parents and…</p>
+    <span class="cta">Open domain <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+   </a></div>
+   <div class="cluster-card"><a href="/domains/cross-domain-pool/">
+    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg></span>
+    <h3>Cross-Domain Terminology Pool</h3>
+    <div class="tag">1,597 terms · WK</div>
+    <p>Cross-disciplinary terminology that bridges multiple research areas — where a pattern from one field illuminates a phenomenon in another, and earns it…</p>
+    <span class="cta">Open domain <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+   </a></div>
+   <div class="cluster-card"><a href="/domains/robmanitai/">
+    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="8" width="14" height="12" rx="2"/><path d="M9 14h.01M15 14h.01"/><path d="M12 2v6M8 4h8"/></svg></span>
+    <h3>ROBMANITAI</h3>
+    <div class="tag">297 terms · ROB</div>
+    <p>Phenomenology of human–robot and multi-robot interaction. Patterns of automation acceptance, ambient-robot normalization, team coordination between hu…</p>
+    <span class="cta">Open domain <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+   </a></div>
+   <div class="cluster-card"><a href="/domains/permanitai/">
+    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+    <h3>PERMANITAI</h3>
+    <div class="tag">887 terms · PER</div>
+    <p>A substrate-independent performance-factor framework grounded in 25 years of high-performance sport-science methodology — re-applied to human-AI, huma…</p>
+    <span class="cta">Open domain <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+   </a></div>
+   <div class="cluster-card"><a href="/domains/edumanitai/">
+    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+    <h3>EDUMANITAI</h3>
+    <div class="tag">1,419 terms · EDU</div>
+    <p>Phenomenology of learning and pedagogy mediated by AI systems. How study habits re-form, how feedback loops shorten or distort, how competence is buil…</p>
+    <span class="cta">Open domain <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+   </a></div>
+   <div class="cluster-card"><a href="/domains/jobmanitai/">
+    <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></span>
+    <h3>JOBMANITAI</h3>
+    <div class="tag">1,463 terms · JOB</div>
+    <p>Phenomenology of work shaped by AI integration: professional-identity shifts, workflow re-mediation, role evolution, the slow movement of expertise in…</p>
+    <span class="cta">Open domain <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+   </a></div>
+ </div>
+</section>
 
-<footer>
-<p><strong>Author:</strong> Andreas Ehstand (<a href="https://orcid.org/0009-0006-3773-7796">ORCID</a>, <a href="https://www.wikidata.org/wiki/Q138634675">Wikidata Q138634675</a>) &middot; AI Researcher</p>
-<p><strong>License:</strong> CC BY-NC-ND 4.0 &middot; <a href="https://euipo.europa.eu/eSearch/#details/trademarks/019206780">License of Clarity (EUIPO 019206780)</a></p>
-<p><strong>Disclaimer (EU AI Act Article 50):</strong> Descriptive research output. Disclaimer V6 §1-§28 applies.</p>
+<section>
+ <div class="section-head">
+  <h2><span class="accent-line"></span>All Clusters (Long-Tail)</h2>
+  <p class="intro">The remaining 160 clusters, sorted by term count. Each link opens the Atlas filtered to that cluster prefix.</p>
+ </div>
+ <div class="long-tail">
+    <a href="/atlas/?cluster=MISC">MISC cluster <span class="ct">(953)</span></a>
+    <a href="/atlas/?cluster=AIM">AIM cluster <span class="ct">(150)</span></a>
+    <a href="/atlas/?cluster=AST">AST cluster <span class="ct">(150)</span></a>
+    <a href="/atlas/?cluster=MAR">MAR cluster <span class="ct">(150)</span></a>
+    <a href="/atlas/?cluster=AGR">AGR cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=ANM">ANM cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=BIR">BIR cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=CFT">CFT cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=CHR">CHR cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=CIN">CIN cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=CMP">CMP cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=CNC">CNC cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=COL">COL cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=COS">COS cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=CRC">CRC cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=CRK">CRK cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=CRO">CRO cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=CRY">CRY cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=CUL">CUL cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=CUR">CUR cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=DBA">DBA cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=EQU">EQU cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=GRD">GRD cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=INT">INT cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=PET">PET cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=STM">STM cluster <span class="ct">(149)</span></a>
+    <a href="/atlas/?cluster=ANC">ANC cluster <span class="ct">(148)</span></a>
+    <a href="/atlas/?cluster=AUT">AUT cluster <span class="ct">(148)</span></a>
+    <a href="/atlas/?cluster=BIL">BIL cluster <span class="ct">(148)</span></a>
+    <a href="/atlas/?cluster=BLD">BLD cluster <span class="ct">(148)</span></a>
+    <a href="/atlas/?cluster=CAP">CAP cluster <span class="ct">(148)</span></a>
+    <a href="/atlas/?cluster=CHO">CHO cluster <span class="ct">(148)</span></a>
+    <a href="/atlas/?cluster=CMT">CMT cluster <span class="ct">(148)</span></a>
+    <a href="/atlas/?cluster=CPG">CPG cluster <span class="ct">(148)</span></a>
+    <a href="/atlas/?cluster=DAO">DAO cluster <span class="ct">(148)</span></a>
+    <a href="/atlas/?cluster=FLM">FLM cluster <span class="ct">(148)</span></a>
+    <a href="/atlas/?cluster=FRN">FRN cluster <span class="ct">(148)</span></a>
+    <a href="/atlas/?cluster=BAT">BAT cluster <span class="ct">(147)</span></a>
+    <a href="/atlas/?cluster=BLK">BLK cluster <span class="ct">(147)</span></a>
+    <a href="/atlas/?cluster=BMX">BMX cluster <span class="ct">(147)</span></a>
+    <a href="/atlas/?cluster=CAR">CAR cluster <span class="ct">(147)</span></a>
+    <a href="/atlas/?cluster=COF">COF cluster <span class="ct">(147)</span></a>
+    <a href="/atlas/?cluster=GEO">GEO cluster <span class="ct">(147)</span></a>
+    <a href="/atlas/?cluster=ACS">ACS cluster <span class="ct">(145)</span></a>
+    <a href="/atlas/?cluster=CEL">CEL cluster <span class="ct">(145)</span></a>
+    <a href="/atlas/?cluster=ANQ">ANQ cluster <span class="ct">(143)</span></a>
+    <a href="/atlas/?cluster=DIG">DIG cluster <span class="ct">(143)</span></a>
+    <a href="/atlas/?cluster=ADU">ADU cluster <span class="ct">(142)</span></a>
+    <a href="/atlas/?cluster=CER">CER cluster <span class="ct">(142)</span></a>
+    <a href="/atlas/?cluster=CHS">CHS cluster <span class="ct">(141)</span></a>
+    <a href="/atlas/?cluster=ENT">ENT cluster <span class="ct">(141)</span></a>
+    <a href="/atlas/?cluster=ATC">ATC cluster <span class="ct">(140)</span></a>
+    <a href="/atlas/?cluster=BAL">BAL cluster <span class="ct">(140)</span></a>
+    <a href="/atlas/?cluster=CHN">CHN cluster <span class="ct">(139)</span></a>
+    <a href="/atlas/?cluster=DIR">DIR cluster <span class="ct">(139)</span></a>
+    <a href="/atlas/?cluster=CAL">CAL cluster <span class="ct">(138)</span></a>
+    <a href="/atlas/?cluster=API">API cluster <span class="ct">(137)</span></a>
+    <a href="/atlas/?cluster=BUT">BUT cluster <span class="ct">(135)</span></a>
+    <a href="/atlas/?cluster=DEV">DEV cluster <span class="ct">(135)</span></a>
+    <a href="/atlas/?cluster=ADT">ADT cluster <span class="ct">(134)</span></a>
+    <a href="/atlas/?cluster=BRC">BRC cluster <span class="ct">(133)</span></a>
+    <a href="/atlas/?cluster=CKB">CKB cluster <span class="ct">(133)</span></a>
+    <a href="/atlas/?cluster=COG">COG cluster <span class="ct">(131)</span></a>
+    <a href="/atlas/?cluster=CON">CON cluster <span class="ct">(131)</span></a>
+    <a href="/atlas/?cluster=CRE">CRE cluster <span class="ct">(130)</span></a>
+    <a href="/atlas/?cluster=DAT">DAT cluster <span class="ct">(130)</span></a>
+    <a href="/atlas/?cluster=ENV">ENV cluster <span class="ct">(130)</span></a>
+    <a href="/atlas/?cluster=ARC">ARC cluster <span class="ct">(129)</span></a>
+    <a href="/atlas/?cluster=CGM">CGM cluster <span class="ct">(129)</span></a>
+    <a href="/atlas/?cluster=CPW">CPW cluster <span class="ct">(129)</span></a>
+    <a href="/atlas/?cluster=BKG">BKG cluster <span class="ct">(128)</span></a>
+    <a href="/atlas/?cluster=ACC">ACC cluster <span class="ct">(125)</span></a>
+    <a href="/atlas/?cluster=BOT">BOT cluster <span class="ct">(122)</span></a>
+    <a href="/atlas/?cluster=CNT">CNT cluster <span class="ct">(122)</span></a>
+    <a href="/atlas/?cluster=CYL">CYL cluster <span class="ct">(120)</span></a>
+    <a href="/atlas/?cluster=DNC">DNC cluster <span class="ct">(120)</span></a>
+    <a href="/atlas/?cluster=BRW">BRW cluster <span class="ct">(119)</span></a>
+    <a href="/atlas/?cluster=RLE">RLE cluster <span class="ct">(118)</span></a>
+    <a href="/atlas/?cluster=SCW">SCW cluster <span class="ct">(118)</span></a>
+    <a href="/atlas/?cluster=CLM">CLM cluster <span class="ct">(117)</span></a>
+    <a href="/atlas/?cluster=RET">RET cluster <span class="ct">(117)</span></a>
+    <a href="/atlas/?cluster=TEN">TEN cluster <span class="ct">(116)</span></a>
+    <a href="/atlas/?cluster=DGP">DGP cluster <span class="ct">(114)</span></a>
+    <a href="/atlas/?cluster=SCM">SCM cluster <span class="ct">(114)</span></a>
+    <a href="/atlas/?cluster=BSB">BSB cluster <span class="ct">(113)</span></a>
+    <a href="/atlas/?cluster=BRY">BRY cluster <span class="ct">(112)</span></a>
+    <a href="/atlas/?cluster=CHM">CHM cluster <span class="ct">(112)</span></a>
+    <a href="/atlas/?cluster=GRF">GRF cluster <span class="ct">(111)</span></a>
+    <a href="/atlas/?cluster=FIC">FIC cluster <span class="ct">(110)</span></a>
+    <a href="/atlas/?cluster=CHZ">CHZ cluster <span class="ct">(109)</span></a>
+    <a href="/atlas/?cluster=AUD">AUD cluster <span class="ct">(107)</span></a>
+    <a href="/atlas/?cluster=BBQ">BBQ cluster <span class="ct">(107)</span></a>
+    <a href="/atlas/?cluster=MSC">MSC cluster <span class="ct">(107)</span></a>
+    <a href="/atlas/?cluster=PTG">PTG cluster <span class="ct">(107)</span></a>
+    <a href="/atlas/?cluster=SND">SND cluster <span class="ct">(107)</span></a>
+    <a href="/atlas/?cluster=DIY">DIY cluster <span class="ct">(106)</span></a>
+    <a href="/atlas/?cluster=TWR">TWR cluster <span class="ct">(105)</span></a>
+    <a href="/atlas/?cluster=CLO">CLO cluster <span class="ct">(104)</span></a>
+    <a href="/atlas/?cluster=UXD">UXD cluster <span class="ct">(104)</span></a>
+    <a href="/atlas/?cluster=CGR">CGR cluster <span class="ct">(103)</span></a>
+    <a href="/atlas/?cluster=CIR">CIR cluster <span class="ct">(103)</span></a>
+    <a href="/atlas/?cluster=CLN">CLN cluster <span class="ct">(103)</span></a>
+    <a href="/atlas/?cluster=PHT">PHT cluster <span class="ct">(103)</span></a>
+    <a href="/atlas/?cluster=PRD">PRD cluster <span class="ct">(103)</span></a>
+    <a href="/atlas/?cluster=CAV">CAV cluster <span class="ct">(102)</span></a>
+    <a href="/atlas/?cluster=BSK">BSK cluster <span class="ct">(100)</span></a>
+    <a href="/atlas/?cluster=CMX">CMX cluster <span class="ct">(100)</span></a>
+    <a href="/atlas/?cluster=MMA">MMA cluster <span class="ct">(100)</span></a>
+    <a href="/atlas/?cluster=PDS">PDS cluster <span class="ct">(100)</span></a>
+    <a href="/atlas/?cluster=PHI">PHI cluster <span class="ct">(100)</span></a>
+    <a href="/atlas/?cluster=CIV">CIV cluster <span class="ct">(98)</span></a>
+    <a href="/atlas/?cluster=SRV">SRV cluster <span class="ct">(97)</span></a>
+    <a href="/atlas/?cluster=CXN">CXN cluster <span class="ct">(96)</span></a>
+    <a href="/atlas/?cluster=TXL">TXL cluster <span class="ct">(96)</span></a>
+    <a href="/atlas/?cluster=ARH">ARH cluster <span class="ct">(95)</span></a>
+    <a href="/atlas/?cluster=GLF">GLF cluster <span class="ct">(95)</span></a>
+    <a href="/atlas/?cluster=POD">POD cluster <span class="ct">(95)</span></a>
+    <a href="/atlas/?cluster=CLK">CLK cluster <span class="ct">(94)</span></a>
+    <a href="/atlas/?cluster=LTW">LTW cluster <span class="ct">(94)</span></a>
+    <a href="/atlas/?cluster=RUN">RUN cluster <span class="ct">(93)</span></a>
+    <a href="/atlas/?cluster=CTG">CTG cluster <span class="ct">(91)</span></a>
+    <a href="/atlas/?cluster=DAR">DAR cluster <span class="ct">(91)</span></a>
+    <a href="/atlas/?cluster=DML">DML cluster <span class="ct">(91)</span></a>
+    <a href="/atlas/?cluster=CYC">CYC cluster <span class="ct">(90)</span></a>
+    <a href="/atlas/?cluster=MTY">MTY cluster <span class="ct">(90)</span></a>
+    <a href="/atlas/?cluster=CND">CND cluster <span class="ct">(89)</span></a>
+    <a href="/atlas/?cluster=JRN">JRN cluster <span class="ct">(87)</span></a>
+    <a href="/atlas/?cluster=CST">CST cluster <span class="ct">(86)</span></a>
+    <a href="/atlas/?cluster=COR">COR cluster <span class="ct">(85)</span></a>
+    <a href="/atlas/?cluster=CRN">CRN cluster <span class="ct">(85)</span></a>
+    <a href="/atlas/?cluster=DEN">DEN cluster <span class="ct">(85)</span></a>
+    <a href="/atlas/?cluster=FAS">FAS cluster <span class="ct">(85)</span></a>
+    <a href="/atlas/?cluster=SWM">SWM cluster <span class="ct">(84)</span></a>
+    <a href="/atlas/?cluster=AIR">AIR cluster <span class="ct">(83)</span></a>
+    <a href="/atlas/?cluster=DIS">DIS cluster <span class="ct">(83)</span></a>
+    <a href="/atlas/?cluster=BRS">BRS cluster <span class="ct">(82)</span></a>
+    <a href="/atlas/?cluster=WEB">WEB cluster <span class="ct">(77)</span></a>
+    <a href="/atlas/?cluster=BAD">BAD cluster <span class="ct">(67)</span></a>
+    <a href="/atlas/?cluster=CRD">CRD cluster <span class="ct">(65)</span></a>
+    <a href="/atlas/?cluster=AVT">AVT cluster <span class="ct">(60)</span></a>
+    <a href="/atlas/?cluster=EXD">EXD cluster <span class="ct">(60)</span></a>
+    <a href="/atlas/?cluster=MET">MET cluster <span class="ct">(59)</span></a>
+    <a href="/atlas/?cluster=CEM">CEM cluster <span class="ct">(56)</span></a>
+    <a href="/atlas/?cluster=BBL">BBL cluster <span class="ct">(55)</span></a>
+    <a href="/atlas/?cluster=BLT">BLT cluster <span class="ct">(53)</span></a>
+    <a href="/atlas/?cluster=GAM">GAM cluster <span class="ct">(47)</span></a>
+    <a href="/atlas/?cluster=BIO">BIO cluster <span class="ct">(45)</span></a>
+    <a href="/atlas/?cluster=BRD">BRD cluster <span class="ct">(42)</span></a>
+    <a href="/atlas/?cluster=POR">POR cluster <span class="ct">(40)</span></a>
+    <a href="/atlas/?cluster=SOF">SOF cluster <span class="ct">(40)</span></a>
+    <a href="/atlas/?cluster=SOC">SOC cluster <span class="ct">(34)</span></a>
+    <a href="/atlas/?cluster=WND">WND cluster <span class="ct">(34)</span></a>
+    <a href="/atlas/?cluster=AQA">AQA cluster <span class="ct">(31)</span></a>
+    <a href="/atlas/?cluster=WDW">WDW cluster <span class="ct">(27)</span></a>
+    <a href="/atlas/?cluster=BAG">BAG cluster <span class="ct">(25)</span></a>
+    <a href="/atlas/?cluster=BLL">BLL cluster <span class="ct">(19)</span></a>
+    <a href="/atlas/?cluster=YGA">YGA cluster <span class="ct">(14)</span></a>
+    <a href="/atlas/?cluster=FIL">FIL cluster <span class="ct">(10)</span></a>
+    <a href="/atlas/?cluster=BNJ">BNJ cluster <span class="ct">(8)</span></a>
+    <a href="/atlas/?cluster=CGI">CGI cluster <span class="ct">(6)</span></a>
+ </div>
+</section>
+
+<section>
+ <div class="section-head">
+  <h2><span class="accent-line"></span>How to browse</h2>
+ </div>
+ <div class="what-block">
+  <p><strong>By topic →</strong> pick a featured domain above. Each domain page surfaces 20 representative terms plus a link to the filtered Atlas view.<br><br>
+  <strong>Alphabetically →</strong> open the <a href="/atlas/" style="color:var(--accent);">Full Atlas</a> for letter-by-letter navigation across all 32,596 terms.<br><br>
+  <strong>Programmatically →</strong> the <a href="/exports/" style="color:var(--accent);">Exports page</a> offers JSONL, JSON-LD graph, DCAT, VOID, SHACL and CodeMeta dumps for downstream RAG, SPARQL or Semantic-Web pipelines.</p>
+ </div>
+</section>
+
+</div>
+</main>
+
+
+<footer role="contentinfo">
+ <div class="container">
+  <div class="footer-bottom">
+   <div style="flex:1; font-size:.86em;">
+    <strong>AUGMANITAI Compendium</strong> · Andreas Ehstand · AI Researcher · Starnberg, Germany ·
+    <a href="/disclaimer/">§1–§29 Disclaimer</a> ·
+    <a href="/impressum/">Impressum</a> ·
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a>
+    · Living Document
+   </div>
+  </div>
+ </div>
 </footer>
+
+
+
+<script>
+(function(){
+  const KEY='augmanitai-theme';
+  const saved=localStorage.getItem(KEY);
+  if(saved)document.documentElement.setAttribute('data-theme',saved);
+  document.getElementById('themeToggle')?.addEventListener('click',function(){
+    const cur=document.documentElement.getAttribute('data-theme');
+    const next=cur==='light'?'dark':'light';
+    document.documentElement.setAttribute('data-theme',next);
+    localStorage.setItem(KEY,next);
+  });
+})();
+(function(){
+  const stats=document.querySelectorAll('.stat .num[data-target]');
+  function animate(el,target,suffix){
+    const dur=1100;const start=performance.now();
+    const fmt=n=>n.toLocaleString('en-US');
+    function tick(now){
+      const t=Math.min(1,(now-start)/dur);
+      const eased=1-Math.pow(1-t,3);
+      const cur=Math.floor(eased*target);
+      el.textContent=fmt(cur)+(suffix||'');
+      if(t<1)requestAnimationFrame(tick);
+      else el.textContent=fmt(target)+(suffix||'');
+    }
+    requestAnimationFrame(tick);
+  }
+  if('IntersectionObserver' in window){
+    const obs=new IntersectionObserver(entries=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){
+          const el=e.target;
+          if(el.dataset.animated)return;
+          el.dataset.animated='1';
+          animate(el,parseInt(el.dataset.target,10),el.dataset.suffix||'');
+          obs.unobserve(el);
+        }
+      });
+    },{threshold:.4});
+    stats.forEach(s=>obs.observe(s));
+  } else {
+    stats.forEach(s=>s.textContent=parseInt(s.dataset.target,10).toLocaleString('en-US')+(s.dataset.suffix||''));
+  }
+})();
+</script>
 
 </body>
 </html>
