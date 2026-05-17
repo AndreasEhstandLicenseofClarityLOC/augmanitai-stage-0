@@ -155,6 +155,26 @@ html { scroll-behavior: smooth; }
  <a href="/augmanitai-stage-0/atlas/" style="color:var(--cyan);text-decoration:none;font-size:0.95em;padding:8px 0;min-height:44px;display:flex;align-items:center">&#8593; Atlas Index</a>
  <a href="/augmanitai-stage-0/" style="color:var(--cyan);text-decoration:none;font-size:0.95em;padding:8px 0;min-height:44px;display:flex;align-items:center">&#8592; Hub</a>
 </nav>
+<!-- atlas-prevnext-v1 -->
+<style>
+.atlas-prevnext{margin:40px auto 20px auto;max-width:920px;padding:0 18px}
+.atlas-prevnext .pn-bar{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:stretch;background:rgba(16,16,31,.6);border:1px solid #1d1d38;border-radius:12px;padding:14px 18px;font-family:ui-sans-serif,system-ui,sans-serif}
+.atlas-prevnext a,.atlas-prevnext .pn-empty{display:flex;flex-direction:column;text-decoration:none;color:#a8a8c8;padding:8px 12px;border-radius:8px;transition:all .2s;min-height:44px;justify-content:center}
+.atlas-prevnext a:hover{background:rgba(46,224,255,.08);color:#2ee0ff;transform:translateY(-1px)}
+.atlas-prevnext .pn-label{font-size:.72em;letter-spacing:.06em;text-transform:uppercase;opacity:.7;margin-bottom:2px}
+.atlas-prevnext .pn-name{font-size:.95em;font-weight:600;color:inherit}
+.atlas-prevnext .pn-prev{text-align:left}.atlas-prevnext .pn-next{text-align:right}
+.atlas-prevnext .pn-cluster{text-align:center;border-left:1px solid #1d1d38;border-right:1px solid #1d1d38;padding:8px 18px}
+.atlas-prevnext .pn-cluster .pn-name{color:#2ee0ff;font-family:ui-monospace,Menlo,monospace}
+@media(max-width:640px){.atlas-prevnext .pn-bar{grid-template-columns:1fr;gap:6px}.atlas-prevnext .pn-cluster{border:none;border-top:1px solid #1d1d38;border-bottom:1px solid #1d1d38;padding:8px}}
+</style>
+<nav class="atlas-prevnext" aria-label="Cluster navigation">
+  <div class="pn-bar">
+    <a href="/augmanitai-stage-0/atlas/quantitative-film-analysis/" class="pn-prev"><span class="pn-label">&larr; Previous</span><span class="pn-name">Quantitative film Analysis</span></a>
+    <a href="/augmanitai-stage-0/atlas/_clusters/flm/" class="pn-cluster"><span class="pn-label">126 / 148 in</span><span class="pn-name">FLM</span></a>
+    <a href="/augmanitai-stage-0/atlas/research-frontiers-in-film/" class="pn-next"><span class="pn-label">Next &rarr;</span><span class="pn-name">Research Frontiers in film</span></a>
+  </div>
+</nav>
 </main>
 <script>
 (function(){
