@@ -327,6 +327,16 @@ footer a:hover { color:var(--accent); }
 .long-tail a .ct { color:var(--text-muted); }
 @media(max-width:900px){.long-tail{column-count:2}}
 @media(max-width:560px){.long-tail{column-count:1}}
+
+/* touch-target-v1 */
+@media (pointer: coarse), (max-width: 800px) {
+  nav a, nav button, footer a, .links a, header a, a.link { min-height: 44px !important;
+    display: inline-flex !important; align-items: center !important;
+    padding-top: 8px !important; padding-bottom: 8px !important; }
+  button { min-height: 44px !important; }
+}
+@media (max-width: 480px) { body { font-size: 16px !important; } }
+
 </style>
 </head>
 <body>

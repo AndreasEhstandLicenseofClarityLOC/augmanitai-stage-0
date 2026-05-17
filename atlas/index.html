@@ -1978,6 +1978,16 @@ footer a:hover { text-decoration: underline; }
 @media (hover: none) {
   li a:hover, .topnav-atlas-inner .nav-links a:hover { background: none; }
 }
+
+/* touch-target-v1 */
+@media (pointer: coarse), (max-width: 800px) {
+  nav a, nav button, footer a, .links a, header a, a.link { min-height: 44px !important;
+    display: inline-flex !important; align-items: center !important;
+    padding-top: 8px !important; padding-bottom: 8px !important; }
+  button { min-height: 44px !important; }
+}
+@media (max-width: 480px) { body { font-size: 16px !important; } }
+
 </style>
 </head>
 <body>

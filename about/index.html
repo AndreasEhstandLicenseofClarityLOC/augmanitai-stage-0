@@ -146,7 +146,17 @@
  }
 }
 </script>
-<style>body{font-family:system-ui,sans-serif;max-width:800px;margin:2em auto;padding:0 1em;line-height:1.65;color:#222}h1{color:#3a4f7a}h2{color:#3a4f7a;border-bottom:1px solid #d4cfc0;padding-bottom:5px;margin-top:28px}.banner{border:2px solid #c00;background:#fff8e0;padding:10px;margin-bottom:20px;font-size:0.9em}.lead{font-size:1.1em;color:#444;font-style:italic;margin-bottom:1.5em}ul{padding-left:1.4em}li{margin:0.3em 0}</style>
+<style>body{font-family:system-ui,sans-serif;max-width:800px;margin:2em auto;padding:0 1em;line-height:1.65;color:#222}h1{color:#3a4f7a}h2{color:#3a4f7a;border-bottom:1px solid #d4cfc0;padding-bottom:5px;margin-top:28px}.banner{border:2px solid #c00;background:#fff8e0;padding:10px;margin-bottom:20px;font-size:0.9em}.lead{font-size:1.1em;color:#444;font-style:italic;margin-bottom:1.5em}ul{padding-left:1.4em}li{margin:0.3em 0}
+/* touch-target-v1 */
+@media (pointer: coarse), (max-width: 800px) {
+  nav a, nav button, footer a, .links a, header a, a.link { min-height: 44px !important;
+    display: inline-flex !important; align-items: center !important;
+    padding-top: 8px !important; padding-bottom: 8px !important; }
+  button { min-height: 44px !important; }
+}
+@media (max-width: 480px) { body { font-size: 16px !important; } }
+
+</style>
 </head><body>
 <div class="banner">âš ï¸ LIVING WORK DOCUMENT Â· living-2026-05-10</div>
 <nav style="font-size:0.85em;color:#888"><a href="/">AUGMANITAI</a> &rsaquo; About</nav>
