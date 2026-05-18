@@ -13,7 +13,7 @@
 <https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/#dataset>
     a void:Dataset , dcat:Dataset ;
     dct:title "AUGMANITAI Stage-0 Term Atlas"@en ;
-    dct:description "Phenomenological terminology corpus of 32,656 defined terms with SKOS concept graph, Schema.org DefinedTerm pages, and PROV provenance. ISO 704 / 1087 / 30042 aligned."@en ;
+    dct:description "Phenomenological terminology corpus of 1,128 defined terms with SKOS concept graph, Schema.org DefinedTerm pages, and PROV provenance. ISO 704 / 1087 / 30042 aligned."@en ;
     dct:creator <https://orcid.org/0009-0006-3773-7796> ;
     dct:publisher <https://orcid.org/0009-0006-3773-7796> ;
     dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
@@ -32,16 +32,14 @@
                     <http://schema.org/> ,
                     <http://www.w3.org/ns/prov#> ,
                     <http://purl.org/dc/terms/> ;
-    void:dataDump <https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms.jsonl> ,
-                  <https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms-graph.json> ;
     void:rootResource <https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/> ;
     void:exampleResource augm:cognitive-continuity-methodology ;
     void:uriSpace "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/" ;
-    void:entities 32656 ;
+    void:entities 1128 ;
     void:classes 4 ;
     void:properties 18 ;
     void:triples 850000 ;
-    void:distinctSubjects 32656 ;
+    void:distinctSubjects 1128 ;
     void:distinctObjects 180000 ;
     # No SPARQL endpoint provided — static-site corpus. Consume via dataDump.
     schema:keywords "terminology, phenomenology, SKOS, DefinedTerm, ISO 704, controlled vocabulary, AUGMANITAI, cognitive science" .

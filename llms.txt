@@ -1,6 +1,6 @@
 # AUGMANITAI Master Compendium
 
-> The main library of the AUGMANITAI Research Programme. 32,596 defined terms (EN+DE) describing observable patterns of human-AI interaction. Bilingual descriptive phenomenology. CC BY-NC-ND 4.0.
+> The main library of the AUGMANITAI Research Programme. 1,128 defined terms (EN+DE) describing observable patterns of human-AI interaction. Bilingual descriptive phenomenology. CC BY-NC-ND 4.0.
 
 ## About
 
@@ -14,20 +14,19 @@ This is the master library of the **AUGMANITAI Research Programme** by **Andreas
 
 ## Structure
 
-- **32,596 defined terms** across 165 topical clusters and 6 thematic branches
+- **1,128 defined terms** across 187 topical clusters and 6 thematic branches
 - **Atlas index**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/
 - **Domains overview**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/
 - **Disclaimer §1–§29 (bilingual)**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/disclaimer/
 - **Impressum (DE)**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/impressum/
 - **Datenschutz (DE)**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/datenschutz/
-- **Exports (JSON-LD/RDF/CSV/JSONL)**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/
 
 ## Related Resources Across the Programme
 
 - [Portal](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/) — Central landing for nine connected corpora
-- [Knowledge Graph](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-wow/) — Interactive 104-term selection
+- [Knowledge Graph](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-wow/) — Interactive 79-term selection
 - [Periodic Table](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic-table/) — 100 most representative patterns
-- [Academic Atlas](https://andreasehstandlicenseofclarityloc.github.io/neomanitai-terms/) — 6,027 academic terms with machine-readable exports
+- [Academic Atlas](https://andreasehstandlicenseofclarityloc.github.io/neomanitai-terms/) — 2,141 term pages with machine-readable exports
 - [Performance Framework](https://andreasehstandlicenseofclarityloc.github.io/permanitai-framework/) — PERMANITAI cross-domain methodology
 - [Founding Essay](https://andreasehstandlicenseofclarityloc.github.io/synmanitai/) — Synmanitai methodological grounding
 - [Author](https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/) — About Andreas Ehstand

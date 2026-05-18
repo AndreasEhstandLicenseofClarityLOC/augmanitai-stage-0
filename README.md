@@ -1,16 +1,16 @@
-# AUGMANITAI Stage-0 (32,656 Defined Terms across 169 Research-Domain Clusters - Pure Andreas-Ehstand Phenomenology)
+# AUGMANITAI Stage-0 (1,128 Defined Terms across 187 Research-Domain Clusters - Pure Andreas-Ehstand Phenomenology)
 
 **Author:** Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
 **License:** CC BY-NC-ND 4.0
 **Concept-DOI:** 10.5281/zenodo.20118267
 **Trademark:** License of Clarity (EUIPO 019206780)
 **Status:** Research preprint, living document
-**Terms:** 32,656 (pure Andreas-Ehstand phenomenology across 169 clusters)
+**Terms:** 1,128 (pure Andreas-Ehstand phenomenology across 187 clusters)
 **Date:** 2026-05-15
 
 ## Purpose
 
-Research preprint of **32,656 defined terms across 169 research-domain clusters - 100% original Andreas-Ehstand phenomenology** coined by Andreas Ehstand describing
+Research preprint of **1,128 defined terms across 187 research-domain clusters - 100% original Andreas-Ehstand phenomenology** coined by Andreas Ehstand describing
 contemporary human-AI and human-technology phenomena. Each term:
 
 - Has bilingual EN/DE definitions plus 10 additional language translations (FR/ES/PT/IT/NL/RU/ZH/AR/HI/TR)

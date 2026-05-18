@@ -10,7 +10,7 @@
   "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/#catalog",
   "@type": "dcat:Catalog",
   "dct:title": "AUGMANITAI Stage-0 DCAT Catalog",
-  "dct:description": "DCAT v3 catalog for the AUGMANITAI phenomenological term corpus (32,656 defined terms).",
+  "dct:description": "DCAT v3 catalog for the AUGMANITAI phenomenological term corpus (1,128 defined terms).",
   "dct:publisher": {
     "@id": "https://orcid.org/0009-0006-3773-7796",
     "@type": "foaf:Person",
@@ -26,7 +26,7 @@
       "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/#dataset",
       "@type": "dcat:Dataset",
       "dct:title": "AUGMANITAI Term Atlas",
-      "dct:description": "Phenomenological terminology corpus: 32,656 DefinedTerm / skos:Concept entries with PROV provenance.",
+      "dct:description": "Phenomenological terminology corpus: 1,128 DefinedTerm / skos:Concept entries with PROV provenance.",
       "dct:identifier": "https://doi.org/10.5281/zenodo.20118267",
       "dct:license": { "@id": "https://creativecommons.org/licenses/by-nc-nd/4.0/" },
       "dct:creator": { "@id": "https://orcid.org/0009-0006-3773-7796" },
@@ -39,24 +39,6 @@
       "dcat:landingPage": { "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/" },
       "owl:sameAs": "http://www.wikidata.org/entity/Q138522830",
       "dcat:distribution": [
-        {
-          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms.jsonl",
-          "@type": "dcat:Distribution",
-          "dct:title": "All Terms — JSON Lines",
-          "dcat:downloadURL": { "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms.jsonl" },
-          "dcat:mediaType": "application/x-jsonlines",
-          "dcat:byteSize": 48000000,
-          "dct:license": { "@id": "https://creativecommons.org/licenses/by-nc-nd/4.0/" }
-        },
-        {
-          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms-graph.json",
-          "@type": "dcat:Distribution",
-          "dct:title": "All Terms — JSON-LD Graph",
-          "dcat:downloadURL": { "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms-graph.json" },
-          "dcat:mediaType": "application/ld+json",
-          "dcat:byteSize": 62000000,
-          "dct:license": { "@id": "https://creativecommons.org/licenses/by-nc-nd/4.0/" }
-        },
         {
           "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/",
           "@type": "dcat:Distribution",

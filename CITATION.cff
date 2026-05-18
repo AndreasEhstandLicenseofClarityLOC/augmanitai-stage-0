@@ -1,6 +1,3 @@
-# --- FOR augmanitai-stage-0 ---
-# Decision combination: D3=A (artefact DOI primary, Denkraum DOI as reference)  D4=A (person Wikidata Q138634675)
-# A parallel agent owns the stage0 repo. Place as CITATION.cff.NEW_DENKRAUM_2026-05-18 (do NOT overwrite — prior-art hash).
 cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 title: "AUGMANITAI Stage-0 — Defined Terms Corpus"

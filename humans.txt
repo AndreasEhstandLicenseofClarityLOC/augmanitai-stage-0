@@ -8,7 +8,7 @@ GitHub: https://github.com/AndreasEhstandLicenseofClarityLOC
 Location: Starnberg, Germany
 
 /* SITE */
-Title: AUGMANITAI Master Compendium · 32,596 Defined Terms
+Title: AUGMANITAI Master Compendium · 1,128 Defined Terms
 Last update: 2026-05-16
 Language: English / Deutsch (bilingual throughout)
 License: CC BY-NC-ND 4.0

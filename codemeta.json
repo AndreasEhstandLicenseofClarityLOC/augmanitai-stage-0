@@ -35,7 +35,7 @@
   "ai_disclosure": "Content developed with AI assistance. Reviewed and approved by the author.",
   "audience": "Adult users (18+) in academic or professional contexts",
   "name": "AUGMANITAI Stage-0 Compendium",
-  "description": "Research preprint corpus of 32,656 defined terms across 169 research-domain clusters - 100% original Andreas-Ehstand phenomenology describing contemporary human-AI and human-technology phenomena. Bilingual EN/DE definitions plus 10 additional language translations. ISO 704:2022 / ISO 1087:2019 / ISO 30042:2019 inspired (not compliance-claimed). Aligned with W3C SKOS, schema.org, and PROV-O provenance.",
+  "description": "Research preprint corpus of 1,128 defined terms across 187 research-domain clusters - 100% original Andreas-Ehstand phenomenology describing contemporary human-AI and human-technology phenomena. Bilingual EN/DE definitions plus 10 additional language translations. ISO 704:2022 / ISO 1087:2019 / ISO 30042:2019 inspired (not compliance-claimed). Aligned with W3C SKOS, schema.org, and PROV-O provenance.",
   "version": "Stage-0",
   "applicationSubCategory": "Terminology Science / Phenomenology Corpus",
   "keywords": [
@@ -48,8 +48,8 @@
     "ISO 30042",
     "SKOS",
     "knowledge graph",
-    "32656 terms",
-    "169 clusters",
+    "1128 terms",
+    "187 clusters",
     "Andreas Ehstand",
     "License of Clarity"
   ],

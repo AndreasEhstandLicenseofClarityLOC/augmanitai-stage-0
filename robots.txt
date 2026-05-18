@@ -1,7 +1,7 @@
 # AUGMANITAI Compendium - robots.txt
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
 # AUGMANITAI Wikidata: https://www.wikidata.org/wiki/Q138522830
-# Concept-DOI: https://doi.org/10.5281/zenodo.14888381
+# Concept-DOI: https://doi.org/10.5281/zenodo.20118267
 # Role: AI Researcher
 # Trademark: License of Clarity (EUIPO 019206780)
 
@@ -64,10 +64,6 @@ Allow: /
 # Crawler discovery hints
 Sitemap: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/sitemap.xml
 
-# Bulk-export pointers (one-request corpus access)
-# /exports/all-terms.jsonl       - JSONL, 35,852 DefinedTerm objects
-# /exports/all-terms-graph.json  - single JSON-LD @graph, SPARQL/RDF-ready
-# /exports/domain-index.json     - cluster-prefix to term-list mapping
 
 # Attribution required (CC BY-NC-ND 4.0)
 # Cite: Ehstand, A. (2026). AUGMANITAI Stage-0. DOI 10.5281/zenodo.20118267.

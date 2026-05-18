@@ -4,7 +4,7 @@
   "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/#dataset",
   "name": "AUGMANITAI Stage-0 Term Atlas",
   "alternateName": "AUGMANITAI Phenomenological Terminology Corpus",
-  "description": "A controlled phenomenological terminology corpus of 32,656 defined terms with SKOS concept graph, Schema.org DefinedTerm pages, and W3C PROV provenance. Aligned with ISO 704 (terminology principles), ISO 1087 (vocabulary), and ISO 30042 (TBX). Each term is published as an HTML page with inline JSON-LD; bulk JSONL and JSON-LD graph exports are provided. Covers cognitive continuity, reflective cognitive modeling, holistic performance analysis, multi-agent and multi-robot systems, and embodied AI.",
+  "description": "A controlled phenomenological terminology corpus of 1,128 defined terms with SKOS concept graph, Schema.org DefinedTerm pages, and W3C PROV provenance. Aligned with ISO 704 (terminology principles), ISO 1087 (vocabulary), and ISO 30042 (TBX). Each term is published as an HTML page with inline JSON-LD; bulk JSONL and JSON-LD graph exports are provided. Covers cognitive continuity, reflective cognitive modeling, holistic performance analysis, multi-agent and multi-robot systems, and embodied AI.",
   "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/",
   "sameAs": [
     "https://doi.org/10.5281/zenodo.20118267",
@@ -74,20 +74,6 @@
     "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/"
   },
   "distribution": [
-    {
-      "@type": "DataDownload",
-      "name": "All Terms — JSON Lines",
-      "encodingFormat": "application/x-jsonlines",
-      "contentUrl": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms.jsonl",
-      "contentSize": "48MB"
-    },
-    {
-      "@type": "DataDownload",
-      "name": "All Terms — JSON-LD Graph",
-      "encodingFormat": "application/ld+json",
-      "contentUrl": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/exports/all-terms-graph.json",
-      "contentSize": "62MB"
-    },
     {
       "@type": "DataDownload",
       "name": "Sitemap",
