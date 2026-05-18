@@ -1,51 +1,38 @@
+# --- FOR augmanitai-stage-0 ---
+# Decision combination: D3=A (artefact DOI primary, Denkraum DOI as reference)  D4=A (person Wikidata Q138634675)
+# A parallel agent owns the stage0 repo. Place as CITATION.cff.NEW_DENKRAUM_2026-05-18 (do NOT overwrite — prior-art hash).
 cff-version: 1.2.0
-title: "AUGMANITAI Stage-0 (32,656 Defined Terms across 169 Research-Domain Clusters, Pure Phenomenology, Research Preprint, Living Document)"
+message: "If you use this work, please cite it as below."
+title: "AUGMANITAI Stage-0 — Defined Terms Corpus"
+type: dataset
 authors:
   - family-names: Ehstand
     given-names: Andreas
     orcid: "https://orcid.org/0009-0006-3773-7796"
-    affiliation: "AUGMANITAI Research Programme (Wikidata Q138522830)"
 license: CC-BY-NC-ND-4.0
-date-released: "2026-05-15"
+date-released: "2026-05-18"
+repository-code: "https://github.com/AndreasEhstandLicenseofClarityLOC/augmanitai-stage-0"
+url: "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/"
+abstract: "Corpus of defined terms across research-domain clusters for human-AI interaction phenomenology. Part of the Denkraum of Bidirectional Entity-Spanning Semantic Emergence."
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.20118267
-    description: AUGMANITAI Stage-0 Concept-DOI (persistent anchor)
-  - type: doi
-    value: 10.5281/zenodo.20119072
-    description: AUGMANITAI Stage-0 V2 (research preprint snapshot)
-  - type: doi
-    value: 10.5281/zenodo.20118268
-    description: AUGMANITAI Stage-0 V1 (historical)
-  - type: doi
-    value: 10.5281/zenodo.14888381
-    description: AUGMANITAI Compendium parent Concept-DOI
+    value: "10.5281/zenodo.20118267"
+    description: "AUGMANITAI Stage-0 Concept-DOI"
+  - type: url
+    value: "https://www.wikidata.org/wiki/Q138634675"
+    description: "Wikidata item for the author, Andreas Ehstand"
 keywords:
   - human-AI interaction
   - phenomenology
   - applied terminology science
-  - ISO 704
-  - ISO 1087
-  - ISO 30042
-  - holistic performance analysis
-  - multi-agent systems
-  - multi-robot coordination
-  - robot-team coordination
-  - AGI pre-norm architecture
-  - knowledge graph architecture
-  - living document discipline
-  - License of Clarity
-  - EUIPO 019206780
-repository-code: "https://github.com/AndreasEhstandLicenseofClarityLOC/augmanitai-stage-0"
-url: "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/"
-preferred-citation:
-  type: dataset
-  title: "AUGMANITAI Stage-0 - Defined Terms Corpus (Living Document)"
-  authors:
-    - family-names: Ehstand
-      given-names: Andreas
-      orcid: "https://orcid.org/0009-0006-3773-7796"
-  doi: 10.5281/zenodo.20118267
-  year: 2026
-  publisher:
-    name: "AUGMANITAI Research Programme"
+notes: "Trademark: License of Clarity, EUIPO 019206780."
+references:
+  - type: generic
+    title: "Founding Document — Denkraum of Bidirectional Entity-Spanning Semantic Emergence"
+    authors:
+      - family-names: Ehstand
+        given-names: Andreas
+        orcid: "https://orcid.org/0009-0006-3773-7796"
+    doi: "10.5281/zenodo.20262544"
+    year: 2026
+    notes: "Concept DOI of the founding act this work is part of; resolves to latest version."
