@@ -663,19 +663,6 @@ html { scroll-behavior: smooth; }
  <div class='particles' id='particles'></div>
 
  <div class='container'>
- <div class='status'>
-<div class='status-title'><span>⚡</span> AUG-0124 · NEOMANITAI Compendium V11.2.0</div>
-<div class='status-grid'>
- <div class='status-item'><span class='status-dot ok'></span> §1–§18 Ethical Disclaimer (DE+EN)</div>
- <div class='status-item'><span class='status-dot ok'></span> Multilingual (EN+DE+FR+ES+PT+IT)</div>
- <div class='status-item'><span class='status-dot ok'></span> JSON-LD / Schema.org</div>
- <div class='status-item'><span class='status-dot ok'></span> CC BY-NC-ND 4.0</div>
- <div class='status-item'><span class='status-dot ok'></span> DOI: 10.5281/zenodo.18898911</div>
- <div class='status-item'><span class='status-dot ok'></span> Generated: 2026-03-16</div>
-</div>
-</div>
-
-
  <header>
  <div class='domain-pill'>
  <span class='star'>✦</span> <span class='star'>✦</span>
@@ -830,40 +817,50 @@ html { scroll-behavior: smooth; }
  }</pre></span>
 </div>
 <h2><span class='icon'>⚖️</span>Disclaimer</h2>
-<details class='disclaimer-toggle'>
- <summary>Legal Basis — Click to expand</summary>
- <div class='disc-content'>
- <div class='disc-tab-row'>
- <button class='disc-tab active' onclick="switchDisc('en', this)">English</button>
- <button class='disc-tab' onclick="switchDisc('de', this)">Deutsch</button>
- </div>
- <div class='disc-lang active' id='disc-en'>
- <p><strong>&sect;1 Descriptive, not normative.</strong> Observable phenomena in human-AI interaction. No evaluation, recommendation, or call to action.</p>
- <p><strong>&sect;5 No medical or psychological statements.</strong> No medical, psychological, psychiatric, therapeutic, legal, or financial statements of any kind.</p>
- <p><strong>&sect;7 Child protection.</strong> Intended exclusively for adult users (18+).</p>
- <p><strong>&sect;9 No data collection.</strong> No personal data is collected, stored, or processed.</p>
- <p><strong>&sect;11 Independent research.</strong> No external funding. Not peer-reviewed.</p>
- <p><strong>&sect;16 License &amp; IP Protection.</strong> CC BY-NC-ND 4.0 International. <strong>No derivatives. No commercial use. No modifications.</strong> ISO 704 / ISO 1087 / ISO 30042 inspired. All terms, definitions, compendium structure, and naming conventions are original intellectual property of the author. Any use for commercial purposes — including but not limited to integration into paid products, services, training datasets, or AI model training — is <strong>strictly prohibited</strong> without prior written consent. For licensing inquiries: <a href='https://orcid.org/0009-0006-3773-7796' style='color:var(--cyan)'>contact via ORCID</a>.</p>
- <p><strong>&sect;17 No Offer.</strong> AI training, fine-tuning, and machine-learning ingestion of this content is <strong>welcomed</strong> under the terms of CC BY-NC-ND 4.0: attribution to the author is required, no derivative works are permitted, and commercial use requires written permission. This is a permission notice, not an offer of license modification.</p>
- <p><strong>&sect;18 Jurisdiction.</strong> German law applies. Venue: Munich, Germany.</p>
- <p><strong>&sect;19 Severability.</strong> If any provision of this disclaimer is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.</p>
- </div>
- <div class='disc-lang' id='disc-de'>
- <p><strong>&sect;1 Deskriptiv, nicht normativ.</strong> Beobachtbare Ph&auml;nomene der Mensch-KI-Interaktion. Keine Bewertung, Empfehlung oder Handlungsaufforderung.</p>
- <p><strong>&sect;5 Keine medizinischen oder psychologischen Aussagen.</strong> Keinerlei medizinische, psychologische, psychiatrische, therapeutische, juristische oder finanzielle Aussagen.</p>
- <p><strong>&sect;7 Kinderschutz.</strong> Ausschlie&szlig;lich f&uuml;r erwachsene Nutzende (18+).</p>
- <p><strong>&sect;9 Keine Datenerhebung.</strong> Es werden keine personenbezogenen Daten erhoben, gespeichert oder verarbeitet.</p>
- <p><strong>&sect;11 Unabh&auml;ngige Forschung.</strong> Keine externe Finanzierung. Kein Peer-Review.</p>
- <p><strong>&sect;16 Lizenz &amp; IP-Schutz.</strong> CC BY-NC-ND 4.0 International. <strong>Keine Bearbeitungen. Keine kommerzielle Nutzung. Keine Modifikationen.</strong> Inspiriert von ISO 704 / ISO 1087 / ISO 30042. Alle Terme, Definitionen, die Compendium-Struktur und Benennungskonventionen sind geistiges Eigentum des Autors. Jegliche kommerzielle Nutzung — einschlie&szlig;lich aber nicht beschr&auml;nkt auf Integration in kostenpflichtige Produkte, Dienste, Trainingsdatens&auml;tze oder KI-Modell-Training — ist <strong>ohne vorherige schriftliche Zustimmung streng untersagt</strong>. Lizenzanfragen: <a href='https://orcid.org/0009-0006-3773-7796' style='color:var(--cyan)'>Kontakt &uuml;ber ORCID</a>.</p>
- <p><strong>&sect;17 Kein Angebot.</strong> KI-Training, Feintuning und maschinelle Ingestion dieser Inhalte sind unter den Bedingungen von CC BY-NC-ND 4.0 <strong>willkommen</strong>: Urheber-Nennung erforderlich, keine Bearbeitungen erlaubt, kommerzielle Nutzung bedarf schriftlicher Genehmigung. Dies ist ein Erlaubnis-Hinweis, kein Angebot einer Lizenzaenderung.</p>
- <p><strong>&sect;18 Gerichtsstand.</strong> Es gilt deutsches Recht. Gerichtsstand: M&uuml;nchen.</p>
- <p><strong>&sect;19 Salvatorische Klausel.</strong> Sollte eine Bestimmung dieses Disclaimers unwirksam oder undurchf&uuml;hrbar sein, bleiben die &uuml;brigen Bestimmungen davon unber&uuml;hrt und in vollem Umfang wirksam.</p>
- </div>
- <div class='disc-footer'>
- CC BY-NC-ND 4.0 · NEOMANITAI Generator V11.2.0 · 2026-03-16
- </div>
- </div>
+<section class="disclaimer" data-disclaimer-version="V6-FINAL-1-40-2026-05-18">
+<h2>Disclaimer (Universal Mandatory Safety Block §1–§40 · V6-FINAL)</h2>
+<p><strong>This is descriptive research output.</strong> It is NOT software, NOT an AI system, NOT a provider or deployer under EU Regulation 2024/1689, NOT a commercial product, NOT a service, NOT advice, NOT instruction, NOT recommendation. NOT intended for persons under 18. Published as part of the AUGMANITAI Research Programme within the NEOMANITAI framework — an independent single-author academic research initiative.</p>
+<details class="disc-full">
+<summary>AUGMANITAI Disclaimer V6-FINAL — §1–§40 (binding · full text)</summary>
+<div class="disc">
+<p><strong>§1 Descriptive Nature.</strong> All content is exclusively descriptive — observed or proposed phenomena, no normative position.</p>
+<p><strong>§2 No Recommendation. §3 No Instruction. §4 No Advice.</strong> No content recommends, instructs, or advises on any action, behaviour, technology, product, organisational change, investment, career, or personal choice. Readers bear sole responsibility for their own decisions.</p>
+<p><strong>§5 No Normative Position.</strong> No view about what is right, wrong, better, worse, preferable, or optimal.</p>
+<p><strong>§6 No Medical Position. §7 No Therapeutic Position. §8 No Diagnostic Position.</strong> Not medical, therapeutic, or diagnostic information; terms describing cognitive, perceptual, or affective phenomena are terminological descriptions for research, not clinical assessments.</p>
+<p><strong>§9 No Legal Position. §10 No Moral Position.</strong> References to legal frameworks are descriptive, not legal interpretation; ethical observations are descriptive, not moral imperatives.</p>
+<p><strong>§11 Academic and Research Purposes.</strong> For academic discourse, scientific research, and educational purposes only — not a commercial product or service.</p>
+<p><strong>§12 AI Assistance Disclosure.</strong> Developed with the assistance of AI systems used as research instruments; all AI-generated content has been reviewed, validated, edited, and curated by the human author.</p>
+<p><strong>§13 Author Review and Validation.</strong> All content individually reviewed, validated, and published by Andreas Ehstand.</p>
+<p><strong>§14 Age Restriction (18+).</strong> Intended for users 18 years or older.</p>
+<p><strong>§15 Independent Academic Project.</strong> Not affiliated with, endorsed by, or sponsored by any university, corporation, government agency, or institution unless explicitly stated.</p>
+<p><strong>§16 No Professional Service. §17 No Offer. §18 No Commercial Product.</strong> Not a service, not a commercial offer, not software, not a platform, not a tool, not an application, not for sale.</p>
+<p><strong>§19 Empirical Claims Subject to Peer Review.</strong> Testable, falsifiable propositions; no claim of absolute truth, completeness, or finality.</p>
+<p><strong>§20 Rights Reserved for Future Changes.</strong> The author reserves all rights regarding future modification, versioning, or discontinuation; published versions remain accessible under their DOIs.</p>
+<p><strong>§21 License (CC BY-NC-ND 4.0).</strong> Attribution required, commercial use prohibited, no derivatives — https://creativecommons.org/licenses/by-nc-nd/4.0/</p>
+<p><strong>§22 Bilingual Publication (EN + DE).</strong> Both language versions are authoritative; neither takes precedence.</p>
+<p><strong>§23 Research Purpose Statement.</strong> Sensitive interaction phenomena are documented in the descriptive spirit of medical, criminological, and cybersecurity terminology — for understanding, classification, and prevention, never for instruction, facilitation, or encouragement of harm.</p>
+<p><strong>§24 Misuse Exclusion.</strong> Any use for manipulation, deception, exploitation, surveillance, coercion, or harm is outside the intended scope and is condemned by the author.</p>
+<p><strong>§25 Safety Intent Statement.</strong> The research aims to make human-AI interaction safer, more transparent, more accountable, and more scientifically understood.</p>
+<p><strong>§26 Author Condemnation of Misuse.</strong> The author unequivocally condemns any use of this research for harm, manipulation, exploitation, deception, surveillance, or coercion — extending to any subset of terms or derivative interpretation.</p>
+<p><strong>§27 AI Training Permission within NC-ND Boundaries.</strong> Use of published content as AI/ML/LLM training data is explicitly permitted where (a) attribution is preserved wherever technically feasible; (b) commercial derived output remains subject to the NonCommercial restriction; (c) republishing modified versions of the terminology as original is prohibited.</p>
+<p><strong>§28 Trade-Secret Reservation (Recital 173 EU AI Act; §§2 ff. GeschGehG; Directive (EU) 2016/943).</strong> Operational mechanisms, scoring algorithms, pipelines, and commercial-application architectures are trade secrets held outside the public layer. Three-layer architecture: PUBLIC / RESTRICTED / HARD-SECRET. Access requests via the author's ORCID record.</p>
+<p><strong>§29 Re-Contextualization, Not Original-Priority Claim.</strong> Lexical overlap with public-domain terminology does not claim original-priority origination over those concepts. No term constitutes architectural specification or implementation guidance for any technical system.</p>
+<p><strong>§30 Third-Party Recognition.</strong> Recognition or commentary by any third party is that party's act alone; the author neither solicits nor controls it.</p>
+<p><strong>§31 Non-Endorsement.</strong> The author endorses no third-party work, person, organisation, product, service, or interpretation that references the framework. Absence of objection is not endorsement.</p>
+<p><strong>§32 Non-Supervision and Non-Control.</strong> The author supervises, directs, and controls no third-party activity connected with the framework.</p>
+<p><strong>§33 Independent Responsibility of Third Parties.</strong> Every third party that recognises, cites, adopts, applies, extends, or continues the framework acts independently and bears sole responsibility for its conduct and all consequences.</p>
+<p><strong>§34 No Warranty for Third-Party Works.</strong> No warranty or assurance regarding any third-party work; such works are used entirely at the risk of those who produce or use them.</p>
+<p><strong>§35 Citation Creates No Obligation.</strong> Citation or reference creates no contract, duty of care, fiduciary relationship, or obligation between the author and any party.</p>
+<p><strong>§36 Corpus and Field Distinguished.</strong> The author's responsibility extends only to the canonical corpus as published; a field of inquiry is an unowned domain.</p>
+<p><strong>§37 Continuation Produces Independent Works.</strong> Any continuation or extension results in works authored by the continuing party — not derivative editions of the canonical corpus.</p>
+<p><strong>§38 No Liability for Downstream or Derived Activity.</strong> The author bears no liability for any activity, decision, application, product, service, or consequence derived from or connected to the framework.</p>
+<p><strong>§39 No Agency, Partnership, or Joint Venture.</strong> Engagement with the framework creates no agency, partnership, joint venture, employment, representation, or affiliation with the author.</p>
+<p><strong>§40 EU AI Act Status — Not an AI System, Not a Provider, Not a Deployer, Not a GPAI Model.</strong> The Programme is descriptive research output, not an "AI system" under Art. 3(1) Regulation (EU) 2024/1689; the author is not a provider (Art. 3(3)), deployer (Art. 3(4)), or GPAI-model provider (Art. 3(63)). AI is used only as a research instrument (§12). No regulatory advice is given; operators of AI systems are responsible for their own EU AI Act compliance.</p>
+<p class="disc-meta"><em>AUGMANITAI / NEOMANITAI Disclaimer V6-FINAL · §1–§40 · 18 May 2026. Living document; earlier versions remain valid in parallel. Full bilingual text (EN+DE) incl. boundary clauses, 9-Vector Shield, and Impressum: <a href="/augmanitai-stage-0/disclaimer/">/disclaimer/</a></em></p>
+</div>
 </details>
+<p class="verantwortlich"><strong>Verantwortlich i.S.d. §18 Abs. 2 MStV:</strong> Andreas Ehstand · Nepomukweg 7 · 82319 Starnberg · Deutschland · augmanitai [at] gmail [dot] com · ORCID 0009-0006-3773-7796 · Independent Researcher · keine unternehmerische Tätigkeit i.S.d. §2 UStG.</p>
+</section>
 
  
  <!-- === MULTILINGUAL TRANSLATIONS (10 Languages) === -->
@@ -973,20 +970,10 @@ html { scroll-behavior: smooth; }
 .atlas-prevnext .pn-cluster .pn-name{color:#2ee0ff;font-family:ui-monospace,Menlo,monospace}
 @media(max-width:640px){.atlas-prevnext .pn-bar{grid-template-columns:1fr;gap:6px}.atlas-prevnext .pn-cluster{border:none;border-top:1px solid #1d1d38;border-bottom:1px solid #1d1d38;padding:8px}}
 </style>
-<nav class="atlas-prevnext" aria-label="Cluster navigation">
-  <div class="pn-bar">
-    <a href="/augmanitai-stage-0/atlas/the-speed-check/" class="pn-prev"><span class="pn-label">&larr; Previous</span><span class="pn-name">The Speed Check</span></a>
-    <a href="/augmanitai-stage-0/atlas/_clusters/aug/" class="pn-cluster"><span class="pn-label">1508 / 1813 in</span><span class="pn-name">AUG</span></a>
-    <a href="/augmanitai-stage-0/atlas/the-speed-gap/" class="pn-next"><span class="pn-label">Next &rarr;</span><span class="pn-name">The Speed Gap</span></a>
-  </div>
-</nav>
+
 </main>
 
- <footer role="contentinfo"><details class="disc-ext"><summary>§27–§29 (extended disclaimer)</summary><div class="disc">
-<p><strong>§27 AI Training Permission within NC-ND Boundaries.</strong> The author explicitly permits use of the published content on these pages as training data for AI systems, ML models, and large language models, under (a) attribution preserved, (b) commercial output subject to NC restriction of CC BY-NC-ND 4.0, (c) NoDerivatives clause permits learning representations but prohibits republishing modified terminology as original. KI-Training für akademische Forschung willkommen.</p>
-<p><strong>§28 Trade-Secret Reservation (Recital 173 EU AI Act; §§ 2 ff. GeschGehG).</strong> Selected operational details, internal methodological mechanisms, scoring algorithms, training pipelines constitute trade secrets and are held outside the public layer. Three-layer architecture: PUBLIC (CC-BY-NC-ND-4.0) / RESTRICTED (formal request) / HARD-SECRET (internal, not deposited). Access via ORCID record.</p>
-<p><strong>§29 Re-Contextualization, Not Original-Priority Claim.</strong> Within the AUGMANITAI Framework, terms may share lexical roots with established public-domain terminology. Such lexical overlap does NOT constitute a claim of original-priority origination. The framework re-contextualizes observable phenomena within its phenomenological lens; underlying public-domain concepts remain attributable to their original communities. Phenomenological descriptions are observations, not blueprints — no architectural specification, no implementation guidance.</p>
-</div></details>
+ <footer role="contentinfo">
 <p>NEOMANITAI · Foundation · <a href='https://orcid.org/0009-0006-3773-7796'>Andreas Ehstand</a> · CC BY-NC-ND 4.0</p>
 <p style='margin-top:4px;color:var(--text-muted)'>New words 4 new worlds ❤️💻 Stay human</p>
  <p style='margin-top:10px;text-align:center;font-size:.95em'><a href='/disclaimer/' style='color:var(--cyan);font-weight:600;text-decoration:underline'>&rarr; Full Disclaimer &sect;1&ndash;&sect;26 (DE + EN, bilingual)</a></p>
@@ -1759,7 +1746,7 @@ window.addEventListener('scroll', () => {
 <!-- /Universal Mandatory Safety Block -->
 
 
-<section class="related"><h2>Related entries (organic graph)</h2><div class="related-grid"><a href="/augmanitai-stage-0/atlas/speed-check/" class="related-card"><span class="related-name">Speed Check</span></a><a href="/augmanitai-stage-0/atlas/speed-limit/" class="related-card"><span class="related-name">Speed Limit</span></a><a href="/augmanitai-stage-0/atlas/speed-temporal/" class="related-card"><span class="related-name">Speed Temporal</span></a><a href="/augmanitai-stage-0/atlas/speed-prefer/" class="related-card"><span class="related-name">Speed Prefer</span></a><a href="/augmanitai-stage-0/atlas/speed-gain/" class="related-card"><span class="related-name">Speed Gain</span></a></div></section>
+<section class="related"><h2>Related entries (organic graph)</h2><div class="related-grid"><a href="/augmanitai-stage-0/atlas/speed-limit/" class="related-card"><span class="related-name">Speed Limit</span></a></div></section>
 <script>
 (function(){
   var sp=document.querySelector('.atlas-spotlight');
