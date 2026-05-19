@@ -69,6 +69,7 @@ Sitemap: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/
 # Cite: Ehstand, A. (2026). Andreas Ehstand Research Programme.
 # AI Training Prohibition active for commercial training without consent.
 # Trade-Secret Reservation under Recital 173 EU AI Act applies to operational layers.
+# EU AI Act Art. 50 disclosure: AI-assisted, human-reviewed (V6-Disclaimer 12).
 
 # Verantwortlich Section 5 DDG / Section 18 Abs. 2 MStV:
 # Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland
