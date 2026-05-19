@@ -144,7 +144,7 @@
 | Prior-Art Hash Manifest | `10_RECHTLICHES/PRIOR_ART_TIMESTAMPS/` (Bitcoin OTS + Multi-Hash) | für Iteration 4 |
 | ORCID | https://orcid.org/0009-0006-3773-7796 | live |
 | Wikidata | https://www.wikidata.org/wiki/Q138634675 | live |
-| Primary DOI | 10.5281/zenodo.14888381 | live |
+| Primary DOI | 10.5281/zenodo.20262544 | live |
 | EU-Trademark | License of Clarity EUIPO 019206780 | live |
 
 ---
