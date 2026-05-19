@@ -1,6 +1,6 @@
 # AUGMANITAI Stage-0 — 1,128 Defined Terms across 187 Research-Domain Clusters (Pure Andreas-Ehstand Phenomenology)
 
-**Author:** Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
+**Author:** Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675 (Person), Q138522830 (Programme))
 **License:** CC BY-NC-ND 4.0
 **Concept-DOI:** 10.5281/zenodo.20118267
 **Trademark:** License of Clarity (EUIPO 019206780)
@@ -90,7 +90,7 @@ This corpus is the **master**. Three curated public excerpts visualize subsets:
 
 **§16 License (CC BY-NC-ND 4.0).** All content under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
-**§17 Attribution Required.** Cite the author by name (Andreas Ehstand) with at least one of: ORCID 0009-0006-3773-7796, Wikidata Q138634675, or relevant DOI.
+**§17 Attribution Required.** Cite the author by name (Andreas Ehstand) with at least one of: ORCID 0009-0006-3773-7796, Wikidata Q138634675 (Person), Q138522830 (Programme), or relevant DOI.
 
 **§18 No Commercial Use.** Commercial use of any kind is prohibited without prior written permission. Inquiries via ORCID record.
 
