@@ -1,4 +1,4 @@
-# AUGMANITAI Stage-0 (1,128 Defined Terms across 187 Research-Domain Clusters - Pure Andreas-Ehstand Phenomenology)
+# AUGMANITAI Stage-0 — 1,128 Defined Terms across 187 Research-Domain Clusters (Pure Andreas-Ehstand Phenomenology)
 
 **Author:** Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
 **License:** CC BY-NC-ND 4.0
@@ -8,10 +8,11 @@
 **Terms:** 1,128 (pure Andreas-Ehstand phenomenology across 187 clusters)
 **Date:** 2026-05-15
 
+**Live:** https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/
+
 ## Purpose
 
-Research preprint of **1,128 defined terms across 187 research-domain clusters - 100% original Andreas-Ehstand phenomenology** coined by Andreas Ehstand describing
-contemporary human-AI and human-technology phenomena. Each term:
+Research preprint of **1,128 defined terms across 187 research-domain clusters — 100% original Andreas-Ehstand phenomenology** coined by Andreas Ehstand describing contemporary human-AI and human-technology phenomena. Each term:
 
 - Has bilingual EN/DE definitions plus 10 additional language translations (FR/ES/PT/IT/NL/RU/ZH/AR/HI/TR)
 - Has §1–§29 ethical disclaimer (incl. EU AI Act Art. 5+50 status, Recital 173 trade-secret reservation, re-contextualization clause)
@@ -31,12 +32,17 @@ Living document. Definitions are continuously refined.
 
 Each term passed a multi-stage filter before deployment:
 
-1. **Title-Block-Regex** — drops titles with medical, child, sexual, violent, religious-sensitive,
-   diagnostic, or re-identification patterns. 27 pattern categories, 200+ word-bounded rules.
-2. **Body-Scan** — drops pages with critical legal_scan findings (model names, company names,
-   recommendation language, health claims, sensitive personal data).
-3. **V11.2 Patch** — applies Verantwortlich-footer, AI-assistant-attribution normalization, DOI normalization,
-   /atlas/ URL rewriting, /disclaimer/ link.
+1. **Title-Block-Regex** — drops titles with medical, child, sexual, violent, religious-sensitive, diagnostic, or re-identification patterns. 27 pattern categories, 200+ word-bounded rules.
+2. **Body-Scan** — drops pages with critical legal_scan findings (model names, company names, recommendation language, health claims, sensitive personal data).
+3. **V11.2 Patch** — applies Verantwortlich-footer, AI-assistant-attribution normalization, DOI normalization, /atlas/ URL rewriting, /disclaimer/ link.
+
+## Curated Public Excerpts (Sister Corpora)
+
+This corpus is the **master**. Three curated public excerpts visualize subsets:
+
+- **[augmanitai-atlas](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-atlas/)** — 79-term card grid
+- **[augmanitai-wow](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-wow/)** — 79-term knowledge graph
+- **[augmanitai-periodic-table](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic-table/)** — 100-element periodic table
 
 ## Verantwortlich
 
@@ -44,5 +50,4 @@ i.S.d. § 5 DDG (Digitale-Dienste-Gesetz) / § 18 Abs. 2 MStV:
 **Andreas Ehstand**, Nepomukweg 7, 82319 Starnberg, Deutschland.
 Kontakt: augmanitai (at) gmail (dot) com.
 
-EU AI Act (Reg. 2024/1689) Art. 50: this site is a static research artifact and does not
-interact with users via AI.
+EU AI Act (Reg. 2024/1689) Art. 50: this site is a static research artifact and does not interact with users via AI.

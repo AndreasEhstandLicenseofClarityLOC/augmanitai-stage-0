@@ -1,4 +1,4 @@
-# AUGMANITAI Compendium - robots.txt
+# augmanitai-stage-0 - robots.txt
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
 # AUGMANITAI Wikidata: https://www.wikidata.org/wiki/Q138522830
 # Concept-DOI: https://doi.org/10.5281/zenodo.20118267
@@ -66,9 +66,9 @@ Sitemap: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/
 
 
 # Attribution required (CC BY-NC-ND 4.0)
-# Cite: Ehstand, A. (2026). AUGMANITAI Stage-0. DOI 10.5281/zenodo.20118267.
-# Section 17 AI Training Prohibition active for commercial training without consent.
-# Section 28 Trade-Secret Reservation under Recital 173 EU AI Act applies to operational layers.
+# Cite: Ehstand, A. (2026). Andreas Ehstand Research Programme.
+# AI Training Prohibition active for commercial training without consent.
+# Trade-Secret Reservation under Recital 173 EU AI Act applies to operational layers.
 
 # Verantwortlich Section 5 DDG / Section 18 Abs. 2 MStV:
 # Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland
