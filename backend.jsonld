@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "DefinedTermSet",
+  "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/#termset",
+  "name": "AUGMANITAI Stage-0 Term Atlas",
+  "alternateName": "AUGMANITAI Phenomenological Terminology Corpus",
+  "description": "A controlled phenomenological terminology corpus describing observable patterns of human-AI and human-technology interaction. Each term is published as an HTML page with inline JSON-LD (Schema.org DefinedTerm + SKOS + W3C PROV). Bilingual EN/DE. Inspired by ISO 704 / ISO 1087 / ISO 30042 (not compliance-claimed); aligned with W3C SKOS, schema.org, and PROV-O-style provenance.",
+  "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/",
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.20161494",
+    "https://www.wikidata.org/wiki/Q138522830"
+  ],
+  "identifier": "https://doi.org/10.5281/zenodo.20161494",
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "AUGMANITAI Research Programme — Master Index",
+    "identifier": "https://doi.org/10.5281/zenodo.20161494",
+    "sameAs": "https://doi.org/10.5281/zenodo.20161494"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "isAccessibleForFree": true,
+  "inLanguage": ["en", "de"],
+  "creator": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0009-0006-3773-7796",
+    "name": "Andreas Ehstand",
+    "givenName": "Andreas",
+    "familyName": "Ehstand",
+    "jobTitle": "Independent Researcher",
+    "identifier": "https://orcid.org/0009-0006-3773-7796",
+    "sameAs": [
+      "https://orcid.org/0009-0006-3773-7796",
+      "https://www.wikidata.org/wiki/Q138634675",
+      "https://github.com/AndreasEhstandLicenseofClarityLOC"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0009-0006-3773-7796",
+    "name": "Andreas Ehstand"
+  },
+  "dateModified": "2026-06-15",
+  "version": "stage-0",
+  "keywords": [
+    "terminology",
+    "phenomenology",
+    "controlled vocabulary",
+    "SKOS",
+    "DefinedTerm",
+    "human-AI interaction",
+    "knowledge graph",
+    "AUGMANITAI"
+  ],
+  "citation": "https://doi.org/10.5281/zenodo.20161494",
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "ai-content-disclosure",
+      "value": "ai-assisted-human-reviewed",
+      "description": "Content developed AI-assisted per EU AI Act Reg. 2024/1689 Article 50; reviewed, validated, and published by the human author (ORCID 0009-0006-3773-7796)."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "trademark",
+      "value": "License of Clarity (EUIPO 019206780)"
+    }
+  ]
+}
