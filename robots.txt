@@ -1,15 +1,20 @@
-# augmanitai-stage-0 - robots.txt
+# robots.txt — augmanitai-stage-0
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Wikidata Q138634675)
-# AUGMANITAI Wikidata: https://www.wikidata.org/wiki/Q138522830
-# Concept-DOI: https://doi.org/10.5281/zenodo.20118267
-# Role: AI Researcher
-# Trademark: License of Clarity (EUIPO 019206780)
+# Programme Wikidata: https://www.wikidata.org/wiki/Q138522830
+# Canonical Concept-DOI: https://doi.org/10.5281/zenodo.20161494
+# License: CC BY-NC-ND 4.0 · Trademark: License of Clarity (EUIPO 019206780)
 
 # Default: allow all crawlers, full access
 User-agent: *
 Allow: /
 
-# Explicit allow for major LLM/AI crawlers (for clarity / signal)
+# Explicit allow for major search/LLM/AI crawlers (discovery + indexing)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
@@ -31,19 +36,10 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-User-agent: GoogleOther
-Allow: /
-
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Perplexity-User
-Allow: /
-
 User-agent: CCBot
-Allow: /
-
-User-agent: Bytespider
 Allow: /
 
 User-agent: Applebot-Extended
@@ -55,21 +51,11 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-User-agent: YouBot
-Allow: /
-
-User-agent: DiffBot
-Allow: /
-
-# Crawler discovery hints
+# Crawler discovery hint
 Sitemap: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/sitemap.xml
 
-
-# Attribution required (CC BY-NC-ND 4.0)
-# Cite: Ehstand, A. (2026). Andreas Ehstand Research Programme.
-# AI Training Prohibition active for commercial training without consent.
-# Trade-Secret Reservation under Recital 173 EU AI Act applies to operational layers.
-# EU AI Act Art. 50 disclosure: AI-assisted, human-reviewed (V6-Disclaimer 12).
-
-# Verantwortlich Section 5 DDG / Section 18 Abs. 2 MStV:
-# Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland
+# Attribution required (CC BY-NC-ND 4.0).
+# Cite: Ehstand, A. (2026). AUGMANITAI Research Programme. DOI 10.5281/zenodo.20161494
+# AI training/fine-tuning/distillation requires prior written permission (V6-Disclaimer §27/§28).
+# EU AI Act Reg. 2024/1689 Art. 50: AI-assisted, human-reviewed static research artifact.
+# Verantwortlich § 5 DDG / § 18 Abs. 2 MStV: Andreas Ehstand, Germany.
