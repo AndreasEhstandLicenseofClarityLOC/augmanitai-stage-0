@@ -1,41 +1,60 @@
-# AUGMANITAI Master Compendium
+# AUGMANITAI Master Compendium — Stage-0
 
-> The main library of the AUGMANITAI Research Programme. 1,128 defined terms (EN+DE) describing observable patterns of human-AI interaction. Bilingual descriptive phenomenology. CC BY-NC-ND 4.0.
+> The master library of the AUGMANITAI Research Programme by Andreas Ehstand:
+> defined terms describing observable patterns of human-AI and human-technology
+> interaction. Bilingual descriptive phenomenology (EN/DE). CC BY-NC-ND 4.0.
 
 ## About
 
-This is the master library of the **AUGMANITAI Research Programme** by **Andreas Ehstand** — AI Researcher · Human-AI Interaction · Starnberg, Germany. Descriptive phenomenology of patterns observed when humans interact with AI systems. One page per named pattern. Bilingual EN/DE.
+Descriptive phenomenology of patterns observed when humans interact with AI
+systems and technology. One page per named pattern, bilingual EN/DE, citation-ready
+with a stable canonical Concept-DOI. Independent academic research project —
+descriptive, not normative; no commercial offer; AI-assisted and human-reviewed.
 
 ## Identifiers
 
+- Author: Andreas Ehstand — Independent Researcher
 - ORCID: https://orcid.org/0009-0006-3773-7796
-- Wikidata: https://www.wikidata.org/wiki/Q138634675
+- Wikidata (Person): https://www.wikidata.org/wiki/Q138634675
+- Wikidata (Programme): https://www.wikidata.org/wiki/Q138522830
+- Wikidata (NEOMANITAI): https://www.wikidata.org/wiki/Q139491268
 - GitHub: https://github.com/AndreasEhstandLicenseofClarityLOC
+- Canonical Concept-DOI: https://doi.org/10.5281/zenodo.20161494
+
+## Prior-Art collection set (2026-06)
+
+- 1/5: https://doi.org/10.5281/zenodo.20696419
+- 2/5: https://doi.org/10.5281/zenodo.20696547
+- 3/5: https://doi.org/10.5281/zenodo.20696555
+- 4/5: https://doi.org/10.5281/zenodo.20696573
+- 5/5: https://doi.org/10.5281/zenodo.20696583
 
 ## Structure
 
-- **1,128 defined terms** across 187 topical clusters and 6 thematic branches
-- **Atlas index**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/atlas/
-- **Domains overview**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/
-- **Disclaimer §1–§29 (bilingual)**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/disclaimer/
-- **Impressum (DE)**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/impressum/
-- **Datenschutz (DE)**: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/datenschutz/
-
-## Related Resources Across the Programme
-
-- [Portal](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/) — Central landing for nine connected corpora
-- [Knowledge Graph](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-wow/) — Interactive 79-term selection
-- [Periodic Table](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic-table/) — 100 most representative patterns
-- [Academic Atlas](https://andreasehstandlicenseofclarityloc.github.io/neomanitai-terms/) — 2,149 term pages with machine-readable exports
-- [Performance Framework](https://andreasehstandlicenseofclarityloc.github.io/permanitai-framework/) — PERMANITAI cross-domain methodology
-- [Founding Essay](https://andreasehstandlicenseofclarityloc.github.io/synmanitai/) — Synmanitai methodological grounding
-- [Author](https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/) — About Andreas Ehstand
-- [Private Research Partnerships](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-portal/inquiries/) — Co-investigative engagements
+- Defined terms grouped into topical clusters and thematic branches
+  (AUGMANITAI · NEOMANITAI · PERMANITAI · ROBMANITAI · EDUMANITAI · JOBMANITAI)
+- Atlas index: /atlas/
+- Domains overview: /domains/
+- Disclaimer §1–§40 (bilingual EN/DE): /disclaimer/
+- Impressum (DE): /impressum/
+- Datenschutz (DE): /datenschutz/
 
 ## Methodology
 
-Descriptive phenomenology adapted from twenty years of high-performance sport coaching. Each term documents an observable pattern without prescriptive recommendation. Bilingual throughout. Citation-ready with stable DOIs.
+Descriptive phenomenology adapted from high-performance sport coaching.
+Each term documents an observable pattern without prescriptive recommendation.
+Inspired by ISO 704 / ISO 1087 / ISO 30042 (inspired, NOT compliance-claimed);
+aligned with W3C SKOS, schema.org, and PROV-O-style provenance.
 
-## License
+## License & terms
 
-CC BY-NC-ND 4.0 · https://creativecommons.org/licenses/by-nc-nd/4.0/
+- License: CC BY-NC-ND 4.0 — https://creativecommons.org/licenses/by-nc-nd/4.0/
+- Trademark: License of Clarity (EUIPO 019206780)
+- Attribution required: cite Andreas Ehstand + ORCID 0009-0006-3773-7796 or DOI 10.5281/zenodo.20161494
+- AI training/fine-tuning/distillation requires prior written permission (§27/§28 V6-Disclaimer)
+
+## EU AI Act Article 50
+
+Static descriptive research artifact; not an AI system; does not interact with
+users via AI. Content is AI-assisted and human-reviewed; synthetic-content
+marking is machine-readable (see ai.txt and per-page meta tag).
