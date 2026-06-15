@@ -1,7 +1,8 @@
 {
-  "title": "augmanitai-stage-0: AUGMANITAI Terminology Corpus Staging Layer",
+  "title": "AUGMANITAI Stage-0 — Defined Terms Corpus (Metadata Layer)",
   "upload_type": "publication",
-  "description": "Stage-0 publication layer of the AUGMANITAI terminology corpus: a large-scale phenomenological vocabulary covering multi-substrate cognition, multi-agent and multi-robot coordination, embodied AI, and holistic performance analysis. Machine-readable atlas of ISO-704-aligned term entries published as static pages for crawler ingestion.",
+  "publication_type": "workingpaper",
+  "description": "Stage-0 metadata layer of the AUGMANITAI terminology corpus: a descriptive phenomenological vocabulary of observable patterns in human-AI and human-technology interaction. Published as static, machine-readable pages for crawler ingestion. Descriptive, non-normative; AI-assisted and human-reviewed.",
   "creators": [
     {
       "name": "Ehstand, Andreas",
@@ -16,14 +17,19 @@
     "AUGMANITAI",
     "terminology",
     "phenomenology",
+    "human-AI interaction",
     "ISO 704",
-    "multi-agent systems",
-    "embodied AI",
+    "controlled vocabulary",
     "knowledge graph",
     "corpus"
   ],
   "communities": [],
   "related_identifiers": [
+    {
+      "relation": "isPartOf",
+      "scheme": "doi",
+      "identifier": "10.5281/zenodo.20161494"
+    },
     {
       "relation": "isPartOf",
       "scheme": "url",
@@ -33,18 +39,7 @@
       "relation": "isDescribedBy",
       "scheme": "url",
       "identifier": "https://augmanitai.com"
-    },
-    {
-      "relation": "isVersionOf",
-      "scheme": "doi",
-      "identifier": "10.5281/zenodo.20262544"
-    },
-    {
-      "relation": "isDerivedFrom",
-      "scheme": "doi",
-      "identifier": "10.5281/zenodo.20118267"
     }
   ],
-  "notes": "This .zenodo.json provides machine-readable metadata for crawlers (Software Heritage, OpenAIRE, DataCite). The GitHub-Zenodo auto-DOI integration is intentionally NOT enabled by the author; all canonical Zenodo records remain restricted-access. Contact author via ORCID for documented research access.",
-  "publication_type": "workingpaper"
+  "notes": "Machine-readable metadata for crawlers (Software Heritage, OpenAIRE, DataCite). The GitHub-Zenodo auto-DOI integration is intentionally NOT enabled by the author; canonical Zenodo records remain restricted-access. Canonical evergreen Concept-DOI: 10.5281/zenodo.20161494. Contact author via ORCID for documented research access. Trademark: License of Clarity (EUIPO 019206780)."
 }
