@@ -7,28 +7,32 @@ authors:
     given-names: Andreas
     orcid: "https://orcid.org/0009-0006-3773-7796"
 license: CC-BY-NC-ND-4.0
-date-released: "2026-05-18"
+date-released: "2026-06-15"
 repository-code: "https://github.com/AndreasEhstandLicenseofClarityLOC/augmanitai-stage-0"
 url: "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/"
-abstract: "Corpus of defined terms across research-domain clusters for human-AI interaction phenomenology. Part of the Denkraum of Bidirectional Entity-Spanning Semantic Emergence."
+abstract: "Corpus of defined terms across research-domain clusters describing phenomenology of human-AI and human-technology interaction. Bilingual descriptive phenomenology (EN/DE). Part of the AUGMANITAI Research Programme."
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.20118267"
-    description: "AUGMANITAI Stage-0 Concept-DOI"
+    value: "10.5281/zenodo.20161494"
+    description: "AUGMANITAI Research Programme — canonical Concept-DOI (Master Index, evergreen; preferred citation)"
   - type: url
     value: "https://www.wikidata.org/wiki/Q138634675"
     description: "Wikidata item for the author, Andreas Ehstand"
+  - type: url
+    value: "https://www.wikidata.org/wiki/Q138522830"
+    description: "Wikidata item for the AUGMANITAI Research Programme"
 keywords:
   - human-AI interaction
   - phenomenology
   - applied terminology science
-references:
-  - type: generic
-    title: "Founding Document — Denkraum of Bidirectional Entity-Spanning Semantic Emergence"
-    authors:
-      - family-names: Ehstand
-        given-names: Andreas
-        orcid: "https://orcid.org/0009-0006-3773-7796"
-    doi: "10.5281/zenodo.20262544"
-    year: 2026
-    notes: "Concept DOI of the founding act this work is part of; resolves to latest version. Trademark: License of Clarity, EUIPO 019206780."
+  - controlled vocabulary
+preferred-citation:
+  type: generic
+  title: "AUGMANITAI Research Programme — Master Index"
+  authors:
+    - family-names: Ehstand
+      given-names: Andreas
+      orcid: "https://orcid.org/0009-0006-3773-7796"
+  doi: "10.5281/zenodo.20161494"
+  year: 2026
+  notes: "Canonical evergreen Concept-DOI. Trademark: License of Clarity, EUIPO 019206780."
