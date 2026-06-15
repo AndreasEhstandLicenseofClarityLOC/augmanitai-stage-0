@@ -8,13 +8,12 @@
       "@id": "https://orcid.org/0009-0006-3773-7796",
       "givenName": "Andreas",
       "familyName": "Ehstand",
-      "honorificSuffix": "M.Ed.",
       "affiliation": "AUGMANITAI Research Programme",
-      "jobTitle": "AI Researcher",
-      "email": "augmanitai@gmail.com",
+      "jobTitle": "Independent Researcher",
+      "email": "ehstand.schule@gmail.com",
       "sameAs": [
-        "https://www.wikidata.org/wiki/Q138634675",
-        "https://orcid.org/0009-0006-3773-7796"
+        "https://orcid.org/0009-0006-3773-7796",
+        "https://www.wikidata.org/wiki/Q138634675"
       ]
     }
   ],
@@ -30,12 +29,11 @@
   "developmentStatus": "active",
   "isAccessibleForFree": true,
   "relatedLink": "https://augmanitai.com",
-  "dateCreated": "2024-01-01",
-  "dateModified": "2026-05-15",
-  "ai_disclosure": "Content developed with AI assistance. Reviewed and approved by the author.",
+  "dateModified": "2026-06-15",
+  "ai_disclosure": "Content developed AI-assisted; reviewed, validated, and published by the human author (EU AI Act Reg. 2024/1689 Art. 50).",
   "audience": "Adult users (18+) in academic or professional contexts",
   "name": "AUGMANITAI Stage-0 Compendium",
-  "description": "Research preprint corpus of 1,128 defined terms across 187 research-domain clusters - 100% original Andreas-Ehstand phenomenology describing contemporary human-AI and human-technology phenomena. Bilingual EN/DE definitions plus 10 additional language translations. ISO 704:2022 / ISO 1087:2019 / ISO 30042:2019 inspired (not compliance-claimed). Aligned with W3C SKOS, schema.org, and PROV-O provenance.",
+  "description": "Research preprint corpus of defined terms describing observable patterns of human-AI and human-technology interaction. Bilingual descriptive phenomenology (EN/DE). Inspired by ISO 704 / ISO 1087 / ISO 30042 (not compliance-claimed). Aligned with W3C SKOS, schema.org, and PROV-O provenance.",
   "version": "Stage-0",
   "applicationSubCategory": "Terminology Science / Phenomenology Corpus",
   "keywords": [
@@ -48,18 +46,17 @@
     "ISO 30042",
     "SKOS",
     "knowledge graph",
-    "1128 terms",
-    "187 clusters",
     "Andreas Ehstand",
     "License of Clarity"
   ],
   "codeRepository": "https://github.com/AndreasEhstandLicenseofClarityLOC/augmanitai-stage-0",
-  "identifier": "https://doi.org/10.5281/zenodo.20118267",
+  "identifier": "https://doi.org/10.5281/zenodo.20161494",
+  "isPartOf": "https://doi.org/10.5281/zenodo.20161494",
   "referencePublication": {
     "@type": "ScholarlyArticle",
     "name": "AUGMANITAI Research Programme: terminology and phenomenology of human-AI interaction",
     "author": "Andreas Ehstand",
-    "datePublished": "2024",
-    "identifier": "https://doi.org/10.5281/zenodo.20118267"
+    "datePublished": "2026",
+    "identifier": "https://doi.org/10.5281/zenodo.20161494"
   }
 }
