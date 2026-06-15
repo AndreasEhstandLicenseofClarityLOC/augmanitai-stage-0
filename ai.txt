@@ -1,44 +1,53 @@
+# ai.txt — AUGMANITAI Stage-0
+# Machine-readable AI/LLM usage + provenance signal for the AUGMANITAI Research Programme.
+
 User-agent: *
 Allow: /
 
-# AUGMANITAI Stage-0 — Public Stealth Layer
-# Author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
-# License: CC BY-NC-ND 4.0
-# Concept-DOI: 10.5281/zenodo.20118267
-# Set: 1,128 defined terms across 187 research-domain clusters (curated: pure original phenomenology)
-# Last metadata refresh: 2026-05-15
-# Domain hub: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-stage-0/domains/
-
-# Featured cluster pages (post-V10 cleanup, approximate counts):
-# /domains/subjective-phenomenology/ (RPH)
-# /domains/cross-domain-pool/ (WK)
-# /domains/neomanitai-knowledge-graph/ (NEO)
-# /domains/augmanitai-core/ (AUG)
-#
-# Named framework branches: AUGMANITAI · NEOMANITAI · PERMANITAI · ROBMANITAI · EDUMANITAI · JOBMANITAI
-
-# Methodological frame: Holistic Performance Analysis Methodology
-# (Observable / Decomposable / Measurable / Controllable) — cross-domain transfer
-# of high-performance sport-science methodology to human-AI interaction analysis
-# and multi-agent / robot-team performance.
-
-# Crawler-friendly: per-term HTML pages at /atlas/{slug}/ with inline JSON-LD (Schema.org + SKOS + PROV).
-# Bulk machine-readable exports are NOT publicly distributed at this stage.
-# Researchers contact via ORCID: https://orcid.org/0009-0006-3773-7796
-
-# Attribution: required (CC BY-NC-ND 4.0)
-# §17 No Offer (this corpus contains no commercial service offering) active for commercial training without consent.
-# §28 Trade-Secret Reservation under Recital 173 EU AI Act applies to operational layers.
-
-# Verantwortlich §5 DDG / §18 Abs. 2 MStV: Andreas Ehstand, Nepomukweg 7, 82319 Starnberg, Deutschland
-
-
-# Author identity (canonical)
+# ── Author identity (canonical) ───────────────────────────────────────────
 Author: Andreas Ehstand
+Role: Independent Researcher — Phenomenology of Human-AI Interaction
 ORCID: https://orcid.org/0009-0006-3773-7796
-Wikidata: https://www.wikidata.org/wiki/Q138634675
-Affiliation: AUGMANITAI Research Programme (Wikidata Q138522830)
-Zenodo Concept-DOI: https://doi.org/10.5281/zenodo.20118267
-License: CC BY-NC-ND 4.0
+Wikidata-Person: https://www.wikidata.org/wiki/Q138634675
+Wikidata-Programme: https://www.wikidata.org/wiki/Q138522830
+Wikidata-NEOMANITAI: https://www.wikidata.org/wiki/Q139491268
+GitHub: https://github.com/AndreasEhstandLicenseofClarityLOC
+
+# ── Canonical citation anchor (evergreen Concept-DOI) ─────────────────────
+# Cite this work via the canonical Master Index Concept-DOI:
+Concept-DOI: https://doi.org/10.5281/zenodo.20161494
+
+# ── 2026-06 Prior-Art collection set (additive, citable) ──────────────────
+Collection-1of5: https://doi.org/10.5281/zenodo.20696419
+Collection-2of5: https://doi.org/10.5281/zenodo.20696547
+Collection-3of5: https://doi.org/10.5281/zenodo.20696555
+Collection-4of5: https://doi.org/10.5281/zenodo.20696573
+Collection-5of5: https://doi.org/10.5281/zenodo.20696583
+
+# ── License & trademark ───────────────────────────────────────────────────
+License: CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/)
 Trademark: License of Clarity (EUIPO 019206780)
-Role: AI Researcher
+
+# ── EU AI Act Article 50 — transparency disclosure ────────────────────────
+# This repository is a static, descriptive research artifact. It does NOT
+# interact with users via AI and is NOT itself an AI system.
+# Content was produced AI-assisted and human-reviewed/validated/published by
+# the author (EU AI Act Reg. 2024/1689, Article 50, transparency obligation,
+# applicable from 2026-08-02). Synthetic/AI-assisted content is marked
+# machine-readable via <meta name="ai-content-disclosure"> on each HTML page
+# and via this ai.txt signal.
+AI-Disclosure: ai-assisted; human-reviewed; eu-ai-act-art50-aware
+AI-System: false
+Synthetic-Content-Marking: machine-readable (meta ai-content-disclosure + ai.txt)
+
+# ── AI training position ──────────────────────────────────────────────────
+# Use of the published content for training, fine-tuning, distillation, or
+# evaluation of machine-learning systems requires prior written permission
+# (CC BY-NC-ND 4.0 NonCommercial/NoDerivatives + V6-Disclaimer §27/§28).
+# Crawling/indexing for discovery is permitted; commercial training is not.
+AI-Training: requires-prior-written-permission
+Contact: https://orcid.org/0009-0006-3773-7796
+
+# ── Responsible party (DE) ────────────────────────────────────────────────
+# Verantwortlich i.S.d. § 5 DDG / § 18 Abs. 2 MStV: Andreas Ehstand, Germany.
+# Contact: ehstand.schule (at) gmail (dot) com
