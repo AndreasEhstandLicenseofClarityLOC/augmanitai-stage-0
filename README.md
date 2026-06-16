@@ -118,7 +118,7 @@ This corpus is the **master**. Three curated public excerpts visualize subsets:
 
 ### EN — Epistemic position (§29–§35)
 
-**§29 Empirical Claims Subject to Peer Review.** All empirical claims, research hypotheses, observed patterns, and proposed frameworks represent the current state of the author's research, formulated as testable, falsifiable propositions subject to peer review, replication, revision, and potential refutation.
+**§29 Empirical Claims Subject to Peer Review.** All empirical claims, research hypotheses, observed patterns, and proposed frameworks represent the current state of the author's research, formulated as testable, falsifiable propositions not peer-reviewed (author-developed), replication, revision, and potential refutation.
 
 **§30 Re-Contextualization, Not Original-Priority Claim.** Terms may share lexical roots with established public-domain terminology (sport-science performance-factor analysis, mathematical algorithms, engineering practices, generic scientific terms). Such surface-level lexical overlap does NOT constitute a claim of original-priority origination over those public-domain concepts. The framework re-contextualizes observable phenomena; underlying public-domain concepts remain attributable to their original communities of practice. No term constitutes architectural specification, system-design requirement, or implementation guidance for any technical system.
 
