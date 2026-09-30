@@ -12,7 +12,7 @@
 
 ## Purpose
 
-Research preprint of **1,128 defined terms across 187 research-domain clusters — 100% original Andreas-Ehstand phenomenology** coined by Andreas Ehstand describing contemporary human-AI and human-technology phenomena. Each term:
+Research preprint of **1,128 defined terms across 187 research-domain clusters — author-developed terminology proposals** coined by Andreas Ehstand describing contemporary human-AI and human-technology phenomena. Each term:
 
 - Has bilingual EN/DE definitions plus 10 additional language translations (FR/ES/PT/IT/NL/RU/ZH/AR/HI/TR)
 - Has §1–§29 ethical disclaimer (incl. EU AI Act Art. 5+50 status, Recital 173 trade-secret reservation, re-contextualization clause)
@@ -78,9 +78,9 @@ This corpus is the **master**. Three curated public excerpts visualize subsets:
 
 **§11 Academic and Research Purposes.** All content is intended exclusively for academic discourse, scientific research, scholarly communication, and educational purposes within the research community.
 
-**§12 AI Assistance Disclosure.** Content was developed with the assistance of AI systems, including large language models. AI-generated content has been reviewed, validated, edited, and curated by the human author.
+**§12 AI Content Disclosure.** This publication contains AI-generated text developed using large language models. The disclosure identifies the artificial origin of the content.
 
-**§13 Author Review and Validation.** All terms, definitions, framework descriptions, and research hypotheses have been individually reviewed, validated, and published by the author, Andreas Ehstand.
+**§13 Status of the content.** The terms, definitions and frameworks are author-developed proposals. Publication and AI-assisted editing do not establish empirical validation, independent review or a documented human review of every item.
 
 **§14 Age Restriction (18+).** All content is intended for users 18 years or older.
 
@@ -148,7 +148,7 @@ This corpus is the **master**. Three curated public excerpts visualize subsets:
 
 **§1** Deskriptiv, nicht normativ. **§2** Keine Handlungsempfehlung. **§3** Keine Anleitung. **§4** Keine professionelle Beratung. **§5** Keine normative Position. **§6** Keine medizinische Position. **§7** Keine therapeutische Position. **§8** Keine diagnostische Position. **§9** Keine juristische Position. **§10** Keine moralische Position.
 
-**§11** Akademische und Forschungs-Zwecke. **§12** KI-Assistenz-Offenlegung. **§13** Autor-Review durch Andreas Ehstand. **§14** 18+. **§15** Unabhängiges akademisches Projekt, keine externe Förderung.
+**§11** Akademische und Forschungs-Zwecke. **§12** Enthält KI-generierte Texte. **§13** Autorentwickelte Vorschläge; Veröffentlichung belegt keine empirische Validierung oder vollständige menschliche Einzelprüfung. **§14** 18+. **§15** Unabhängiges akademisches Projekt, keine externe Förderung.
 
 **§16** Lizenz CC BY-NC-ND 4.0. **§17** Attribution erforderlich. **§18** Keine kommerzielle Nutzung. **§19** Keine Bearbeitungen. **§20** Kein Angebot. **§21** Kein kommerzielles Produkt. **§22** Keine professionelle Dienstleistung.
 
